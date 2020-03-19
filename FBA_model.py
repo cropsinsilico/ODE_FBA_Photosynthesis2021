@@ -32,7 +32,7 @@ while True:
         break
     else:
         df = pd.read_csv(pd.compat.StringIO(msg))
-        print df.to_string()
+        print(df.to_string())
 
 
 from libsbml import readSBML
@@ -40,7 +40,7 @@ from cobra import io,flux_analysis
 from cobra.core import Reaction, Metabolite
 
 #import model. Update file name and location in the next line
-cobra_model = io.sbml.read_sbml_model("Data/PlantCoreMetabolism_v1_2_3.xml")
+cobra_model = io.sbml.read_sbml_model("Data/PlantCoreMetabolism_v2_0_0.xml")
 
 #Remove all metabolites except sucrose from Phloem
 rxn = cobra_model.reactions.get_by_id("Phloem_output_tx")
@@ -193,7 +193,7 @@ df["VSuc"] = VSuc_list
 
 import matplotlib.pyplot as plt
 #plt.plot(df270["Light intensity"])
-print df.to_string()
+print(df.to_string())
 plt.plot(df["Hour"],df["Vc"],label="Vc")
 plt.plot(df["Hour"],df["Vo"],label="Vo")
 plt.plot(df["Hour"],df["VT3P"],label="VT3P")
