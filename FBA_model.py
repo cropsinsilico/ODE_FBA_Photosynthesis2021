@@ -32,7 +32,7 @@ while True:
         print("No more input.")
         break
     else:
-        df = pd.read_csv(StringIO(msg))
+        df = pd.read_csv(BytesIO(msg))
         print(df.to_string())
 
 
