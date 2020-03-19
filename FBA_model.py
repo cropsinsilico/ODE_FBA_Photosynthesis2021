@@ -11,7 +11,7 @@ def remove_metabolite_from_reaction(rxn,mets):
     return rxn
 
 import pandas as pd
-from io import StringIO
+from io import BytesIO
 import sys
 import logging
 logging.basicConfig()
