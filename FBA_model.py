@@ -11,6 +11,7 @@ def remove_metabolite_from_reaction(rxn,mets):
     return rxn
 
 import pandas as pd
+from io import StringIO
 import sys
 import logging
 logging.basicConfig()
@@ -31,7 +32,7 @@ while True:
         print("No more input.")
         break
     else:
-        df = pd.read_csv(pd.compat.StringIO(msg))
+        df = pd.read_csv(StringIO(msg))
         print(df.to_string())
 
 
