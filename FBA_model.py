@@ -36,7 +36,6 @@ while True:
         print(df.to_string())
 
 
-from libsbml import readSBML
 from cobra import io,flux_analysis
 from cobra.core import Reaction, Metabolite
 
