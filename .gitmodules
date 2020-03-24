@@ -1,3 +1,4 @@
 [submodule "C3-metabolic-and-leaf-model"]
 	path = C3-metabolic-and-leaf-model
 	url = https://github.com/cropsinsilico/C3-metabolic-and-leaf-model.git
+	branch = devYu
