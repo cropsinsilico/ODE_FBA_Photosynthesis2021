@@ -1,7 +1,7 @@
 models:
   - name: FBA_model
     language: python  # Runs the python script using default Python
-    args: ./FBA_model_testing.py
+    args: ./FBA_model_forODE.py
     inputs:
       - input1
 
