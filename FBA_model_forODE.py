@@ -151,7 +151,7 @@ sol = flux_analysis.parsimonious.optimize_minimal_flux(cobra_model)
 
 
 temp = cobra_model.copy()
-PPFD = df["Light intensity"][i]
+PPFD = df["Light intensity"]
 #constrain maintenace
 ATPase = (0.0049*PPFD) + 2.7851
 temp.reactions.get_by_id("ATPase_tx").lower_bound = ATPase
