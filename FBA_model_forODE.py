@@ -181,7 +181,6 @@ temp.reactions.get_by_id("CIT_v_accumulation").upper_bound = -0.056884259879*df[
 sol = flux_analysis.parsimonious.optimize_minimal_flux(temp)
 rxn =  temp.reactions.get_by_id("Phloem_output_tx")
 met = temp.metabolites.sSUCROSE_b
-print(rxn)
 print("Sucrose export rate ="+str(rxn.metabolites[met]*rxn.flux))
 
 total = 0
