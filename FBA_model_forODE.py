@@ -144,13 +144,19 @@ rxn.upper_bound = 1000
 cobra_model.add_reaction(rxn)
 
 
-#check if model works
-sol = flux_analysis.parsimonious.optimize_minimal_flux(cobra_model)
-
-
-
-
 temp = cobra_model.copy()
+
+rxn=Reaction("V_atp")
+rxn.add_metabolites({temp.metabolites.ADP_p:-0.8,
+                     temp.metabolites.aADP_p:-0.2,
+                     temp.metabolites.Pi_p:-1,
+                     temp.metabolites.ATP_p:0.9,
+                     temp.metabolites.aATP_p:0.1,
+                     temp.metabolites.WATER_p:1})
+rxn.lower_bound=0
+rxn.upper_bound=1000
+temp.add_reaction(rxn)
+
 PPFD = df["Light intensity"][0]
 #constrain maintenace
 ATPase = (0.0049*PPFD) + 2.7851
@@ -178,10 +184,17 @@ temp.reactions.get_by_id("MAL_v_accumulation").upper_bound = 0.0698903487288*df[
 temp.reactions.get_by_id("CIT_v_accumulation").lower_bound = -0.056884259879*df["Vstarch"][0]
 temp.reactions.get_by_id("CIT_v_accumulation").upper_bound = -0.056884259879*df["Vstarch"][0]
 
+
+
+
+
 #check if model works
 sol = flux_analysis.parsimonious.optimize_minimal_flux(temp)
-VSuc = temp.reactions.get_by_id("Phloem_output_tx").flux
-print(VSuc)
+rxn =  temp.reactions.get_by_id("Phloem_output_tx")
+met = temp.metabolites.sSUCROSE_b
+print("Sucrose export rate ="+str(rxn.metabolites[met]*rxn.flux))
+rxn =  temp.reactions.get_by_id("V_atp")
+print("ATPase flux should be ="+str(rxn.flux))
 #print(PPFD)
 #print(temp.reactions.get_by_id("Phloem_output_tx").x)
 #print(temp.reactions.get_by_id("GLYCOLATE_tx").x)
