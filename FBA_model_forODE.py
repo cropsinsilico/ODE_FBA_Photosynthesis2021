@@ -158,25 +158,25 @@ temp.reactions.get_by_id("ATPase_tx").lower_bound = ATPase
 temp.reactions.get_by_id("ATPase_tx").upper_bound = ATPase
 
 #constraint TP flux
-temp.reactions.get_by_id("GAP_tx").lower_bound = df["VT3P"][i]
-temp.reactions.get_by_id("GAP_tx").upper_bound = df["VT3P"][i]
+temp.reactions.get_by_id("GAP_tx").lower_bound = df["VT3P"]
+temp.reactions.get_by_id("GAP_tx").upper_bound = df["VT3P"]
 
 #constraint glycollate and glycerate fluxes flux
-temp.reactions.get_by_id("GLYCOLATE_tx").lower_bound = df["Vt_glycolate"][i]
-temp.reactions.get_by_id("GLYCOLATE_tx").upper_bound = df["Vt_glycolate"][i]
-temp.reactions.get_by_id("GLYCERATE_tx").lower_bound = df["Vt_glycerate"][i]
-temp.reactions.get_by_id("GLYCERATE_tx").upper_bound = df["Vt_glycerate"][i]
+temp.reactions.get_by_id("GLYCOLATE_tx").lower_bound = df["Vt_glycolate"]
+temp.reactions.get_by_id("GLYCOLATE_tx").upper_bound = df["Vt_glycolate"]
+temp.reactions.get_by_id("GLYCERATE_tx").lower_bound = df["Vt_glycerate"]
+temp.reactions.get_by_id("GLYCERATE_tx").upper_bound = df["Vt_glycerate"]
 
 #temp.reactions.get_by_id("NrefixationCostbypass").lower_bound = df270["Vt_glycolate"][i]
 #temp.reactions.get_by_id("NrefixationCostbypass").upper_bound = df270["Vt_glycolate"][i]
 #temp.reactions.get_by_id("NrefixationEnergy").lower_bound = df270["Vt_glycerate"][i]
 #temp.reactions.get_by_id("NrefixationEnergy").upper_bound = df270["Vt_glycerate"][i]
 
-temp.reactions.get_by_id("MAL_v_accumulation").lower_bound = 0.0698903487288*df["Vstarch"][i]
-temp.reactions.get_by_id("MAL_v_accumulation").upper_bound = 0.0698903487288*df["Vstarch"][i]
+temp.reactions.get_by_id("MAL_v_accumulation").lower_bound = 0.0698903487288*df["Vstarch"]
+temp.reactions.get_by_id("MAL_v_accumulation").upper_bound = 0.0698903487288*df["Vstarch"]
 
-temp.reactions.get_by_id("CIT_v_accumulation").lower_bound = -0.056884259879*df["Vstarch"][i]
-temp.reactions.get_by_id("CIT_v_accumulation").upper_bound = -0.056884259879*df["Vstarch"][i]
+temp.reactions.get_by_id("CIT_v_accumulation").lower_bound = -0.056884259879*df["Vstarch"]
+temp.reactions.get_by_id("CIT_v_accumulation").upper_bound = -0.056884259879*df["Vstarch"]
 
 #check if model works
 sol = flux_analysis.parsimonious.optimize_minimal_flux(temp)
