@@ -35,8 +35,6 @@ while True:
         df = pd.read_csv(BytesIO(msg))
         print(df.to_string())
 
-if True:
-    break
 
 from cobra import io,flux_analysis
 from cobra.core import Reaction, Metabolite
@@ -191,4 +189,3 @@ print(VSuc)
 #print("------------")
 #VSuc_list.append(VSuc)
 #df["VSuc"] = VSuc_list
-
