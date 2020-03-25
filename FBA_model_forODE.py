@@ -194,6 +194,6 @@ for rxn in temp.metabolites.ATP_p.reactions:
             total = total+abs(ATPflux)
 print("Extra APTase flux ="+str(total))
 
-fout= open("./ePhotosynthesis/InputATPCost.txt","w")
+fout= open("ePhotosynthesis/InputATPCost.txt","w")
 fout.write("ATPCost	"+str(total))
 fout.close()
