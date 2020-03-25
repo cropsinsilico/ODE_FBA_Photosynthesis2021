@@ -193,3 +193,7 @@ for rxn in temp.metabolites.ATP_p.reactions:
         if rxn.flux*(coeff1+coeff2)<0:
             total = total+abs(ATPflux)
 print("Extra APTase flux ="+str(total))
+
+fout= open("./ePhotosynthesis/InputATPCost.txt","w")
+fout.write("ATPCost	"+str(total))
+fout.close()
