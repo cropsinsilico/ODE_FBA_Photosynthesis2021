@@ -146,17 +146,6 @@ cobra_model.add_reaction(rxn)
 
 temp = cobra_model.copy()
 
-rxn=Reaction("V_atp")
-rxn.add_metabolites({temp.metabolites.ADP_p:-0.8,
-                     temp.metabolites.aADP_p:-0.2,
-                     temp.metabolites.Pi_p:-1,
-                     temp.metabolites.ATP_p:0.9,
-                     temp.metabolites.aATP_p:0.1,
-                     temp.metabolites.WATER_p:1})
-rxn.lower_bound=0
-rxn.upper_bound=1000
-temp.add_reaction(rxn)
-
 PPFD = df["Light intensity"][0]
 #constrain maintenace
 ATPase = (0.0049*PPFD) + 2.7851
@@ -192,13 +181,16 @@ temp.reactions.get_by_id("CIT_v_accumulation").upper_bound = -0.056884259879*df[
 sol = flux_analysis.parsimonious.optimize_minimal_flux(temp)
 rxn =  temp.reactions.get_by_id("Phloem_output_tx")
 met = temp.metabolites.sSUCROSE_b
+print(rxn)
 print("Sucrose export rate ="+str(rxn.metabolites[met]*rxn.flux))
-rxn =  temp.reactions.get_by_id("V_atp")
-print("ATPase flux should be ="+str(rxn.flux))
-#print(PPFD)
-#print(temp.reactions.get_by_id("Phloem_output_tx").x)
-#print(temp.reactions.get_by_id("GLYCOLATE_tx").x)
-#print(temp.reactions.get_by_id("GLYCERATE_tx").x)
-#print("------------")
-#VSuc_list.append(VSuc)
-#df["VSuc"] = VSuc_list
+
+total = 0
+for rxn in temp.metabolites.ATP_p.reactions:
+    if round(rxn.flux,3) != 0:
+        coeff1 = rxn.metabolites[temp.metabolites.ATP_p]
+        coeff2 = rxn.metabolites[temp.metabolites.aATP_p]
+        ATPflux = rxn.flux*(coeff1+coeff2)
+        #print(rxn.id+"\t"+str(ATPflux))
+        if rxn.flux*(coeff1+coeff2)<0:
+            total = total+abs(ATPflux)
+print("Extra APTase flux ="+str(total))
