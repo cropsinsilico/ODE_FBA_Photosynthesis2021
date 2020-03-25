@@ -35,8 +35,6 @@ while True:
         df = pd.read_csv(BytesIO(msg))
         print(df.to_string())
 
-if True:
-    break
 
 from cobra import io,flux_analysis
 from cobra.core import Reaction, Metabolite
@@ -48,17 +46,17 @@ cobra_model = io.sbml.read_sbml_model("Data/PlantCoreMetabolism_v2_0_0.xml")
 rxn = cobra_model.reactions.get_by_id("Phloem_output_tx")
 mets2remove = list()
 
-#for met in rxn.metabolites.keys():
+for met in rxn.metabolites.keys():
     #if "SUCROSE" in met.id:# or "GLC" in met.id or "FRU" in met.id:
     #    continue
     #else:
     #    mets2remove.append(met)
-#    mets2remove.append(met)
+    mets2remove.append(met)
 
-#remove_metabolite_from_reaction(rxn,mets2remove)
-#rxn.add_metabolites({cobra_model.metabolites.get_by_id("sSUCROSE_b"):-1})
+remove_metabolite_from_reaction(rxn,mets2remove)
+rxn.add_metabolites({cobra_model.metabolites.get_by_id("sSUCROSE_b"):-1})
 #rxn.add_metabolites({cobra_model.metabolites.get_by_id("GAP_c"):-1})
-#coeff = sum(rxn.metabolites.values())
+coeff = sum(rxn.metabolites.values())
 #rxn.add_metabolites({cobra_model.metabolites.get_by_id("PROTON_c"):-1*coeff,cobra_model.metabolites.get_by_id("PROTON_e"):coeff})
 
 #no external sucrose or glucose
@@ -150,45 +148,59 @@ cobra_model.add_reaction(rxn)
 sol = flux_analysis.parsimonious.optimize_minimal_flux(cobra_model)
 
 
+VSuc_list = list()
+for i in range(0,len(df)):
+    temp = cobra_model.copy()
+    PPFD = df["Light intensity"][i]
+    #constrain maintenace
+    ATPase = (0.0049*PPFD) + 2.7851
+    temp.reactions.get_by_id("ATPase_tx").lower_bound = ATPase
+    temp.reactions.get_by_id("ATPase_tx").upper_bound = ATPase
+
+    #constraint TP flux
+    temp.reactions.get_by_id("GAP_tx").lower_bound = df["VT3P"][i]
+    temp.reactions.get_by_id("GAP_tx").upper_bound = df["VT3P"][i]
+
+    #constraint glycollate and glycerate fluxes flux
+    temp.reactions.get_by_id("GLYCOLATE_tx").lower_bound = df["Vt_glycolate"][i]
+    temp.reactions.get_by_id("GLYCOLATE_tx").upper_bound = df["Vt_glycolate"][i]
+    temp.reactions.get_by_id("GLYCERATE_tx").lower_bound = df["Vt_glycerate"][i]
+    temp.reactions.get_by_id("GLYCERATE_tx").upper_bound = df["Vt_glycerate"][i]
+
+    #temp.reactions.get_by_id("NrefixationCostbypass").lower_bound = df270["Vt_glycolate"][i]
+    #temp.reactions.get_by_id("NrefixationCostbypass").upper_bound = df270["Vt_glycolate"][i]
+
+    #temp.reactions.get_by_id("NrefixationEnergy").lower_bound = df270["Vt_glycerate"][i]
+    #temp.reactions.get_by_id("NrefixationEnergy").upper_bound = df270["Vt_glycerate"][i]
+
+    temp.reactions.get_by_id("MAL_v_accumulation").lower_bound = 0.0698903487288*df["Vstarch"][i]
+    temp.reactions.get_by_id("MAL_v_accumulation").upper_bound = 0.0698903487288*df["Vstarch"][i]
+
+    temp.reactions.get_by_id("CIT_v_accumulation").lower_bound = -0.056884259879*df["Vstarch"][i]
+    temp.reactions.get_by_id("CIT_v_accumulation").upper_bound = -0.056884259879*df["Vstarch"][i]
+
+    #check if model works
+    sol = flux_analysis.parsimonious.optimize_minimal_flux(temp)
+    VSuc = temp.reactions.get_by_id("Phloem_output_tx").x
+    #print(PPFD)
+    #print(temp.reactions.get_by_id("Phloem_output_tx").x)
+    #print(temp.reactions.get_by_id("GLYCOLATE_tx").x)
+    #print(temp.reactions.get_by_id("GLYCERATE_tx").x)
+    #print("------------")
+    VSuc_list.append(VSuc)
+df["VSuc"] = VSuc_list
 
 
-temp = cobra_model.copy()
-PPFD = df["Light intensity"][i]
-#constrain maintenace
-ATPase = (0.0049*PPFD) + 2.7851
-temp.reactions.get_by_id("ATPase_tx").lower_bound = ATPase
-temp.reactions.get_by_id("ATPase_tx").upper_bound = ATPase
-
-#constraint TP flux
-temp.reactions.get_by_id("GAP_tx").lower_bound = df["VT3P"][i]
-temp.reactions.get_by_id("GAP_tx").upper_bound = df["VT3P"][i]
-
-#constraint glycollate and glycerate fluxes flux
-temp.reactions.get_by_id("GLYCOLATE_tx").lower_bound = df["Vt_glycolate"][i]
-temp.reactions.get_by_id("GLYCOLATE_tx").upper_bound = df["Vt_glycolate"][i]
-temp.reactions.get_by_id("GLYCERATE_tx").lower_bound = df["Vt_glycerate"][i]
-temp.reactions.get_by_id("GLYCERATE_tx").upper_bound = df["Vt_glycerate"][i]
-
-#temp.reactions.get_by_id("NrefixationCostbypass").lower_bound = df270["Vt_glycolate"][i]
-#temp.reactions.get_by_id("NrefixationCostbypass").upper_bound = df270["Vt_glycolate"][i]
-#temp.reactions.get_by_id("NrefixationEnergy").lower_bound = df270["Vt_glycerate"][i]
-#temp.reactions.get_by_id("NrefixationEnergy").upper_bound = df270["Vt_glycerate"][i]
-
-temp.reactions.get_by_id("MAL_v_accumulation").lower_bound = 0.0698903487288*df["Vstarch"][i]
-temp.reactions.get_by_id("MAL_v_accumulation").upper_bound = 0.0698903487288*df["Vstarch"][i]
-
-temp.reactions.get_by_id("CIT_v_accumulation").lower_bound = -0.056884259879*df["Vstarch"][i]
-temp.reactions.get_by_id("CIT_v_accumulation").upper_bound = -0.056884259879*df["Vstarch"][i]
-
-#check if model works
-sol = flux_analysis.parsimonious.optimize_minimal_flux(temp)
-VSuc = temp.reactions.get_by_id("Phloem_output_tx").flux
-print(VSuc)
-#print(PPFD)
-#print(temp.reactions.get_by_id("Phloem_output_tx").x)
-#print(temp.reactions.get_by_id("GLYCOLATE_tx").x)
-#print(temp.reactions.get_by_id("GLYCERATE_tx").x)
-#print("------------")
-#VSuc_list.append(VSuc)
-#df["VSuc"] = VSuc_list
-
+import matplotlib.pyplot as plt
+#plt.plot(df270["Light intensity"])
+print(df.to_string())
+plt.plot(df["Hour"],df["Vc"],label="Vc")
+plt.plot(df["Hour"],df["Vo"],label="Vo")
+plt.plot(df["Hour"],df["VT3P"],label="VT3P")
+plt.plot(df["Hour"],df["VSuc"],label="VSuc")
+plt.plot(df["Hour"],df["Vstarch"],label="Vstarch")
+plt.xlabel("Hour")
+plt.ylabel("Flux")
+plt.legend(loc="center")
+plt.show()
+plt.close()
