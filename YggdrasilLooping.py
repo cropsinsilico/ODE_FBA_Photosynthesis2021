@@ -23,7 +23,7 @@ while not ModelConverged:
     #store J_ATPase value
     f2 = open("./ePhotosynthesis/InputATPCost.txt","r")
     line = f2.readline()
-    J_ATPase1 = line.split(" ")[1]
+    J_ATPase1 = line.replace("\t"," ").split(" ")[1]
     f2.close()
 
     runner.run(args2.yamlfile)
@@ -31,7 +31,7 @@ while not ModelConverged:
     #store J_ATPase value
     f2 = open("./ePhotosynthesis/InputATPCost.txt","r")
     line = f2.readline()
-    J_ATPase2 = line.split(" ")[1]
+    J_ATPase2 = line.replace("\t"," ").split(" ")[1]
     f2.close()
 
     i=i+1
