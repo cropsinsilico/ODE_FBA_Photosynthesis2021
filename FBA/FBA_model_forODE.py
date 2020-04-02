@@ -40,7 +40,7 @@ from cobra import io,flux_analysis
 from cobra.core import Reaction, Metabolite
 
 #import model. Update file name and location in the next line
-cobra_model = io.sbml.read_sbml_model("Data/PlantCoreMetabolism_v2_0_0.xml")
+cobra_model = io.sbml.read_sbml_model("./../Data/PlantCoreMetabolism_v2_0_0.xml")
 
 #Remove all metabolites except sucrose from Phloem
 rxn = cobra_model.reactions.get_by_id("Phloem_output_tx")
@@ -194,6 +194,6 @@ for rxn in temp.metabolites.ATP_p.reactions:
             total = total+abs(ATPflux)
 print("Extra APTase flux ="+str(total))
 
-fout= open("ePhotosynthesis/InputATPCost.txt","w")
+fout= open("./../ePhotosynthesis/InputATPCost.txt","w")
 fout.write("ATPCost	"+str(total))
 fout.close()
