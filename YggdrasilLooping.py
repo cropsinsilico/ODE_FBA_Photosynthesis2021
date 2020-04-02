@@ -4,7 +4,7 @@ import argparse
 parser = argparse.ArgumentParser(description='Run an integration.')
 parser.add_argument('yamlfile', nargs='+',help='One or more yaml specification files.')
 args1 = parser.parse_args(["./ePhotosynthesis/EphotosynthesisOnly.yml"])
-args2 = parser.parse_args(["yggrasil_ODE_FBA_testing.yaml"])
+args2 = parser.parse_args(["./FBA/yggrasil_ODE_FBA_testing.yaml"])
 
 #ensure additional chloroplastic ATP consumption rate (J_ATPase) starts at 0
 f1 = open("./ePhotosynthesis/InputATPCost.txt","w")
