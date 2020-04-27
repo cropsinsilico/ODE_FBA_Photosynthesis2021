@@ -1,0 +1,14 @@
+models:
+  - name: FBA_model
+    language: python  # Runs the python script using default Python
+    args: ./FBA_model_forODE.py
+    inputs:
+      - input1
+
+  - name: Ephotosynthesismodel
+    language: matlab  # Runs the script using a Matlab engine
+    args: ./ePhotosynthesis/Sim_Ephotosynthesis.m
+
+connections:
+  - input_file: ./ePhotosynthesis/OutputRate.txt
+    output: input1
