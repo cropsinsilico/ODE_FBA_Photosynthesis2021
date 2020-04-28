@@ -71,6 +71,7 @@ cobra_model.reactions.get_by_id("Photon_tx").upper_bound = 0
 
 #set export of sugars as objective
 cobra_model.reactions.get_by_id("AraCore_Biomass_tx").objective_coefficient=1
+cobra_model.reactions.get_by_id("Phloem_output_tx").objective_coefficient=0
 
 #add source reaction for TP
 rxn = Reaction("GAP_tx",name = "TP source")
@@ -114,14 +115,14 @@ cobra_model.reactions.get_by_id("GLUTAMINESYN_RXN_c").upper_bound = 0
 #cobra_model.add_reaction(rxn)
 
 #provide energy for N fixation
-rxn = Reaction("NrefixationEnergy")
-rxn.add_metabolites({cobra_model.metabolites.get_by_id("ATP_p"):0.9,cobra_model.metabolites.get_by_id("aATP_p"):0.1,cobra_model.metabolites.get_by_id("ADP_p"):-0.8,cobra_model.metabolites.get_by_id("aADP_p"):-0.2,cobra_model.metabolites.get_by_id("Pi_p"):-1,cobra_model.metabolites.get_by_id("Reduced_ferredoxins_p"):2,cobra_model.metabolites.get_by_id("Oxidized_ferredoxins_p"):-2})
-rxn.lower_bound = 0
-rxn.upper_bound = 1000
-met = Metabolite("NrefixEnergyConstraint")
-rxn.add_metabolites({met:1})
-cobra_model.add_reaction(rxn)
-cobra_model.reactions.get_by_id("GCVMULTI_RXN_m").add_metabolites({met:-1})
+#rxn = Reaction("NrefixationEnergy")
+#rxn.add_metabolites({cobra_model.metabolites.get_by_id("ATP_p"):0.9,cobra_model.metabolites.get_by_id("aATP_p"):0.1,cobra_model.metabolites.get_by_id("ADP_p"):-0.8,cobra_model.metabolites.get_by_id("aADP_p"):-0.2,cobra_model.metabolites.get_by_id("Pi_p"):-1,cobra_model.metabolites.get_by_id("Reduced_ferredoxins_p"):2,cobra_model.metabolites.get_by_id("Oxidized_ferredoxins_p"):-2})
+#rxn.lower_bound = 0
+#rxn.upper_bound = 1000
+#met = Metabolite("NrefixEnergyConstraint")
+#rxn.add_metabolites({met:1})
+#cobra_model.add_reaction(rxn)
+#cobra_model.reactions.get_by_id("GCVMULTI_RXN_m").add_metabolites({met:-1})
 
 #turn off phosphoserine transaminase
 #cobra_model.reactions.get_by_id("PSERTRANSAM_RXN_p").lower_bound = 0
@@ -193,6 +194,7 @@ for rxn in temp.metabolites.ATP_p.reactions:
         if rxn.flux*(coeff1+coeff2)<0:
             total = total+abs(ATPflux)
 print("Extra APTase flux ="+str(total))
+print("Biomass accumulation rate ="+str(temp.reactions.AraCore_Biomass_tx.flux))
 
 fout= open("./../ePhotosynthesis/InputATPCost.txt","w")
 fout.write("ATPCost	"+str(total))
