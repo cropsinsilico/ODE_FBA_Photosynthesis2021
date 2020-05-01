@@ -17,39 +17,8 @@ import logging
 logging.basicConfig()
 logger = logging.getLogger('logger')
 
-# Import classes for input/output channels
-from yggdrasil.interface.YggInterface import YggInput, YggOutput
-# Initialize input/output channels
-in_channel = YggInput('input1')
 
-# Loop until there is no longer input or the queues are closed
-while True:
-
-    # Receive input from input channel
-    # If there is an error, the flag will be False
-    flag, msg = in_channel.recv()
-    if not flag:
-        print("No more input.")
-        break
-    else:
-        df = pd.read_csv(BytesIO(msg))
-        print(df.to_string())
-
-# Initialize input/output channels
-in_channel = YggInput('input2')
-
-# Loop until there is no longer input or the queues are closed
-while True:
-
-    # Receive input from input channel
-    # If there is an error, the flag will be False
-    flag, msg = in_channel.recv()
-    if not flag:
-        print("No more input.")
-        break
-    else:
-        df2 = pd.read_csv(BytesIO(msg))
-        print(df2.to_string())
+daylength = pd.read_csv(sys.argv[0])
 
 
 from cobra import io,flux_analysis
@@ -125,7 +94,6 @@ temp.reactions.get_by_id("ATPase_tx").lower_bound = ATPase
 temp.reactions.get_by_id("ATPase_tx").upper_bound = ATPase
 
 #constraint Starch degradation rate
-daylength = df2["daylength"][0]
 StarchDegradationRate = df["Vstarch"][0]*daylength/(24-daylength)
 temp.reactions.get_by_id("STARCH_p_accumulation").lower_bound = StarchDegradationRate
 temp.reactions.get_by_id("STARCH_p_accumulation").upper_bound = StarchDegradationRate

@@ -3,16 +3,11 @@ import argparse
 
 parser = argparse.ArgumentParser(description='Run an integration.')
 parser.add_argument('yamlfile', nargs='+',help='One or more yaml specification files.')
-args1 = parser.parse_args(["../ePhotosynthesis/EphotosynthesisOnly.yml"])
-args2 = parser.parse_args(["../FBA/yggrasil_ODE_FBA_testing.yaml"])
-
-#set environmental constraint
-f1 = open("../ePhotosynthesis/InputEnv.txt","w")
-f1.write("CO2 368\nPAR 1000\nSucPath 0\ndaylength 14")
-f1.close()
+args1 = parser.parse_args(["./ePhotosynthesis/EphotosynthesisOnly.yml"])
+args2 = parser.parse_args(["./FBA/yggrasil_ODE_FBA_testing.yaml"])
 
 #ensure additional chloroplastic ATP consumption rate (J_ATPase) starts at 0
-f1 = open("../ePhotosynthesis/InputATPCost.txt","w")
+f1 = open("./ePhotosynthesis/InputATPCost.txt","w")
 f1.write("ATPCost 0")
 f1.close()
 
@@ -26,7 +21,7 @@ while not ModelConverged:
     runner.run(args1.yamlfile)
 
     #store J_ATPase value
-    f2 = open("../ePhotosynthesis/InputATPCost.txt","r")
+    f2 = open("./ePhotosynthesis/InputATPCost.txt","r")
     line = f2.readline()
     J_ATPase1 = float(line.replace("\t"," ").split(" ")[1])
     f2.close()
@@ -34,7 +29,7 @@ while not ModelConverged:
     runner.run(args2.yamlfile)
 
     #store J_ATPase value
-    f2 = open("../ePhotosynthesis/InputATPCost.txt","r")
+    f2 = open("./ePhotosynthesis/InputATPCost.txt","r")
     line = f2.readline()
     J_ATPase2 = float(line.replace("\t"," ").split(" ")[1])
     f2.close()
