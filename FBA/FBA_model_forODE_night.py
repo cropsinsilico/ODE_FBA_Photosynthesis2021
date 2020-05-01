@@ -18,6 +18,7 @@ logging.basicConfig()
 logger = logging.getLogger('logger')
 
 
+df = pd.read_csv("../ePhotosynthesis/InputEnv.txt","r")
 daylength = pd.read_csv(sys.argv[0])
 
 
