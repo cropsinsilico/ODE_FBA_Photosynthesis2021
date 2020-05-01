@@ -114,14 +114,14 @@ cobra_model.reactions.get_by_id("GLUTAMINESYN_RXN_c").upper_bound = 0
 #cobra_model.add_reaction(rxn)
 
 #provide energy for N fixation
-rxn = Reaction("NrefixationEnergy")
-rxn.add_metabolites({cobra_model.metabolites.get_by_id("ATP_p"):0.9,cobra_model.metabolites.get_by_id("aATP_p"):0.1,cobra_model.metabolites.get_by_id("ADP_p"):-0.8,cobra_model.metabolites.get_by_id("aADP_p"):-0.2,cobra_model.metabolites.get_by_id("Pi_p"):-1,cobra_model.metabolites.get_by_id("Reduced_ferredoxins_p"):2,cobra_model.metabolites.get_by_id("Oxidized_ferredoxins_p"):-2})
-rxn.lower_bound = 0
-rxn.upper_bound = 1000
-met = Metabolite("NrefixEnergyConstraint")
-rxn.add_metabolites({met:1})
-cobra_model.add_reaction(rxn)
-cobra_model.reactions.get_by_id("GCVMULTI_RXN_m").add_metabolites({met:-1})
+#rxn = Reaction("NrefixationEnergy")
+#rxn.add_metabolites({cobra_model.metabolites.get_by_id("ATP_p"):0.9,cobra_model.metabolites.get_by_id("aATP_p"):0.1,cobra_model.metabolites.get_by_id("ADP_p"):-0.8,cobra_model.metabolites.get_by_id("aADP_p"):-0.2,cobra_model.metabolites.get_by_id("Pi_p"):-1,cobra_model.metabolites.get_by_id("Reduced_ferredoxins_p"):2,cobra_model.metabolites.get_by_id("Oxidized_ferredoxins_p"):-2})
+#rxn.lower_bound = 0
+#rxn.upper_bound = 1000
+#met = Metabolite("NrefixEnergyConstraint")
+#rxn.add_metabolites({met:1})
+#cobra_model.add_reaction(rxn)
+#cobra_model.reactions.get_by_id("GCVMULTI_RXN_m").add_metabolites({met:-1})
 
 #turn off phosphoserine transaminase
 #cobra_model.reactions.get_by_id("PSERTRANSAM_RXN_p").lower_bound = 0
