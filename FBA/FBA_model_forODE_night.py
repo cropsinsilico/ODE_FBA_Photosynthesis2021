@@ -18,8 +18,12 @@ logging.basicConfig()
 logger = logging.getLogger('logger')
 
 
-df = pd.read_csv("../ePhotosynthesis/InputEnv.txt","r")
-daylength = pd.read_csv(sys.argv[0])
+f1 = open("../ePhotosynthesis/InputEnv.txt","r")
+weather = dict()
+for line in f1:
+    parts=line.split(" ")
+    weather[parts[0]]=parts[1]
+daylength = sys.argv[0]
 
 
 from cobra import io,flux_analysis
