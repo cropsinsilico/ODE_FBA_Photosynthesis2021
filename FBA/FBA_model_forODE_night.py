@@ -17,13 +17,39 @@ import logging
 logging.basicConfig()
 logger = logging.getLogger('logger')
 
+# Import classes for input/output channels
+from yggdrasil.interface.YggInterface import YggInput, YggOutput
+# Initialize input/output channels
+in_channel = YggInput('input1')
 
-f1 = open("../ePhotosynthesis/InputEnv.txt","r")
-weather = dict()
-for line in f1:
-    parts=line.split(" ")
-    weather[parts[0]]=parts[1]
-daylength = sys.argv[0]
+# Loop until there is no longer input or the queues are closed
+while True:
+
+    # Receive input from input channel
+    # If there is an error, the flag will be False
+    flag, msg = in_channel.recv()
+    if not flag:
+        print("No more input.")
+        break
+    else:
+        df = pd.read_csv(BytesIO(msg))
+        print(df.to_string())
+
+# Initialize input/output channels
+in_channel = YggInput('input2')
+
+# Loop until there is no longer input or the queues are closed
+while True:
+
+    # Receive input from input channel
+    # If there is an error, the flag will be False
+    flag, msg = in_channel.recv()
+    if not flag:
+        print("No more input.")
+        break
+    else:
+        df = pd.read_csv(BytesIO(msg))
+        print(df.to_string())
 
 
 from cobra import io,flux_analysis
@@ -92,7 +118,7 @@ cobra_model.add_reaction(rxn)
 
 temp = cobra_model.copy()
 
-PPFD = df["PAR"][0]
+PPFD = df["Light intensity"][0]
 #constrain maintenace
 ATPase = (0.0049*PPFD) + 2.7851
 temp.reactions.get_by_id("ATPase_tx").lower_bound = ATPase
@@ -114,3 +140,18 @@ sol = flux_analysis.parsimonious.optimize_minimal_flux(temp)
 rxn =  temp.reactions.get_by_id("Phloem_output_tx")
 met = temp.metabolites.sSUCROSE_b
 print("Sucrose export rate ="+str(rxn.metabolites[met]*rxn.flux))
+
+total = 0
+for rxn in temp.metabolites.ATP_p.reactions:
+    if round(rxn.flux,3) != 0:
+        coeff1 = rxn.metabolites[temp.metabolites.ATP_p]
+        coeff2 = rxn.metabolites[temp.metabolites.aATP_p]
+        ATPflux = rxn.flux*(coeff1+coeff2)
+        #print(rxn.id+"\t"+str(ATPflux))
+        if rxn.flux*(coeff1+coeff2)<0:
+            total = total+abs(ATPflux)
+print("Extra APTase flux ="+str(total))
+
+fout= open("./../ePhotosynthesis/InputATPCost.txt","w")
+fout.write("ATPCost	"+str(total))
+fout.close()
