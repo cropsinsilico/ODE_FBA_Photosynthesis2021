@@ -8,7 +8,7 @@ args2 = parser.parse_args(["../FBA/yggrasil_ODE_FBA_testing.yaml"])
 
 #set environmental constraint
 f1 = open("../ePhotosynthesis/InputEnv.txt","w")
-f1.write("CO2 400\nPAR 800\nSucPath 0")
+f1.write("CO2 368\nPAR 1000\nSucPath 0")
 f1.close()
 
 #ensure additional chloroplastic ATP consumption rate (J_ATPase) starts at 0
