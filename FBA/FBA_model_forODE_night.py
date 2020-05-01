@@ -88,7 +88,7 @@ cobra_model.add_reaction(rxn)
 
 temp = cobra_model.copy()
 
-PPFD = df["Light intensity"][0]
+PPFD = df["PAR"][0]
 #constrain maintenace
 ATPase = (0.0049*PPFD) + 2.7851
 temp.reactions.get_by_id("ATPase_tx").lower_bound = ATPase
