@@ -133,3 +133,4 @@ sol = flux_analysis.parsimonious.optimize_minimal_flux(temp)
 rxn =  temp.reactions.get_by_id("Phloem_output_tx")
 met = temp.metabolites.sSUCROSE_b
 print("Sucrose export rate ="+str(rxn.metabolites[met]*rxn.flux))
+print("O2 uptake rate ="+str(temp.reaction.O2_tx.flux))
