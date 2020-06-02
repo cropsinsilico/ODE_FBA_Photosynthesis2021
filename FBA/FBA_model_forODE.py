@@ -42,6 +42,12 @@ from cobra.core import Reaction, Metabolite
 #import model. Update file name and location in the next line
 cobra_model = io.sbml.read_sbml_model("./../Data/PlantCoreMetabolism_v2_0_0.xml")
 
+for rxn in cobra_model.reactions:
+    if rxn.lower_bound == -1000:
+        rxn.lower_boudn = -3000
+    if rxn.upper_bound == 1000:
+        rxn.upper_bound = 3000
+
 #Remove all metabolites except sucrose from Phloem
 rxn = cobra_model.reactions.get_by_id("Phloem_output_tx")
 mets2remove = list()
