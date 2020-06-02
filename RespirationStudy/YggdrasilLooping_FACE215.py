@@ -42,7 +42,7 @@ Vglycolate = list()
 for p in PPFD:
     F_weather = open("../ePhotosynthesis/InputEvn.txt","w")
     F_weather.write("CO2 372\nPPFD "+str(p)+"\nSucPath 0")
-    F.close()
+    F_weather.close()
 
     ModelConverged = False
 
@@ -97,5 +97,6 @@ Vstarch_avg = sum(Vstarch)/len(Vstarch)
 Vglycerate_avg = sum(Vglycerate)/len(Vglycerate)
 Vglycolate_avg = sum(Vglycolate)/len(Vglycolate)
 F_fluxes.write("Light intensity,Vc,Vo,VPGA,VT3P,Vstarch,Vt_glycerate,Vt_glycolate\n")
-F_fluxes.write("PPFD_avg,Vc_avg,Vo_avg,Vpga_avg,Vt3p_avg,Vstarch_avg,Vglycerate_avg,Vglycolate_avg\n")
+F_fluxes.write("PPFD_avg,Vc_avg,Vo_avg,Vpga_avg,Vt3p_avg,Vstarch_avg,Vglycerate_avg,Vglycolate_avg")
+F_fluxes.close()
 runner.run(args3.yamlfile)
