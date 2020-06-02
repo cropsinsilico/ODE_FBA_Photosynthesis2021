@@ -82,7 +82,7 @@ for p in PPFD:
     Vo.append(lines[1].split(",")[2])
     Vpga.append(lines[1].split(",")[3])
     Vt3p.append(lines[1].split(",")[4])
-    Vsatrch.append(lines[1].split(",")[5])
+    Vstarch.append(lines[1].split(",")[5])
     Vglycerate.append(lines[1].split(",")[6])
     Vglycolate.append(lines[1].split(",")[7])
     F_fluxes.close()
