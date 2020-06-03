@@ -39,7 +39,7 @@ Vglycolate = list()
 
 for p in PPFD:
     F_weather = open("../ePhotosynthesis/InputEvn.txt","w")
-    F_weather.write("CO2 372\nPPFD "+str(p)+"\nSucPath 0")
+    F_weather.write("CO2 372\nPPFD "+str(p)+"\nSucPath 0"+"\ndaylength "+str(len(PPFD)))
     F_weather.close()
 
     ModelConverged = False
