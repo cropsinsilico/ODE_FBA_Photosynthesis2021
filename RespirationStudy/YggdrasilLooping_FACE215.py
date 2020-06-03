@@ -69,7 +69,7 @@ for p in PPFD:
         print("ODE ATPase "+str(J_ATPase1))
         print("FBA ATPase "+str(J_ATPase2))
 
-        if round(J_ATPase1,3)==round(J_ATPase2,3):
+        if round(J_ATPase1,2)==round(J_ATPase2,2):
             ModelConverged=True
 
     print("Models converged at "+str(J_ATPase1))
