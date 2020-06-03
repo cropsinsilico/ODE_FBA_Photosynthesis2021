@@ -41,6 +41,8 @@ weather = dict()
 for line in f1:
     parts = line.split(" ")
     weather[parts[0]]=float(parts[1])
+    print(parts[0])
+    print(parts[1])
 f1.close()
 
 
