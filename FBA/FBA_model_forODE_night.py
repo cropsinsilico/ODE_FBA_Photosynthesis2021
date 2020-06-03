@@ -36,7 +36,7 @@ while True:
         print(df.to_string())
 
 # Read day-length from Environemnt file
-f1 = open("../ePhotosynthesis/InputEnv.txt")
+f1 = open("../ePhotosynthesis/InputEvn.txt")
 weather = dict()
 for line in f1:
     parts = line.split(" ")
