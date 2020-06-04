@@ -7,10 +7,6 @@ args1 = parser.parse_args(["../ePhotosynthesis/EphotosynthesisOnly.yml"])
 args2 = parser.parse_args(["../FBA/yggrasil_ODE_FBA_testing.yaml"])
 args3 = parser.parse_args(["../FBA/yggrasil_ODE_FBA_night.yaml"])
 
-#ensure additional chloroplastic ATP consumption rate (J_ATPase) starts at 0
-f1 = open("../ePhotosynthesis/InputATPCost.txt","w")
-f1.write("ATPCost 0")
-f1.close()
 
 
 #Gather PPFD data
@@ -27,6 +23,12 @@ Vglycerate = list()
 Vglycolate = list()
 
 for p in PPFD:
+
+    #ensure additional chloroplastic ATP consumption rate (J_ATPase) starts at 0
+    f1 = open("../ePhotosynthesis/InputATPCost.txt","w")
+    f1.write("ATPCost 0")
+    f1.close()
+    
     F_weather = open("../ePhotosynthesis/InputEvn.txt","w")
     F_weather.write("CO2 372\nPPFD "+str(p)+"\nSucPath 0"+"\ndaylength "+str(len(PPFD)))
     F_weather.close()
