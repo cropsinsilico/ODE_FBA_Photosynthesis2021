@@ -42,6 +42,7 @@ from cobra.core import Reaction, Metabolite
 #import model. Update file name and location in the next line
 cobra_model = io.sbml.read_sbml_model("./../Data/PlantCoreMetabolism_v2_0_0.xml")
 
+
 #Remove all metabolites except sucrose from Phloem
 rxn = cobra_model.reactions.get_by_id("Phloem_output_tx")
 mets2remove = list()
@@ -114,14 +115,14 @@ cobra_model.reactions.get_by_id("GLUTAMINESYN_RXN_c").upper_bound = 0
 #cobra_model.add_reaction(rxn)
 
 #provide energy for N fixation
-rxn = Reaction("NrefixationEnergy")
-rxn.add_metabolites({cobra_model.metabolites.get_by_id("ATP_p"):0.9,cobra_model.metabolites.get_by_id("aATP_p"):0.1,cobra_model.metabolites.get_by_id("ADP_p"):-0.8,cobra_model.metabolites.get_by_id("aADP_p"):-0.2,cobra_model.metabolites.get_by_id("Pi_p"):-1,cobra_model.metabolites.get_by_id("Reduced_ferredoxins_p"):2,cobra_model.metabolites.get_by_id("Oxidized_ferredoxins_p"):-2})
-rxn.lower_bound = 0
-rxn.upper_bound = 1000
-met = Metabolite("NrefixEnergyConstraint")
-rxn.add_metabolites({met:1})
-cobra_model.add_reaction(rxn)
-cobra_model.reactions.get_by_id("GCVMULTI_RXN_m").add_metabolites({met:-1})
+#rxn = Reaction("NrefixationEnergy")
+#rxn.add_metabolites({cobra_model.metabolites.get_by_id("ATP_p"):0.9,cobra_model.metabolites.get_by_id("aATP_p"):0.1,cobra_model.metabolites.get_by_id("ADP_p"):-0.8,cobra_model.metabolites.get_by_id("aADP_p"):-0.2,cobra_model.metabolites.get_by_id("Pi_p"):-1,cobra_model.metabolites.get_by_id("Reduced_ferredoxins_p"):2,cobra_model.metabolites.get_by_id("Oxidized_ferredoxins_p"):-2})
+#rxn.lower_bound = 0
+#rxn.upper_bound = 1000
+#met = Metabolite("NrefixEnergyConstraint")
+#rxn.add_metabolites({met:1})
+#cobra_model.add_reaction(rxn)
+#cobra_model.reactions.get_by_id("GCVMULTI_RXN_m").add_metabolites({met:-1})
 
 #turn off phosphoserine transaminase
 #cobra_model.reactions.get_by_id("PSERTRANSAM_RXN_p").lower_bound = 0
@@ -175,6 +176,11 @@ temp.reactions.get_by_id("CIT_v_accumulation").upper_bound = -0.056884259879*df[
 
 
 
+for rxn in cobra_model.reactions:
+    if rxn.lower_bound == -1000:
+        rxn.lower_boudn = -3000
+    if rxn.upper_bound == 1000:
+        rxn.upper_bound = 3000
 
 
 #check if model works
