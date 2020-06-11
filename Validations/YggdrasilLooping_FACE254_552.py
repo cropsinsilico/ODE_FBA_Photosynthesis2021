@@ -108,3 +108,6 @@ F_fluxes.write("Light intensity,Vc,Vo,VPGA,VT3P,Vstarch,Vt_glycerate,Vt_glycolat
 F_fluxes.write(str(PPFD_avg)+","+str(Vc_avg)+","+str(Vo_avg)+","+str(Vpga_avg)+","+str(Vt3p_avg)+","+str(Vstarch_avg)+","+str(Vglycerate_avg)+","+str(Vglycolate_avg))
 F_fluxes.close()
 runner.run(args3.yamlfile)
+
+import os
+os.rename("./../FBA/Nighttime_flux.csv","./../FBA/Daytime_flux_FACE254_552.csv")

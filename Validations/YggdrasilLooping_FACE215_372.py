@@ -96,4 +96,4 @@ F_fluxes.close()
 runner.run(args3.yamlfile)
 
 import os
-os.rename("./Nighttime_flux.csv","./Daytime_flux_FACE215_372.csv")
+os.rename("./../FBA/Nighttime_flux.csv","./../FBA/Daytime_flux_FACE215_372.csv")
