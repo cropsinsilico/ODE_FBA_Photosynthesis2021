@@ -203,3 +203,8 @@ print("Extra APTase flux ="+str(total))
 fout= open("./../ePhotosynthesis/InputATPCost.txt","w")
 fout.write("ATPCost	"+str(total))
 fout.close()
+
+fout= open("./Daytime_flux.csv","w")
+for rxn in temp.reactions:
+    fout.write(rxn.id+","+rxn.reaction+","+str(rxn.flux)+"\n")
+fout.write()
