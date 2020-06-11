@@ -140,4 +140,4 @@ print("O2 uptake rate ="+str(temp.reactions.O2_tx.flux))
 fout= open("./Nighttime_flux.csv","w")
 for rxn in temp.reactions:
     fout.write(rxn.id+","+rxn.reaction+","+str(rxn.flux)+"\n")
-fout.write()
+fout.close()

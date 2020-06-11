@@ -207,4 +207,4 @@ fout.close()
 fout= open("./Daytime_flux.csv","w")
 for rxn in temp.reactions:
     fout.write(rxn.id+","+rxn.reaction+","+str(rxn.flux)+"\n")
-fout.write()
+fout.close()
