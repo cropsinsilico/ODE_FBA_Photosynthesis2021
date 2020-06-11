@@ -7,14 +7,36 @@ args1 = parser.parse_args(["../ePhotosynthesis/EphotosynthesisOnly.yml"])
 args2 = parser.parse_args(["../FBA/yggrasil_ODE_FBA_testing.yaml"])
 args3 = parser.parse_args(["../FBA/yggrasil_ODE_FBA_night.yaml"])
 
+Data_PPFD = {0:20.83333333,2.6:302.0833333,5.2:1104.166667,8.1:1187.5,
+             10.3:1322.916667,12.6:260.4166667,14.1:10.41666667}
 
+def ProcessPPFD(data):
+    PPFD_list = list()
+    values = list(Data_PPFD.values())
+    keys = list(Data_PPFD.keys())
+    for i in range(1, len(Data_PPFD)):
+        m = (values[i]-values[i-1])/(keys[i]-keys[i-1])
+        c = values[i] - (m*(keys[i]))
+        for j in range(0,24):
+            y = (m*j)+c
+            if j < keys[i-1] or j >= keys[i]:
+                continue
+            if y < 100:
+                #print(str(y)+"<100")
+                continue
+            PPFD_list.append(y)
+    return PPFD_list
 
+PPFD = ProcessPPFD(Data_PPFD)
+
+'''
 #Gather PPFD data
 PPFD = [129.4964029,248.2014388,345.323741,
         442.4460432,744.6043166,1046.76259,
         1080.335731,1113.908873,1147.482014,
         876.4988007,605.5155874,334.5323741,
         224.2206235,113.9088729]
+'''
 Vc = list()
 Vo = list()
 Vpga = list()

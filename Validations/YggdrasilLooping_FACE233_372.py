@@ -10,11 +10,10 @@ args3 = parser.parse_args(["../FBA/yggrasil_ODE_FBA_night.yaml"])
 
 
 #Gather PPFD data
-PPFD = [129.4964029,248.2014388,345.323741,
-        442.4460432,744.6043166,1046.76259,
-        1080.335731,1113.908873,1147.482014,
-        876.4988007,605.5155874,334.5323741,
-        224.2206235,113.9088729]
+PPFD = [276.9784173,543.1654676,622.3021583,701.4388489,
+        780.5755396,676.2589928,571.942446,672.6618705,
+        773.381295,569.5443645,365.7074341,161.8705036,
+        82.73381295]
 Vc = list()
 Vo = list()
 Vpga = list()
@@ -29,9 +28,9 @@ for p in PPFD:
     f1 = open("../ePhotosynthesis/InputATPCost.txt","w")
     f1.write("ATPCost 0")
     f1.close()
-
+    
     F_weather = open("../ePhotosynthesis/InputEvn.txt","w")
-    F_weather.write("CO2 552\nPPFD "+str(p)+"\nSucPath 0"+"\ndaylength "+str(len(PPFD)))
+    F_weather.write("CO2 372\nPPFD "+str(p)+"\nSucPath 0"+"\ndaylength "+str(len(PPFD)))
     F_weather.close()
 
     ModelConverged = False

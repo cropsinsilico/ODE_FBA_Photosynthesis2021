@@ -15,6 +15,7 @@ PPFD = [129.4964029,248.2014388,345.323741,
         1080.335731,1113.908873,1147.482014,
         876.4988007,605.5155874,334.5323741,
         224.2206235,113.9088729]
+
 Vc = list()
 Vo = list()
 Vpga = list()
@@ -29,9 +30,9 @@ for p in PPFD:
     f1 = open("../ePhotosynthesis/InputATPCost.txt","w")
     f1.write("ATPCost 0")
     f1.close()
-
+    
     F_weather = open("../ePhotosynthesis/InputEvn.txt","w")
-    F_weather.write("CO2 552\nPPFD "+str(p)+"\nSucPath 0"+"\ndaylength "+str(len(PPFD)))
+    F_weather.write("CO2 372\nPPFD "+str(p)+"\nSucPath 0"+"\ndaylength "+str(len(PPFD)))
     F_weather.close()
 
     ModelConverged = False

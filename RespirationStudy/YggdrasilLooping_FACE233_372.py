@@ -28,7 +28,7 @@ for p in PPFD:
     f1 = open("../ePhotosynthesis/InputATPCost.txt","w")
     f1.write("ATPCost 0")
     f1.close()
-    
+
     F_weather = open("../ePhotosynthesis/InputEvn.txt","w")
     F_weather.write("CO2 372\nPPFD "+str(p)+"\nSucPath 0"+"\ndaylength "+str(len(PPFD)))
     F_weather.close()

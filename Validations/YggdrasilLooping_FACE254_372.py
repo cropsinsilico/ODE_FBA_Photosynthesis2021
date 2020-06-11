@@ -7,14 +7,27 @@ args1 = parser.parse_args(["../ePhotosynthesis/EphotosynthesisOnly.yml"])
 args2 = parser.parse_args(["../FBA/yggrasil_ODE_FBA_testing.yaml"])
 args3 = parser.parse_args(["../FBA/yggrasil_ODE_FBA_night.yaml"])
 
+Data_PPFD = {0:9.278350515,2.2:732.4345757,4.5:1486.597938,7:1694.528152,
+             9.1:1366.058684,11.2:1181.919112,13.4:18.47739889}
 
+def ProcessPPFD(data):
+    PPFD_list = list()
+    values = list(Data_PPFD.values())
+    keys = list(Data_PPFD.keys())
+    for i in range(1, len(Data_PPFD)):
+        m = (values[i]-values[i-1])/(keys[i]-keys[i-1])
+        c = values[i] - (m*(keys[i]))
+        for j in range(0,24):
+            y = (m*j)+c
+            if j < keys[i-1] or j >= keys[i]:
+                continue
+            if y < 100:
+                #print(str(y)+"<100")
+                continue
+            PPFD_list.append(y)
+    return PPFD_list
 
-#Gather PPFD data
-PPFD = [129.4964029,248.2014388,345.323741,
-        442.4460432,744.6043166,1046.76259,
-        1080.335731,1113.908873,1147.482014,
-        876.4988007,605.5155874,334.5323741,
-        224.2206235,113.9088729]
+PPFD = ProcessPPFD(Data_PPFD)
 Vc = list()
 Vo = list()
 Vpga = list()
@@ -31,7 +44,7 @@ for p in PPFD:
     f1.close()
 
     F_weather = open("../ePhotosynthesis/InputEvn.txt","w")
-    F_weather.write("CO2 552\nPPFD "+str(p)+"\nSucPath 0"+"\ndaylength "+str(len(PPFD)))
+    F_weather.write("CO2 372\nPPFD "+str(p)+"\nSucPath 0"+"\ndaylength "+str(len(PPFD)))
     F_weather.close()
 
     ModelConverged = False
