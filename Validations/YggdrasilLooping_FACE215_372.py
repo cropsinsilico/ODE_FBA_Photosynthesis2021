@@ -68,7 +68,7 @@ for p in PPFD:
     print("Models converged at "+str(J_ATPase1))
 
     import os
-    os.rename("./Daytime_flux.csv","./Daytime_flux_FACE215_372.csv")
+    os.rename("./../FBA/Daytime_flux.csv","./../FBA/Daytime_flux_FACE215_372.csv")
 
     F_fluxes = open("../ePhotosynthesis/OutputRate.txt")
     lines = F_fluxes.readlines()
