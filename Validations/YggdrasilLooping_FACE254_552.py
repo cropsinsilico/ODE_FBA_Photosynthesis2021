@@ -81,6 +81,9 @@ for p in PPFD:
 
     print("Models converged at "+str(J_ATPase1))
 
+    import os
+    os.rename("./Daytime_flux.csv","./Daytime_flux_FACE254_552.csv")
+
     F_fluxes = open("../ePhotosynthesis/OutputRate.txt")
     lines = F_fluxes.readlines()
     Vc.append(float(lines[1].split(",")[1]))

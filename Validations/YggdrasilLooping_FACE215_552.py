@@ -29,7 +29,7 @@ for p in PPFD:
     f1 = open("../ePhotosynthesis/InputATPCost.txt","w")
     f1.write("ATPCost 0")
     f1.close()
-    
+
     F_weather = open("../ePhotosynthesis/InputEvn.txt","w")
     F_weather.write("CO2 552\nPPFD "+str(p)+"\nSucPath 0"+"\ndaylength "+str(len(PPFD)))
     F_weather.close()
@@ -66,6 +66,9 @@ for p in PPFD:
 
     print("Models converged at "+str(J_ATPase1))
 
+    import os
+    os.rename("./Daytime_flux.csv","./Daytime_flux_FACE215_552.csv")
+
     F_fluxes = open("../ePhotosynthesis/OutputRate.txt")
     lines = F_fluxes.readlines()
     Vc.append(float(lines[1].split(",")[1]))
@@ -90,3 +93,6 @@ F_fluxes.write("Light intensity,Vc,Vo,VPGA,VT3P,Vstarch,Vt_glycerate,Vt_glycolat
 F_fluxes.write(str(PPFD_avg)+","+str(Vc_avg)+","+str(Vo_avg)+","+str(Vpga_avg)+","+str(Vt3p_avg)+","+str(Vstarch_avg)+","+str(Vglycerate_avg)+","+str(Vglycolate_avg))
 F_fluxes.close()
 runner.run(args3.yamlfile)
+
+import os
+os.rename("./Nighttime_flux.csv","./Daytime_flux_FACE215_552.csv")
