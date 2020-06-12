@@ -51,7 +51,6 @@ from cobra.core import Reaction, Metabolite
 
 #import model. Update file name and location in the next line
 cobra_model = io.sbml.read_sbml_model("./../Data/PlantCoreMetabolism_v2_0_0.xml")
-cobra_model.solver="glpk"
 
 #Remove all metabolites except sucrose from Phloem
 rxn = cobra_model.reactions.get_by_id("Phloem_output_tx")
@@ -132,6 +131,7 @@ temp.reactions.get_by_id("CIT_v_accumulation").lower_bound = -1*-0.056884259879*
 temp.reactions.get_by_id("CIT_v_accumulation").upper_bound = -1*-0.056884259879*StarchDegradationRate
 
 #check if model works
+temp.solver="glpk"
 sol = flux_analysis.parsimonious.optimize_minimal_flux(temp)
 rxn =  temp.reactions.get_by_id("Phloem_output_tx")
 met = temp.metabolites.sSUCROSE_b
