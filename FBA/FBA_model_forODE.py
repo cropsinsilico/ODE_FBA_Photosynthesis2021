@@ -150,6 +150,7 @@ temp = cobra_model.copy()
 PPFD = df["Light intensity"][0]
 #constrain maintenace
 ATPase = (0.0049*PPFD) + 2.7851
+ATPase = round(ATPase,3)
 temp.reactions.get_by_id("ATPase_tx").lower_bound = ATPase
 temp.reactions.get_by_id("ATPase_tx").upper_bound = ATPase
 
@@ -184,7 +185,7 @@ for rxn in cobra_model.reactions:
 
 
 #check if model works
-temp.solver="glpk"
+#temp.solver="glpk"
 sol = flux_analysis.parsimonious.optimize_minimal_flux(temp)
 rxn =  temp.reactions.get_by_id("Phloem_output_tx")
 met = temp.metabolites.sSUCROSE_b
