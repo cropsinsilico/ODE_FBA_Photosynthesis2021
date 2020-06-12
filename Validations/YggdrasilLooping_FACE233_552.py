@@ -22,8 +22,9 @@ Vstarch = list()
 Vglycerate = list()
 Vglycolate = list()
 
+j=0
 for p in PPFD:
-
+    j=j+1
 
     #ensure additional chloroplastic ATP consumption rate (J_ATPase) starts at 0
     f1 = open("../ePhotosynthesis/InputATPCost.txt","w")
@@ -67,7 +68,7 @@ for p in PPFD:
     print("Models converged at "+str(J_ATPase1))
 
     import os
-    os.rename("./../FBA/Daytime_flux.csv","./../FBA/Daytime_flux_FACE233_552.csv")
+    os.rename("./../FBA/Daytime_flux.csv","./../FBA/Daytime_flux_FACE233_552_"+str(j)+".csv")
 
     F_fluxes = open("../ePhotosynthesis/OutputRate.txt")
     lines = F_fluxes.readlines()
