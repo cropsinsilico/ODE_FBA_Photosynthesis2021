@@ -115,7 +115,7 @@ temp = cobra_model.copy()
 PPFD = df["Light intensity"][0]
 #constrain maintenace
 ATPase = (0.0049*PPFD) + 2.7851
-ATPase = round(ATPase,3)
+ATPase = round(ATPase,2)
 temp.reactions.get_by_id("ATPase_tx").lower_bound = ATPase
 temp.reactions.get_by_id("ATPase_tx").upper_bound = ATPase
 
