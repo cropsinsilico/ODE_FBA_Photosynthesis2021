@@ -24,7 +24,7 @@ def custom_pFBA(model):
             continue
         else:
             fluxDict[rxn.id]=sol2.fluxes[rxn.id]
-    sol3 = sol2.copy()
+    sol3 = sol2
     sol3.fluxes = fluxDict
     return sol3
 
