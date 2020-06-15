@@ -8,13 +8,33 @@ args2 = parser.parse_args(["../FBA/yggrasil_ODE_FBA_testing.yaml"])
 args3 = parser.parse_args(["../FBA/yggrasil_ODE_FBA_night.yaml"])
 
 
+Data_PPFD = {0:10.79136691,2.4:543.1654676,4.8:780.5755396,7.1:571.942446,
+             8.8:773.381295,11.6:161.8705036,13.8:3.597122302}
 
+def ProcessPPFD(data):
+    PPFD_list = list()
+    values = list(Data_PPFD.values())
+    keys = list(Data_PPFD.keys())
+    for i in range(1, len(Data_PPFD)):
+        m = (values[i]-values[i-1])/(keys[i]-keys[i-1])
+        c = values[i] - (m*(keys[i]))
+        for j in range(0,24):
+            y = (m*j)+c
+            if j < keys[i-1] or j >= keys[i]:
+                continue
+            if y < 100:
+                #print(str(y)+"<100")
+                continue
+            PPFD_list.append(y)
+    return PPFD_list
+
+PPFD = ProcessPPFD(Data_PPFD)
 #Gather PPFD data
-PPFD = [129.4964029,248.2014388,345.323741,
-        442.4460432,744.6043166,1046.76259,
-        1080.335731,1113.908873,1147.482014,
-        876.4988007,605.5155874,334.5323741,
-        224.2206235,113.9088729]
+#PPFD = [129.4964029,248.2014388,345.323741,
+#        442.4460432,744.6043166,1046.76259,
+#        1080.335731,1113.908873,1147.482014,
+#        876.4988007,605.5155874,334.5323741,
+#        224.2206235,113.9088729]
 
 Vc = list()
 Vo = list()
