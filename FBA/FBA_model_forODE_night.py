@@ -1,21 +1,4 @@
 
-def custom_pFBA(model):
-    sol = model.optimize()
-    for rxn in model.reactions:
-        if rxn.objective_coefficient != 0:
-            rxn.lower_buond = sol.fluxes[rxn]
-            rxn.upper_bound = sol.fluxes[rxn]
-    from sweetlovegroup import FBA
-    Irrev_model = FBA.rev2irrev(model)
-    for rxn in Irrev_model.reactions:
-        if rxn.upper_bound > 0:
-            rxn.objective_coefficient = -1
-        else:
-            rxn.objective_coefficient = 1
-    sol2 = Irrev_model.optimize()
-    return sol2
-
-
 def remove_metabolite_from_reaction(rxn,mets):
     '''
     This functions removes a list of metabolites from a reaction

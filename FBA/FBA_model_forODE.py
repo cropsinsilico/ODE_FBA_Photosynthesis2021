@@ -3,8 +3,8 @@ def custom_pFBA(model):
     sol = model.optimize()
     for rxn in model.reactions:
         if rxn.objective_coefficient != 0:
-            rxn.lower_buond = sol.fluxes[rxn.id]
-            rxn.upper_bound = sol.fluxes[rxn.id]
+            rxn.lower_buond = round(sol.fluxes[rxn.id],3)
+            rxn.upper_bound = round(sol.fluxes[rxn.id],3)
     from sweetlovegroup import FBA
     Irrev_model = FBA.rev2irrev(model)
     for rxn in Irrev_model.reactions:
@@ -13,7 +13,20 @@ def custom_pFBA(model):
         else:
             rxn.objective_coefficient = 1
     sol2 = Irrev_model.optimize()
-    return sol2
+    rxnSet=set()
+    fluxDict = dict()
+    for rxn in Irrev_model.reactions.query("_reverse"):
+        rxnSet.add(rxn.id)
+        rxnSet.add(rxn.id.replace("_reverse",""))
+        fluxDict[rxn.id.replace("_reverse","")]=sol2.fluxes[rxn.id]+sol2.fluxes[rxn.id.replace("_reverse","")]
+    for rxn in Irrev_model.reactions:
+        if rxn.id in rxnSet:
+            continue
+        else:
+            fluxDict[rxn.id]=sol2.fluxes[rxn.id]
+    sol3 = sol2.copy()
+    sol3.fluxes = fluxDict
+    return sol3
 
 
 def remove_metabolite_from_reaction(rxn,mets):
@@ -204,8 +217,11 @@ for rxn in cobra_model.reactions:
 
 #check if model works
 temp.solver="glpk"
-sol = custom_pFBA(temp)
-#sol = flux_analysis.parsimonious.optimize_minimal_flux(temp)
+#sol = custom_pFBA(temp)
+try:
+    sol = flux_analysis.parsimonious.optimize_minimal_flux(temp)
+except:
+    sol = custom_pFBA(temp)
 rxn =  temp.reactions.get_by_id("Phloem_output_tx")
 met = temp.metabolites.sSUCROSE_b
 print("Sucrose export rate ="+str(rxn.metabolites[met]*sol.fluxes[rxn.id]))
