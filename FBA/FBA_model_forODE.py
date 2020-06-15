@@ -185,18 +185,18 @@ for rxn in cobra_model.reactions:
 
 
 #check if model works
-#temp.solver="glpk"
+temp.solver="glpk"
 sol = flux_analysis.parsimonious.optimize_minimal_flux(temp)
 rxn =  temp.reactions.get_by_id("Phloem_output_tx")
 met = temp.metabolites.sSUCROSE_b
-print("Sucrose export rate ="+str(rxn.metabolites[met]*rxn.flux))
+print("Sucrose export rate ="+str(rxn.metabolites[met]*sol.fluxes[rxn.id]))
 
 total = 0
 for rxn in temp.metabolites.ATP_p.reactions:
     if round(rxn.flux,3) != 0:
         coeff1 = rxn.metabolites[temp.metabolites.ATP_p]
         coeff2 = rxn.metabolites[temp.metabolites.aATP_p]
-        ATPflux = rxn.flux*(coeff1+coeff2)
+        ATPflux = sol.fluxes[rxn.id]*(coeff1+coeff2)
         #print(rxn.id+"\t"+str(ATPflux))
         if rxn.flux*(coeff1+coeff2)<0:
             total = total+abs(ATPflux)
@@ -208,5 +208,5 @@ fout.close()
 
 fout= open("./Daytime_flux.csv","w")
 for rxn in temp.reactions:
-    fout.write(rxn.id+","+rxn.reaction+","+str(rxn.flux)+"\n")
+    fout.write(rxn.id+","+rxn.reaction+","+str(sol.fluxes[rxn.id])+"\n")
 fout.close()

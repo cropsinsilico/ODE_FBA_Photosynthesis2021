@@ -132,14 +132,14 @@ temp.reactions.get_by_id("CIT_v_accumulation").lower_bound = -1*-0.056884259879*
 temp.reactions.get_by_id("CIT_v_accumulation").upper_bound = -1*-0.056884259879*StarchDegradationRate
 
 #check if model works
-#temp.solver="glpk"
+temp.solver="glpk"
 sol = flux_analysis.parsimonious.optimize_minimal_flux(temp)
 rxn =  temp.reactions.get_by_id("Phloem_output_tx")
 met = temp.metabolites.sSUCROSE_b
-print("Sucrose export rate ="+str(rxn.metabolites[met]*rxn.flux))
-print("O2 uptake rate ="+str(temp.reactions.O2_tx.flux))
+print("Sucrose export rate ="+str(rxn.metabolites[met]*sol.fluxes[rxn.id]))
+print("O2 uptake rate ="+str(sol.fluxes["O2_tx"]))
 
 fout= open("./Nighttime_flux.csv","w")
 for rxn in temp.reactions:
-    fout.write(rxn.id+","+rxn.reaction+","+str(rxn.flux)+"\n")
+    fout.write(rxn.id+","+rxn.reaction+","+str(sol.fluxes[rxn.id])+"\n")
 fout.close()
