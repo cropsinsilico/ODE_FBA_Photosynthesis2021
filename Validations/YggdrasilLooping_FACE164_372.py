@@ -87,8 +87,12 @@ for p in PPFD:
 
         if round(J_ATPase1,2)==round(J_ATPase2,2):
             ModelConverged=True
+            print("Models converged at "+str(J_ATPase1))
+        if J_ATPase2 == 0:
+            print("Breaking Loop to avoid infinite loop")
+            break
 
-    print("Models converged at "+str(J_ATPase1))
+
 
     import os
     os.rename("./../FBA/Daytime_flux.csv","./../FBA/Daytime_flux_FACE164_372_"+str(j)+".csv")
