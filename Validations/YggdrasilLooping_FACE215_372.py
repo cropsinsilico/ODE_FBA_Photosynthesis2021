@@ -8,8 +8,8 @@ args2 = parser.parse_args(["../FBA/yggrasil_ODE_FBA_testing.yaml"])
 args3 = parser.parse_args(["../FBA/yggrasil_ODE_FBA_night.yaml"])
 
 
-Data_PPFD = {0:10.79136691,2.4:543.1654676,4.8:780.5755396,7.1:571.942446,
-             8.8:773.381295,11.6:161.8705036,13.8:3.597122302}
+Data_PPFD = {0:10.79136691,1.6:248.2014388,4:442.4460432,5.9:1046.76259,
+             8.7:1147.482014,11.7:334.5323741,14.8:3.597122302}
 
 def ProcessPPFD(data):
     PPFD_list = list()

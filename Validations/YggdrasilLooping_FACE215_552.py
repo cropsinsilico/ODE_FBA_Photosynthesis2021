@@ -7,8 +7,8 @@ args1 = parser.parse_args(["../ePhotosynthesis/EphotosynthesisOnly.yml"])
 args2 = parser.parse_args(["../FBA/yggrasil_ODE_FBA_testing.yaml"])
 args3 = parser.parse_args(["../FBA/yggrasil_ODE_FBA_night.yaml"])
 
-Data_PPFD = {0:10.79136691,2.4:679.8561151,4.8:823.7410072,7.1:543.1654676,
-             8.8:802.1582734,11.6:161.8705036,13.8:3.597122302}
+Data_PPFD = {0:10.79136691,1.6:248.2014388,4:413.6690647,5.9:1154.676259,
+             8.7:1169.064748,11.7:356.1151079,14.8:3.597122302}
 
 def ProcessPPFD(data):
     PPFD_list = list()
