@@ -92,6 +92,10 @@ for p in PPFD:
             print("Breaking Loop to avoid infinite loop")
             break
 
+    import os
+    os.rename("./../FBA/Daytime_flux.csv","./../Validations/Daytime_flux_FACE233_552_"+str(j)+".csv")
+    os.rename("./../ePhotosynthesis/OutputFluxT.txt","./../Validations/OutputFluxT_FACE233_552_"+str(j)+".csv")
+
     F_fluxes = open("../ePhotosynthesis/OutputRate.txt")
     lines = F_fluxes.readlines()
     Vc.append(float(lines[1].split(",")[1]))

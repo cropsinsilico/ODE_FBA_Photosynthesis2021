@@ -92,7 +92,8 @@ for p in PPFD:
             break
 
     import os
-    os.rename("./../FBA/Daytime_flux.csv","./../FBA/Daytime_flux_FACE191_372_"+str(j)+".csv")
+    os.rename("./../FBA/Daytime_flux.csv","./../Validations/Daytime_flux_FACE191_372_"+str(j)+".csv")
+    os.rename("./../ePhotosynthesis/OutputFluxT.txt","./../Validations/OutputFluxT_FACE191_372_"+str(j)+".csv")
 
     F_fluxes = open("../ePhotosynthesis/OutputRate.txt")
     lines = F_fluxes.readlines()
