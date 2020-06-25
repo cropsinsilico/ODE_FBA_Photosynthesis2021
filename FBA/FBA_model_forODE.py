@@ -222,7 +222,7 @@ for rxn in cobra_model.reactions:
 
 
 #ADD ATP source reaction in FBA to represent ATP from JATPase
-rxn = Reaction("ATP source from ODE")
+rxn = Reaction("ATP_source_from_ODE")
 rxn.add_metabolites({temp.metabolites.get_by_id("ADP_p"):-0.8,
                      temp.metabolites.get_by_id("aADP_p"):-0.2,
                      temp.metabolites.get_by_id("Pi_p"):-1,
