@@ -78,6 +78,12 @@ cobra_model = io.sbml.read_sbml_model("./../Data/PlantCoreMetabolism_v2_0_0.xml"
 rxn = cobra_model.reactions.get_by_id("Phloem_output_tx")
 mets2remove = list()
 
+
+fin= open("./../ePhotosynthesis/InputATPCost.txt","r")
+for line in fin:
+    JATPase = float(line.replace("ATPCost	",""))
+    break
+fin.close()
 #for met in rxn.metabolites.keys():
     #if "SUCROSE" in met.id:# or "GLC" in met.id or "FRU" in met.id:
     #    continue
@@ -213,6 +219,20 @@ for rxn in cobra_model.reactions:
         rxn.lower_boudn = -3000
     if rxn.upper_bound == 1000:
         rxn.upper_bound = 3000
+
+
+#ADD ATP source reaction in FBA to represent ATP from JATPase
+rxn = Reaction("ATP source from ODE")
+rxn.add_metabolites({temp.metabolites.get_by_id("ADP_p"):-0.8,
+                     temp.metabolites.get_by_id("aADP_p"):-0.2,
+                     temp.metabolites.get_by_id("Pi_p"):-1,
+                     temp.metabolites.get_by_id("PROTON_p"):-0.9,
+                     temp.metabolites.get_by_id("ATP_p"):0.9,
+                     temp.metabolites.get_by_id("aATP_p"):0.1,
+                     temp.metabolites.get_by_id("WATER_p"):1})
+rxn.lower_bound = JATPase
+rxn.upper_bound = JATPase
+temp.add_reaction(rxn)
 
 
 #check if model works
