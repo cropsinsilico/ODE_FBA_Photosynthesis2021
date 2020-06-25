@@ -84,7 +84,7 @@ for p in PPFD:
             print("Breaking Loop to avoid infinite loop")
             break
 
-    import osimport os
+    import os
     os.rename("./../FBA/Daytime_flux.csv","./../Validations/Daytime_flux_FACE254_552_"+str(j)+".csv")
     os.rename("./../ePhotosynthesis/OutputFluxT.txt","./../Validations/OutputFluxT_FACE254_552_"+str(j)+".csv")
 
