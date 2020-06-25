@@ -81,7 +81,7 @@ mets2remove = list()
 
 fin= open("./../ePhotosynthesis/InputATPCost.txt","r")
 for line in fin:
-    JATPase = float(line.replace("ATPCost	",""))
+    JATPase = float(line.replace("ATPCost ",""))
     break
 fin.close()
 #for met in rxn.metabolites.keys():
