@@ -263,7 +263,7 @@ for rxn in temp.metabolites.ATP_p.reactions:
             else:
                 total = total+abs(ATPflux)
                 print(total)
-if total>JATPase:
+if JATPase>0 and total>JATPase:
     total=JATPase+excessATP
 print("Extra APTase flux ="+str(total))
 
