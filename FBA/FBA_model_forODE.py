@@ -257,10 +257,13 @@ for rxn in temp.metabolites.ATP_p.reactions:
         print(rxn.id+"\t"+str(ATPflux)+"="+str(total))
         if ATPflux<0:
             if rxn.id == "ATP_ADP_Pi_pc":
-                continue
+                total = total-abs(ATPflux)
+                excessATP = ATPflux
             else:
                 total = total+abs(ATPflux)
                 print(total)
+if total>JATPase:
+    total=JATPase+excessATP
 print("Extra APTase flux ="+str(total))
 
 fout= open("./../ePhotosynthesis/InputATPCost.txt","w")
