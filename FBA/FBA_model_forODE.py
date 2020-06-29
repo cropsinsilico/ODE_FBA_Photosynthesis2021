@@ -248,17 +248,19 @@ print("Sucrose export rate ="+str(rxn.metabolites[met]*sol.fluxes[rxn.id]))
 
 total = 0
 for rxn in temp.metabolites.ATP_p.reactions:
+    if rxn.id=="ATP_source_from_ODE":
+        continue
     if round(rxn.flux,3) != 0:
         coeff1 = rxn.metabolites[temp.metabolites.ATP_p]
         coeff2 = rxn.metabolites[temp.metabolites.aATP_p]
         ATPflux = sol.fluxes[rxn.id]*(coeff1+coeff2)
         #print(rxn.id+"\t"+str(ATPflux))
-        if rxn.flux*(coeff1+coeff2)<0:
+        if rxn.flux*(coeff1+coeff2)>0:
             total = total+abs(ATPflux)
-print("Extra APTase flux ="+str(total))
+print("Extra APTase flux ="+str(total+JATPase))
 
 fout= open("./../ePhotosynthesis/InputATPCost.txt","w")
-fout.write("ATPCost	"+str(total))
+fout.write("ATPCost	"+str(total+JATPase))
 fout.close()
 
 fout= open("./Daytime_flux.csv","w")
