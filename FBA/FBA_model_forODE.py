@@ -246,6 +246,7 @@ rxn =  temp.reactions.get_by_id("Phloem_output_tx")
 met = temp.metabolites.sSUCROSE_b
 print("Sucrose export rate ="+str(rxn.metabolites[met]*sol.fluxes[rxn.id]))
 
+excessATP = 0
 total = 0
 for rxn in temp.metabolites.ATP_p.reactions:
     if rxn.id=="ATP_source_from_ODE":
