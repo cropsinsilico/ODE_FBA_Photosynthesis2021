@@ -254,9 +254,12 @@ for rxn in temp.metabolites.ATP_p.reactions:
         coeff1 = rxn.metabolites[temp.metabolites.ATP_p]
         coeff2 = rxn.metabolites[temp.metabolites.aATP_p]
         ATPflux = sol.fluxes[rxn.id]*(coeff1+coeff2)
-        #print(rxn.id+"\t"+str(ATPflux))
-        if rxn.flux*(coeff1+coeff2)>0:
+        #print(rxn.id+"\t"+str(ATPflux)+"="+str(total))
+        if ATPflux>0:
             total = total+abs(ATPflux)
+            #print(total)
+if total==0:
+    total=-1*JATPase*1/1000
 print("Extra APTase flux ="+str(total+JATPase))
 
 fout= open("./../ePhotosynthesis/InputATPCost.txt","w")
