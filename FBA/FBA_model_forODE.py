@@ -246,7 +246,7 @@ rxn =  temp.reactions.get_by_id("Phloem_output_tx")
 met = temp.metabolites.sSUCROSE_b
 print("Sucrose export rate ="+str(rxn.metabolites[met]*sol.fluxes[rxn.id]))
 
-total = 0
+total = JATPase
 for rxn in temp.metabolites.ATP_p.reactions:
     if round(rxn.flux,3) != 0:
         coeff1 = rxn.metabolites[temp.metabolites.ATP_p]
@@ -254,7 +254,8 @@ for rxn in temp.metabolites.ATP_p.reactions:
         ATPflux = sol.fluxes[rxn.id]*(coeff1+coeff2)
         print(rxn.id+"\t"+str(ATPflux)+"="+str(total))
         if rxn.id == "ATP_ADP_Pi_pc":
-            total = JATPase + ATPflux
+            total = total + ATPflux
+            print(ATPflux)
 print("Extra APTase flux ="+str(total))
 
 fout= open("./../ePhotosynthesis/InputATPCost.txt","w")
