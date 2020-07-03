@@ -72,6 +72,7 @@ for day in  PPFD_Dict.keys():
         St_list = list()
         j=0
         for PPFD in PPFD_Dict[day][co2]:
+            PPFD = round(PPFD,2)
             j=j+1
 
             F_weather = open("../ePhotosynthesis/InputEvn.txt","w")
