@@ -54,7 +54,7 @@ while True:
         df = pd.read_csv(BytesIO(msg))
         print(df.to_string())
 
-print(df)
+
 from cobra import io,flux_analysis
 from cobra.core import Reaction, Metabolite
 
@@ -62,7 +62,7 @@ from cobra.core import Reaction, Metabolite
 cobra_model = io.sbml.read_sbml_model("./../Data/PlantCoreMetabolism_v2_0_0.xml")
 
 
-for rxn in model.reactions:
+for rxn in cobra_model.reactions:
     if rxn.lower_bound == -1000:
         rxn.lower_bound = -3000
     if rxn.upper_bound == 1000:
@@ -70,7 +70,7 @@ for rxn in model.reactions:
 
 
 from cobra import flux_analysis
-leaf_model = model.copy()
+leaf_model = cobra_model.copy()
 
 leaf_model.reactions.GLC_tx.upper_bound = 0
 leaf_model.reactions.GLC_tx.lower_bound = 0
