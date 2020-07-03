@@ -96,8 +96,8 @@ fin = open("./../ePhotosynthesis/OutputFluxT.txt")
 for line in fin:
     if "vz_1" in line:
         PSII = float(line.replace(" ","").replace("vz_1",""))
-leaf_model.reactions.ATPase_tx1.upper_bound = PSII
-leaf_model.reactions.ATPase_tx1.lower_bound = PSII
+leaf_model.reactions.ATPase_tx1.upper_bound = PSII/4
+leaf_model.reactions.ATPase_tx1.lower_bound = PSII/4
 
 met = leaf_model.metabolites.rubisco_bal_p1
 rxn = leaf_model.reactions.RXN_961_p1
