@@ -61,7 +61,7 @@ import pandas as pd
 
 
 for day in  PPFD_Dict.keys():
-    print(day)
+
     df = pd.DataFrame()
     for co2 in PPFD_Dict[day].keys():
 
@@ -73,11 +73,19 @@ for day in  PPFD_Dict.keys():
         j=0
         for PPFD in PPFD_Dict[day][co2]:
             PPFD = round(PPFD,2)
+            print("##############################")
+            print("Day = "+str(day))
             j=j+1
+            print("Hour = "+str(j))
 
             F_weather = open("../ePhotosynthesis/InputEvn.txt","w")
-            F_weather.write("CO2 552\nPPFD "+str(PPFD)+"\nSucPath 1"+"\ndaylength "+str(len(PPFD_Dict[day][co2])))
+            F_weather.write("CO2 "+str(co2)+"\nPPFD "+str(PPFD)+"\nSucPath 1"+"\ndaylength "+str(len(PPFD_Dict[day][co2])))
             F_weather.close()
+
+
+            f1 = open("../ePhotosynthesis/InputATPCost.txt","w")
+            f1.write("ATPCost 0")
+            f1.close()
             #print(PPFD)
 
             runner.run(args1.yamlfile)
