@@ -18,7 +18,7 @@ def ProcessPPFD(data):
         m = (values[i]-values[i-1])/(keys[i]-keys[i-1])
         c = values[i] - (m*(keys[i]))
         for j in range(0,24):
-            y = round((m*j)+c,4)
+            y = round((m*j)+c,5)
             if j < keys[i-1] or j >= keys[i]:
                 continue
             if y < 100:
