@@ -83,3 +83,4 @@ for day in  PPFD_Dict.keys():
             runner.run(args2.yamlfile)
             import os
             os.rename("./../FBA/Diel_flux.csv","./../Validations/Diel_flux_FACE"+str(day)+"_"+str(co2)+"_"+str(j)+".csv")
+            os.rename("./../ePhotosynthesis/OutputFluxT.txt","./../Validations/ODE_only_OutputFluxT_FACE"+str(day)+"_"+str(co2)+"_"+str(j)+".csv")
