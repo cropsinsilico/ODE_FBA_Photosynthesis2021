@@ -85,8 +85,8 @@ leaf_model = setupC3DielModel(leaf_model)
 
 leaf_model.reactions.Phloem_output_tx1.objective_coefficient = 0
 leaf_model.reactions.Phloem_output_tx2.objective_coefficient = 0
-
-leaf_model.reactions.Photon_tx1.upper_bound = df["Light intensity"][0]
+PPFD = df["Light intensity"][0]
+leaf_model.reactions.Photon_tx1.upper_bound = PPFD
 leaf_model.reactions.Photon_tx1.lower_bound = 0
 ATPase = (0.0049*PPFD) + 2.7851
 leaf_model.reactions.ATPase_tx1.upper_bound = df["Light intensity"][0]
