@@ -95,7 +95,7 @@ leaf_model.reactions.ATPase_tx1.lower_bound = df["Light intensity"][0]
 fin = open("./../ePhotosynthesis/OutputFluxT.txt")
 for line in fin:
     if "vz_1" in line:
-        PSII = print(line.split("\t")[1])
+        PSII = float(line.replace(" ","").replace("vz_1",""))
 leaf_model.reactions.ATPase_tx1.upper_bound = PSII
 leaf_model.reactions.ATPase_tx1.lower_bound = PSII
 
