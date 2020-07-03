@@ -109,7 +109,7 @@ sol = pfba(leaf_model)
 print("Phloem export rate ="+str(sol.fluxes["diel_biomass"]*4))
 
 
-fout= open("./Daytime_flux.csv","w")
+fout= open("./Diel_flux.csv","w")
 for rxn in leaf_model.reactions:
     fout.write(rxn.id+","+rxn.reaction+","+str(sol.fluxes[rxn.id])+"\n")
 fout.close()
