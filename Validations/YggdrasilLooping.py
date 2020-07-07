@@ -11,6 +11,9 @@ args3 = parser.parse_args(["../FBA/yggrasil_ODE_FBA_night.yaml"])
 f1 = open("../ePhotosynthesis/InputATPCost.txt","w")
 f1.write("ATPCost 0")
 f1.close()
+f3 = open("../ePhotosynthesis/InputNADPHCost.txt","w")
+f3.write("NADPHCost 0")
+f3.close()
 
 ModelConverged = False
 
@@ -26,6 +29,10 @@ while not ModelConverged:
     line = f2.readline()
     J_ATPase1 = float(line.replace("\t"," ").split(" ")[1])
     f2.close()
+    f4 = open("../ePhotosynthesis/InputNADPHCost.txt","r")
+    line = f4.readline()
+    J_NADPHox1 = float(line.replace("\t"," ").split(" ")[1])
+    f4.close()
 
     runner.run(args2.yamlfile)
 
@@ -34,13 +41,23 @@ while not ModelConverged:
     line = f2.readline()
     J_ATPase2 = float(line.replace("\t"," ").split(" ")[1])
     f2.close()
+    f4 = open("../ePhotosynthesis/InputNADPHCost.txt","r")
+    line = f4.readline()
+    J_NADPHox2 = float(line.replace("\t"," ").split(" ")[1])
+    f4.close()
 
     i=i+1
     print("ODE ATPase "+str(J_ATPase1))
     print("FBA ATPase "+str(J_ATPase2))
+    print("ODE NADPHox "+str(J_NADPHox1))
+    print("FBA NADPHox "+str(J_NADPHox2))
 
-    if round(J_ATPase1,3)==round(J_ATPase2,3):
+    if round(J_ATPase1,2)==round(J_ATPase2,2) and round(J_NADPHox1,2)==round(J_NADPHox2,2):
         ModelConverged=True
+        print("Models converged at "+str(J_ATPase1))
+        print("Models converged at "+str(J_NADPHox1))
+    if J_ATPase2 == 0:
+        print("Breaking Loop to avoid infinite loop")
+        break
 
-print("Models converged at "+str(J_ATPase1))
 runner.run(args3.yamlfile)
