@@ -124,6 +124,13 @@ rxn.upper_bound = 1000
 rxn.lower_bound = 0
 cobra_model.add_reaction(rxn)
 
+
+rxn = Reaction("G3P_tx",name = "PGA source")
+rxn.add_metabolites({cobra_model.metabolites.get_by_id("G3P_c"):1})
+rxn.upper_bound = 1000
+rxn.lower_bound = 0
+cobra_model.add_reaction(rxn)
+
 #add source reaction for TP
 rxn = Reaction("GLYCOLATE_tx",name = "Glycolate source")
 rxn.add_metabolites({cobra_model.metabolites.get_by_id("GLYCOLLATE_c"):1})
@@ -201,6 +208,8 @@ temp.reactions.get_by_id("ATPase_tx").upper_bound = ATPase
 #constraint TP flux
 temp.reactions.get_by_id("GAP_tx").lower_bound = df["VT3P"][0]
 temp.reactions.get_by_id("GAP_tx").upper_bound = df["VT3P"][0]
+temp.reactions.get_by_id("G3P_tx").lower_bound = df["VPGA"][0]
+temp.reactions.get_by_id("G3P_tx").upper_bound = df["VPGA"][0]
 
 #constraint glycollate and glycerate fluxes flux
 temp.reactions.get_by_id("GLYCOLATE_tx").lower_bound = df["Vt_glycolate"][0]
