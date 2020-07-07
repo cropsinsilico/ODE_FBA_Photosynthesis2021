@@ -90,7 +90,7 @@ fin= open("./../ePhotosynthesis/InputNADPHCost.txt","r")
 for line in fin:
     JNADPHox = float(line.replace("NADPHCost ","").replace("NADPHCost\t",""))
     break
-fin.close(
+fin.close()
 #for met in rxn.metabolites.keys():
     #if "SUCROSE" in met.id:# or "GLC" in met.id or "FRU" in met.id:
     #    continue
