@@ -209,7 +209,7 @@ temp.reactions.get_by_id("NADPHoxc_tx").upper_bound = ATPase/9
 temp.reactions.get_by_id("NADPHoxp_tx").lower_bound = ATPase/9
 temp.reactions.get_by_id("NADPHoxp_tx").upper_bound = ATPase/9
 temp.reactions.get_by_id("NADPHoxm_tx").lower_bound = ATPase/9
-temp.reactions.get_by_id("NADPHoxn_tx").upper_bound = ATPase/9
+temp.reactions.get_by_id("NADPHoxm_tx").upper_bound = ATPase/9
 
 #constraint TP flux
 temp.reactions.get_by_id("GAP_tx").lower_bound = df["VT3P"][0]
