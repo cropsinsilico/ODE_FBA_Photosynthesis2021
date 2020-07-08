@@ -103,7 +103,7 @@ for p in PPFD:
             ModelConverged=True
             print("Models converged at "+str(J_ATPase1))
             print("Models converged at "+str(J_NADPHox1))
-        if J_ATPase2 == 0:
+        if J_ATPase2 == 0 and J_NADPHox1 == 0:
             print("Breaking Loop to avoid infinite loop")
             break
 

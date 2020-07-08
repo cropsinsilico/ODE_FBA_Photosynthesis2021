@@ -57,7 +57,6 @@ for p in PPFD:
     F_weather.write("CO2 552\nPPFD "+str(p)+"\nSucPath 1"+"\ndaylength "+str(len(PPFD)))
     F_weather.close()
 
-
     f3 = open("../ePhotosynthesis/InputNADPHCost.txt","w")
     f3.write("NADPHCost 0")
     f3.close()
@@ -103,11 +102,9 @@ for p in PPFD:
             ModelConverged=True
             print("Models converged at "+str(J_ATPase1))
             print("Models converged at "+str(J_NADPHox1))
-        if J_ATPase2 == 0:
+        if J_ATPase2 == 0 and J_NADPHox1 == 0:
             print("Breaking Loop to avoid infinite loop")
             break
-
-
 
     import os
     os.rename("./../FBA/Daytime_flux.csv","./../Validations/Daytime_flux_FACE191_552_"+str(j)+".csv")
