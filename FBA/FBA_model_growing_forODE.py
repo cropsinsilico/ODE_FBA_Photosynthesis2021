@@ -380,8 +380,11 @@ temp.reactions.get_by_id("GLYCERATE_tx").upper_bound = df2["Vt_glycerate"][0]
 
 #temp.reactions.get_by_id("NrefixationCostbypass").lower_bound = df270["Vt_glycolate"][i]
 #temp.reactions.get_by_id("NrefixationCostbypass").upper_bound = df270["Vt_glycolate"][i]
-#temp.reactions.get_by_id("NrefixationEnergy").lower_bound = df270["Vt_glycerate"][i]
-#temp.reactions.get_by_id("NrefixationEnergy").upper_bound = df270["Vt_glycerate"][i]
+temp.reactions.get_by_id("2PGADEHYDRAT_RXN_p").lower_bound = 0
+temp.reactions.get_by_id("2PGADEHYDRAT_RXN_p").upper_bound = 0
+
+temp.reactions.get_by_id("G6P_Pi_pc").lower_bound=0
+temp.reactions.get_by_id("G6P_Pi_pc").upper_bound=0
 
 temp.reactions.get_by_id("MAL_v_accumulation").lower_bound = 0.0698903487288*df2["Vstarch"][0]
 temp.reactions.get_by_id("MAL_v_accumulation").upper_bound = 0.0698903487288*df2["Vstarch"][0]
