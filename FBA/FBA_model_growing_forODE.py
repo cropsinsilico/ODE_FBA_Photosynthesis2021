@@ -64,8 +64,8 @@ while True:
         print("No more input.")
         break
     else:
-        df = pd.read_csv(BytesIO(msg))
-        print(df.to_string())
+        df2 = pd.read_csv(BytesIO(msg))
+        print(df2.to_string())
 
 
 from cobra import io,flux_analysis
@@ -354,15 +354,11 @@ cobra_model.add_reaction(rxn)
 
 temp = cobra_model.copy()
 
-PPFD = df["Light intensity"][0]
+PPFD = df2["Light intensity"][0]
 #constrain maintenace
 ATPase = (0.0049*PPFD) + 2.7851
 temp.reactions.get_by_id("ATPase_tx").lower_bound = ATPase
 temp.reactions.get_by_id("ATPase_tx").upper_bound = ATPase
-
-#constraint TP flux
-temp.reactions.get_by_id("GAP_tx").lower_bound = df["VT3P"][0]
-temp.reactions.get_by_id("GAP_tx").upper_bound = df["VT3P"][0]
 temp.reactions.get_by_id("NADPHoxc_tx").lower_bound = ATPase/9
 temp.reactions.get_by_id("NADPHoxc_tx").upper_bound = ATPase/9
 temp.reactions.get_by_id("NADPHoxp_tx").lower_bound = ATPase/9
@@ -370,29 +366,28 @@ temp.reactions.get_by_id("NADPHoxp_tx").upper_bound = ATPase/9
 temp.reactions.get_by_id("NADPHoxm_tx").lower_bound = ATPase/9
 temp.reactions.get_by_id("NADPHoxm_tx").upper_bound = ATPase/9
 
-
 #constraint TP flux
-temp.reactions.get_by_id("GAP_tx").lower_bound = df["VT3P"][0]
-temp.reactions.get_by_id("GAP_tx").upper_bound = df["VT3P"][0]
-temp.reactions.get_by_id("G3P_tx").lower_bound = df["VPGA"][0]
-temp.reactions.get_by_id("G3P_tx").upper_bound = df["VPGA"][0]
+temp.reactions.get_by_id("GAP_tx").lower_bound = df2["VT3P"][0]
+temp.reactions.get_by_id("GAP_tx").upper_bound = df2["VT3P"][0]
+temp.reactions.get_by_id("G3P_tx").lower_bound = df2["VPGA"][0]
+temp.reactions.get_by_id("G3P_tx").upper_bound = df2["VPGA"][0]
 
 #constraint glycollate and glycerate fluxes flux
-temp.reactions.get_by_id("GLYCOLATE_tx").lower_bound = df["Vt_glycolate"][0]
-temp.reactions.get_by_id("GLYCOLATE_tx").upper_bound = df["Vt_glycolate"][0]
-temp.reactions.get_by_id("GLYCERATE_tx").lower_bound = df["Vt_glycerate"][0]
-temp.reactions.get_by_id("GLYCERATE_tx").upper_bound = df["Vt_glycerate"][0]
+temp.reactions.get_by_id("GLYCOLATE_tx").lower_bound = df2["Vt_glycolate"][0]
+temp.reactions.get_by_id("GLYCOLATE_tx").upper_bound = df2["Vt_glycolate"][0]
+temp.reactions.get_by_id("GLYCERATE_tx").lower_bound = df2["Vt_glycerate"][0]
+temp.reactions.get_by_id("GLYCERATE_tx").upper_bound = df2["Vt_glycerate"][0]
 
 #temp.reactions.get_by_id("NrefixationCostbypass").lower_bound = df270["Vt_glycolate"][i]
 #temp.reactions.get_by_id("NrefixationCostbypass").upper_bound = df270["Vt_glycolate"][i]
 #temp.reactions.get_by_id("NrefixationEnergy").lower_bound = df270["Vt_glycerate"][i]
 #temp.reactions.get_by_id("NrefixationEnergy").upper_bound = df270["Vt_glycerate"][i]
 
-temp.reactions.get_by_id("MAL_v_accumulation").lower_bound = 0.0698903487288*df["Vstarch"][0]
-temp.reactions.get_by_id("MAL_v_accumulation").upper_bound = 0.0698903487288*df["Vstarch"][0]
+temp.reactions.get_by_id("MAL_v_accumulation").lower_bound = 0.0698903487288*df2["Vstarch"][0]
+temp.reactions.get_by_id("MAL_v_accumulation").upper_bound = 0.0698903487288*df2["Vstarch"][0]
 
-temp.reactions.get_by_id("CIT_v_accumulation").lower_bound = -0.056884259879*df["Vstarch"][0]
-temp.reactions.get_by_id("CIT_v_accumulation").upper_bound = -0.056884259879*df["Vstarch"][0]
+temp.reactions.get_by_id("CIT_v_accumulation").lower_bound = -0.056884259879*df2["Vstarch"][0]
+temp.reactions.get_by_id("CIT_v_accumulation").upper_bound = -0.056884259879*df2["Vstarch"][0]
 
 
 
