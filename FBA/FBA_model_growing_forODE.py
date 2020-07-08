@@ -100,6 +100,157 @@ cobra_model.reactions.get_by_id("GLUTAMINESYN_RXN_m").upper_bound = 0
 cobra_model.reactions.get_by_id("GLUTAMINESYN_RXN_c").lower_bound = 0
 cobra_model.reactions.get_by_id("GLUTAMINESYN_RXN_c").upper_bound = 0
 
+#settingup model
+model = cobra_model.copy()
+model.metabolites.get_by_id("aL_1_PHOSPHATIDYL_GLYCEROL_P_m").remove_from_model()
+model.metabolites.get_by_id("aL_1_PHOSPHATIDYL_GLYCEROL_P_p").remove_from_model()
+
+model.reactions.get_by_id("PGPPHOSPHA_RXN_m").add_metabolites({model.metabolites.get_by_id("L_1_PHOSPHATIDYL_GLYCEROL_P_m"):-0.03,
+                                                               model.metabolites.get_by_id("PROTON_m"):-0.03})
+model.reactions.get_by_id("PHOSPHAGLYPSYN_RXN_m").add_metabolites({model.metabolites.get_by_id("L_1_PHOSPHATIDYL_GLYCEROL_P_m"):0.03,
+                                                                   model.metabolites.get_by_id("PROTON_m"):0.03})
+model.reactions.get_by_id("PGPPHOSPHA_RXN_p").add_metabolites({model.metabolites.get_by_id("L_1_PHOSPHATIDYL_GLYCEROL_P_p"):-0.03,
+                                                               model.metabolites.get_by_id("PROTON_p"):-0.03})
+model.reactions.get_by_id("PHOSPHAGLYPSYN_RXN_p").add_metabolites({model.metabolites.get_by_id("L_1_PHOSPHATIDYL_GLYCEROL_P_p"):0.03,
+                                                                   model.metabolites.get_by_id("PROTON_p"):0.03})
+model.reactions.get_by_id("LPG_biosynthesis_c").add_metabolites({model.metabolites.get_by_id("L_1_PHOSPHATIDYL_GLYCEROL_P_p"):-0.03})
+
+import pandas as pd
+
+df = pd.read_csv("Data/biomass_soy.csv")
+
+FA=["PALMITATE_p","CPD_9245_p","CPD_17412_p","CPD_17291_p","STEARIC_ACID_p","OLEATE_CPD_p",
+    "Octadecadienoate_p","LINOLENIC_ACID_p","ARACHIDIC_ACID_p","CPD_16709_p","DOCOSANOATE_p"]
+FACP = {"PALMITATE_p":"Palmitoyl_ACPs_p",
+        "CPD_9245_p":"Palmitoleoyl_ACP_p",
+        "CPD_17412_p":"hexadecadienoate_ACP_p",
+        "CPD_17291_p":"hexadecatrienoate_ACP_p",
+        "STEARIC_ACID_p":"Stearoyl_ACPs_p",
+        "OLEATE_CPD_p":"Oleoyl_ACPs_p",
+        "Octadecadienoate_p":"Octadecadienoyl_ACP_p",
+        "LINOLENIC_ACID_p":"Octadecatrienoyl_ACP_p",
+        "ARACHIDIC_ACID_p":"Arachidoyl_ACPs_p",
+        "CPD_16709_p":"Eicosenoyl_ACP_p",
+        "DOCOSANOATE_p":"Behenoyl_ACPs_p"}
+
+
+PLs = ["ACYL_SN_GLYCEROL_3P_p",
+       "L_PHOSPHATIDATE_p","L_PHOSPHATIDATE_m","DIACYLGLYCEROL_p",
+       "DIACYLGLYCEROL_r","Triacylglycerols_p","PHOSPHATIDYL_CHOLINE_r",
+       "L_1_PHOSPHATIDYL_ETHANOLAMINE_r","L_1_PHOSPHATIDYL_GLYCEROL_p",
+       "L_1_PHOSPHATIDYL_GLYCEROL_P_p","L_1_PHOSPHATIDYL_GLYCEROL_P_m",
+       "L_1_PHOSPHATIDYL_GLYCEROL_m","2_Lysophosphatidylcholines_r",
+       "Lysophosphatidylglycerols_r","CDPDIACYLGLYCEROL_p","CDPDIACYLGLYCEROL_m",
+       "D_Galactosyl_12_diacyl_glycerols_p","Galactosyl_galactosyl_diacyl_glycerols_p"]
+
+
+for met in PLs:
+    met=model.metabolites.get_by_id(met)
+    met.formula=""
+
+def generateMissingFormula(model,debug=False):
+    loop_counter = 0
+    former = 0
+    for met in model.metabolites:
+        if met.formula == "" or met.formula == "NA":
+            former = former +1
+    latter = 1
+    while True:
+        loop_counter = loop_counter+1
+        if debug:
+            print("Loop = "+str(loop_counter))
+        former = latter
+        for rxn in model.reactions:
+            count = 0
+            for met in rxn.metabolites:
+                if met.formula=="" or met.formula=="NA" or met.formula == None:
+                    if met.formula == "NA" or met.formula == None:
+                        met.formula = ""
+                    count = count + 1
+                    coeff = rxn.metabolites[met]
+            if count == 1:
+                unb = rxn.check_mass_balance()
+                eqn = rxn.reaction
+                eqn = " "+eqn+" "
+                for met in rxn.metabolites.keys():
+                    formula = met.formula
+                    if formula == None:
+                        formula = "0"
+                        NF_list.add(rxn.id)
+                    eqn=eqn.replace(" "+met.id+" ","("+formula+")")
+                if debug:
+                    print(eqn)
+                    print(unb)
+                for met in rxn.metabolites:
+                    if met.formula == "":
+                        tempForm = ""
+                        for a in sorted(unb.keys()):
+                            if a=="charge" or round(unb[a],2)==0:
+                                continue
+                            num = float(abs(unb[a]))/abs(coeff)
+                            if str(round(num))==str(num):
+                                tempForm = tempForm+a+str(int(round(num)))
+                            else:
+                                tempForm = tempForm+a+str(num)
+                                #print(a)
+                                #print(round(num)==num)
+                                #print(round(num))
+                                #print(num)
+                                #print(type(round(num)))
+                                #print(type(num))
+                        met.formula = tempForm
+                        if debug:
+                            print(met.id)
+                            print(tempForm)
+        latter = 0
+        for met in model.metabolites:
+            if met.formula == "" or met.formula == "NA":
+                latter = latter +1
+        if former == latter:
+            break
+
+
+leaf_model = model.copy()
+
+k = "leaf"
+RXN1 = Reaction("Fatty_acid_mix_"+k)
+RXN2 = Reaction("Fatty_acid_ACP_"+k)
+tot = 0
+for met in df["Unnamed: 0"]:
+    #print met
+    if met in FA:
+        RXN1.add_metabolites({leaf_model.metabolites.get_by_id(met):-1*float(df[df["Unnamed: 0"]==met][k])})
+        RXN2.add_metabolites({leaf_model.metabolites.get_by_id(FACP[met]):-1*float(df[df["Unnamed: 0"]==met][k])})
+        tot = tot+(float(df[df["Unnamed: 0"]==met][k]))
+if tot==0:
+    RXN1.add_metabolites({leaf_model.metabolites.PALMITATE_p:-1})
+    RXN2.add_metabolites({leaf_model.metabolites.Palmitoyl_ACPs_p:-1})
+    tot = 1
+RXN1.add_metabolites({leaf_model.metabolites.Fatty_Acids_p:tot})
+RXN1.lower_bound = 0
+RXN1.upper_bound = 1000
+leaf_model.add_reaction(RXN1)
+
+RXN2.add_metabolites({leaf_model.metabolites.Fatty_acyl_ACP_p:tot})
+RXN2.lower_bound = 0
+RXN2.upper_bound = 1000
+leaf_model.add_reaction(RXN2)
+
+
+generateMissingFormula(leaf_model)
+
+rxn = Reaction("Biomass_leaf_tx")
+for met in df["Unnamed: 0"]:
+    if met in FA or float(df[df["Unnamed: 0"]==met][k])==0:
+        continue
+    rxn.add_metabolites({leaf_model.metabolites.get_by_id(met):-1*float(df[df["Unnamed: 0"]==met][k])})
+
+rxn.lower_bound = 0
+rxn.upper_bound = 1000
+leaf_model.add_reaction(rxn)
+
+################
+
 #remove glutamine synthetase and glutamate synthase
 #rxn = cobra_model.reactions.get_by_id("GLUTAMATE_SYNTHASE_FERREDOXIN_RXN_p")
 #mets2remove=[cobra_model.metabolites.get_by_id("Reduced_ferredoxins_p"),cobra_model.metabolites.get_by_id("Oxidized_ferredoxins_p")]
@@ -128,6 +279,7 @@ cobra_model.reactions.get_by_id("GLUTAMINESYN_RXN_c").upper_bound = 0
 #cobra_model.reactions.get_by_id("PSERTRANSAM_RXN_p").lower_bound = 0
 #cobra_model.reactions.get_by_id("PSERTRANSAM_RXN_p").upper_bound = 0
 
+cobra_model = leaf_model.copy()
 
 cobra_model.reactions.get_by_id("Pi_ec").lower_bound = -1000
 cobra_model.reactions.get_by_id("Pi_ec").upper_bound = 1000
@@ -180,9 +332,8 @@ temp.reactions.get_by_id("CIT_v_accumulation").upper_bound = -0.056884259879*df[
 
 #check if model works
 sol = flux_analysis.parsimonious.optimize_minimal_flux(temp)
-rxn =  temp.reactions.get_by_id("Phloem_output_tx")
-met = temp.metabolites.sSUCROSE_b
-print("Sucrose export rate ="+str(rxn.metabolites[met]*rxn.flux))
+rxn =  temp.reactions.get_by_id("Biomass_leaf_tx")
+print("Biomass C accumulation rate ="+str(rxn.flux*595.7664799294965))
 
 total = 0
 for rxn in temp.metabolites.ATP_p.reactions:
