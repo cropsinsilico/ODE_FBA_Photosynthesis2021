@@ -169,7 +169,7 @@ model.reactions.get_by_id("LPG_biosynthesis_c").add_metabolites({model.metabolit
 
 import pandas as pd
 
-df = pd.read_csv("Data/biomass_soy.csv")
+df = pd.read_csv("./../Data/biomass_soy.csv")
 
 FA=["PALMITATE_p","CPD_9245_p","CPD_17412_p","CPD_17291_p","STEARIC_ACID_p","OLEATE_CPD_p",
     "Octadecadienoate_p","LINOLENIC_ACID_p","ARACHIDIC_ACID_p","CPD_16709_p","DOCOSANOATE_p"]
