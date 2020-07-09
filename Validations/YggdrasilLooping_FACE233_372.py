@@ -18,7 +18,7 @@ def ProcessPPFD(data):
         m = (values[i]-values[i-1])/(keys[i]-keys[i-1])
         c = values[i] - (m*(keys[i]))
         for j in range(0,24):
-            y = round((m*j)+c,4)
+            y = round((m*j)+c,1)
             if j < keys[i-1] or j >= keys[i]:
                 continue
             if y < 100:
@@ -54,6 +54,10 @@ for p in PPFD:
     F_weather.write("CO2 372\nPPFD "+str(p)+"\nSucPath 1"+"\ndaylength "+str(len(PPFD)))
     F_weather.close()
 
+    f3 = open("../ePhotosynthesis/InputNADPHCost.txt","w")
+    f3.write("NADPHCost 0")
+    f3.close()
+
     ModelConverged = False
 
     i=0
@@ -68,6 +72,10 @@ for p in PPFD:
         line = f2.readline()
         J_ATPase1 = float(line.replace("\t"," ").split(" ")[1])
         f2.close()
+        f4 = open("../ePhotosynthesis/InputNADPHCost.txt","r")
+        line = f4.readline()
+        J_NADPHox1 = float(line.replace("\t"," ").split(" ")[1])
+        f4.close()
 
         runner.run(args2.yamlfile)
 
@@ -76,15 +84,22 @@ for p in PPFD:
         line = f2.readline()
         J_ATPase2 = float(line.replace("\t"," ").split(" ")[1])
         f2.close()
+        f4 = open("../ePhotosynthesis/InputNADPHCost.txt","r")
+        line = f4.readline()
+        J_NADPHox2 = float(line.replace("\t"," ").split(" ")[1])
+        f4.close()
 
         i=i+1
         print("ODE ATPase "+str(J_ATPase1))
         print("FBA ATPase "+str(J_ATPase2))
+        print("ODE NADPHox "+str(J_NADPHox1))
+        print("FBA NADPHox "+str(J_NADPHox2))
 
-        if round(J_ATPase1,2)==round(J_ATPase2,2):
+        if round(J_ATPase1,2)==round(J_ATPase2,2) and round(J_NADPHox1,2)==round(J_NADPHox2,2):
             ModelConverged=True
             print("Models converged at "+str(J_ATPase1))
-        if J_ATPase2 == 0:
+            print("Models converged at "+str(J_NADPHox1))
+        if J_ATPase2 == 0 and J_NADPHox1 == 0:
             print("Breaking Loop to avoid infinite loop")
             break
 

@@ -84,6 +84,13 @@ for line in fin:
     JATPase = float(line.replace("ATPCost ","").replace("ATPCost\t",""))
     break
 fin.close()
+
+
+fin= open("./../ePhotosynthesis/InputNADPHCost.txt","r")
+for line in fin:
+    JNADPHox = float(line.replace("NADPHCost ","").replace("NADPHCost\t",""))
+    break
+fin.close()
 #for met in rxn.metabolites.keys():
     #if "SUCROSE" in met.id:# or "GLC" in met.id or "FRU" in met.id:
     #    continue
@@ -113,6 +120,13 @@ cobra_model.reactions.get_by_id("Phloem_output_tx").objective_coefficient=1
 #add source reaction for TP
 rxn = Reaction("GAP_tx",name = "TP source")
 rxn.add_metabolites({cobra_model.metabolites.get_by_id("GAP_c"):1})
+rxn.upper_bound = 1000
+rxn.lower_bound = 0
+cobra_model.add_reaction(rxn)
+
+
+rxn = Reaction("G3P_tx",name = "PGA source")
+rxn.add_metabolites({cobra_model.metabolites.get_by_id("G3P_c"):1})
 rxn.upper_bound = 1000
 rxn.lower_bound = 0
 cobra_model.add_reaction(rxn)
@@ -190,10 +204,18 @@ ATPase = (0.0049*PPFD) + 2.7851
 ATPase = round(ATPase,2)
 temp.reactions.get_by_id("ATPase_tx").lower_bound = ATPase
 temp.reactions.get_by_id("ATPase_tx").upper_bound = ATPase
+temp.reactions.get_by_id("NADPHoxc_tx").lower_bound = ATPase/9
+temp.reactions.get_by_id("NADPHoxc_tx").upper_bound = ATPase/9
+temp.reactions.get_by_id("NADPHoxp_tx").lower_bound = ATPase/9
+temp.reactions.get_by_id("NADPHoxp_tx").upper_bound = ATPase/9
+temp.reactions.get_by_id("NADPHoxm_tx").lower_bound = ATPase/9
+temp.reactions.get_by_id("NADPHoxm_tx").upper_bound = ATPase/9
 
 #constraint TP flux
 temp.reactions.get_by_id("GAP_tx").lower_bound = df["VT3P"][0]
 temp.reactions.get_by_id("GAP_tx").upper_bound = df["VT3P"][0]
+temp.reactions.get_by_id("G3P_tx").lower_bound = df["VPGA"][0]
+temp.reactions.get_by_id("G3P_tx").upper_bound = df["VPGA"][0]
 
 #constraint glycollate and glycerate fluxes flux
 temp.reactions.get_by_id("GLYCOLATE_tx").lower_bound = df["Vt_glycolate"][0]
@@ -234,6 +256,16 @@ rxn.lower_bound = JATPase
 rxn.upper_bound = JATPase
 temp.add_reaction(rxn)
 
+#ADD NADPH source reaction in FBA to represent NADPH from ODE
+rxn = Reaction("NADPH_source_from_ODE")
+rxn.add_metabolites({temp.metabolites.get_by_id("NADP_p"):-1,
+                     temp.metabolites.get_by_id("WATER_p"):-1,
+                     temp.metabolites.get_by_id("NADPH_p"):1,
+                     temp.metabolites.get_by_id("OXYGEN_MOLECULE_p"):1,
+                     temp.metabolites.get_by_id("PROTON_p"):1})
+rxn.lower_bound = JNADPHox
+rxn.upper_bound = JNADPHox
+temp.add_reaction(rxn)
 
 #check if model works
 temp.solver="glpk"
@@ -260,6 +292,29 @@ print("Extra APTase flux ="+str(total))
 
 fout= open("./../ePhotosynthesis/InputATPCost.txt","w")
 fout.write("ATPCost	"+str(round(total,4)))
+fout.close()
+
+total = JNADPHox
+for rxn in temp.metabolites.NADPH_p.reactions:
+    if round(rxn.flux,3) != 0:
+        coeff1 = rxn.metabolites[temp.metabolites.NADPH_p]
+        NADPHflux = sol.fluxes[rxn.id]*(coeff1)
+        print(rxn.id+"\t"+str(NADPHflux)+"="+str(total))
+        if rxn.id == "MALATE_DEH_RXN_p":
+            total = total + NADPHflux
+            print(NADPHflux)
+for rxn in temp.metabolites.NADH_p.reactions:
+    if round(rxn.flux,3) != 0:
+        coeff1 = rxn.metabolites[temp.metabolites.NADH_p]
+        NADPHflux = sol.fluxes[rxn.id]*(coeff1)
+        print(rxn.id+"\t"+str(NADPHflux)+"="+str(total))
+        if rxn.id == "MALATE_DEH_RXN_p":
+            total = total + NADPHflux
+            print(NADPHflux)
+print("Extra NADPH flux ="+str(total))
+
+fout= open("./../ePhotosynthesis/InputNADPHCost.txt","w")
+fout.write("NADPHCost	"+str(round(total,4)))
 fout.close()
 
 fout= open("./Daytime_flux.csv","w")

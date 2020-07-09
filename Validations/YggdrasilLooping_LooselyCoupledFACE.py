@@ -72,7 +72,7 @@ for day in  PPFD_Dict.keys():
         St_list = list()
         j=0
         for PPFD in PPFD_Dict[day][co2]:
-            PPFD = round(PPFD,2)
+            PPFD = round(PPFD)
             print("##############################")
             print("Day = "+str(day))
             j=j+1
