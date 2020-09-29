@@ -240,23 +240,8 @@ import logging
 logging.basicConfig()
 logger = logging.getLogger('logger')
 
-# Import classes for input/output channels
-from yggdrasil.interface.YggInterface import YggInput, YggOutput
-# Initialize input/output channels
-in_channel = YggInput('input1')
-
-# Loop until there is no longer input or the queues are closed
-while True:
-
-    # Receive input from input channel
-    # If there is an error, the flag will be False
-    flag, msg = in_channel.recv()
-    if not flag:
-        print("No more input.")
-        break
-    else:
-        df = pd.read_csv(BytesIO(msg))
-        print(df.to_string())
+fin = open("./../ePhotosynthesis/inputEvn.txt")
+PPFD = fin.readLine().split(" ")[1]
 
 
 from cobra import io,flux_analysis
@@ -288,7 +273,7 @@ leaf_model = setupC3DielModel(leaf_model)
 
 leaf_model.reactions.Phloem_output_tx1.objective_coefficient = 0
 leaf_model.reactions.Phloem_output_tx2.objective_coefficient = 0
-PPFD = df["Light intensity"][0]
+
 leaf_model.reactions.Photon_tx1.upper_bound = PPFD
 leaf_model.reactions.Photon_tx1.lower_bound = 0
 ATPase = (0.0049*PPFD) + 2.7851
