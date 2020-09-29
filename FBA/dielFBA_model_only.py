@@ -278,8 +278,8 @@ leaf_model = cobra_model.copy()
 
 leaf_model.reactions.GLC_tx.upper_bound = 0
 leaf_model.reactions.GLC_tx.lower_bound = 0
-leaf_model.reactions.Sucrose_tx.upper_bound = 1
-leaf_model.reactions.Sucrose_tx.lower_bound = 1
+leaf_model.reactions.Sucrose_tx.upper_bound = 0
+leaf_model.reactions.Sucrose_tx.lower_bound = 0
 leaf_model.reactions.Photon_tx.upper_bound = 0
 leaf_model.reactions.Photon_tx.lower_bound = 0
 
