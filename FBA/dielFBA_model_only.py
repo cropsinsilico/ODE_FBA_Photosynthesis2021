@@ -241,7 +241,10 @@ logging.basicConfig()
 logger = logging.getLogger('logger')
 
 fin = open("./../ePhotosynthesis/InputEvn.txt")
-PPFD = fin.readLine().split(" ")[1]
+for line in fin:
+    if "PPFD" in line:
+        PPFD = int(line.split(" ")[1])
+
 
 
 from cobra import io,flux_analysis
@@ -277,8 +280,8 @@ leaf_model.reactions.Phloem_output_tx2.objective_coefficient = 0
 leaf_model.reactions.Photon_tx1.upper_bound = PPFD
 leaf_model.reactions.Photon_tx1.lower_bound = 0
 ATPase = (0.0049*PPFD) + 2.7851
-leaf_model.reactions.ATPase_tx1.upper_bound = df["Light intensity"][0]
-leaf_model.reactions.ATPase_tx1.lower_bound = df["Light intensity"][0]
+leaf_model.reactions.ATPase_tx1.upper_bound = ATPase
+leaf_model.reactions.ATPase_tx1.lower_bound = ATPase
 
 
 from cobra.flux_analysis import pfba
