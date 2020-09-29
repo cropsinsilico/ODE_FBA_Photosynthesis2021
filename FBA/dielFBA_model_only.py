@@ -240,7 +240,7 @@ import logging
 logging.basicConfig()
 logger = logging.getLogger('logger')
 
-fin = open("./../ePhotosynthesis/inputEvn.txt")
+fin = open("./../ePhotosynthesis/InputEvn.txt")
 PPFD = fin.readLine().split(" ")[1]
 
 
