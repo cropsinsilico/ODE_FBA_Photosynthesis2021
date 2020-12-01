@@ -1,0 +1,4 @@
+[submodule "ePhotosynthesis"]
+	path = ePhotosynthesis
+	url = https://github.com/cropsinsilico/ePhotosynthesis
+	branch = Validations
