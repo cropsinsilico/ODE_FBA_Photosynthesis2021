@@ -27,7 +27,7 @@ for ci in CO2:
     f1.close()
 
     F_weather = open("../ePhotosynthesis/InputEvn.txt","w")
-    F_weather.write("CO2 "+str(ci)"\nPPFD 1000\nSucPath 1"+"\ndaylength 12")
+    F_weather.write("CO2 "+str(ci)+"\nPPFD 1000\nSucPath 1"+"\ndaylength 12")
     F_weather.close()
 
     f3 = open("../ePhotosynthesis/InputNADPHCost.txt","w")
