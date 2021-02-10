@@ -34,7 +34,7 @@ for ci in CO2:
     f3.close()
 
     runner.run(args1.yamlfile)
-	runner.run(args2.yamlfile)
+    runner.run(args2.yamlfile)
 
     import os
     os.rename("./../FBA/Diel_flux.csv","./../Validations/LC_FBAfluxes_Fig2A_"+str(ci)+".csv")
