@@ -7,7 +7,7 @@ args1 = parser.parse_args(["../ePhotosynthesis/EphotosynthesisOnly.yml"])
 args2 = parser.parse_args(["../FBA/yggrasil_ODE_FBA_dielFBA.yaml"])
 
 
-CO2 = [120,200,300,400,500,600,800,1000,1200,1500,1800]
+CO2 = [200,300,400,500,600,800,1000,1200,1500,1800]
 Vc = list()
 Vo = list()
 Vpga = list()
