@@ -26,4 +26,4 @@ for p in PPFD:
     runner.run(args1.yamlfile)
 
     import os
-    os.rename("./../ePhotosynthesis/OutputFluxT.txt","./../Validations/FBAfluxes_Fig2B_"+str(p)+".csv")
+    os.rename("./../FBA/Diel_flux.csv","./../Validations/FBAfluxes_Fig2B_"+str(p)+".csv")
