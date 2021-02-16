@@ -3,7 +3,7 @@ import argparse
 
 parser = argparse.ArgumentParser(description='Run an integration.')
 parser.add_argument('yamlfile', nargs='+',help='One or more yaml specification files.')
-args1 = parser.parse_args(["../FBA/dielFBA_model_only.yaml"])
+args1 = parser.parse_args(["../FBA/yggrasil_ODE_FBA_dielFBA_only.yaml"])
 
 
 PPFD = [50,100,200,300,400,500,600,800,1000,1200,1500,2000]
