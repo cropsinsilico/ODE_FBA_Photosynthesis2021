@@ -1,0 +1,222 @@
+INFO:runner.startDrivers[338]:YggRunner(runner): Starting I/O drivers and models on system dps017 in namespace yggdrasil with rank 0
+
+ans =
+
+   2.4378e-05
+
+INFO:runner.waitModels[387]:YggRunner(runner): Ephotosynthesismodel finished running.
+INFO:runner.waitModels[393]:YggRunner(runner): Ephotosynthesismodel finished exiting.
+INFO:runner.waitModels[406]:YggRunner(runner): All models completed
+INFO:runner.run[187]:YggRunner(runner):                 init	0.000000
+INFO:runner.run[187]:YggRunner(runner):         load drivers	0.095265
+INFO:runner.run[187]:YggRunner(runner):        start drivers	0.011623
+INFO:runner.run[187]:YggRunner(runner):           run models	18.443621
+INFO:runner.run[187]:YggRunner(runner):       close channels	0.000099
+INFO:runner.run[187]:YggRunner(runner):             clean up	0.000172
+INFO:runner.run[189]:YggRunner(runner): ========================================
+INFO:runner.run[190]:YggRunner(runner):                Total	18.550781
+INFO:runner.startDrivers[338]:YggRunner(runner): Starting I/O drivers and models on system dps017 in namespace yggdrasil with rank 0
+
+
+ans =
+
+    0.0022
+
+[Warning: ODE model does not reach a steady state: The 1st time ] 
+[> In Sim_Ephotosynthesis (line 22)
+  In wrapped_Sim_Ephotosynthesis_54efb382_58ec_455f_9942_8968a0e0 (line 94)] 
+INFO:runner.waitModels[387]:YggRunner(runner): Ephotosynthesismodel finished running.
+INFO:runner.waitModels[393]:YggRunner(runner): Ephotosynthesismodel finished exiting.
+INFO:runner.waitModels[406]:YggRunner(runner): All models completed
+INFO:runner.run[187]:YggRunner(runner):                 init	0.000000
+INFO:runner.run[187]:YggRunner(runner):         load drivers	0.024091
+INFO:runner.run[187]:YggRunner(runner):        start drivers	0.011905
+INFO:runner.run[187]:YggRunner(runner):           run models	25.810151
+INFO:runner.run[187]:YggRunner(runner):       close channels	0.000106
+INFO:runner.run[187]:YggRunner(runner):             clean up	0.000193
+INFO:runner.run[189]:YggRunner(runner): ========================================
+INFO:runner.run[190]:YggRunner(runner):                Total	25.846446
+INFO:runner.startDrivers[338]:YggRunner(runner): Starting I/O drivers and models on system dps017 in namespace yggdrasil with rank 0
+
+
+ans =
+
+   2.3121e-05
+
+INFO:runner.waitModels[387]:YggRunner(runner): Ephotosynthesismodel finished running.
+INFO:runner.waitModels[393]:YggRunner(runner): Ephotosynthesismodel finished exiting.
+INFO:runner.waitModels[406]:YggRunner(runner): All models completed
+INFO:runner.run[187]:YggRunner(runner):                 init	0.000000
+INFO:runner.run[187]:YggRunner(runner):         load drivers	0.024751
+INFO:runner.run[187]:YggRunner(runner):        start drivers	0.013716
+INFO:runner.run[187]:YggRunner(runner):           run models	15.687553
+INFO:runner.run[187]:YggRunner(runner):       close channels	0.000093
+INFO:runner.run[187]:YggRunner(runner):             clean up	0.000218
+INFO:runner.run[189]:YggRunner(runner): ========================================
+INFO:runner.run[190]:YggRunner(runner):                Total	15.726331
+INFO:runner.startDrivers[338]:YggRunner(runner): Starting I/O drivers and models on system dps017 in namespace yggdrasil with rank 0
+
+
+ans =
+
+   2.1931e-08
+
+INFO:runner.waitModels[387]:YggRunner(runner): Ephotosynthesismodel finished running.
+INFO:runner.waitModels[393]:YggRunner(runner): Ephotosynthesismodel finished exiting.
+INFO:runner.waitModels[406]:YggRunner(runner): All models completed
+INFO:runner.run[187]:YggRunner(runner):                 init	0.000000
+INFO:runner.run[187]:YggRunner(runner):         load drivers	0.026295
+INFO:runner.run[187]:YggRunner(runner):        start drivers	0.013874
+INFO:runner.run[187]:YggRunner(runner):           run models	14.106108
+INFO:runner.run[187]:YggRunner(runner):       close channels	0.000085
+INFO:runner.run[187]:YggRunner(runner):             clean up	0.000192
+INFO:runner.run[189]:YggRunner(runner): ========================================
+INFO:runner.run[190]:YggRunner(runner):                Total	14.146554
+INFO:runner.startDrivers[338]:YggRunner(runner): Starting I/O drivers and models on system dps017 in namespace yggdrasil with rank 0
+
+
+ans =
+
+   3.0127e-06
+
+INFO:runner.waitModels[387]:YggRunner(runner): Ephotosynthesismodel finished running.
+INFO:runner.waitModels[393]:YggRunner(runner): Ephotosynthesismodel finished exiting.
+INFO:runner.waitModels[406]:YggRunner(runner): All models completed
+INFO:runner.run[187]:YggRunner(runner):                 init	0.000000
+INFO:runner.run[187]:YggRunner(runner):         load drivers	0.024503
+INFO:runner.run[187]:YggRunner(runner):        start drivers	0.013726
+INFO:runner.run[187]:YggRunner(runner):           run models	16.257576
+INFO:runner.run[187]:YggRunner(runner):       close channels	0.000076
+INFO:runner.run[187]:YggRunner(runner):             clean up	0.000184
+INFO:runner.run[189]:YggRunner(runner): ========================================
+INFO:runner.run[190]:YggRunner(runner):                Total	16.296064
+INFO:runner.startDrivers[338]:YggRunner(runner): Starting I/O drivers and models on system dps017 in namespace yggdrasil with rank 0
+
+
+ans =
+
+   2.1366e-05
+
+INFO:runner.waitModels[387]:YggRunner(runner): Ephotosynthesismodel finished running.
+INFO:runner.waitModels[393]:YggRunner(runner): Ephotosynthesismodel finished exiting.
+INFO:runner.waitModels[406]:YggRunner(runner): All models completed
+INFO:runner.run[187]:YggRunner(runner):                 init	0.000000
+INFO:runner.run[187]:YggRunner(runner):         load drivers	0.025970
+INFO:runner.run[187]:YggRunner(runner):        start drivers	0.012566
+INFO:runner.run[187]:YggRunner(runner):           run models	14.719454
+INFO:runner.run[187]:YggRunner(runner):       close channels	0.000083
+INFO:runner.run[187]:YggRunner(runner):             clean up	0.000186
+INFO:runner.run[189]:YggRunner(runner): ========================================
+INFO:runner.run[190]:YggRunner(runner):                Total	14.758258
+INFO:runner.startDrivers[338]:YggRunner(runner): Starting I/O drivers and models on system dps017 in namespace yggdrasil with rank 0
+
+
+ans =
+
+   4.0950e-06
+
+INFO:runner.waitModels[387]:YggRunner(runner): Ephotosynthesismodel finished running.
+INFO:runner.waitModels[393]:YggRunner(runner): Ephotosynthesismodel finished exiting.
+INFO:runner.waitModels[406]:YggRunner(runner): All models completed
+INFO:runner.run[187]:YggRunner(runner):                 init	0.000000
+INFO:runner.run[187]:YggRunner(runner):         load drivers	0.024286
+INFO:runner.run[187]:YggRunner(runner):        start drivers	0.014267
+INFO:runner.run[187]:YggRunner(runner):           run models	15.708060
+INFO:runner.run[187]:YggRunner(runner):       close channels	0.000086
+INFO:runner.run[187]:YggRunner(runner):             clean up	0.000200
+INFO:runner.run[189]:YggRunner(runner): ========================================
+INFO:runner.run[190]:YggRunner(runner):                Total	15.746899
+INFO:runner.startDrivers[338]:YggRunner(runner): Starting I/O drivers and models on system dps017 in namespace yggdrasil with rank 0
+
+
+ans =
+
+   6.8771e-06
+
+INFO:runner.waitModels[387]:YggRunner(runner): Ephotosynthesismodel finished running.
+INFO:runner.waitModels[393]:YggRunner(runner): Ephotosynthesismodel finished exiting.
+INFO:runner.waitModels[406]:YggRunner(runner): All models completed
+INFO:runner.run[187]:YggRunner(runner):                 init	0.000000
+INFO:runner.run[187]:YggRunner(runner):         load drivers	0.029457
+INFO:runner.run[187]:YggRunner(runner):        start drivers	0.013864
+INFO:runner.run[187]:YggRunner(runner):           run models	16.374954
+INFO:runner.run[187]:YggRunner(runner):       close channels	0.000085
+INFO:runner.run[187]:YggRunner(runner):             clean up	0.000200
+INFO:runner.run[189]:YggRunner(runner): ========================================
+INFO:runner.run[190]:YggRunner(runner):                Total	16.418561
+INFO:runner.startDrivers[338]:YggRunner(runner): Starting I/O drivers and models on system dps017 in namespace yggdrasil with rank 0
+
+
+ans =
+
+   2.7830e-06
+
+INFO:runner.waitModels[387]:YggRunner(runner): Ephotosynthesismodel finished running.
+INFO:runner.waitModels[393]:YggRunner(runner): Ephotosynthesismodel finished exiting.
+INFO:runner.waitModels[406]:YggRunner(runner): All models completed
+INFO:runner.run[187]:YggRunner(runner):                 init	0.000000
+INFO:runner.run[187]:YggRunner(runner):         load drivers	0.024288
+INFO:runner.run[187]:YggRunner(runner):        start drivers	0.012124
+INFO:runner.run[187]:YggRunner(runner):           run models	18.087481
+INFO:runner.run[187]:YggRunner(runner):       close channels	0.000075
+INFO:runner.run[187]:YggRunner(runner):             clean up	0.000158
+INFO:runner.run[189]:YggRunner(runner): ========================================
+INFO:runner.run[190]:YggRunner(runner):                Total	18.124128
+INFO:runner.startDrivers[338]:YggRunner(runner): Starting I/O drivers and models on system dps017 in namespace yggdrasil with rank 0
+
+
+ans =
+
+   2.3708e-06
+
+INFO:runner.waitModels[387]:YggRunner(runner): Ephotosynthesismodel finished running.
+INFO:runner.waitModels[393]:YggRunner(runner): Ephotosynthesismodel finished exiting.
+INFO:runner.waitModels[406]:YggRunner(runner): All models completed
+INFO:runner.run[187]:YggRunner(runner):                 init	0.000000
+INFO:runner.run[187]:YggRunner(runner):         load drivers	0.024467
+INFO:runner.run[187]:YggRunner(runner):        start drivers	0.013985
+INFO:runner.run[187]:YggRunner(runner):           run models	18.603207
+INFO:runner.run[187]:YggRunner(runner):       close channels	0.000085
+INFO:runner.run[187]:YggRunner(runner):             clean up	0.000190
+INFO:runner.run[189]:YggRunner(runner): ========================================
+INFO:runner.run[190]:YggRunner(runner):                Total	18.641935
+INFO:runner.startDrivers[338]:YggRunner(runner): Starting I/O drivers and models on system dps017 in namespace yggdrasil with rank 0
+
+
+ans =
+
+   2.2961e-04
+
+[Warning: ODE model does not reach a steady state: The 1st time ] 
+[> In Sim_Ephotosynthesis (line 22)
+  In wrapped_Sim_Ephotosynthesis_1b4a38bb_0254_4bdb_a2d1_ea8435e9 (line 94)] 
+INFO:runner.waitModels[387]:YggRunner(runner): Ephotosynthesismodel finished running.
+INFO:runner.waitModels[393]:YggRunner(runner): Ephotosynthesismodel finished exiting.
+INFO:runner.waitModels[406]:YggRunner(runner): All models completed
+INFO:runner.run[187]:YggRunner(runner):                 init	0.000000
+INFO:runner.run[187]:YggRunner(runner):         load drivers	0.026278
+INFO:runner.run[187]:YggRunner(runner):        start drivers	0.014827
+INFO:runner.run[187]:YggRunner(runner):           run models	35.015566
+INFO:runner.run[187]:YggRunner(runner):       close channels	0.000080
+INFO:runner.run[187]:YggRunner(runner):             clean up	0.000181
+INFO:runner.run[189]:YggRunner(runner): ========================================
+INFO:runner.run[190]:YggRunner(runner):                Total	35.056931
+INFO:runner.startDrivers[338]:YggRunner(runner): Starting I/O drivers and models on system dps017 in namespace yggdrasil with rank 0
+
+
+ans =
+
+   2.8670e-06
+
+INFO:runner.waitModels[387]:YggRunner(runner): Ephotosynthesismodel finished running.
+INFO:runner.waitModels[393]:YggRunner(runner): Ephotosynthesismodel finished exiting.
+INFO:runner.waitModels[406]:YggRunner(runner): All models completed
+INFO:runner.run[187]:YggRunner(runner):                 init	0.000000
+INFO:runner.run[187]:YggRunner(runner):         load drivers	0.024603
+INFO:runner.run[187]:YggRunner(runner):        start drivers	0.013118
+INFO:runner.run[187]:YggRunner(runner):           run models	16.522398
+INFO:runner.run[187]:YggRunner(runner):       close channels	0.000074
+INFO:runner.run[187]:YggRunner(runner):             clean up	0.000180
+INFO:runner.run[189]:YggRunner(runner): ========================================
+INFO:runner.run[190]:YggRunner(runner):                Total	16.560374
+
