@@ -16,7 +16,7 @@ Vglycerate = list()
 Vglycolate = list()
 
 j=0
-for ci in CO2:
+for ppfd in PPFD:
     j=j+1
 
     #ensure additional chloroplastic ATP consumption rate (J_ATPase) starts at 0
@@ -25,7 +25,7 @@ for ci in CO2:
     f1.close()
 
     F_weather = open("../ePhotosynthesis/InputEvn.txt","w")
-    F_weather.write("CO2 400\nPPFD "+str(PPFD)+"\nSucPath 1"+"\ndaylength 12")
+    F_weather.write("CO2 400\nPPFD "+str(ppfd)+"\nSucPath 1"+"\ndaylength 12")
     F_weather.close()
 
     f3 = open("../ePhotosynthesis/InputNADPHCost.txt","w")
@@ -35,4 +35,4 @@ for ci in CO2:
     runner.run(args1.yamlfile)
 
     import os
-    os.rename("./../ePhotosynthesis/OutputFluxT.txt","./../Validations/ODEonly_fluxes_Fig2B_"+str(PPFD)+".csv")
+    os.rename("./../ePhotosynthesis/OutputFluxT.txt","./../Validations/ODEonly_fluxes_Fig2B_"+str(ppfd)+".csv")
