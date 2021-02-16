@@ -1,10 +1,4 @@
 models:
   - name: FBA_model
     language: python  # Runs the python script using default Python
-    args: ./dielFBA_model_forODE.py
-    inputs:
-      - input1
-
-connections:
-  - input_file: ./../ePhotosynthesis/OutputRate.txt
-    output: input1
+    args: ./dielFBA_model_only.py
