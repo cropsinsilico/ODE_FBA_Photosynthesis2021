@@ -1,0 +1,204 @@
+INFO:runner.startDrivers[338]:YggRunner(runner): Starting I/O drivers and models on system dps017 in namespace yggdrasil with rank 0
+0.5 CIT_v1 + 0.5 aCIT_v1 <=> 0.5 CIT_v2 + 0.5 aCIT_v2
+bHIS_v1 --> bHIS_v2
+0.7 MAL_v1 + 0.3 aMAL_v1 <=> 0.7 MAL_v2 + 0.3 aMAL_v2
+Phloem export rate =0.22096773305818138
+INFO:runner.waitModels[387]:YggRunner(runner): FBA_model finished running.
+INFO:runner.waitModels[393]:YggRunner(runner): FBA_model finished exiting.
+INFO:runner.waitModels[406]:YggRunner(runner): All models completed
+INFO:runner.run[187]:YggRunner(runner):                 init	0.000000
+INFO:runner.run[187]:YggRunner(runner):         load drivers	0.095023
+INFO:runner.run[187]:YggRunner(runner):        start drivers	0.010912
+INFO:runner.run[187]:YggRunner(runner):           run models	4.788722
+INFO:runner.run[187]:YggRunner(runner):       close channels	0.000061
+INFO:runner.run[187]:YggRunner(runner):             clean up	0.000022
+INFO:runner.run[189]:YggRunner(runner): ========================================
+INFO:runner.run[190]:YggRunner(runner):                Total	4.894740
+INFO:runner.startDrivers[338]:YggRunner(runner): Starting I/O drivers and models on system dps017 in namespace yggdrasil with rank 0
+
+0.5 CIT_v1 + 0.5 aCIT_v1 <=> 0.5 CIT_v2 + 0.5 aCIT_v2
+bHIS_v1 --> bHIS_v2
+0.7 MAL_v1 + 0.3 aMAL_v1 <=> 0.7 MAL_v2 + 0.3 aMAL_v2
+Phloem export rate =0.5651082086477852
+INFO:runner.waitModels[387]:YggRunner(runner): FBA_model finished running.
+INFO:runner.waitModels[393]:YggRunner(runner): FBA_model finished exiting.
+INFO:runner.waitModels[406]:YggRunner(runner): All models completed
+INFO:runner.run[187]:YggRunner(runner):                 init	0.000000
+INFO:runner.run[187]:YggRunner(runner):         load drivers	0.023609
+INFO:runner.run[187]:YggRunner(runner):        start drivers	0.010532
+INFO:runner.run[187]:YggRunner(runner):           run models	4.777379
+INFO:runner.run[187]:YggRunner(runner):       close channels	0.000046
+INFO:runner.run[187]:YggRunner(runner):             clean up	0.000019
+INFO:runner.run[189]:YggRunner(runner): ========================================
+INFO:runner.run[190]:YggRunner(runner):                Total	4.811585
+INFO:runner.startDrivers[338]:YggRunner(runner): Starting I/O drivers and models on system dps017 in namespace yggdrasil with rank 0
+
+0.5 CIT_v1 + 0.5 aCIT_v1 <=> 0.5 CIT_v2 + 0.5 aCIT_v2
+bHIS_v1 --> bHIS_v2
+0.7 MAL_v1 + 0.3 aMAL_v1 <=> 0.7 MAL_v2 + 0.3 aMAL_v2
+Phloem export rate =1.2533891598269742
+INFO:runner.waitModels[387]:YggRunner(runner): FBA_model finished running.
+INFO:runner.waitModels[393]:YggRunner(runner): FBA_model finished exiting.
+INFO:runner.waitModels[406]:YggRunner(runner): All models completed
+INFO:runner.run[187]:YggRunner(runner):                 init	0.000000
+INFO:runner.run[187]:YggRunner(runner):         load drivers	0.023476
+INFO:runner.run[187]:YggRunner(runner):        start drivers	0.010242
+INFO:runner.run[187]:YggRunner(runner):           run models	4.679784
+INFO:runner.run[187]:YggRunner(runner):       close channels	0.000074
+INFO:runner.run[187]:YggRunner(runner):             clean up	0.000027
+INFO:runner.run[189]:YggRunner(runner): ========================================
+INFO:runner.run[190]:YggRunner(runner):                Total	4.713603
+INFO:runner.startDrivers[338]:YggRunner(runner): Starting I/O drivers and models on system dps017 in namespace yggdrasil with rank 0
+
+0.5 CIT_v1 + 0.5 aCIT_v1 <=> 0.5 CIT_v2 + 0.5 aCIT_v2
+bHIS_v1 --> bHIS_v2
+0.7 MAL_v1 + 0.3 aMAL_v1 <=> 0.7 MAL_v2 + 0.3 aMAL_v2
+Phloem export rate =1.9416701110061383
+INFO:runner.waitModels[387]:YggRunner(runner): FBA_model finished running.
+INFO:runner.waitModels[393]:YggRunner(runner): FBA_model finished exiting.
+INFO:runner.waitModels[406]:YggRunner(runner): All models completed
+INFO:runner.run[187]:YggRunner(runner):                 init	0.000000
+INFO:runner.run[187]:YggRunner(runner):         load drivers	0.023997
+INFO:runner.run[187]:YggRunner(runner):        start drivers	0.010581
+INFO:runner.run[187]:YggRunner(runner):           run models	4.746115
+INFO:runner.run[187]:YggRunner(runner):       close channels	0.000077
+INFO:runner.run[187]:YggRunner(runner):             clean up	0.000027
+INFO:runner.run[189]:YggRunner(runner): ========================================
+INFO:runner.run[190]:YggRunner(runner):                Total	4.780798
+INFO:runner.startDrivers[338]:YggRunner(runner): Starting I/O drivers and models on system dps017 in namespace yggdrasil with rank 0
+
+0.5 CIT_v1 + 0.5 aCIT_v1 <=> 0.5 CIT_v2 + 0.5 aCIT_v2
+bHIS_v1 --> bHIS_v2
+0.7 MAL_v1 + 0.3 aMAL_v1 <=> 0.7 MAL_v2 + 0.3 aMAL_v2
+Phloem export rate =2.6299510621853224
+INFO:runner.waitModels[387]:YggRunner(runner): FBA_model finished running.
+INFO:runner.waitModels[393]:YggRunner(runner): FBA_model finished exiting.
+INFO:runner.waitModels[406]:YggRunner(runner): All models completed
+INFO:runner.run[187]:YggRunner(runner):                 init	0.000000
+INFO:runner.run[187]:YggRunner(runner):         load drivers	0.023964
+INFO:runner.run[187]:YggRunner(runner):        start drivers	0.011873
+INFO:runner.run[187]:YggRunner(runner):           run models	4.757282
+INFO:runner.run[187]:YggRunner(runner):       close channels	0.000072
+INFO:runner.run[187]:YggRunner(runner):             clean up	0.000029
+INFO:runner.run[189]:YggRunner(runner): ========================================
+INFO:runner.run[190]:YggRunner(runner):                Total	4.793220
+INFO:runner.startDrivers[338]:YggRunner(runner): Starting I/O drivers and models on system dps017 in namespace yggdrasil with rank 0
+
+0.5 CIT_v1 + 0.5 aCIT_v1 <=> 0.5 CIT_v2 + 0.5 aCIT_v2
+bHIS_v1 --> bHIS_v2
+0.7 MAL_v1 + 0.3 aMAL_v1 <=> 0.7 MAL_v2 + 0.3 aMAL_v2
+Phloem export rate =3.318232013364506
+INFO:runner.waitModels[387]:YggRunner(runner): FBA_model finished running.
+INFO:runner.waitModels[393]:YggRunner(runner): FBA_model finished exiting.
+INFO:runner.waitModels[406]:YggRunner(runner): All models completed
+INFO:runner.run[187]:YggRunner(runner):                 init	0.000000
+INFO:runner.run[187]:YggRunner(runner):         load drivers	0.023696
+INFO:runner.run[187]:YggRunner(runner):        start drivers	0.012641
+INFO:runner.run[187]:YggRunner(runner):           run models	4.780050
+INFO:runner.run[187]:YggRunner(runner):       close channels	0.000072
+INFO:runner.run[187]:YggRunner(runner):             clean up	0.000030
+INFO:runner.run[189]:YggRunner(runner): ========================================
+INFO:runner.run[190]:YggRunner(runner):                Total	4.816489
+INFO:runner.startDrivers[338]:YggRunner(runner): Starting I/O drivers and models on system dps017 in namespace yggdrasil with rank 0
+
+0.5 CIT_v1 + 0.5 aCIT_v1 <=> 0.5 CIT_v2 + 0.5 aCIT_v2
+bHIS_v1 --> bHIS_v2
+0.7 MAL_v1 + 0.3 aMAL_v1 <=> 0.7 MAL_v2 + 0.3 aMAL_v2
+Phloem export rate =4.006512964543724
+INFO:runner.waitModels[387]:YggRunner(runner): FBA_model finished running.
+INFO:runner.waitModels[393]:YggRunner(runner): FBA_model finished exiting.
+INFO:runner.waitModels[406]:YggRunner(runner): All models completed
+INFO:runner.run[187]:YggRunner(runner):                 init	0.000000
+INFO:runner.run[187]:YggRunner(runner):         load drivers	0.023888
+INFO:runner.run[187]:YggRunner(runner):        start drivers	0.012981
+INFO:runner.run[187]:YggRunner(runner):           run models	4.748063
+INFO:runner.run[187]:YggRunner(runner):       close channels	0.000063
+INFO:runner.run[187]:YggRunner(runner):             clean up	0.000025
+INFO:runner.run[189]:YggRunner(runner): ========================================
+INFO:runner.run[190]:YggRunner(runner):                Total	4.785021
+INFO:runner.startDrivers[338]:YggRunner(runner): Starting I/O drivers and models on system dps017 in namespace yggdrasil with rank 0
+
+0.5 CIT_v1 + 0.5 aCIT_v1 <=> 0.5 CIT_v2 + 0.5 aCIT_v2
+bHIS_v1 --> bHIS_v2
+0.7 MAL_v1 + 0.3 aMAL_v1 <=> 0.7 MAL_v2 + 0.3 aMAL_v2
+Phloem export rate =5.383074866902109
+INFO:runner.waitModels[387]:YggRunner(runner): FBA_model finished running.
+INFO:runner.waitModels[393]:YggRunner(runner): FBA_model finished exiting.
+INFO:runner.waitModels[406]:YggRunner(runner): All models completed
+INFO:runner.run[187]:YggRunner(runner):                 init	0.000000
+INFO:runner.run[187]:YggRunner(runner):         load drivers	0.024012
+INFO:runner.run[187]:YggRunner(runner):        start drivers	0.010537
+INFO:runner.run[187]:YggRunner(runner):           run models	4.797529
+INFO:runner.run[187]:YggRunner(runner):       close channels	0.000066
+INFO:runner.run[187]:YggRunner(runner):             clean up	0.000025
+INFO:runner.run[189]:YggRunner(runner): ========================================
+INFO:runner.run[190]:YggRunner(runner):                Total	4.832169
+INFO:runner.startDrivers[338]:YggRunner(runner): Starting I/O drivers and models on system dps017 in namespace yggdrasil with rank 0
+
+0.5 CIT_v1 + 0.5 aCIT_v1 <=> 0.5 CIT_v2 + 0.5 aCIT_v2
+bHIS_v1 --> bHIS_v2
+0.7 MAL_v1 + 0.3 aMAL_v1 <=> 0.7 MAL_v2 + 0.3 aMAL_v2
+Phloem export rate =6.7596367692604895
+INFO:runner.waitModels[387]:YggRunner(runner): FBA_model finished running.
+INFO:runner.waitModels[393]:YggRunner(runner): FBA_model finished exiting.
+INFO:runner.waitModels[406]:YggRunner(runner): All models completed
+INFO:runner.run[187]:YggRunner(runner):                 init	0.000000
+INFO:runner.run[187]:YggRunner(runner):         load drivers	0.023628
+INFO:runner.run[187]:YggRunner(runner):        start drivers	0.012707
+INFO:runner.run[187]:YggRunner(runner):           run models	4.777230
+INFO:runner.run[187]:YggRunner(runner):       close channels	0.000066
+INFO:runner.run[187]:YggRunner(runner):             clean up	0.000025
+INFO:runner.run[189]:YggRunner(runner): ========================================
+INFO:runner.run[190]:YggRunner(runner):                Total	4.813657
+INFO:runner.startDrivers[338]:YggRunner(runner): Starting I/O drivers and models on system dps017 in namespace yggdrasil with rank 0
+
+0.5 CIT_v1 + 0.5 aCIT_v1 <=> 0.5 CIT_v2 + 0.5 aCIT_v2
+bHIS_v1 --> bHIS_v2
+0.7 MAL_v1 + 0.3 aMAL_v1 <=> 0.7 MAL_v2 + 0.3 aMAL_v2
+Phloem export rate =8.13619867161881
+INFO:runner.waitModels[387]:YggRunner(runner): FBA_model finished running.
+INFO:runner.waitModels[393]:YggRunner(runner): FBA_model finished exiting.
+INFO:runner.waitModels[406]:YggRunner(runner): All models completed
+INFO:runner.run[187]:YggRunner(runner):                 init	0.000000
+INFO:runner.run[187]:YggRunner(runner):         load drivers	0.023579
+INFO:runner.run[187]:YggRunner(runner):        start drivers	0.012643
+INFO:runner.run[187]:YggRunner(runner):           run models	4.787321
+INFO:runner.run[187]:YggRunner(runner):       close channels	0.000075
+INFO:runner.run[187]:YggRunner(runner):             clean up	0.000030
+INFO:runner.run[189]:YggRunner(runner): ========================================
+INFO:runner.run[190]:YggRunner(runner):                Total	4.823649
+INFO:runner.startDrivers[338]:YggRunner(runner): Starting I/O drivers and models on system dps017 in namespace yggdrasil with rank 0
+
+0.5 CIT_v1 + 0.5 aCIT_v1 <=> 0.5 CIT_v2 + 0.5 aCIT_v2
+bHIS_v1 --> bHIS_v2
+0.7 MAL_v1 + 0.3 aMAL_v1 <=> 0.7 MAL_v2 + 0.3 aMAL_v2
+Phloem export rate =10.201041525156493
+INFO:runner.waitModels[387]:YggRunner(runner): FBA_model finished running.
+INFO:runner.waitModels[393]:YggRunner(runner): FBA_model finished exiting.
+INFO:runner.waitModels[406]:YggRunner(runner): All models completed
+INFO:runner.run[187]:YggRunner(runner):                 init	0.000000
+INFO:runner.run[187]:YggRunner(runner):         load drivers	0.024127
+INFO:runner.run[187]:YggRunner(runner):        start drivers	0.012258
+INFO:runner.run[187]:YggRunner(runner):           run models	4.807374
+INFO:runner.run[187]:YggRunner(runner):       close channels	0.000062
+INFO:runner.run[187]:YggRunner(runner):             clean up	0.000025
+INFO:runner.run[189]:YggRunner(runner): ========================================
+INFO:runner.run[190]:YggRunner(runner):                Total	4.843846
+INFO:runner.startDrivers[338]:YggRunner(runner): Starting I/O drivers and models on system dps017 in namespace yggdrasil with rank 0
+
+0.5 CIT_v1 + 0.5 aCIT_v1 <=> 0.5 CIT_v2 + 0.5 aCIT_v2
+bHIS_v1 --> bHIS_v2
+0.7 MAL_v1 + 0.3 aMAL_v1 <=> 0.7 MAL_v2 + 0.3 aMAL_v2
+Phloem export rate =13.64244628105225
+INFO:runner.waitModels[387]:YggRunner(runner): FBA_model finished running.
+INFO:runner.waitModels[393]:YggRunner(runner): FBA_model finished exiting.
+INFO:runner.waitModels[406]:YggRunner(runner): All models completed
+INFO:runner.run[187]:YggRunner(runner):                 init	0.000004
+INFO:runner.run[187]:YggRunner(runner):         load drivers	0.023857
+INFO:runner.run[187]:YggRunner(runner):        start drivers	0.010035
+INFO:runner.run[187]:YggRunner(runner):           run models	4.839578
+INFO:runner.run[187]:YggRunner(runner):       close channels	0.000044
+INFO:runner.run[187]:YggRunner(runner):             clean up	0.000021
+INFO:runner.run[189]:YggRunner(runner): ========================================
+INFO:runner.run[190]:YggRunner(runner):                Total	4.873538
+
