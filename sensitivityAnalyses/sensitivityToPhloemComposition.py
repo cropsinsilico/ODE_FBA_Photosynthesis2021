@@ -24,11 +24,12 @@ Vstarch = list()
 Vglycerate = list()
 Vglycolate = list()
 
-for plant in df.columns:
+for col in df.columns:
     model = backup.copy()
-	model.reactions.get_by_id("Phloem_output_tx").remove_from_model()
+    model.reactions.get_by_id("Phloem_output_tx").remove_from_model()
     rxn = core.Reaction("Phloem_output_tx")
-	for row in df[col].index:
+    total = 0
+    for row in df[col].index:
         rxn.add_metabolites({model.metabolites.get_by_id(row):-1*df[col][row]/100})
         total = total+(df[col][row]/100)
     rxn.add_metabolites({model.metabolites.get_by_id("PROTON_e"):-1*total,
@@ -36,7 +37,7 @@ for plant in df.columns:
     rxn.lower_bound = 0
     rxn.upper_bound = 1000
     model.add_reaction(rxn)
-	io.write_sbml_model("model_phloemUpdated.sbml")
+    io.write_sbml_model(model,"model_phloemUpdated.sbml")
 
     #ensure additional chloroplastic ATP consumption rate (J_ATPase) starts at 0
     f1 = open("../ePhotosynthesis/InputATPCost.txt","w")
@@ -97,8 +98,8 @@ for plant in df.columns:
             break
 
     import os
-    os.rename("./Daytime_flux.csv","./TC_FBAfluxes_Fig2A_"+str(ci)+".csv")
-    os.rename("./../ePhotosynthesis/OutputFluxT.txt","./TC_ODEfluxes_Fig2A_"+str(ci)+".csv")
+    os.rename("./Daytime_flux.csv","./TC_FBAfluxes_"+str(col)+".csv")
+    os.rename("./../ePhotosynthesis/OutputFluxT.txt","./TC_ODEfluxes_Fig2A_"+str(col)+".csv")
 
     F_fluxes = open("../ePhotosynthesis/OutputRate.txt")
     lines = F_fluxes.readlines()
