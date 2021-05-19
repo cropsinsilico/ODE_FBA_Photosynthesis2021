@@ -3,7 +3,7 @@ import argparse
 
 parser = argparse.ArgumentParser(description='Run an integration.')
 parser.add_argument('yamlfile', nargs='+',help='One or more yaml specification files.')
-args1 = parser.parse_args(["../ePhotosynthesis/EphotosynthesisOnly.yml"])
+args1 = parser.parse_args(["../../ePhotosynthesis/EphotosynthesisOnly.yml"])
 args2 = parser.parse_args(["./yggrasil_ODE_FBA_testing.yaml"])
 args3 = parser.parse_args(["./yggrasil_ODE_FBA_night.yaml"])
 
@@ -17,21 +17,21 @@ Vglycerate = list()
 Vglycolate = list()
 
 for NGAMmult in [0.50,0.75,1,1.25,1.50]:
-
-	f0 = open("./NGAM_multiplier.txt","w")
-	f0.write(NGAMmult)
-	f0.close()
+    
+    f0 = open("./NGAM_multiplier.txt","w")
+    f0.write(str(NGAMmult))
+    f0.close()
 
     #ensure additional chloroplastic ATP consumption rate (J_ATPase) starts at 0
-    f1 = open("../ePhotosynthesis/InputATPCost.txt","w")
+    f1 = open("../../ePhotosynthesis/InputATPCost.txt","w")
     f1.write("ATPCost 0")
     f1.close()
 
-    F_weather = open("../ePhotosynthesis/InputEvn.txt","w")
+    F_weather = open("../../ePhotosynthesis/InputEvn.txt","w")
     F_weather.write("CO2 400\nPPFD 1000\nSucPath 1\ndaylength 12")
     F_weather.close()
 
-    f3 = open("../ePhotosynthesis/InputNADPHCost.txt","w")
+    f3 = open("../../ePhotosynthesis/InputNADPHCost.txt","w")
     f3.write("NADPHCost 0")
     f3.close()
 
@@ -45,11 +45,11 @@ for NGAMmult in [0.50,0.75,1,1.25,1.50]:
         runner.run(args1.yamlfile)
 
         #store J_ATPase value
-        f2 = open("../ePhotosynthesis/InputATPCost.txt","r")
+        f2 = open("../../ePhotosynthesis/InputATPCost.txt","r")
         line = f2.readline()
         J_ATPase1 = float(line.replace("\t"," ").split(" ")[1])
         f2.close()
-        f4 = open("../ePhotosynthesis/InputNADPHCost.txt","r")
+        f4 = open("../../ePhotosynthesis/InputNADPHCost.txt","r")
         line = f4.readline()
         J_NADPHox1 = float(line.replace("\t"," ").split(" ")[1])
         f4.close()
@@ -57,11 +57,11 @@ for NGAMmult in [0.50,0.75,1,1.25,1.50]:
         runner.run(args2.yamlfile)
 
         #store J_ATPase value
-        f2 = open("../ePhotosynthesis/InputATPCost.txt","r")
+        f2 = open("../../ePhotosynthesis/InputATPCost.txt","r")
         line = f2.readline()
         J_ATPase2 = float(line.replace("\t"," ").split(" ")[1])
         f2.close()
-        f4 = open("../ePhotosynthesis/InputNADPHCost.txt","r")
+        f4 = open("../../ePhotosynthesis/InputNADPHCost.txt","r")
         line = f4.readline()
         J_NADPHox2 = float(line.replace("\t"," ").split(" ")[1])
         f4.close()
@@ -82,11 +82,11 @@ for NGAMmult in [0.50,0.75,1,1.25,1.50]:
 
     import os
 
-	col = NGAMmult*100
+    col = NGAMmult*100
     os.rename("./Daytime_flux.csv","./TC_FBAfluxes_"+str(col)+".csv")
-    os.rename("./../ePhotosynthesis/OutputFluxT.txt","./TC_ODEfluxes_Fig2A_"+str(col)+".csv")
+    os.rename("./../../ePhotosynthesis/OutputFluxT.txt","./TC_ODEfluxes_Fig2A_"+str(col)+".csv")
 
-    F_fluxes = open("../ePhotosynthesis/OutputRate.txt")
+    F_fluxes = open("../../ePhotosynthesis/OutputRate.txt")
     lines = F_fluxes.readlines()
     Vc.append(float(lines[1].split(",")[1]))
     Vo.append(float(lines[1].split(",")[2]))
@@ -97,5 +97,5 @@ for NGAMmult in [0.50,0.75,1,1.25,1.50]:
     Vglycolate.append(float(lines[1].split(",")[7]))
     F_fluxes.close()
 
-	runner.run(args3.yamlfile)
+    runner.run(args3.yamlfile)
     os.rename("./Nighttime_flux.csv","./TC_FBAfluxes_"+str(col)+"_night.csv")
