@@ -51,7 +51,7 @@ from cobra import io,flux_analysis
 from cobra.core import Reaction, Metabolite
 
 #import model. Update file name and location in the next line
-cobra_model = io.sbml.read_sbml_model("./model_phloemUpdated.sbml")
+cobra_model = io.sbml.read_sbml_model("./Soy_core_model_GA.sbml")
 
 #Remove all metabolites except sucrose from Phloem
 rxn = cobra_model.reactions.get_by_id("Phloem_output_tx")

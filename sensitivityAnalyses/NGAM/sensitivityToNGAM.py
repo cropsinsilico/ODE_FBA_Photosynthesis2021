@@ -16,7 +16,7 @@ Vstarch = list()
 Vglycerate = list()
 Vglycolate = list()
 
-for NGAMmult in [0.50,0.75,1,1.25,1.50]:
+for NGAMmult in [0.80,0.90,1,1.10,1.20]:
     
     f0 = open("./NGAM_multiplier.txt","w")
     f0.write(str(NGAMmult))
@@ -82,7 +82,7 @@ for NGAMmult in [0.50,0.75,1,1.25,1.50]:
 
     import os
 
-    col = NGAMmult*100
+    col = int(NGAMmult*100)
     os.rename("./Daytime_flux.csv","./TC_FBAfluxes_"+str(col)+".csv")
     os.rename("./../../ePhotosynthesis/OutputFluxT.txt","./TC_ODEfluxes_Fig2A_"+str(col)+".csv")
 
