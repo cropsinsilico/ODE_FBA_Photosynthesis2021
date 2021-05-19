@@ -160,14 +160,14 @@ rxn = cobra_model.reactions.get_by_id("Phloem_output_tx")
 mets2remove = list()
 
 
-fin= open("./../ePhotosynthesis/InputATPCost.txt","r")
+fin= open("./../../ePhotosynthesis/InputATPCost.txt","r")
 for line in fin:
     JATPase = float(line.replace("ATPCost ","").replace("ATPCost\t",""))
     break
 fin.close()
 
 
-fin= open("./../ePhotosynthesis/InputNADPHCost.txt","r")
+fin= open("./../../ePhotosynthesis/InputNADPHCost.txt","r")
 for line in fin:
     JNADPHox = float(line.replace("NADPHCost ","").replace("NADPHCost\t",""))
     break
@@ -375,7 +375,7 @@ for rxn in temp.metabolites.ATP_p.reactions:
             print(ATPflux)
 print("Extra APTase flux ="+str(total))
 
-fout= open("./../ePhotosynthesis/InputATPCost.txt","w")
+fout= open("./../../ePhotosynthesis/InputATPCost.txt","w")
 fout.write("ATPCost	"+str(round(total,4)))
 fout.close()
 
@@ -398,7 +398,7 @@ for rxn in temp.metabolites.NADH_p.reactions:
             print(NADPHflux)
 print("Extra NADPH flux ="+str(total))
 
-fout= open("./../ePhotosynthesis/InputNADPHCost.txt","w")
+fout= open("./../../ePhotosynthesis/InputNADPHCost.txt","w")
 fout.write("NADPHCost	"+str(round(total,4)))
 fout.close()
 

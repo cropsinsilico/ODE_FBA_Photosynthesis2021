@@ -9,11 +9,11 @@ args3 = parser.parse_args(["./yggrasil_ODE_FBA_night.yaml"])
 
 
 import pandas as pd
-df = pd.read_excel("./../../ODE_FBA_Photosynthesis2021/sensitivityAnalyses/Phloem_composition.xlsx",sheet_name="ProcessedWilkinsonDouglas")
+df = pd.read_excel("./Phloem_composition.xlsx",sheet_name="ProcessedWilkinsonDouglas")
 df.set_index("Metabolite",inplace=True)
 
 from cobra import io, core
-model = io.read_sbml_model("./../../ODE_FBA_Photosynthesis2021/sensitivityAnalyses/Soy_core_model_GA.sbml")
+model = io.read_sbml_model("./Soy_core_model_GA.sbml")
 backup = model.copy()
 
 Vc = list()
@@ -40,15 +40,15 @@ for col in df.columns:
     io.write_sbml_model(model,"model_phloemUpdated.sbml")
 
     #ensure additional chloroplastic ATP consumption rate (J_ATPase) starts at 0
-    f1 = open("../ePhotosynthesis/InputATPCost.txt","w")
+    f1 = open("../../ePhotosynthesis/InputATPCost.txt","w")
     f1.write("ATPCost 0")
     f1.close()
 
-    F_weather = open("../ePhotosynthesis/InputEvn.txt","w")
+    F_weather = open("../../ePhotosynthesis/InputEvn.txt","w")
     F_weather.write("CO2 400\nPPFD 1000\nSucPath 1\ndaylength 12")
     F_weather.close()
 
-    f3 = open("../ePhotosynthesis/InputNADPHCost.txt","w")
+    f3 = open("../../ePhotosynthesis/InputNADPHCost.txt","w")
     f3.write("NADPHCost 0")
     f3.close()
 
@@ -62,11 +62,11 @@ for col in df.columns:
         runner.run(args1.yamlfile)
 
         #store J_ATPase value
-        f2 = open("../ePhotosynthesis/InputATPCost.txt","r")
+        f2 = open("../../ePhotosynthesis/InputATPCost.txt","r")
         line = f2.readline()
         J_ATPase1 = float(line.replace("\t"," ").split(" ")[1])
         f2.close()
-        f4 = open("../ePhotosynthesis/InputNADPHCost.txt","r")
+        f4 = open("../../ePhotosynthesis/InputNADPHCost.txt","r")
         line = f4.readline()
         J_NADPHox1 = float(line.replace("\t"," ").split(" ")[1])
         f4.close()
@@ -74,11 +74,11 @@ for col in df.columns:
         runner.run(args2.yamlfile)
 
         #store J_ATPase value
-        f2 = open("../ePhotosynthesis/InputATPCost.txt","r")
+        f2 = open("../../ePhotosynthesis/InputATPCost.txt","r")
         line = f2.readline()
         J_ATPase2 = float(line.replace("\t"," ").split(" ")[1])
         f2.close()
-        f4 = open("../ePhotosynthesis/InputNADPHCost.txt","r")
+        f4 = open("../../ePhotosynthesis/InputNADPHCost.txt","r")
         line = f4.readline()
         J_NADPHox2 = float(line.replace("\t"," ").split(" ")[1])
         f4.close()
@@ -99,9 +99,9 @@ for col in df.columns:
 
     import os
     os.rename("./Daytime_flux.csv","./TC_FBAfluxes_"+str(col)+".csv")
-    os.rename("./../ePhotosynthesis/OutputFluxT.txt","./TC_ODEfluxes_Fig2A_"+str(col)+".csv")
+    os.rename("./../../ePhotosynthesis/OutputFluxT.txt","./TC_ODEfluxes_Fig2A_"+str(col)+".csv")
 
-    F_fluxes = open("../ePhotosynthesis/OutputRate.txt")
+    F_fluxes = open("../../ePhotosynthesis/OutputRate.txt")
     lines = F_fluxes.readlines()
     Vc.append(float(lines[1].split(",")[1]))
     Vo.append(float(lines[1].split(",")[2]))
