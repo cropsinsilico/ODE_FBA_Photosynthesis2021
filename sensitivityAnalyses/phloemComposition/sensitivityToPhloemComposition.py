@@ -9,7 +9,7 @@ args3 = parser.parse_args(["./yggrasil_ODE_FBA_night.yaml"])
 
 
 import pandas as pd
-df = pd.read_excel("./Phloem_composition.xlsx",sheet_name="ProcessedWilkinsonDouglas")
+df = pd.read_excel("./Phloem_composition.xls",sheet_name="ProcessedWilkinsonDouglas")
 df.set_index("Metabolite",inplace=True)
 
 from cobra import io, core
