@@ -195,6 +195,10 @@ cobra_model.reactions.get_by_id("GLC_tx").upper_bound = 0
 cobra_model.reactions.get_by_id("Photon_tx").lower_bound = 0
 cobra_model.reactions.get_by_id("Photon_tx").upper_bound = 0
 
+#dont allow NH4 uptake
+cobra_model.reactions.get_by_id("NH4_tx").lower_bound = 0
+cobra_model.reactions.get_by_id("NH4_tx").upper_bound = 0
+
 #set export of sugars as objective
 cobra_model.reactions.get_by_id("Phloem_output_tx").objective_coefficient=1
 
