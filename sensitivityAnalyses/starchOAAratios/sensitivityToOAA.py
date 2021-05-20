@@ -86,7 +86,7 @@ for MALmult in [0.50,1,1.5]:
 
 		import os
 
-		col = str(int(MALmult*100))+"_"str(int(CITmult*100))
+		col = str(int(MALmult*100))+"_"+str(int(CITmult*100))
 		os.rename("./Daytime_flux.csv","./TC_FBAfluxes_"+str(col)+".csv")
 		os.rename("./../../ePhotosynthesis/OutputFluxT.txt","./TC_ODEfluxes_Fig2A_"+str(col)+".csv")
 
