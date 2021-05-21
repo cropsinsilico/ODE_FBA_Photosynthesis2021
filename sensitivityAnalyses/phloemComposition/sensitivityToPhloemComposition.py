@@ -57,7 +57,7 @@ for col in df.columns:
     i=0
 
     while not ModelConverged:
-        print("Loop "+str(i))
+        print("Loop "+str(i)+"\n"+col)
 
         runner.run(args1.yamlfile)
 

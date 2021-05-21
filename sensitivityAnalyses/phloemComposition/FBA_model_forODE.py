@@ -380,7 +380,7 @@ for rxn in temp.metabolites.ATP_p.reactions:
 print("Extra APTase flux ="+str(total))
 
 fout= open("./../../ePhotosynthesis/InputATPCost.txt","w")
-fout.write("ATPCost	"+str(round(total,4)))
+fout.write("ATPCost	"+str(round(total,3)))
 fout.close()
 
 total = JNADPHox
@@ -403,7 +403,7 @@ for rxn in temp.metabolites.NADH_p.reactions:
 print("Extra NADPH flux ="+str(total))
 
 fout= open("./../../ePhotosynthesis/InputNADPHCost.txt","w")
-fout.write("NADPHCost	"+str(round(total,4)))
+fout.write("NADPHCost	"+str(round(total,3)))
 fout.close()
 
 fout= open("./Daytime_flux.csv","w")
