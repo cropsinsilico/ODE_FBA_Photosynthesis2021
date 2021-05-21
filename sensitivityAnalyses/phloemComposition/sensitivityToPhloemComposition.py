@@ -3,7 +3,7 @@ import argparse
 
 parser = argparse.ArgumentParser(description='Run an integration.')
 parser.add_argument('yamlfile', nargs='+',help='One or more yaml specification files.')
-args1 = parser.parse_args(["../ePhotosynthesis/EphotosynthesisOnly.yml"])
+args1 = parser.parse_args(["../../ePhotosynthesis/EphotosynthesisOnly.yml"])
 args2 = parser.parse_args(["./yggrasil_ODE_FBA_testing.yaml"])
 args3 = parser.parse_args(["./yggrasil_ODE_FBA_night.yaml"])
 
