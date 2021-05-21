@@ -6,5 +6,5 @@ models:
       - input1
 
 connections:
-  - input_file: ./../ePhotosynthesis/OutputRate.txt
+  - input_file: ./../../ePhotosynthesis/OutputRate.txt
     output: input1
