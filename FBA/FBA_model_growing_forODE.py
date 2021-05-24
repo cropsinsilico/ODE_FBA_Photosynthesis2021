@@ -110,6 +110,8 @@ cobra_model.reactions.get_by_id("Sucrose_tx").lower_bound = 0
 cobra_model.reactions.get_by_id("Sucrose_tx").upper_bound = 0
 cobra_model.reactions.get_by_id("GLC_tx").lower_bound = 0
 cobra_model.reactions.get_by_id("GLC_tx").upper_bound = 0
+cobra_model.reactions.get_by_id("NH4_tx").lower_bound=0
+cobra_model.reactions.get_by_id("NH4_tx").upper_bound=0
 
 #no external light energy
 cobra_model.reactions.get_by_id("Photon_tx").lower_bound = 0
