@@ -24,7 +24,7 @@ Vstarch = list()
 Vglycerate = list()
 Vglycolate = list()
 
-for col in df.columns:
+for col in df.columns[12:]:
     model = backup.copy()
     model.reactions.get_by_id("Phloem_output_tx").remove_from_model()
     rxn = core.Reaction("Phloem_output_tx")
@@ -111,6 +111,6 @@ for col in df.columns:
     Vglycerate.append(float(lines[1].split(",")[6]))
     Vglycolate.append(float(lines[1].split(",")[7]))
     F_fluxes.close()
-
-	  runner.run(args3.yamlfile)
+    
+    runner.run(args3.yamlfile)
     os.rename("./Nighttime_flux.csv","./TC_FBAfluxes_"+str(col)+"_night.csv")
