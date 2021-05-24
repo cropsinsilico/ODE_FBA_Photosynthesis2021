@@ -111,3 +111,6 @@ for col in df.columns:
     Vglycerate.append(float(lines[1].split(",")[6]))
     Vglycolate.append(float(lines[1].split(",")[7]))
     F_fluxes.close()
+
+	  runner.run(args3.yamlfile)
+    os.rename("./Nighttime_flux.csv","./TC_FBAfluxes_"+str(col)+"_night.csv")
