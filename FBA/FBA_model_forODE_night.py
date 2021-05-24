@@ -121,6 +121,12 @@ ATPase = (0.0049*PPFD) + 2.7851
 ATPase = round(ATPase,2)
 temp.reactions.get_by_id("ATPase_tx").lower_bound = ATPase
 temp.reactions.get_by_id("ATPase_tx").upper_bound = ATPase
+temp.reactions.get_by_id("NADPHoxc_tx").lower_bound = ATPase/9
+temp.reactions.get_by_id("NADPHoxc_tx").upper_bound = ATPase/9
+temp.reactions.get_by_id("NADPHoxp_tx").lower_bound = ATPase/9
+temp.reactions.get_by_id("NADPHoxp_tx").upper_bound = ATPase/9
+temp.reactions.get_by_id("NADPHoxm_tx").lower_bound = ATPase/9
+temp.reactions.get_by_id("NADPHoxm_tx").upper_bound = ATPase/9
 
 #constraint Starch degradation rate
 daylength = weather["daylength"]
