@@ -24,7 +24,7 @@ Vstarch = list()
 Vglycerate = list()
 Vglycolate = list()
 
-for col in df.columns[12:]:
+for col in df.columns[13:]:
     model = backup.copy()
     model.reactions.get_by_id("Phloem_output_tx").remove_from_model()
     rxn = core.Reaction("Phloem_output_tx")
