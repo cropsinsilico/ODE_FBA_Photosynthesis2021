@@ -16,7 +16,7 @@ Vstarch = list()
 Vglycerate = list()
 Vglycolate = list()
 
-for NGAMmult in [0.80,0.90,1,1.10,1.20]:
+for NGAMmult in [0.25,0.50,1,1.25,1.50]:
 
     f0 = open("./NGAM_multiplier.txt","w")
     f0.write(str(NGAMmult))
@@ -28,7 +28,7 @@ for NGAMmult in [0.80,0.90,1,1.10,1.20]:
     f1.close()
 
     F_weather = open("../../ePhotosynthesis/InputEvn.txt","w")
-    F_weather.write("CO2 400\nPPFD 300\nSucPath 1\ndaylength 12")
+    F_weather.write("CO2 400\nPPFD 500\nSucPath 1\ndaylength 12")
     F_weather.close()
 
     f3 = open("../../ePhotosynthesis/InputNADPHCost.txt","w")
@@ -40,7 +40,7 @@ for NGAMmult in [0.80,0.90,1,1.10,1.20]:
     i=0
 
     while not ModelConverged:
-        print("Loop "+str(i))
+        print("Loop "+str(i)+"\n"+str(NGAMmult))
 
         runner.run(args1.yamlfile)
 

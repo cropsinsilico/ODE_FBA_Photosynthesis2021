@@ -32,7 +32,7 @@ for MALmult in [0.50,1,1.5]:
 		f1.close()
 
 		F_weather = open("../../ePhotosynthesis/InputEvn.txt","w")
-		F_weather.write("CO2 400\nPPFD 300\nSucPath 1\ndaylength 12")
+		F_weather.write("CO2 400\nPPFD 500\nSucPath 1\ndaylength 12")
 		F_weather.close()
 
 		f3 = open("../../ePhotosynthesis/InputNADPHCost.txt","w")

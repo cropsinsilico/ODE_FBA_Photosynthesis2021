@@ -24,7 +24,7 @@ Vstarch = list()
 Vglycerate = list()
 Vglycolate = list()
 
-for col in df.columns:
+for col in df.columns[13:]:
     model = backup.copy()
     model.reactions.get_by_id("Phloem_output_tx").remove_from_model()
     rxn = core.Reaction("Phloem_output_tx")
@@ -45,7 +45,7 @@ for col in df.columns:
     f1.close()
 
     F_weather = open("../../ePhotosynthesis/InputEvn.txt","w")
-    F_weather.write("CO2 400\nPPFD 300\nSucPath 1\ndaylength 12")
+    F_weather.write("CO2 400\nPPFD 500\nSucPath 1\ndaylength 12")
     F_weather.close()
 
     f3 = open("../../ePhotosynthesis/InputNADPHCost.txt","w")
@@ -98,7 +98,7 @@ for col in df.columns:
             break
 
     import os
-	col = str(col).replace(" ","_")
+    col = str(col).replace(" ","_")
     os.rename("./Daytime_flux.csv","./TC_FBAfluxes_"+str(col)+"_lowLight.csv")
     os.rename("./../../ePhotosynthesis/OutputFluxT.txt","./TC_ODEfluxes_Fig2A_"+str(col)+"_lowLight.csv")
 
