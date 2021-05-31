@@ -16,7 +16,7 @@ Vstarch = list()
 Vglycerate = list()
 Vglycolate = list()
 
-for NGAMmult in [0.25,0.50,1,1.25,1.50]:
+for NGAMmult in [0.50,1,1.50]:
 
     f0 = open("./NGAM_multiplier.txt","w")
     f0.write(str(NGAMmult))
