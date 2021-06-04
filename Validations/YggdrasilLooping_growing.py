@@ -5,7 +5,7 @@ parser = argparse.ArgumentParser(description='Run an integration.')
 parser.add_argument('yamlfile', nargs='+',help='One or more yaml specification files.')
 args1 = parser.parse_args(["../ePhotosynthesis/EphotosynthesisOnly.yml"])
 args2 = parser.parse_args(["../FBA/yggrasil_ODE_FBA_growing.yaml"])
-args3 = parser.parse_args(["../FBA/yggrasil_ODE_FBA_night.yaml"])
+args3 = parser.parse_args(["../FBA/yggrasil_ODE_FBA_night_growing.yaml"])
 
 #ensure additional chloroplastic ATP consumption rate (J_ATPase) starts at 0
 f1 = open("../ePhotosynthesis/InputATPCost.txt","w")
@@ -60,4 +60,10 @@ while not ModelConverged:
         print("Breaking Loop to avoid infinite loop")
         break
 
+	import os
+    os.rename("./../FBA/Daytime_flux.csv","./../Validations/Daytime_flux_GROWINGLEAF.csv")
+    os.rename("./../ePhotosynthesis/OutputFluxT.txt","./../Validations/OutputFluxT_GROWINGLEAF"+str(j)+".csv")
+
 runner.run(args3.yamlfile)
+import os
+os.rename("./../FBA/Nighttime_flux.csv","./../Validations/Nighttime_flux_GROWINGLEAF.csv")

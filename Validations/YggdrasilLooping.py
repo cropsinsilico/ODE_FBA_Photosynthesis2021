@@ -60,4 +60,10 @@ while not ModelConverged:
         print("Breaking Loop to avoid infinite loop")
         break
 
+	import os
+    os.rename("./../FBA/Daytime_flux.csv","./../Validations/Daytime_flux_MATURELEAF.csv")
+    os.rename("./../ePhotosynthesis/OutputFluxT.txt","./../Validations/OutputFluxT_MATURELEAF"+str(j)+".csv")
+
 runner.run(args3.yamlfile)
+import os
+os.rename("./../FBA/Nighttime_flux.csv","./../Validations/Nighttime_flux_MATURELEAF.csv")
