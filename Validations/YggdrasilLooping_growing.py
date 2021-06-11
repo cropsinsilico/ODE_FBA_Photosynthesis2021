@@ -12,9 +12,9 @@ f1 = open("../ePhotosynthesis/InputATPCost.txt","w")
 f1.write("ATPCost 0")
 f1.close()
 
-#F_weather = open("../ePhotosynthesis/InputEvn.txt","w")
-#F_weather.write("CO2 400\nPPFD 1000\nSucPath 1"+"\ndaylength "+str(len(PPFD)))
-#F_weather.close()
+F_weather = open("../ePhotosynthesis/InputEvn.txt","w")
+F_weather.write("CO2 400\nPPFD 1000\nSucPath 1"+"\ndaylength 12")
+F_weather.close()
 
 f3 = open("../ePhotosynthesis/InputNADPHCost.txt","w")
 f3.write("NADPHCost 0")
@@ -65,9 +65,9 @@ while not ModelConverged:
         print("Breaking Loop to avoid infinite loop")
         break
 
-	import os
-    os.rename("./../FBA/Daytime_flux.csv","./../Validations/Daytime_flux_GROWINGLEAF.csv")
-    os.rename("./../ePhotosynthesis/OutputFluxT.txt","./../Validations/OutputFluxT_GROWINGLEAF"+str(j)+".csv")
+import os
+os.rename("./../FBA/Daytime_flux.csv","./../Validations/Daytime_flux_GROWINGLEAF.csv")
+os.rename("./../ePhotosynthesis/OutputFluxT.txt","./../Validations/OutputFluxT_GROWINGLEAF.csv")
 
 runner.run(args3.yamlfile)
 import os
