@@ -5,31 +5,27 @@ def addAllantoinMetabolism(backup):
     # Chen et al 2006
     # Ritzel et al 2001
     # Takagi et al 2018
-    met1 = Metabolite("S_ALLANTOIN_c",name="(S)-(+)-allantoin",formula="C4H6N4O3",compartment="c")
+    met1 = Metabolite("S_ALLANTOIN_c",name="S-ALLANTOIN:(S)-(+)-allantoin",
+                      formula="C4H6N4O3",compartment="c",
+                      charge=0)
+    amet1 = Metabolite("aS_ALLANTOIN_c",name="S-ALLANTOIN:(S)-(+)-allantoin",
+                      formula="C4H5N4O3",compartment="c",
+                      charge=-1)
 
     rxn1 = Reaction("Allantoin_tx",name="Allantoin uptake")
     rxn1.add_metabolites({model.metabolites.PROTON_e:-1,
-                          model.metabolites.PROTON_c:1,met1:1})
+                          model.metabolites.PROTON_c:1,met1:0.78,amet1:0.22})
     rxn1.gene_reaction_rule='Glyma.15G066400'
     rxn1.lower_bound = 0
     rxn1.upper_bound = 1000
     ##########
-    met2 = Metabolite("S_ALLANTOIN_r",name="(S)-(+)-allantoin",formula="C4H6N4O3",compartment="r")
+    met2 = Metabolite("S_ALLANTOIN_r",name="(S)-(+)-allantoin",
+                      formula="C4H6N4O3",compartment="r",
+                      charge=0)
+    amet2 = Metabolite("aS_ALLANTOIN_r",name="(S)-(+)-allantoin",
+                      formula="C4H5N4O3",compartment="r",
+                      charge=-1)
 
-    rxn2 = Reaction("Allantoin_rc",name="Allantoin peroxisome uptake/efflux")
-    rxn2.add_metabolites({met1:-1,met2:1})
-    rxn2.lower_bound = -1000
-    rxn2.upper_bound = 1000
-    ###########
-    met3 = Metabolite("ALLANTOATE_r",name="allantoate",formula="C4H7N4O4",compartment="r")
-
-    water_R = model.metabolites.WATER_c.copy()
-    water_R.id = "WATER_r"
-    water_R.compartment = "r"
-    rxnWater = Reaction("H2O_rc",name="ER water exchange")
-    rxnWater.add_metabolites({water_R:-1,model.metabolites.WATER_c:1})
-    rxnWater.lower_bound = -1000
-    rxnWater.upper_bound = 1000
 
     proton_R = model.metabolites.PROTON_c.copy()
     proton_R.id = "PROTON_r"
@@ -39,19 +35,43 @@ def addAllantoinMetabolism(backup):
     rxnProton.lower_bound = -1000
     rxnProton.upper_bound = 1000
 
+    rxn2 = Reaction("Allantoin_rc",name="Allantoin peroxisome uptake/efflux")
+    rxn2.add_metabolites({met1:-0.78,amet1:-0.22,proton_R:-0.12,met2:0.9,amet2:0.1})
+    rxn2.lower_bound = -1000
+    rxn2.upper_bound = 1000
+    ###########
+    met3 = Metabolite("ALLANTOATE_r",name="allantoate",
+                      formula="C4H7N4O4",compartment="r",
+                      charge=-1)
+
+    water_R = model.metabolites.WATER_c.copy()
+    water_R.id = "WATER_r"
+    water_R.compartment = "r"
+    rxnWater = Reaction("H2O_rc",name="ER water exchange")
+    rxnWater.add_metabolites({water_R:-1,model.metabolites.WATER_c:1})
+    rxnWater.lower_bound = -1000
+    rxnWater.upper_bound = 1000
+
+
     rxn3 = Reaction("ALLANTOINASE_RXN_r",name="ALLANTOINASE-RXN")
-    rxn3.add_metabolites({met2:-1,water_R:-1,
-                          met3:1,proton_R:1})
+    rxn3.add_metabolites({met2:-0.9,amet2:-0.1,water_R:-1,
+                          met3:1,proton_R:0.9})
     rxn3.gene_reaction_rule='Glyma.15G073000 or Glyma.15G072900 or Glyma.13G240500 or Glyma.13G240600'
-    #Glyma.15G073000 - cytoplasmic
-    #Glyma.15G072900 - cytoplasmic
-    #Glyma.13G240500 - cytoplasmic
-    #Glyma.13G240600 - cytoplasmic
+    #Glyma.15G073000 - cytoplasmic in Uniprot
+    #Glyma.15G072900 - cytoplasmic in Uniprot
+    #Glyma.13G240500 - cytoplasmic in Uniprot
+    #Glyma.13G240600 - cytoplasmic in Uniprot
+    #But according to Takagi et al 2018 ER
 
     rxn3.lower_bound = 0
     rxn3.upper_bound = 1000
     ############
-    met4 = Metabolite("CPD0_2298_r",name="CPD0-2298:(S)-ureidoglycine",formula="C3H7N3O3",compartment="r")
+    met4 = Metabolite("CPD0_2298_r",name="CPD0-2298:(S)-ureidoglycine",
+                      formula="C3H7N3O3",compartment="r",
+                      charge=0)
+    amet4 = Metabolite("aCPD0_2298_r",name="CPD0-2298:(S)-ureidoglycine",
+                      formula="C3H6N3O3",compartment="r",
+                      charge=-1)
 
     met5 = model.metabolites.AMMONIUM_c.copy()
     met5.id = "AMMONIUM_r"
@@ -71,14 +91,16 @@ def addAllantoinMetabolism(backup):
 
     rxn4 = Reaction("ALLANTOATE_DEIMINASE_RXN_r",name="ALLANTOATE-DEIMINASE-RXN:allantoate deiminase")
     rxn4.gene_reaction_rule='Glyma.15G156900 or Glyma.09G050800'
-    rxn4.add_metabolites({met3:-1,proton_R:-2,water_R:-1,
-                          met4:1,met5:1,co2_R:1})
-    #Glyma.15G156900 -ER
-    #Glyma.09G050800 -ER
+    rxn4.add_metabolites({met3:-1,proton_R:-1.72,water_R:-1,
+                          met4:0.72,amet4:0.28,met5:1,co2_R:1})
+    #Glyma.15G156900 -ER in Uniprot
+    #Glyma.09G050800 -ER in Uniprot
     rxn4.lower_bound = 0
     rxn4.upper_bound = 1000
     #############
-    met6 = Metabolite("CPD_1091_r",name="CPD-1091:(S)-ureidoglycolate",formula="C3H5N2O4",compartment="r")
+    met6 = Metabolite("CPD_1091_r",name="CPD-1091:(S)-ureidoglycolate",
+                      formula="C3H5N2O4",compartment="r",
+                      charge=-1)
 
     water_R = model.metabolites.WATER_c.copy()
     water_R.id = "WATER_r"
@@ -92,7 +114,7 @@ def addAllantoinMetabolism(backup):
     rxn5.gene_reaction_rule='Glyma.17G148400 or Glyma.05G066500'
     #Glyma.17G148400
     #Glyma.05G066500
-    rxn5.add_metabolites({met4:-1,water_R:-1,
+    rxn5.add_metabolites({met4:-0.72,amet4:-0.28,proton_R:-0.28,water_R:-1,
                           met6:1,met5:1})
     rxn5.lower_bound = 0
     rxn5.upper_bound = 1000
@@ -116,8 +138,8 @@ def addAllantoinMetabolism(backup):
 
     rxn7 = Reaction("UREIDOGLYCOLATE_HYDROLASE_RXN_r",name="UREIDOGLYCOLATE-HYDROLASE-RXN:ureidoglycolate amidohydrolase")
     rxn7.gene_reaction_rule='Glyma.20G205500 or Glyma.10G184900'
-    #Glyma.20G205500 - ER
-    #Glyma.10G184900 - ER
+    #Glyma.20G205500 - ER in Uniprot
+    #Glyma.10G184900 - ER in Uniprot
     rxn7.add_metabolites({met6:-1,proton_R:-2,water_R:-1,
                           met5:2,co2_R:1,glyox_R:1})
     rxn7.lower_bound = 0
@@ -132,7 +154,6 @@ def addAllantoinMetabolism(backup):
     model.add_reactions([rxn1,rxn2,rxn3,rxn4,rxn5,rxn7,
                          rxnCO2,rxnGlyox,rxnNH4,rxnProton,rxnWater])
     return model
-
 
 
 def remove_metabolite_from_reaction(rxn,mets):
