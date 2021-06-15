@@ -86,6 +86,10 @@ for day in  PPFD_Dict.keys():
             f1 = open("../ePhotosynthesis/InputATPCost.txt","w")
             f1.write("ATPCost 0")
             f1.close()
+
+			f3 = open("../ePhotosynthesis/InputNADPHCost.txt","w")
+			f3.write("NADPHCost 0")
+			f3.close()
             #print(PPFD)
 
             runner.run(args1.yamlfile)
