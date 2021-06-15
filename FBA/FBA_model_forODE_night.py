@@ -299,6 +299,12 @@ temp.reactions.get_by_id("MAL_v_accumulation").upper_bound = -1*0.0698903487288*
 temp.reactions.get_by_id("CIT_v_accumulation").lower_bound = -1*-0.056884259879*StarchDegradationRate
 temp.reactions.get_by_id("CIT_v_accumulation").upper_bound = -1*-0.056884259879*StarchDegradationRate
 
+temp.reactions.get_by_id("2PGADEHYDRAT_RXN_p").lower_bound = 0
+temp.reactions.get_by_id("2PGADEHYDRAT_RXN_p").upper_bound = 0
+
+temp.reactions.get_by_id("G6P_Pi_pc").lower_bound=0
+temp.reactions.get_by_id("G6P_Pi_pc").upper_bound=0
+
 #check if model works
 temp.solver="glpk"
 sol = flux_analysis.parsimonious.optimize_minimal_flux(temp)
