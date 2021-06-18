@@ -1,0 +1,3290 @@
+##############################
+Day = 164
+Hour = 1
+
+ans =
+
+   9.1914e-07
+
+
+   Light intensity      Vc     Vo      VPGA   VT3P  Vstarch  Vt_glycerate  Vt_glycolate       A_slope  Max_Meta_slope
+0          318.056  15.296  5.551  0.007473  3.852  0.15704        2.7755         5.551  1.237700e-09    9.191400e-07
+No more input.
+0.5 CIT_v1 + 0.5 aCIT_v1 <=> 0.5 CIT_v2 + 0.5 aCIT_v2
+bHIS_v1 --> bHIS_v2
+0.7 MAL_v1 + 0.3 aMAL_v1 <=> 0.7 MAL_v2 + 0.3 aMAL_v2
+Phloem export rate =0.9465026216940976
+
+##############################
+Day = 164
+Hour = 2
+
+ans =
+
+   3.1055e-05
+
+
+   Light intensity       Vc      Vo     VPGA    VT3P  Vstarch  Vt_glycerate  Vt_glycolate       A_slope  Max_Meta_slope
+0          602.778  24.9683  9.0611  0.01205  5.2512  0.77467        4.5305        9.0611  2.426800e-10        0.000031
+No more input.
+0.5 CIT_v1 + 0.5 aCIT_v1 <=> 0.5 CIT_v2 + 0.5 aCIT_v2
+bHIS_v1 --> bHIS_v2
+0.7 MAL_v1 + 0.3 aMAL_v1 <=> 0.7 MAL_v2 + 0.3 aMAL_v2
+Phloem export rate =1.5747283545563548
+
+##############################
+Day = 164
+Hour = 3
+
+ans =
+
+   1.3162e-06
+
+
+   Light intensity       Vc      Vo      VPGA    VT3P  Vstarch  Vt_glycerate  Vt_glycolate       A_slope  Max_Meta_slope
+0          951.449  26.3153  9.5499  0.009649  4.8034   1.1835        4.7749        9.5499  5.817200e-11        0.000001
+No more input.
+0.5 CIT_v1 + 0.5 aCIT_v1 <=> 0.5 CIT_v2 + 0.5 aCIT_v2
+bHIS_v1 --> bHIS_v2
+0.7 MAL_v1 + 0.3 aMAL_v1 <=> 0.7 MAL_v2 + 0.3 aMAL_v2
+Phloem export rate =1.5922363984177792
+
+##############################
+Day = 164
+Hour = 4
+
+ans =
+
+   4.8307e-07
+
+
+   Light intensity      Vc      Vo      VPGA    VT3P  Vstarch  Vt_glycerate  Vt_glycolate       A_slope  Max_Meta_slope
+0         1342.754  26.462  9.6031  0.009747  4.8301   1.1901        4.8016        9.6031  9.721000e-11    4.830700e-07
+No more input.
+0.5 CIT_v1 + 0.5 aCIT_v1 <=> 0.5 CIT_v2 + 0.5 aCIT_v2
+bHIS_v1 --> bHIS_v2
+0.7 MAL_v1 + 0.3 aMAL_v1 <=> 0.7 MAL_v2 + 0.3 aMAL_v2
+Phloem export rate =1.5154325559308996
+
+##############################
+Day = 164
+Hour = 5
+
+ans =
+
+   3.3621e-05
+
+
+   Light intensity       Vc      Vo      VPGA    VT3P  Vstarch  Vt_glycerate  Vt_glycolate       A_slope  Max_Meta_slope
+0         1621.429  26.5452  9.6333  0.009808  4.8464   1.1933        4.8167        9.6333  5.244400e-10        0.000034
+No more input.
+0.5 CIT_v1 + 0.5 aCIT_v1 <=> 0.5 CIT_v2 + 0.5 aCIT_v2
+bHIS_v1 --> bHIS_v2
+0.7 MAL_v1 + 0.3 aMAL_v1 <=> 0.7 MAL_v2 + 0.3 aMAL_v2
+Phloem export rate =1.386235356774714
+
+##############################
+Day = 164
+Hour = 6
+
+ans =
+
+   3.1637e-06
+
+
+   Light intensity       Vc     Vo      VPGA    VT3P  Vstarch  Vt_glycerate  Vt_glycolate       A_slope  Max_Meta_slope
+0         1637.302  26.5497  9.635  0.009811  4.8473   1.1935        4.8175         9.635  9.561200e-11        0.000003
+No more input.
+0.5 CIT_v1 + 0.5 aCIT_v1 <=> 0.5 CIT_v2 + 0.5 aCIT_v2
+bHIS_v1 --> bHIS_v2
+0.7 MAL_v1 + 0.3 aMAL_v1 <=> 0.7 MAL_v2 + 0.3 aMAL_v2
+Phloem export rate =1.4527547818342816
+
+##############################
+Day = 164
+Hour = 7
+
+ans =
+
+   1.9177e-08
+
+
+   Light intensity       Vc      Vo      VPGA    VT3P  Vstarch  Vt_glycerate  Vt_glycolate       A_slope  Max_Meta_slope
+0         1640.909  26.5496  9.6349  0.009811  4.8473   1.1935        4.8175        9.6349  5.232200e-12    1.917700e-08
+No more input.
+0.5 CIT_v1 + 0.5 aCIT_v1 <=> 0.5 CIT_v2 + 0.5 aCIT_v2
+bHIS_v1 --> bHIS_v2
+0.7 MAL_v1 + 0.3 aMAL_v1 <=> 0.7 MAL_v2 + 0.3 aMAL_v2
+Phloem export rate =1.4351417886466151
+
+##############################
+Day = 164
+Hour = 8
+
+ans =
+
+   5.4576e-06
+
+
+   Light intensity       Vc      Vo      VPGA    VT3P  Vstarch  Vt_glycerate  Vt_glycolate       A_slope  Max_Meta_slope
+0         1595.455  26.5373  9.6305  0.009802  4.8448    1.193        4.8152        9.6305  2.507300e-11        0.000005
+No more input.
+0.5 CIT_v1 + 0.5 aCIT_v1 <=> 0.5 CIT_v2 + 0.5 aCIT_v2
+bHIS_v1 --> bHIS_v2
+0.7 MAL_v1 + 0.3 aMAL_v1 <=> 0.7 MAL_v2 + 0.3 aMAL_v2
+Phloem export rate =1.4644633310371824
+
+##############################
+Day = 164
+Hour = 9
+
+ans =
+
+   2.9417e-06
+
+
+   Light intensity       Vc      Vo      VPGA    VT3P  Vstarch  Vt_glycerate  Vt_glycolate       A_slope  Max_Meta_slope
+0             1550  26.5238  9.6256  0.009792  4.8422   1.1925        4.8128        9.6256  1.174900e-10        0.000003
+No more input.
+0.5 CIT_v1 + 0.5 aCIT_v1 <=> 0.5 CIT_v2 + 0.5 aCIT_v2
+bHIS_v1 --> bHIS_v2
+0.7 MAL_v1 + 0.3 aMAL_v1 <=> 0.7 MAL_v2 + 0.3 aMAL_v2
+Phloem export rate =1.5126688417080367
+
+##############################
+Day = 164
+Hour = 10
+
+ans =
+
+   9.6119e-05
+
+[Warning: ODE model does not reach a steady state: The 1st time ] 
+[> In Sim_Ephotosynthesis (line 22)
+  In wrapped_Sim_Ephotosynthesis_4a93bafc_2eab_4433_a687_2b9a83bf (line 97)] 
+
+   Light intensity       Vc      Vo      VPGA    VT3P  Vstarch  Vt_glycerate  Vt_glycolate       A_slope  Max_Meta_slope
+0         1534.848  29.5285  10.716  0.011441  5.9126   5.4112         5.358        10.716  9.713700e-12        0.000011
+No more input.
+0.5 CIT_v1 + 0.5 aCIT_v1 <=> 0.5 CIT_v2 + 0.5 aCIT_v2
+bHIS_v1 --> bHIS_v2
+0.7 MAL_v1 + 0.3 aMAL_v1 <=> 0.7 MAL_v2 + 0.3 aMAL_v2
+Phloem export rate =1.9757577693718007
+
+##############################
+Day = 164
+Hour = 11
+
+ans =
+
+   1.1660e-05
+
+
+   Light intensity       Vc      Vo      VPGA    VT3P  Vstarch  Vt_glycerate  Vt_glycolate       A_slope  Max_Meta_slope
+0         1519.697  26.5161  9.6228  0.009786  4.8407   1.1922        4.8114        9.6228  8.987000e-10        0.000012
+No more input.
+0.5 CIT_v1 + 0.5 aCIT_v1 <=> 0.5 CIT_v2 + 0.5 aCIT_v2
+bHIS_v1 --> bHIS_v2
+0.7 MAL_v1 + 0.3 aMAL_v1 <=> 0.7 MAL_v2 + 0.3 aMAL_v2
+Phloem export rate =1.5066501931979246
+
+##############################
+Day = 164
+Hour = 12
+
+ans =
+
+   2.2708e-06
+
+
+   Light intensity       Vc      Vo      VPGA    VT3P  Vstarch  Vt_glycerate  Vt_glycolate       A_slope  Max_Meta_slope
+0         1383.333  26.4755  9.6081  0.009757  4.8328   1.1907         4.804        9.6081  4.215000e-11        0.000002
+No more input.
+0.5 CIT_v1 + 0.5 aCIT_v1 <=> 0.5 CIT_v2 + 0.5 aCIT_v2
+bHIS_v1 --> bHIS_v2
+0.7 MAL_v1 + 0.3 aMAL_v1 <=> 0.7 MAL_v2 + 0.3 aMAL_v2
+Phloem export rate =1.5108176849600614
+
+##############################
+Day = 164
+Hour = 13
+
+ans =
+
+   1.2931e-05
+
+
+   Light intensity       Vc      Vo      VPGA    VT3P  Vstarch  Vt_glycerate  Vt_glycolate       A_slope  Max_Meta_slope
+0         1216.667  26.4199  9.5879  0.009716  4.8219   1.1885        4.7939        9.5879  1.144700e-09        0.000013
+No more input.
+0.5 CIT_v1 + 0.5 aCIT_v1 <=> 0.5 CIT_v2 + 0.5 aCIT_v2
+bHIS_v1 --> bHIS_v2
+0.7 MAL_v1 + 0.3 aMAL_v1 <=> 0.7 MAL_v2 + 0.3 aMAL_v2
+Phloem export rate =1.537643883860504
+
+##############################
+Day = 164
+Hour = 14
+
+ans =
+
+   1.5759e-08
+
+
+   Light intensity      Vc      Vo      VPGA   VT3P  Vstarch  Vt_glycerate  Vt_glycolate       A_slope  Max_Meta_slope
+0              847  26.254  9.5277  0.009656  4.803   1.1754        4.7638        9.5277  2.731300e-10    1.575900e-08
+No more input.
+0.5 CIT_v1 + 0.5 aCIT_v1 <=> 0.5 CIT_v2 + 0.5 aCIT_v2
+bHIS_v1 --> bHIS_v2
+0.7 MAL_v1 + 0.3 aMAL_v1 <=> 0.7 MAL_v2 + 0.3 aMAL_v2
+Phloem export rate =1.613912809808168
+
+##############################
+Day = 164
+Hour = 15
+
+ans =
+
+   5.0451e-04
+
+[Warning: ODE model does not reach a steady state: The 1st time ] 
+[> In Sim_Ephotosynthesis (line 22)
+  In wrapped_Sim_Ephotosynthesis_f51e427f_7908_494a_af33_199f3bce (line 97)] 
+
+   Light intensity       Vc      Vo      VPGA    VT3P  Vstarch  Vt_glycerate  Vt_glycolate       A_slope  Max_Meta_slope
+0          390.333  18.3063  6.6434  0.009794  4.5095  0.23778        3.3217        6.6434  1.122700e-10        0.000002
+No more input.
+0.5 CIT_v1 + 0.5 aCIT_v1 <=> 0.5 CIT_v2 + 0.5 aCIT_v2
+bHIS_v1 --> bHIS_v2
+0.7 MAL_v1 + 0.3 aMAL_v1 <=> 0.7 MAL_v2 + 0.3 aMAL_v2
+Phloem export rate =1.1603272864931484
+
+##############################
+Day = 164
+Hour = 1
+
+ans =
+
+   4.0597e-08
+
+
+   Light intensity      Vc      Vo      VPGA    VT3P  Vstarch  Vt_glycerate  Vt_glycolate       A_slope  Max_Meta_slope
+0              325  17.671  4.3217  0.011847  4.8107  0.17375        2.1609        4.3217  2.182300e-09    4.059700e-08
+No more input.
+0.5 CIT_v1 + 0.5 aCIT_v1 <=> 0.5 CIT_v2 + 0.5 aCIT_v2
+bHIS_v1 --> bHIS_v2
+0.7 MAL_v1 + 0.3 aMAL_v1 <=> 0.7 MAL_v2 + 0.3 aMAL_v2
+Phloem export rate =1.2427231178882239
+
+##############################
+Day = 164
+Hour = 2
+
+ans =
+
+   1.5668e-05
+
+
+   Light intensity       Vc      Vo      VPGA    VT3P  Vstarch  Vt_glycerate  Vt_glycolate       A_slope  Max_Meta_slope
+0          616.667  29.7121  7.2666  0.021672  6.9264  0.87244        3.6333        7.2666  1.108700e-07        0.000016
+No more input.
+0.5 CIT_v1 + 0.5 aCIT_v1 <=> 0.5 CIT_v2 + 0.5 aCIT_v2
+bHIS_v1 --> bHIS_v2
+0.7 MAL_v1 + 0.3 aMAL_v1 <=> 0.7 MAL_v2 + 0.3 aMAL_v2
+Phloem export rate =2.1187204922770264
+
+##############################
+Day = 164
+Hour = 3
+
+ans =
+
+   1.2794e-06
+
+
+   Light intensity       Vc      Vo      VPGA    VT3P  Vstarch  Vt_glycerate  Vt_glycolate       A_slope  Max_Meta_slope
+0          931.159  33.1684  8.1118  0.014167  5.8781   1.9059        4.0559        8.1118  3.140400e-10        0.000001
+No more input.
+0.5 CIT_v1 + 0.5 aCIT_v1 <=> 0.5 CIT_v2 + 0.5 aCIT_v2
+bHIS_v1 --> bHIS_v2
+0.7 MAL_v1 + 0.3 aMAL_v1 <=> 0.7 MAL_v2 + 0.3 aMAL_v2
+Phloem export rate =2.3079500936143647
+
+##############################
+Day = 164
+Hour = 4
+
+ans =
+
+   5.8406e-06
+
+
+   Light intensity       Vc      Vo      VPGA    VT3P  Vstarch  Vt_glycerate  Vt_glycolate       A_slope  Max_Meta_slope
+0          1260.87  33.3282  8.1509  0.013937  5.8411   1.9479        4.0755        8.1509  1.933200e-09        0.000006
+No more input.
+0.5 CIT_v1 + 0.5 aCIT_v1 <=> 0.5 CIT_v2 + 0.5 aCIT_v2
+bHIS_v1 --> bHIS_v2
+0.7 MAL_v1 + 0.3 aMAL_v1 <=> 0.7 MAL_v2 + 0.3 aMAL_v2
+Phloem export rate =2.230782851863625
+
+##############################
+Day = 164
+Hour = 5
+
+ans =
+
+   3.4335e-07
+
+
+   Light intensity       Vc      Vo      VPGA    VT3P  Vstarch  Vt_glycerate  Vt_glycolate       A_slope  Max_Meta_slope
+0         1529.762  33.3929  8.1667  0.013999  5.8546   1.9506        4.0834        8.1667  3.246700e-12    3.433500e-07
+No more input.
+0.5 CIT_v1 + 0.5 aCIT_v1 <=> 0.5 CIT_v2 + 0.5 aCIT_v2
+bHIS_v1 --> bHIS_v2
+0.7 MAL_v1 + 0.3 aMAL_v1 <=> 0.7 MAL_v2 + 0.3 aMAL_v2
+Phloem export rate =2.1792986612791347
+
+##############################
+Day = 164
+Hour = 6
+
+ans =
+
+   5.9728e-08
+
+
+   Light intensity       Vc      Vo      VPGA    VT3P  Vstarch  Vt_glycerate  Vt_glycolate       A_slope  Max_Meta_slope
+0         1656.746  33.4197  8.1733  0.014026  5.8604   1.9517        4.0867        8.1733  9.389000e-12    5.972800e-08
+No more input.
+0.5 CIT_v1 + 0.5 aCIT_v1 <=> 0.5 CIT_v2 + 0.5 aCIT_v2
+bHIS_v1 --> bHIS_v2
+0.7 MAL_v1 + 0.3 aMAL_v1 <=> 0.7 MAL_v2 + 0.3 aMAL_v2
+Phloem export rate =2.2036391406058327
+
+##############################
+Day = 164
+Hour = 7
+
+ans =
+
+   1.3551e-06
+
+
+   Light intensity       Vc      Vo      VPGA    VT3P  Vstarch  Vt_glycerate  Vt_glycolate       A_slope  Max_Meta_slope
+0         1756.818  33.4395  8.1781  0.014045  5.8646   1.9524        4.0891        8.1781  1.200100e-10        0.000001
+No more input.
+0.5 CIT_v1 + 0.5 aCIT_v1 <=> 0.5 CIT_v2 + 0.5 aCIT_v2
+bHIS_v1 --> bHIS_v2
+0.7 MAL_v1 + 0.3 aMAL_v1 <=> 0.7 MAL_v2 + 0.3 aMAL_v2
+Phloem export rate =2.1073347509796587
+
+##############################
+Day = 164
+Hour = 8
+
+ans =
+
+   1.2209e-05
+
+
+   Light intensity       Vc      Vo      VPGA    VT3P  Vstarch  Vt_glycerate  Vt_glycolate       A_slope  Max_Meta_slope
+0         1749.242  33.4376  8.1777  0.014044  5.8642   1.9523        4.0888        8.1777  3.095500e-10        0.000012
+No more input.
+0.5 CIT_v1 + 0.5 aCIT_v1 <=> 0.5 CIT_v2 + 0.5 aCIT_v2
+bHIS_v1 --> bHIS_v2
+0.7 MAL_v1 + 0.3 aMAL_v1 <=> 0.7 MAL_v2 + 0.3 aMAL_v2
+Phloem export rate =2.062487509118747
+
+##############################
+Day = 164
+Hour = 9
+
+ans =
+
+   6.7582e-08
+
+
+   Light intensity       Vc      Vo      VPGA   VT3P  Vstarch  Vt_glycerate  Vt_glycolate       A_slope  Max_Meta_slope
+0         1741.667  33.4366  8.1774  0.014043  5.864   1.9523        4.0887        8.1774  3.156300e-11    6.758200e-08
+No more input.
+0.5 CIT_v1 + 0.5 aCIT_v1 <=> 0.5 CIT_v2 + 0.5 aCIT_v2
+bHIS_v1 --> bHIS_v2
+0.7 MAL_v1 + 0.3 aMAL_v1 <=> 0.7 MAL_v2 + 0.3 aMAL_v2
+Phloem export rate =2.127625421074439
+
+##############################
+Day = 164
+Hour = 10
+
+ans =
+
+   9.5969e-06
+
+
+   Light intensity       Vc      Vo      VPGA    VT3P  Vstarch  Vt_glycerate  Vt_glycolate       A_slope  Max_Meta_slope
+0         1688.636  33.4257  8.1748  0.014032  5.8617   1.9519        4.0874        8.1748  9.375400e-11         0.00001
+No more input.
+0.5 CIT_v1 + 0.5 aCIT_v1 <=> 0.5 CIT_v2 + 0.5 aCIT_v2
+bHIS_v1 --> bHIS_v2
+0.7 MAL_v1 + 0.3 aMAL_v1 <=> 0.7 MAL_v2 + 0.3 aMAL_v2
+Phloem export rate =2.0916306993501745
+
+##############################
+Day = 164
+Hour = 11
+
+ans =
+
+   2.6049e-06
+
+
+   Light intensity       Vc      Vo      VPGA    VT3P  Vstarch  Vt_glycerate  Vt_glycolate       A_slope  Max_Meta_slope
+0         1635.606  33.4259  8.1748  0.014032  5.8617   1.9519        4.0874        8.1748  1.461800e-10        0.000003
+No more input.
+0.5 CIT_v1 + 0.5 aCIT_v1 <=> 0.5 CIT_v2 + 0.5 aCIT_v2
+bHIS_v1 --> bHIS_v2
+0.7 MAL_v1 + 0.3 aMAL_v1 <=> 0.7 MAL_v2 + 0.3 aMAL_v2
+Phloem export rate =2.2351011326497896
+
+##############################
+Day = 164
+Hour = 12
+
+ans =
+
+   2.7527e-06
+
+
+   Light intensity       Vc      Vo      VPGA    VT3P  Vstarch  Vt_glycerate  Vt_glycolate       A_slope  Max_Meta_slope
+0         1431.349  33.3701  8.1612  0.013976  5.8497   1.9497        4.0806        8.1612  5.153800e-11        0.000003
+No more input.
+0.5 CIT_v1 + 0.5 aCIT_v1 <=> 0.5 CIT_v2 + 0.5 aCIT_v2
+bHIS_v1 --> bHIS_v2
+0.7 MAL_v1 + 0.3 aMAL_v1 <=> 0.7 MAL_v2 + 0.3 aMAL_v2
+Phloem export rate =2.1597903841902144
+
+##############################
+Day = 164
+Hour = 13
+
+ans =
+
+   2.5353e-06
+
+
+   Light intensity       Vc      Vo      VPGA    VT3P  Vstarch  Vt_glycerate  Vt_glycolate       A_slope  Max_Meta_slope
+0         1189.286  33.3079  8.1459  0.013921  5.8376   1.9467         4.073        8.1459  8.440000e-10        0.000003
+No more input.
+0.5 CIT_v1 + 0.5 aCIT_v1 <=> 0.5 CIT_v2 + 0.5 aCIT_v2
+bHIS_v1 --> bHIS_v2
+0.7 MAL_v1 + 0.3 aMAL_v1 <=> 0.7 MAL_v2 + 0.3 aMAL_v2
+Phloem export rate =2.2460626354006523
+
+##############################
+Day = 164
+Hour = 14
+
+ans =
+
+   2.6182e-05
+
+
+   Light intensity       Vc      Vo      VPGA    VT3P  Vstarch  Vt_glycerate  Vt_glycolate       A_slope  Max_Meta_slope
+0              811  32.7953  8.0206  0.015745  6.1438   1.7178        4.0103        8.0206  7.419000e-10        0.000026
+No more input.
+0.5 CIT_v1 + 0.5 aCIT_v1 <=> 0.5 CIT_v2 + 0.5 aCIT_v2
+bHIS_v1 --> bHIS_v2
+0.7 MAL_v1 + 0.3 aMAL_v1 <=> 0.7 MAL_v2 + 0.3 aMAL_v2
+Phloem export rate =2.310431348642068
+
+##############################
+Day = 164
+Hour = 15
+
+ans =
+
+   4.4850e-05
+
+
+   Light intensity       Vc      Vo      VPGA    VT3P  Vstarch  Vt_glycerate  Vt_glycolate       A_slope  Max_Meta_slope
+0          374.333  20.0987  4.9154  0.014522  5.4027  0.23152        2.4577        4.9154  2.086600e-07        0.000045
+No more input.
+0.5 CIT_v1 + 0.5 aCIT_v1 <=> 0.5 CIT_v2 + 0.5 aCIT_v2
+bHIS_v1 --> bHIS_v2
+0.7 MAL_v1 + 0.3 aMAL_v1 <=> 0.7 MAL_v2 + 0.3 aMAL_v2
+Phloem export rate =1.434711842887885
+
+##############################
+Day = 176
+Hour = 1
+
+ans =
+
+   6.0929e-05
+
+[Warning: ODE model does not reach a steady state: The 1st time ] 
+[> In Sim_Ephotosynthesis (line 22)
+  In wrapped_Sim_Ephotosynthesis_06da6b34_b076_4254_b659_963f3d8a (line 97)] 
+
+   Light intensity      Vc      Vo      VPGA    VT3P   Vstarch  Vt_glycerate  Vt_glycolate       A_slope  Max_Meta_slope
+0          158.443  7.8523  2.8496  0.002526  2.0504  0.044794        1.4248        2.8496  1.060300e-08        0.000009
+No more input.
+0.5 CIT_v1 + 0.5 aCIT_v1 <=> 0.5 CIT_v2 + 0.5 aCIT_v2
+bHIS_v1 --> bHIS_v2
+0.7 MAL_v1 + 0.3 aMAL_v1 <=> 0.7 MAL_v2 + 0.3 aMAL_v2
+Phloem export rate =0.4415616357295464
+
+##############################
+Day = 176
+Hour = 2
+
+ans =
+
+   2.7979e-06
+
+
+   Light intensity       Vc      Vo      VPGA    VT3P  Vstarch  Vt_glycerate  Vt_glycolate       A_slope  Max_Meta_slope
+0          331.689  15.8845  5.7645  0.007925  3.9855  0.17032        2.8823        5.7645  9.741700e-09        0.000003
+No more input.
+0.5 CIT_v1 + 0.5 aCIT_v1 <=> 0.5 CIT_v2 + 0.5 aCIT_v2
+bHIS_v1 --> bHIS_v2
+0.7 MAL_v1 + 0.3 aMAL_v1 <=> 0.7 MAL_v2 + 0.3 aMAL_v2
+Phloem export rate =0.9953175190985586
+
+##############################
+Day = 176
+Hour = 3
+
+ans =
+
+   6.7586e-08
+
+
+   Light intensity      Vc      Vo      VPGA    VT3P  Vstarch  Vt_glycerate  Vt_glycolate       A_slope  Max_Meta_slope
+0          731.908  26.097  9.4707  0.009979  4.8685    1.121        4.7353        9.4707  1.352900e-10    6.758600e-08
+No more input.
+0.5 CIT_v1 + 0.5 aCIT_v1 <=> 0.5 CIT_v2 + 0.5 aCIT_v2
+bHIS_v1 --> bHIS_v2
+0.7 MAL_v1 + 0.3 aMAL_v1 <=> 0.7 MAL_v2 + 0.3 aMAL_v2
+Phloem export rate =1.5329257076186698
+
+##############################
+Day = 176
+Hour = 4
+
+ans =
+
+   3.6080e-06
+
+
+   Light intensity       Vc      Vo     VPGA    VT3P  Vstarch  Vt_glycerate  Vt_glycolate       A_slope  Max_Meta_slope
+0         1076.705  26.3689  9.5694  0.00968  4.8122   1.1864        4.7847        9.5694  1.021400e-10        0.000004
+No more input.
+0.5 CIT_v1 + 0.5 aCIT_v1 <=> 0.5 CIT_v2 + 0.5 aCIT_v2
+bHIS_v1 --> bHIS_v2
+0.7 MAL_v1 + 0.3 aMAL_v1 <=> 0.7 MAL_v2 + 0.3 aMAL_v2
+Phloem export rate =1.572962122336548
+
+##############################
+Day = 176
+Hour = 5
+
+ans =
+
+   5.3276e-07
+
+
+   Light intensity       Vc      Vo      VPGA    VT3P  Vstarch  Vt_glycerate  Vt_glycolate       A_slope  Max_Meta_slope
+0         1199.811  26.4126  9.5852  0.009711  4.8205   1.1882        4.7926        9.5852  1.111800e-10    5.327600e-07
+No more input.
+0.5 CIT_v1 + 0.5 aCIT_v1 <=> 0.5 CIT_v2 + 0.5 aCIT_v2
+bHIS_v1 --> bHIS_v2
+0.7 MAL_v1 + 0.3 aMAL_v1 <=> 0.7 MAL_v2 + 0.3 aMAL_v2
+Phloem export rate =1.5882836873592203
+
+##############################
+Day = 176
+Hour = 6
+
+ans =
+
+   2.3469e-05
+
+
+   Light intensity       Vc     Vo      VPGA   VT3P  Vstarch  Vt_glycerate  Vt_glycolate       A_slope  Max_Meta_slope
+0         1322.917  26.4562  9.601  0.009743  4.829   1.1899        4.8005         9.601  6.789400e-10        0.000023
+No more input.
+0.5 CIT_v1 + 0.5 aCIT_v1 <=> 0.5 CIT_v2 + 0.5 aCIT_v2
+bHIS_v1 --> bHIS_v2
+0.7 MAL_v1 + 0.3 aMAL_v1 <=> 0.7 MAL_v2 + 0.3 aMAL_v2
+Phloem export rate =1.5141114749348334
+
+##############################
+Day = 176
+Hour = 7
+
+ans =
+
+   3.2654e-05
+
+
+   Light intensity       Vc      Vo      VPGA    VT3P  Vstarch  Vt_glycerate  Vt_glycolate       A_slope  Max_Meta_slope
+0         1542.215  26.5218  9.6249  0.009791  4.8418   1.1924        4.8124        9.6249  1.948400e-09        0.000033
+No more input.
+0.5 CIT_v1 + 0.5 aCIT_v1 <=> 0.5 CIT_v2 + 0.5 aCIT_v2
+bHIS_v1 --> bHIS_v2
+0.7 MAL_v1 + 0.3 aMAL_v1 <=> 0.7 MAL_v2 + 0.3 aMAL_v2
+Phloem export rate =1.4845230607654407
+
+##############################
+Day = 176
+Hour = 8
+
+ans =
+
+   9.3489e-06
+
+
+   Light intensity       Vc      Vo      VPGA   VT3P  Vstarch  Vt_glycerate  Vt_glycolate       A_slope  Max_Meta_slope
+0         1727.522  26.5737  9.6437  0.009829  4.852   1.1944        4.8218        9.6437  9.753800e-11        0.000009
+No more input.
+0.5 CIT_v1 + 0.5 aCIT_v1 <=> 0.5 CIT_v2 + 0.5 aCIT_v2
+bHIS_v1 --> bHIS_v2
+0.7 MAL_v1 + 0.3 aMAL_v1 <=> 0.7 MAL_v2 + 0.3 aMAL_v2
+Phloem export rate =1.3839555348375971
+
+##############################
+Day = 176
+Hour = 9
+
+ans =
+
+   1.5074e-04
+
+[Warning: ODE model does not reach a steady state: The 1st time ] 
+[> In Sim_Ephotosynthesis (line 22)
+  In wrapped_Sim_Ephotosynthesis_3a4f8f80_ce1f_4d5b_9ae0_e1a79877 (line 97)] 
+
+   Light intensity       Vc     Vo      VPGA    VT3P  Vstarch  Vt_glycerate  Vt_glycolate       A_slope  Max_Meta_slope
+0         1606.908  26.5415  9.632  0.009805  4.8457   1.1932         4.816         9.632  1.457600e-17    5.035700e-14
+No more input.
+0.5 CIT_v1 + 0.5 aCIT_v1 <=> 0.5 CIT_v2 + 0.5 aCIT_v2
+bHIS_v1 --> bHIS_v2
+0.7 MAL_v1 + 0.3 aMAL_v1 <=> 0.7 MAL_v2 + 0.3 aMAL_v2
+Phloem export rate =1.3680631572906952
+
+##############################
+Day = 176
+Hour = 10
+
+ans =
+
+   1.9164e-07
+
+
+   Light intensity       Vc      Vo      VPGA    VT3P  Vstarch  Vt_glycerate  Vt_glycolate       A_slope  Max_Meta_slope
+0         1455.492  26.4978  9.6162  0.009773  4.8371   1.1915        4.8081        9.6162  3.441900e-12    1.916400e-07
+No more input.
+0.5 CIT_v1 + 0.5 aCIT_v1 <=> 0.5 CIT_v2 + 0.5 aCIT_v2
+bHIS_v1 --> bHIS_v2
+0.7 MAL_v1 + 0.3 aMAL_v1 <=> 0.7 MAL_v2 + 0.3 aMAL_v2
+Phloem export rate =1.5085526121928245
+
+##############################
+Day = 176
+Hour = 11
+
+ans =
+
+   4.2650e-09
+
+
+   Light intensity       Vc      Vo      VPGA    VT3P  Vstarch  Vt_glycerate  Vt_glycolate       A_slope  Max_Meta_slope
+0         1180.871  26.4076  9.5834  0.009707  4.8195    1.188        4.7917        9.5834  6.964400e-12    4.265000e-09
+No more input.
+0.5 CIT_v1 + 0.5 aCIT_v1 <=> 0.5 CIT_v2 + 0.5 aCIT_v2
+bHIS_v1 --> bHIS_v2
+0.7 MAL_v1 + 0.3 aMAL_v1 <=> 0.7 MAL_v2 + 0.3 aMAL_v2
+Phloem export rate =1.5546534878625065
+
+##############################
+Day = 176
+Hour = 12
+
+ans =
+
+   3.3103e-07
+
+
+   Light intensity       Vc      Vo      VPGA    VT3P  Vstarch  Vt_glycerate  Vt_glycolate       A_slope  Max_Meta_slope
+0           906.25  26.2929  9.5418  0.009643  4.8014   1.1815        4.7709        9.5418  1.167200e-08    3.310300e-07
+No more input.
+0.5 CIT_v1 + 0.5 aCIT_v1 <=> 0.5 CIT_v2 + 0.5 aCIT_v2
+bHIS_v1 --> bHIS_v2
+0.7 MAL_v1 + 0.3 aMAL_v1 <=> 0.7 MAL_v2 + 0.3 aMAL_v2
+Phloem export rate =1.602987282937366
+
+##############################
+Day = 176
+Hour = 13
+
+ans =
+
+   2.0236e-04
+
+[Warning: ODE model does not reach a steady state: The 1st time ] 
+[> In Sim_Ephotosynthesis (line 22)
+  In wrapped_Sim_Ephotosynthesis_f2c56c05_62d9_4d8d_9a4c_a5fc8048 (line 97)] 
+
+   Light intensity       Vc      Vo      VPGA    VT3P  Vstarch  Vt_glycerate  Vt_glycolate       A_slope  Max_Meta_slope
+0          516.996  22.9228  8.3188  0.012568  5.2644  0.48874        4.1594        8.3188  9.571700e-10        0.000007
+No more input.
+0.5 CIT_v1 + 0.5 aCIT_v1 <=> 0.5 CIT_v2 + 0.5 aCIT_v2
+bHIS_v1 --> bHIS_v2
+0.7 MAL_v1 + 0.3 aMAL_v1 <=> 0.7 MAL_v2 + 0.3 aMAL_v2
+Phloem export rate =1.4431908957216544
+
+##############################
+Day = 176
+Hour = 14
+
+ans =
+
+   3.2542e-05
+
+
+   Light intensity      Vc      Vo      VPGA    VT3P   Vstarch  Vt_glycerate  Vt_glycolate       A_slope  Max_Meta_slope
+0          157.986  7.9231  2.8753  0.002564  2.0682  0.045547        1.4377        2.8753  3.476400e-08        0.000033
+No more input.
+0.5 CIT_v1 + 0.5 aCIT_v1 <=> 0.5 CIT_v2 + 0.5 aCIT_v2
+bHIS_v1 --> bHIS_v2
+0.7 MAL_v1 + 0.3 aMAL_v1 <=> 0.7 MAL_v2 + 0.3 aMAL_v2
+Phloem export rate =0.4453149345667783
+
+##############################
+Day = 176
+Hour = 1
+
+ans =
+
+   2.7921e-08
+
+
+   Light intensity      Vc      Vo      VPGA   VT3P  Vstarch  Vt_glycerate  Vt_glycolate       A_slope  Max_Meta_slope
+0          158.443  8.9733  2.1945  0.003866  2.521  0.05021        1.0973        2.1945  1.038400e-10    2.792100e-08
+No more input.
+0.5 CIT_v1 + 0.5 aCIT_v1 <=> 0.5 CIT_v2 + 0.5 aCIT_v2
+bHIS_v1 --> bHIS_v2
+0.7 MAL_v1 + 0.3 aMAL_v1 <=> 0.7 MAL_v2 + 0.3 aMAL_v2
+Phloem export rate =0.575825159248991
+
+##############################
+Day = 176
+Hour = 2
+
+ans =
+
+   7.7197e-06
+
+
+   Light intensity       Vc     Vo      VPGA    VT3P  Vstarch  Vt_glycerate  Vt_glycolate       A_slope  Max_Meta_slope
+0          328.947  17.9013  4.378  0.012097  4.8682  0.17855         2.189         4.378  6.226700e-09        0.000008
+No more input.
+0.5 CIT_v1 + 0.5 aCIT_v1 <=> 0.5 CIT_v2 + 0.5 aCIT_v2
+bHIS_v1 --> bHIS_v2
+0.7 MAL_v1 + 0.3 aMAL_v1 <=> 0.7 MAL_v2 + 0.3 aMAL_v2
+Phloem export rate =1.2725421848327354
+
+##############################
+Day = 176
+Hour = 3
+
+ans =
+
+   2.3249e-07
+
+
+   Light intensity       Vc      Vo      VPGA    VT3P  Vstarch  Vt_glycerate  Vt_glycolate       A_slope  Max_Meta_slope
+0          701.754  31.6191  7.7329  0.019372  6.6765   1.2775        3.8665        7.7329  4.359800e-10    2.324900e-07
+No more input.
+0.5 CIT_v1 + 0.5 aCIT_v1 <=> 0.5 CIT_v2 + 0.5 aCIT_v2
+bHIS_v1 --> bHIS_v2
+0.7 MAL_v1 + 0.3 aMAL_v1 <=> 0.7 MAL_v2 + 0.3 aMAL_v2
+Phloem export rate =2.29152787547637
+
+##############################
+Day = 176
+Hour = 4
+
+ans =
+
+   2.0277e-05
+
+
+   Light intensity       Vc      Vo      VPGA    VT3P  Vstarch  Vt_glycerate  Vt_glycolate       A_slope  Max_Meta_slope
+0         1055.871  33.2607  8.1344  0.013921  5.8361   1.9406        4.0672        8.1344  2.250400e-10         0.00002
+No more input.
+0.5 CIT_v1 + 0.5 aCIT_v1 <=> 0.5 CIT_v2 + 0.5 aCIT_v2
+bHIS_v1 --> bHIS_v2
+0.7 MAL_v1 + 0.3 aMAL_v1 <=> 0.7 MAL_v2 + 0.3 aMAL_v2
+Phloem export rate =2.2560814154078384
+
+##############################
+Day = 176
+Hour = 5
+
+ans =
+
+   9.6159e-06
+
+
+   Light intensity       Vc      Vo      VPGA    VT3P  Vstarch  Vt_glycerate  Vt_glycolate       A_slope  Max_Meta_slope
+0         1335.227  33.3474  8.1556  0.013954  5.8449   1.9488        4.0778        8.1556  3.084400e-10         0.00001
+No more input.
+0.5 CIT_v1 + 0.5 aCIT_v1 <=> 0.5 CIT_v2 + 0.5 aCIT_v2
+bHIS_v1 --> bHIS_v2
+0.7 MAL_v1 + 0.3 aMAL_v1 <=> 0.7 MAL_v2 + 0.3 aMAL_v2
+Phloem export rate =2.2052221594674086
+
+##############################
+Day = 176
+Hour = 6
+
+ans =
+
+   2.4549e-07
+
+
+   Light intensity       Vc      Vo      VPGA    VT3P  Vstarch  Vt_glycerate  Vt_glycolate       A_slope  Max_Meta_slope
+0         1614.583  33.4111  8.1712  0.014017  5.8585   1.9513        4.0856        8.1712  5.209700e-11    2.454900e-07
+No more input.
+0.5 CIT_v1 + 0.5 aCIT_v1 <=> 0.5 CIT_v2 + 0.5 aCIT_v2
+bHIS_v1 --> bHIS_v2
+0.7 MAL_v1 + 0.3 aMAL_v1 <=> 0.7 MAL_v2 + 0.3 aMAL_v2
+Phloem export rate =2.149428550695328
+
+##############################
+Day = 176
+Hour = 7
+
+ans =
+
+   9.4661e-09
+
+
+   Light intensity       Vc     Vo      VPGA    VT3P  Vstarch  Vt_glycerate  Vt_glycolate       A_slope  Max_Meta_slope
+0         1713.268  33.4307  8.176  0.014037  5.8627   1.9521         4.088         8.176  4.958700e-12    9.466100e-09
+No more input.
+0.5 CIT_v1 + 0.5 aCIT_v1 <=> 0.5 CIT_v2 + 0.5 aCIT_v2
+bHIS_v1 --> bHIS_v2
+0.7 MAL_v1 + 0.3 aMAL_v1 <=> 0.7 MAL_v2 + 0.3 aMAL_v2
+Phloem export rate =2.132830973482872
+
+##############################
+Day = 176
+Hour = 8
+
+ans =
+
+   2.9930e-06
+
+
+   Light intensity       Vc    Vo      VPGA    VT3P  Vstarch  Vt_glycerate  Vt_glycolate       A_slope  Max_Meta_slope
+0         1795.504  33.4471  8.18  0.014053  5.8663   1.9527          4.09          8.18  6.802700e-10        0.000003
+No more input.
+0.5 CIT_v1 + 0.5 aCIT_v1 <=> 0.5 CIT_v2 + 0.5 aCIT_v2
+bHIS_v1 --> bHIS_v2
+0.7 MAL_v1 + 0.3 aMAL_v1 <=> 0.7 MAL_v2 + 0.3 aMAL_v2
+Phloem export rate =2.0829143818638514
+
+##############################
+Day = 176
+Hour = 9
+
+ans =
+
+   8.8245e-06
+
+
+   Light intensity       Vc      Vo     VPGA    VT3P  Vstarch  Vt_glycerate  Vt_glycolate       A_slope  Max_Meta_slope
+0         1729.715  33.4343  8.1769  0.01404  5.8635   1.9522        4.0884        8.1769  1.213500e-10        0.000009
+No more input.
+0.5 CIT_v1 + 0.5 aCIT_v1 <=> 0.5 CIT_v2 + 0.5 aCIT_v2
+bHIS_v1 --> bHIS_v2
+0.7 MAL_v1 + 0.3 aMAL_v1 <=> 0.7 MAL_v2 + 0.3 aMAL_v2
+Phloem export rate =2.1117570940847754
+
+##############################
+Day = 176
+Hour = 10
+
+ans =
+
+   1.5336e-05
+
+
+   Light intensity       Vc      Vo      VPGA   VT3P  Vstarch  Vt_glycerate  Vt_glycolate       A_slope  Max_Meta_slope
+0          1603.22  33.4088  8.1706  0.014015  5.858   1.9512        4.0853        8.1706  1.958100e-10        0.000015
+No more input.
+0.5 CIT_v1 + 0.5 aCIT_v1 <=> 0.5 CIT_v2 + 0.5 aCIT_v2
+bHIS_v1 --> bHIS_v2
+0.7 MAL_v1 + 0.3 aMAL_v1 <=> 0.7 MAL_v2 + 0.3 aMAL_v2
+Phloem export rate =2.14330974367025
+
+##############################
+Day = 176
+Hour = 11
+
+ans =
+
+   4.4099e-05
+
+
+   Light intensity       Vc      Vo      VPGA    VT3P  Vstarch  Vt_glycerate  Vt_glycolate       A_slope  Max_Meta_slope
+0         1233.902  33.3211  8.1492  0.013931  5.8398   1.9476        4.0746        8.1492  2.850100e-09        0.000044
+No more input.
+0.5 CIT_v1 + 0.5 aCIT_v1 <=> 0.5 CIT_v2 + 0.5 aCIT_v2
+bHIS_v1 --> bHIS_v2
+0.7 MAL_v1 + 0.3 aMAL_v1 <=> 0.7 MAL_v2 + 0.3 aMAL_v2
+Phloem export rate =2.275721963451974
+
+##############################
+Day = 176
+Hour = 12
+
+ans =
+
+   6.1640e-08
+
+
+   Light intensity       Vc      Vo      VPGA    VT3P  Vstarch  Vt_glycerate  Vt_glycolate       A_slope  Max_Meta_slope
+0          864.583  33.0283  8.0776  0.014752  5.9789   1.8348        4.0388        8.0776  3.496200e-09    6.164000e-08
+No more input.
+0.5 CIT_v1 + 0.5 aCIT_v1 <=> 0.5 CIT_v2 + 0.5 aCIT_v2
+bHIS_v1 --> bHIS_v2
+0.7 MAL_v1 + 0.3 aMAL_v1 <=> 0.7 MAL_v2 + 0.3 aMAL_v2
+Phloem export rate =2.3050777170382957
+
+##############################
+Day = 176
+Hour = 13
+
+ans =
+
+   7.9019e-05
+
+[Warning: ODE model does not reach a steady state: The 1st time ] 
+[> In Sim_Ephotosynthesis (line 22)
+  In wrapped_Sim_Ephotosynthesis_f2389175_d8af_4b21_bf3c_26a49fc3 (line 97)] 
+
+   Light intensity       Vc      Vo     VPGA    VT3P  Vstarch  Vt_glycerate  Vt_glycolate       A_slope  Max_Meta_slope
+0          519.189  26.7395  6.5396  0.02114  6.7219  0.54011        3.2698        6.5396  5.479100e-10        0.000006
+No more input.
+0.5 CIT_v1 + 0.5 aCIT_v1 <=> 0.5 CIT_v2 + 0.5 aCIT_v2
+bHIS_v1 --> bHIS_v2
+0.7 MAL_v1 + 0.3 aMAL_v1 <=> 0.7 MAL_v2 + 0.3 aMAL_v2
+Phloem export rate =1.905281179123775
+
+##############################
+Day = 176
+Hour = 14
+
+ans =
+
+   1.6834e-05
+
+
+   Light intensity       Vc      Vo      VPGA    VT3P   Vstarch  Vt_glycerate  Vt_glycolate       A_slope  Max_Meta_slope
+0          197.338  11.0908  2.7124  0.005503  3.0939  0.072718        1.3562        2.7124  3.589900e-08        0.000017
+No more input.
+0.5 CIT_v1 + 0.5 aCIT_v1 <=> 0.5 CIT_v2 + 0.5 aCIT_v2
+bHIS_v1 --> bHIS_v2
+0.7 MAL_v1 + 0.3 aMAL_v1 <=> 0.7 MAL_v2 + 0.3 aMAL_v2
+Phloem export rate =0.745032808767856
+
+##############################
+Day = 191
+Hour = 1
+
+ans =
+
+   2.6779e-06
+
+
+   Light intensity      Vc      Vo      VPGA    VT3P  Vstarch  Vt_glycerate  Vt_glycolate       A_slope  Max_Meta_slope
+0           295.02  14.277  5.1812  0.006702  3.6163  0.13619        2.5906        5.1812  1.911100e-08        0.000003
+No more input.
+0.5 CIT_v1 + 0.5 aCIT_v1 <=> 0.5 CIT_v2 + 0.5 aCIT_v2
+bHIS_v1 --> bHIS_v2
+0.7 MAL_v1 + 0.3 aMAL_v1 <=> 0.7 MAL_v2 + 0.3 aMAL_v2
+Phloem export rate =0.8846584057249525
+
+##############################
+Day = 191
+Hour = 2
+
+ans =
+
+   1.2423e-06
+
+
+   Light intensity       Vc      Vo      VPGA    VT3P  Vstarch  Vt_glycerate  Vt_glycolate       A_slope  Max_Meta_slope
+0          583.117  24.5613  8.9134  0.012376  5.2974  0.69588        4.4567        8.9134  3.526900e-10        0.000001
+No more input.
+0.5 CIT_v1 + 0.5 aCIT_v1 <=> 0.5 CIT_v2 + 0.5 aCIT_v2
+bHIS_v1 --> bHIS_v2
+0.7 MAL_v1 + 0.3 aMAL_v1 <=> 0.7 MAL_v2 + 0.3 aMAL_v2
+Phloem export rate =1.54647123675059
+
+##############################
+Day = 191
+Hour = 3
+
+ans =
+
+   5.7868e-06
+
+
+   Light intensity       Vc     Vo      VPGA    VT3P  Vstarch  Vt_glycerate  Vt_glycolate       A_slope  Max_Meta_slope
+0          935.422  26.3073  9.547  0.009646  4.8025   1.1829        4.7735         9.547  2.414300e-10        0.000006
+No more input.
+0.5 CIT_v1 + 0.5 aCIT_v1 <=> 0.5 CIT_v2 + 0.5 aCIT_v2
+bHIS_v1 --> bHIS_v2
+0.7 MAL_v1 + 0.3 aMAL_v1 <=> 0.7 MAL_v2 + 0.3 aMAL_v2
+Phloem export rate =1.5973758589269471
+
+##############################
+Day = 191
+Hour = 4
+
+ans =
+
+   5.3436e-06
+
+
+   Light intensity      Vc      Vo      VPGA    VT3P  Vstarch  Vt_glycerate  Vt_glycolate       A_slope  Max_Meta_slope
+0         1330.532  26.459  9.6021  0.009745  4.8295     1.19         4.801        9.6021  2.212100e-10        0.000005
+No more input.
+0.5 CIT_v1 + 0.5 aCIT_v1 <=> 0.5 CIT_v2 + 0.5 aCIT_v2
+bHIS_v1 --> bHIS_v2
+0.7 MAL_v1 + 0.3 aMAL_v1 <=> 0.7 MAL_v2 + 0.3 aMAL_v2
+Phloem export rate =1.4435074207387955
+
+##############################
+Day = 191
+Hour = 5
+
+ans =
+
+   6.3925e-07
+
+
+   Light intensity       Vc      Vo      VPGA    VT3P  Vstarch  Vt_glycerate  Vt_glycolate       A_slope  Max_Meta_slope
+0         1611.135  26.5424  9.6323  0.009806  4.8458   1.1932        4.8162        9.6323  1.466600e-10    6.392500e-07
+No more input.
+0.5 CIT_v1 + 0.5 aCIT_v1 <=> 0.5 CIT_v2 + 0.5 aCIT_v2
+bHIS_v1 --> bHIS_v2
+0.7 MAL_v1 + 0.3 aMAL_v1 <=> 0.7 MAL_v2 + 0.3 aMAL_v2
+Phloem export rate =1.4637069195914043
+
+##############################
+Day = 191
+Hour = 6
+
+ans =
+
+   6.7592e-07
+
+
+   Light intensity       Vc      Vo      VPGA    VT3P  Vstarch  Vt_glycerate  Vt_glycolate       A_slope  Max_Meta_slope
+0         1624.554  26.5461  9.6336  0.009808  4.8466   1.1934        4.8168        9.6336  2.977400e-10    6.759200e-07
+No more input.
+0.5 CIT_v1 + 0.5 aCIT_v1 <=> 0.5 CIT_v2 + 0.5 aCIT_v2
+bHIS_v1 --> bHIS_v2
+0.7 MAL_v1 + 0.3 aMAL_v1 <=> 0.7 MAL_v2 + 0.3 aMAL_v2
+Phloem export rate =1.3894591207828861
+
+##############################
+Day = 191
+Hour = 7
+
+ans =
+
+   3.9069e-10
+
+
+   Light intensity       Vc      Vo      VPGA    VT3P  Vstarch  Vt_glycerate  Vt_glycolate       A_slope  Max_Meta_slope
+0         1631.637  26.5474  9.6342  0.009809  4.8468   1.1934        4.8171        9.6342  3.879400e-11    3.906900e-10
+No more input.
+0.5 CIT_v1 + 0.5 aCIT_v1 <=> 0.5 CIT_v2 + 0.5 aCIT_v2
+bHIS_v1 --> bHIS_v2
+0.7 MAL_v1 + 0.3 aMAL_v1 <=> 0.7 MAL_v2 + 0.3 aMAL_v2
+Phloem export rate =1.464518736394217
+
+##############################
+Day = 191
+Hour = 8
+
+ans =
+
+   4.1298e-07
+
+
+   Light intensity       Vc      Vo      VPGA    VT3P  Vstarch  Vt_glycerate  Vt_glycolate       A_slope  Max_Meta_slope
+0         1581.694  26.5335  9.6291  0.009799  4.8441   1.1929        4.8145        9.6291  4.808100e-11    4.129800e-07
+No more input.
+0.5 CIT_v1 + 0.5 aCIT_v1 <=> 0.5 CIT_v2 + 0.5 aCIT_v2
+bHIS_v1 --> bHIS_v2
+0.7 MAL_v1 + 0.3 aMAL_v1 <=> 0.7 MAL_v2 + 0.3 aMAL_v2
+Phloem export rate =1.4888134456779858
+
+##############################
+Day = 191
+Hour = 9
+
+ans =
+
+   1.1926e-06
+
+
+   Light intensity       Vc      Vo      VPGA    VT3P  Vstarch  Vt_glycerate  Vt_glycolate       A_slope  Max_Meta_slope
+0         1531.751  26.5198  9.6241  0.009789  4.8414   1.1924        4.8121        9.6241  6.560900e-11        0.000001
+No more input.
+0.5 CIT_v1 + 0.5 aCIT_v1 <=> 0.5 CIT_v2 + 0.5 aCIT_v2
+bHIS_v1 --> bHIS_v2
+0.7 MAL_v1 + 0.3 aMAL_v1 <=> 0.7 MAL_v2 + 0.3 aMAL_v2
+Phloem export rate =1.4820037369885801
+
+##############################
+Day = 191
+Hour = 10
+
+ans =
+
+   2.8382e-07
+
+
+   Light intensity       Vc      Vo      VPGA    VT3P  Vstarch  Vt_glycerate  Vt_glycolate       A_slope  Max_Meta_slope
+0         1516.957  26.5158  9.6227  0.009786  4.8406   1.1922        4.8113        9.6227  2.374200e-11    2.838200e-07
+No more input.
+0.5 CIT_v1 + 0.5 aCIT_v1 <=> 0.5 CIT_v2 + 0.5 aCIT_v2
+bHIS_v1 --> bHIS_v2
+0.7 MAL_v1 + 0.3 aMAL_v1 <=> 0.7 MAL_v2 + 0.3 aMAL_v2
+Phloem export rate =1.4700603623291915
+
+##############################
+Day = 191
+Hour = 11
+
+ans =
+
+   8.2621e-07
+
+
+   Light intensity      Vc      Vo     VPGA    VT3P  Vstarch  Vt_glycerate  Vt_glycolate       A_slope  Max_Meta_slope
+0         1502.163  26.507  9.6195  0.00978  4.8389   1.1919        4.8097        9.6195  6.827200e-11    8.262100e-07
+No more input.
+0.5 CIT_v1 + 0.5 aCIT_v1 <=> 0.5 CIT_v2 + 0.5 aCIT_v2
+bHIS_v1 --> bHIS_v2
+0.7 MAL_v1 + 0.3 aMAL_v1 <=> 0.7 MAL_v2 + 0.3 aMAL_v2
+Phloem export rate =1.548735375873533
+
+##############################
+Day = 191
+Hour = 12
+
+ans =
+
+   4.0508e-06
+
+
+   Light intensity       Vc      Vo      VPGA    VT3P  Vstarch  Vt_glycerate  Vt_glycolate       A_slope  Max_Meta_slope
+0         1370.755  26.4713  9.6065  0.009754  4.8319   1.1905        4.8033        9.6065  3.266900e-10        0.000004
+No more input.
+0.5 CIT_v1 + 0.5 aCIT_v1 <=> 0.5 CIT_v2 + 0.5 aCIT_v2
+bHIS_v1 --> bHIS_v2
+0.7 MAL_v1 + 0.3 aMAL_v1 <=> 0.7 MAL_v2 + 0.3 aMAL_v2
+Phloem export rate =1.5121489536982058
+
+##############################
+Day = 191
+Hour = 13
+
+ans =
+
+   1.6787e-06
+
+
+   Light intensity       Vc      Vo      VPGA    VT3P  Vstarch  Vt_glycerate  Vt_glycolate       A_slope  Max_Meta_slope
+0         1210.193  26.4185  9.5874  0.009715  4.8216   1.1885        4.7937        9.5874  3.971200e-10        0.000002
+No more input.
+0.5 CIT_v1 + 0.5 aCIT_v1 <=> 0.5 CIT_v2 + 0.5 aCIT_v2
+bHIS_v1 --> bHIS_v2
+0.7 MAL_v1 + 0.3 aMAL_v1 <=> 0.7 MAL_v2 + 0.3 aMAL_v2
+Phloem export rate =1.5380218194710027
+
+##############################
+Day = 191
+Hour = 14
+
+ans =
+
+   1.5149e-05
+
+
+   Light intensity       Vc      Vo      VPGA   VT3P  Vstarch  Vt_glycerate  Vt_glycolate       A_slope  Max_Meta_slope
+0          846.003  26.2553  9.5281  0.009656  4.803   1.1755        4.7641        9.5281  6.106000e-10        0.000015
+No more input.
+0.5 CIT_v1 + 0.5 aCIT_v1 <=> 0.5 CIT_v2 + 0.5 aCIT_v2
+bHIS_v1 --> bHIS_v2
+0.7 MAL_v1 + 0.3 aMAL_v1 <=> 0.7 MAL_v2 + 0.3 aMAL_v2
+Phloem export rate =1.6367598673460484
+
+##############################
+Day = 191
+Hour = 15
+
+ans =
+
+   5.2702e-08
+
+
+   Light intensity      Vc      Vo      VPGA    VT3P  Vstarch  Vt_glycerate  Vt_glycolate       A_slope  Max_Meta_slope
+0           346.06  16.495  5.9861  0.008397  4.1218   0.1852        2.9931        5.9861  3.051100e-09    5.270200e-08
+No more input.
+0.5 CIT_v1 + 0.5 aCIT_v1 <=> 0.5 CIT_v2 + 0.5 aCIT_v2
+bHIS_v1 --> bHIS_v2
+0.7 MAL_v1 + 0.3 aMAL_v1 <=> 0.7 MAL_v2 + 0.3 aMAL_v2
+Phloem export rate =1.0356922701847173
+
+##############################
+Day = 191
+Hour = 1
+
+ans =
+
+   1.3002e-07
+
+
+   Light intensity       Vc      Vo      VPGA    VT3P  Vstarch  Vt_glycerate  Vt_glycolate       A_slope  Max_Meta_slope
+0          307.951  16.8197  4.1135  0.010939  4.5962   0.1569        2.0568        4.1135  2.425700e-10    1.300200e-07
+No more input.
+0.5 CIT_v1 + 0.5 aCIT_v1 <=> 0.5 CIT_v2 + 0.5 aCIT_v2
+bHIS_v1 --> bHIS_v2
+0.7 MAL_v1 + 0.3 aMAL_v1 <=> 0.7 MAL_v2 + 0.3 aMAL_v2
+Phloem export rate =1.1784634481346294
+
+##############################
+Day = 191
+Hour = 2
+
+ans =
+
+   3.2380e-07
+
+
+   Light intensity       Vc      Vo      VPGA    VT3P  Vstarch  Vt_glycerate  Vt_glycolate       A_slope  Max_Meta_slope
+0          608.979  29.4786  7.2094  0.021767  6.9295   0.8367        3.6047        7.2094  7.852500e-10    3.238000e-07
+No more input.
+0.5 CIT_v1 + 0.5 aCIT_v1 <=> 0.5 CIT_v2 + 0.5 aCIT_v2
+bHIS_v1 --> bHIS_v2
+0.7 MAL_v1 + 0.3 aMAL_v1 <=> 0.7 MAL_v2 + 0.3 aMAL_v2
+Phloem export rate =2.1116789289861257
+
+##############################
+Day = 191
+Hour = 3
+
+ans =
+
+   1.3809e-07
+
+
+   Light intensity       Vc      Vo     VPGA    VT3P  Vstarch  Vt_glycerate  Vt_glycolate       A_slope  Max_Meta_slope
+0          923.278  33.1515  8.1077  0.01423  5.8892   1.8979        4.0538        8.1077  3.445900e-09    1.380900e-07
+No more input.
+0.5 CIT_v1 + 0.5 aCIT_v1 <=> 0.5 CIT_v2 + 0.5 aCIT_v2
+bHIS_v1 --> bHIS_v2
+0.7 MAL_v1 + 0.3 aMAL_v1 <=> 0.7 MAL_v2 + 0.3 aMAL_v2
+Phloem export rate =2.3461418655895074
+
+##############################
+Day = 191
+Hour = 4
+
+ans =
+
+   5.3179e-07
+
+
+   Light intensity      Vc      Vo     VPGA    VT3P  Vstarch  Vt_glycerate  Vt_glycolate       A_slope  Max_Meta_slope
+0         1246.424  33.321  8.1492  0.01393  5.8397   1.9476        4.0746        8.1492  1.835900e-10    5.317900e-07
+No more input.
+0.5 CIT_v1 + 0.5 aCIT_v1 <=> 0.5 CIT_v2 + 0.5 aCIT_v2
+bHIS_v1 --> bHIS_v2
+0.7 MAL_v1 + 0.3 aMAL_v1 <=> 0.7 MAL_v2 + 0.3 aMAL_v2
+Phloem export rate =2.293029306609801
+
+##############################
+Day = 191
+Hour = 5
+
+ans =
+
+   2.4486e-05
+
+
+   Light intensity       Vc      Vo      VPGA    VT3P  Vstarch  Vt_glycerate  Vt_glycolate       A_slope  Max_Meta_slope
+0         1509.097  33.3879  8.1655  0.013994  5.8535   1.9504        4.0828        8.1655  1.328700e-09        0.000024
+No more input.
+0.5 CIT_v1 + 0.5 aCIT_v1 <=> 0.5 CIT_v2 + 0.5 aCIT_v2
+bHIS_v1 --> bHIS_v2
+0.7 MAL_v1 + 0.3 aMAL_v1 <=> 0.7 MAL_v2 + 0.3 aMAL_v2
+Phloem export rate =2.192528873359218
+
+##############################
+Day = 191
+Hour = 6
+
+ans =
+
+   1.4042e-07
+
+
+   Light intensity       Vc     Vo     VPGA    VT3P  Vstarch  Vt_glycerate  Vt_glycolate       A_slope  Max_Meta_slope
+0         1630.667  33.4145  8.172  0.01402  5.8592   1.9515         4.086         8.172  7.107100e-12    1.404200e-07
+No more input.
+0.5 CIT_v1 + 0.5 aCIT_v1 <=> 0.5 CIT_v2 + 0.5 aCIT_v2
+bHIS_v1 --> bHIS_v2
+0.7 MAL_v1 + 0.3 aMAL_v1 <=> 0.7 MAL_v2 + 0.3 aMAL_v2
+Phloem export rate =2.1390587366104783
+
+##############################
+Day = 191
+Hour = 7
+
+ans =
+
+   1.9685e-08
+
+
+   Light intensity       Vc      Vo      VPGA    VT3P  Vstarch  Vt_glycerate  Vt_glycolate       A_slope  Max_Meta_slope
+0         1739.026  33.4359  8.1773  0.014042  5.8639   1.9523        4.0886        8.1773  1.007200e-11    1.968500e-08
+No more input.
+0.5 CIT_v1 + 0.5 aCIT_v1 <=> 0.5 CIT_v2 + 0.5 aCIT_v2
+bHIS_v1 --> bHIS_v2
+0.7 MAL_v1 + 0.3 aMAL_v1 <=> 0.7 MAL_v2 + 0.3 aMAL_v2
+Phloem export rate =2.1143046415334044
+
+##############################
+Day = 191
+Hour = 8
+
+ans =
+
+   2.7065e-06
+
+
+   Light intensity       Vc      Vo      VPGA    VT3P  Vstarch  Vt_glycerate  Vt_glycolate       A_slope  Max_Meta_slope
+0         1728.492  33.4326  8.1765  0.014039  5.8631   1.9521        4.0882        8.1765  6.327200e-12        0.000003
+No more input.
+0.5 CIT_v1 + 0.5 aCIT_v1 <=> 0.5 CIT_v2 + 0.5 aCIT_v2
+bHIS_v1 --> bHIS_v2
+0.7 MAL_v1 + 0.3 aMAL_v1 <=> 0.7 MAL_v2 + 0.3 aMAL_v2
+Phloem export rate =2.0379527214231463
+
+##############################
+Day = 191
+Hour = 9
+
+ans =
+
+   4.2603e-08
+
+
+   Light intensity       Vc      Vo      VPGA    VT3P  Vstarch  Vt_glycerate  Vt_glycolate       A_slope  Max_Meta_slope
+0         1717.958  33.4311  8.1761  0.014037  5.8628   1.9521         4.088        8.1761  9.646700e-13    4.260300e-08
+No more input.
+0.5 CIT_v1 + 0.5 aCIT_v1 <=> 0.5 CIT_v2 + 0.5 aCIT_v2
+bHIS_v1 --> bHIS_v2
+0.7 MAL_v1 + 0.3 aMAL_v1 <=> 0.7 MAL_v2 + 0.3 aMAL_v2
+Phloem export rate =2.1222070153402486
+
+##############################
+Day = 191
+Hour = 10
+
+ans =
+
+   5.8095e-06
+
+
+   Light intensity       Vc      Vo      VPGA    VT3P  Vstarch  Vt_glycerate  Vt_glycolate       A_slope  Max_Meta_slope
+0         1670.248  33.4221  8.1739  0.014028  5.8609   1.9517        4.0869        8.1739  1.032700e-10        0.000006
+No more input.
+0.5 CIT_v1 + 0.5 aCIT_v1 <=> 0.5 CIT_v2 + 0.5 aCIT_v2
+bHIS_v1 --> bHIS_v2
+0.7 MAL_v1 + 0.3 aMAL_v1 <=> 0.7 MAL_v2 + 0.3 aMAL_v2
+Phloem export rate =2.1175632107907782
+
+##############################
+Day = 191
+Hour = 11
+
+ans =
+
+   6.6148e-07
+
+
+   Light intensity       Vc      Vo      VPGA    VT3P  Vstarch  Vt_glycerate  Vt_glycolate       A_slope  Max_Meta_slope
+0         1622.539  33.4124  8.1715  0.014018  5.8588   1.9514        4.0858        8.1715  5.951900e-12    6.614800e-07
+No more input.
+0.5 CIT_v1 + 0.5 aCIT_v1 <=> 0.5 CIT_v2 + 0.5 aCIT_v2
+bHIS_v1 --> bHIS_v2
+0.7 MAL_v1 + 0.3 aMAL_v1 <=> 0.7 MAL_v2 + 0.3 aMAL_v2
+Phloem export rate =2.1534534040964393
+
+##############################
+Day = 191
+Hour = 12
+
+ans =
+
+   1.0722e-04
+
+[Warning: ODE model does not reach a steady state: The 1st time ] 
+[> In Sim_Ephotosynthesis (line 22)
+  In wrapped_Sim_Ephotosynthesis_ca47ee37_5866_414e_aafd_a2c9775e (line 97)] 
+
+   Light intensity       Vc     Vo      VPGA    VT3P  Vstarch  Vt_glycerate  Vt_glycolate       A_slope  Max_Meta_slope
+0          1424.36  33.3693  8.161  0.013975  5.8495   1.9497        4.0805         8.161  3.866000e-15    7.148400e-11
+No more input.
+0.5 CIT_v1 + 0.5 aCIT_v1 <=> 0.5 CIT_v2 + 0.5 aCIT_v2
+bHIS_v1 --> bHIS_v2
+0.7 MAL_v1 + 0.3 aMAL_v1 <=> 0.7 MAL_v2 + 0.3 aMAL_v2
+Phloem export rate =2.243589596595962
+
+##############################
+Day = 191
+Hour = 13
+
+ans =
+
+   1.7510e-07
+
+
+   Light intensity       Vc      Vo      VPGA    VT3P  Vstarch  Vt_glycerate  Vt_glycolate       A_slope  Max_Meta_slope
+0         1188.563  33.3076  8.1459  0.013921  5.8375   1.9467        4.0729        8.1459  5.374900e-10    1.751000e-07
+No more input.
+0.5 CIT_v1 + 0.5 aCIT_v1 <=> 0.5 CIT_v2 + 0.5 aCIT_v2
+bHIS_v1 --> bHIS_v2
+0.7 MAL_v1 + 0.3 aMAL_v1 <=> 0.7 MAL_v2 + 0.3 aMAL_v2
+Phloem export rate =2.242665585647859
+
+##############################
+Day = 191
+Hour = 14
+
+ans =
+
+   3.8020e-06
+
+
+   Light intensity       Vc     Vo      VPGA    VT3P  Vstarch  Vt_glycerate  Vt_glycolate       A_slope  Max_Meta_slope
+0          807.772  32.7764  8.016  0.015822  6.1562   1.7087         4.008         8.016  2.322800e-10        0.000004
+No more input.
+0.5 CIT_v1 + 0.5 aCIT_v1 <=> 0.5 CIT_v2 + 0.5 aCIT_v2
+bHIS_v1 --> bHIS_v2
+0.7 MAL_v1 + 0.3 aMAL_v1 <=> 0.7 MAL_v2 + 0.3 aMAL_v2
+Phloem export rate =2.307387808591548
+
+##############################
+Day = 191
+Hour = 15
+
+ans =
+
+   2.9439e-08
+
+
+   Light intensity       Vc      Vo      VPGA    VT3P  Vstarch  Vt_glycerate  Vt_glycolate       A_slope  Max_Meta_slope
+0          330.318  17.9389  4.3872  0.012137  4.8775  0.17937        2.1936        4.3872  1.697900e-09    2.943900e-08
+No more input.
+0.5 CIT_v1 + 0.5 aCIT_v1 <=> 0.5 CIT_v2 + 0.5 aCIT_v2
+bHIS_v1 --> bHIS_v2
+0.7 MAL_v1 + 0.3 aMAL_v1 <=> 0.7 MAL_v2 + 0.3 aMAL_v2
+Phloem export rate =1.2629167288944916
+
+##############################
+Day = 205
+Hour = 1
+
+ans =
+
+   2.5303e-05
+
+
+   Light intensity      Vc      Vo      VPGA    VT3P   Vstarch  Vt_glycerate  Vt_glycolate       A_slope  Max_Meta_slope
+0          112.981  5.7546  2.0884  0.001514  1.5201  0.024271        1.0442        2.0884  4.601700e-08        0.000025
+No more input.
+0.5 CIT_v1 + 0.5 aCIT_v1 <=> 0.5 CIT_v2 + 0.5 aCIT_v2
+bHIS_v1 --> bHIS_v2
+0.7 MAL_v1 + 0.3 aMAL_v1 <=> 0.7 MAL_v2 + 0.3 aMAL_v2
+Phloem export rate =0.28999419303408197
+
+##############################
+Day = 205
+Hour = 2
+
+ans =
+
+   1.7229e-05
+
+
+   Light intensity       Vc      Vo     VPGA    VT3P   Vstarch  Vt_glycerate  Vt_glycolate       A_slope  Max_Meta_slope
+0          205.128  10.1743  3.6923  0.00387  2.6285  0.071856        1.8461        3.6923  7.100200e-08        0.000017
+No more input.
+0.5 CIT_v1 + 0.5 aCIT_v1 <=> 0.5 CIT_v2 + 0.5 aCIT_v2
+bHIS_v1 --> bHIS_v2
+0.7 MAL_v1 + 0.3 aMAL_v1 <=> 0.7 MAL_v2 + 0.3 aMAL_v2
+Phloem export rate =0.6028487453572091
+
+##############################
+Day = 205
+Hour = 3
+
+ans =
+
+   2.6041e-05
+
+
+   Light intensity       Vc      Vo      VPGA   VT3P  Vstarch  Vt_glycerate  Vt_glycolate       A_slope  Max_Meta_slope
+0          372.596  17.6013  6.3876  0.009254  4.362  0.21561        3.1938        6.3876  2.943300e-08        0.000026
+No more input.
+0.5 CIT_v1 + 0.5 aCIT_v1 <=> 0.5 CIT_v2 + 0.5 aCIT_v2
+bHIS_v1 --> bHIS_v2
+0.7 MAL_v1 + 0.3 aMAL_v1 <=> 0.7 MAL_v2 + 0.3 aMAL_v2
+Phloem export rate =1.1061571392353626
+
+##############################
+Day = 205
+Hour = 4
+
+ans =
+
+   8.8230e-08
+
+
+   Light intensity       Vc      Vo      VPGA    VT3P  Vstarch  Vt_glycerate  Vt_glycolate       A_slope  Max_Meta_slope
+0          653.045  25.6338  9.3026  0.011076  5.0831  0.94998        4.6513        9.3026  8.709800e-10    8.823000e-08
+No more input.
+0.5 CIT_v1 + 0.5 aCIT_v1 <=> 0.5 CIT_v2 + 0.5 aCIT_v2
+bHIS_v1 --> bHIS_v2
+0.7 MAL_v1 + 0.3 aMAL_v1 <=> 0.7 MAL_v2 + 0.3 aMAL_v2
+Phloem export rate =1.6223700665905165
+
+##############################
+Day = 205
+Hour = 5
+
+ans =
+
+   2.2135e-06
+
+
+   Light intensity       Vc      Vo      VPGA    VT3P  Vstarch  Vt_glycerate  Vt_glycolate       A_slope  Max_Meta_slope
+0          933.494  26.3051  9.5462  0.009645  4.8022   1.1827        4.7731        9.5462  1.421400e-10        0.000002
+No more input.
+0.5 CIT_v1 + 0.5 aCIT_v1 <=> 0.5 CIT_v2 + 0.5 aCIT_v2
+bHIS_v1 --> bHIS_v2
+0.7 MAL_v1 + 0.3 aMAL_v1 <=> 0.7 MAL_v2 + 0.3 aMAL_v2
+Phloem export rate =1.6087423524529685
+
+##############################
+Day = 205
+Hour = 6
+
+ans =
+
+   3.3972e-06
+
+
+   Light intensity       Vc      Vo      VPGA    VT3P  Vstarch  Vt_glycerate  Vt_glycolate       A_slope  Max_Meta_slope
+0          1075.79  26.3676  9.5689  0.009679  4.8119   1.1864        4.7844        9.5689  3.250600e-11        0.000003
+No more input.
+0.5 CIT_v1 + 0.5 aCIT_v1 <=> 0.5 CIT_v2 + 0.5 aCIT_v2
+bHIS_v1 --> bHIS_v2
+0.7 MAL_v1 + 0.3 aMAL_v1 <=> 0.7 MAL_v2 + 0.3 aMAL_v2
+Phloem export rate =1.53168875437526
+
+##############################
+Day = 205
+Hour = 7
+
+ans =
+
+   7.1732e-06
+
+
+   Light intensity      Vc      Vo      VPGA    VT3P  Vstarch  Vt_glycerate  Vt_glycolate       A_slope  Max_Meta_slope
+0         1183.549  26.409  9.5839  0.009708  4.8198   1.1881        4.7919        9.5839  2.607900e-10        0.000007
+No more input.
+0.5 CIT_v1 + 0.5 aCIT_v1 <=> 0.5 CIT_v2 + 0.5 aCIT_v2
+bHIS_v1 --> bHIS_v2
+0.7 MAL_v1 + 0.3 aMAL_v1 <=> 0.7 MAL_v2 + 0.3 aMAL_v2
+Phloem export rate =1.5049793841277177
+
+##############################
+Day = 205
+Hour = 8
+
+ans =
+
+   1.0118e-06
+
+
+   Light intensity       Vc      Vo      VPGA   VT3P  Vstarch  Vt_glycerate  Vt_glycolate       A_slope  Max_Meta_slope
+0         1291.307  26.4459  9.5973  0.009735  4.827   1.1895        4.7987        9.5973  5.272900e-11        0.000001
+No more input.
+0.5 CIT_v1 + 0.5 aCIT_v1 <=> 0.5 CIT_v2 + 0.5 aCIT_v2
+bHIS_v1 --> bHIS_v2
+0.7 MAL_v1 + 0.3 aMAL_v1 <=> 0.7 MAL_v2 + 0.3 aMAL_v2
+Phloem export rate =1.5746290233533233
+
+##############################
+Day = 205
+Hour = 9
+
+ans =
+
+   3.9326e-05
+
+
+   Light intensity       Vc      Vo      VPGA    VT3P  Vstarch  Vt_glycerate  Vt_glycolate       A_slope  Max_Meta_slope
+0         1187.027  26.4103  9.5844  0.009709  4.8201   1.1881        4.7922        9.5844  2.108500e-09        0.000039
+No more input.
+0.5 CIT_v1 + 0.5 aCIT_v1 <=> 0.5 CIT_v2 + 0.5 aCIT_v2
+bHIS_v1 --> bHIS_v2
+0.7 MAL_v1 + 0.3 aMAL_v1 <=> 0.7 MAL_v2 + 0.3 aMAL_v2
+Phloem export rate =1.5285416945845136
+
+##############################
+Day = 205
+Hour = 10
+
+ans =
+
+   2.0358e-05
+
+
+   Light intensity       Vc     Vo      VPGA   VT3P  Vstarch  Vt_glycerate  Vt_glycolate       A_slope  Max_Meta_slope
+0         1059.186  26.3625  9.567  0.009676  4.811   1.1862        4.7835         9.567  2.457400e-10         0.00002
+No more input.
+0.5 CIT_v1 + 0.5 aCIT_v1 <=> 0.5 CIT_v2 + 0.5 aCIT_v2
+bHIS_v1 --> bHIS_v2
+0.7 MAL_v1 + 0.3 aMAL_v1 <=> 0.7 MAL_v2 + 0.3 aMAL_v2
+Phloem export rate =1.5468594582271311
+
+##############################
+Day = 205
+Hour = 11
+
+ans =
+
+   8.1791e-07
+
+
+   Light intensity       Vc      Vo      VPGA    VT3P  Vstarch  Vt_glycerate  Vt_glycolate       A_slope  Max_Meta_slope
+0          789.402  26.1988  9.5076  0.009736  4.8186     1.16        4.7538        9.5076  7.175500e-11    8.179100e-07
+No more input.
+0.5 CIT_v1 + 0.5 aCIT_v1 <=> 0.5 CIT_v2 + 0.5 aCIT_v2
+bHIS_v1 --> bHIS_v2
+0.7 MAL_v1 + 0.3 aMAL_v1 <=> 0.7 MAL_v2 + 0.3 aMAL_v2
+Phloem export rate =1.6224640068345526
+
+##############################
+Day = 205
+Hour = 12
+
+ans =
+
+   1.6255e-06
+
+
+   Light intensity       Vc      Vo      VPGA    VT3P  Vstarch  Vt_glycerate  Vt_glycolate       A_slope  Max_Meta_slope
+0          458.786  20.9721  7.6109  0.011668  5.0074  0.35156        3.8054        7.6109  4.796500e-09        0.000002
+No more input.
+0.5 CIT_v1 + 0.5 aCIT_v1 <=> 0.5 CIT_v2 + 0.5 aCIT_v2
+bHIS_v1 --> bHIS_v2
+0.7 MAL_v1 + 0.3 aMAL_v1 <=> 0.7 MAL_v2 + 0.3 aMAL_v2
+Phloem export rate =1.3445844408652172
+
+##############################
+Day = 205
+Hour = 13
+
+ans =
+
+   2.5012e-05
+
+
+   Light intensity      Vc      Vo      VPGA    VT3P   Vstarch  Vt_glycerate  Vt_glycolate       A_slope  Max_Meta_slope
+0           193.75  9.6569  3.5045  0.003552  2.5006  0.065365        1.7523        3.5045  5.103000e-08        0.000025
+No more input.
+0.5 CIT_v1 + 0.5 aCIT_v1 <=> 0.5 CIT_v2 + 0.5 aCIT_v2
+bHIS_v1 --> bHIS_v2
+0.7 MAL_v1 + 0.3 aMAL_v1 <=> 0.7 MAL_v2 + 0.3 aMAL_v2
+Phloem export rate =0.5681063389241461
+
+##############################
+Day = 205
+Hour = 1
+
+ans =
+
+   2.0280e-07
+
+
+   Light intensity      Vc      Vo      VPGA   VT3P   Vstarch  Vt_glycerate  Vt_glycolate       A_slope  Max_Meta_slope
+0          129.006  7.3442  1.7961  0.002768  2.076  0.034973       0.89807        1.7961  6.680100e-09    2.028000e-07
+No more input.
+0.5 CIT_v1 + 0.5 aCIT_v1 <=> 0.5 CIT_v2 + 0.5 aCIT_v2
+bHIS_v1 --> bHIS_v2
+0.7 MAL_v1 + 0.3 aMAL_v1 <=> 0.7 MAL_v2 + 0.3 aMAL_v2
+Phloem export rate =0.45606298650356786
+
+##############################
+Day = 205
+Hour = 2
+
+ans =
+
+   1.5463e-05
+
+
+   Light intensity       Vc      Vo      VPGA    VT3P   Vstarch  Vt_glycerate  Vt_glycolate       A_slope  Max_Meta_slope
+0          237.179  13.1871  3.2251  0.007336  3.6532  0.098823        1.6126        3.2251  3.858800e-08        0.000015
+No more input.
+0.5 CIT_v1 + 0.5 aCIT_v1 <=> 0.5 CIT_v2 + 0.5 aCIT_v2
+bHIS_v1 --> bHIS_v2
+0.7 MAL_v1 + 0.3 aMAL_v1 <=> 0.7 MAL_v2 + 0.3 aMAL_v2
+Phloem export rate =0.9029356991106371
+
+##############################
+Day = 205
+Hour = 3
+
+ans =
+
+   4.8338e-05
+
+
+   Light intensity       Vc      Vo      VPGA    VT3P  Vstarch  Vt_glycerate  Vt_glycolate       A_slope  Max_Meta_slope
+0          425.481  22.4289  5.4853  0.017111  5.9326  0.30617        2.7427        5.4853  3.635800e-08        0.000048
+No more input.
+0.5 CIT_v1 + 0.5 aCIT_v1 <=> 0.5 CIT_v2 + 0.5 aCIT_v2
+bHIS_v1 --> bHIS_v2
+0.7 MAL_v1 + 0.3 aMAL_v1 <=> 0.7 MAL_v2 + 0.3 aMAL_v2
+Phloem export rate =1.6077435682062051
+
+##############################
+Day = 205
+Hour = 4
+
+ans =
+
+   7.0177e-07
+
+
+   Light intensity       Vc      Vo      VPGA    VT3P  Vstarch  Vt_glycerate  Vt_glycolate       A_slope  Max_Meta_slope
+0          733.974  32.1031  7.8513  0.018148  6.5092   1.4325        3.9256        7.8513  9.167600e-10    7.017700e-07
+No more input.
+0.5 CIT_v1 + 0.5 aCIT_v1 <=> 0.5 CIT_v2 + 0.5 aCIT_v2
+bHIS_v1 --> bHIS_v2
+0.7 MAL_v1 + 0.3 aMAL_v1 <=> 0.7 MAL_v2 + 0.3 aMAL_v2
+Phloem export rate =2.264807818669594
+
+##############################
+Day = 205
+Hour = 5
+
+ans =
+
+   6.2559e-07
+
+
+   Light intensity       Vc      Vo      VPGA   VT3P  Vstarch  Vt_glycerate  Vt_glycolate       A_slope  Max_Meta_slope
+0         1042.468  33.2552  8.1331  0.013927  5.837   1.9393        4.0665        8.1331  4.211400e-11    6.255900e-07
+No more input.
+0.5 CIT_v1 + 0.5 aCIT_v1 <=> 0.5 CIT_v2 + 0.5 aCIT_v2
+bHIS_v1 --> bHIS_v2
+0.7 MAL_v1 + 0.3 aMAL_v1 <=> 0.7 MAL_v2 + 0.3 aMAL_v2
+Phloem export rate =2.2586535870669464
+
+##############################
+Day = 205
+Hour = 6
+
+ans =
+
+   2.1282e-06
+
+
+   Light intensity       Vc      Vo      VPGA    VT3P  Vstarch  Vt_glycerate  Vt_glycolate       A_slope  Max_Meta_slope
+0         1127.155  33.2882  8.1411  0.013912  5.8353    1.945        4.0706        8.1411  9.385200e-10        0.000002
+No more input.
+0.5 CIT_v1 + 0.5 aCIT_v1 <=> 0.5 CIT_v2 + 0.5 aCIT_v2
+bHIS_v1 --> bHIS_v2
+0.7 MAL_v1 + 0.3 aMAL_v1 <=> 0.7 MAL_v2 + 0.3 aMAL_v2
+Phloem export rate =2.267304688125992
+
+##############################
+Day = 205
+Hour = 7
+
+ans =
+
+   5.5529e-05
+
+[Warning: ODE model does not reach a steady state: The 1st time ] 
+[> In Sim_Ephotosynthesis (line 22)
+  In wrapped_Sim_Ephotosynthesis_45aaaa76_a28d_45d3_aa37_9581af9f (line 97)] 
+
+   Light intensity       Vc      Vo      VPGA    VT3P  Vstarch  Vt_glycerate  Vt_glycolate       A_slope  Max_Meta_slope
+0         1155.891  33.2979  8.1435  0.013916  5.8362   1.9459        4.0718        8.1435  2.651600e-10    3.030600e-07
+No more input.
+0.5 CIT_v1 + 0.5 aCIT_v1 <=> 0.5 CIT_v2 + 0.5 aCIT_v2
+bHIS_v1 --> bHIS_v2
+0.7 MAL_v1 + 0.3 aMAL_v1 <=> 0.7 MAL_v2 + 0.3 aMAL_v2
+Phloem export rate =2.28754692481025
+
+##############################
+Day = 205
+Hour = 8
+
+ans =
+
+   1.7550e-06
+
+
+   Light intensity      Vc      Vo     VPGA    VT3P  Vstarch  Vt_glycerate  Vt_glycolate       A_slope  Max_Meta_slope
+0         1184.626  33.307  8.1457  0.01392  5.8374   1.9467        4.0729        8.1457  3.936300e-11        0.000002
+No more input.
+0.5 CIT_v1 + 0.5 aCIT_v1 <=> 0.5 CIT_v2 + 0.5 aCIT_v2
+bHIS_v1 --> bHIS_v2
+0.7 MAL_v1 + 0.3 aMAL_v1 <=> 0.7 MAL_v2 + 0.3 aMAL_v2
+Phloem export rate =2.1981833973641063
+
+##############################
+Day = 205
+Hour = 9
+
+ans =
+
+   8.0021e-07
+
+
+   Light intensity       Vc      Vo      VPGA    VT3P  Vstarch  Vt_glycerate  Vt_glycolate       A_slope  Max_Meta_slope
+0         1242.898  33.3229  8.1496  0.013932  5.8401   1.9477        4.0748        8.1496  3.539500e-11    8.002100e-07
+No more input.
+0.5 CIT_v1 + 0.5 aCIT_v1 <=> 0.5 CIT_v2 + 0.5 aCIT_v2
+bHIS_v1 --> bHIS_v2
+0.7 MAL_v1 + 0.3 aMAL_v1 <=> 0.7 MAL_v2 + 0.3 aMAL_v2
+Phloem export rate =2.2358779168097365
+
+##############################
+Day = 205
+Hour = 10
+
+ans =
+
+   6.1225e-09
+
+
+   Light intensity       Vc      Vo      VPGA    VT3P  Vstarch  Vt_glycerate  Vt_glycolate       A_slope  Max_Meta_slope
+0         1304.451  33.3394  8.1537  0.013947  5.8433   1.9485        4.0768        8.1537  4.118900e-14    6.122500e-09
+No more input.
+0.5 CIT_v1 + 0.5 aCIT_v1 <=> 0.5 CIT_v2 + 0.5 aCIT_v2
+bHIS_v1 --> bHIS_v2
+0.7 MAL_v1 + 0.3 aMAL_v1 <=> 0.7 MAL_v2 + 0.3 aMAL_v2
+Phloem export rate =2.2168593927532645
+
+##############################
+Day = 205
+Hour = 11
+
+ans =
+
+   2.3145e-06
+
+
+   Light intensity       Vc      Vo      VPGA    VT3P  Vstarch  Vt_glycerate  Vt_glycolate       A_slope  Max_Meta_slope
+0          999.547  33.2319  8.1274  0.013967  5.8437   1.9325        4.0637        8.1274  6.292100e-10        0.000002
+No more input.
+0.5 CIT_v1 + 0.5 aCIT_v1 <=> 0.5 CIT_v2 + 0.5 aCIT_v2
+bHIS_v1 --> bHIS_v2
+0.7 MAL_v1 + 0.3 aMAL_v1 <=> 0.7 MAL_v2 + 0.3 aMAL_v2
+Phloem export rate =2.2717254370431523
+
+##############################
+Day = 205
+Hour = 12
+
+ans =
+
+   2.2183e-05
+
+
+   Light intensity      Vc      Vo      VPGA    VT3P  Vstarch  Vt_glycerate  Vt_glycolate       A_slope  Max_Meta_slope
+0          537.591  27.127  6.6343  0.021372  6.7715  0.57188        3.3172        6.6343  4.308200e-09        0.000022
+No more input.
+0.5 CIT_v1 + 0.5 aCIT_v1 <=> 0.5 CIT_v2 + 0.5 aCIT_v2
+bHIS_v1 --> bHIS_v2
+0.7 MAL_v1 + 0.3 aMAL_v1 <=> 0.7 MAL_v2 + 0.3 aMAL_v2
+Phloem export rate =1.9239177250986461
+
+##############################
+Day = 205
+Hour = 13
+
+ans =
+
+   3.5627e-05
+
+
+   Light intensity       Vc      Vo      VPGA   VT3P   Vstarch  Vt_glycerate  Vt_glycolate       A_slope  Max_Meta_slope
+0           193.75  10.8869  2.6626  0.005335  3.039  0.070402        1.3313        2.6626  6.414100e-08        0.000036
+No more input.
+0.5 CIT_v1 + 0.5 aCIT_v1 <=> 0.5 CIT_v2 + 0.5 aCIT_v2
+bHIS_v1 --> bHIS_v2
+0.7 MAL_v1 + 0.3 aMAL_v1 <=> 0.7 MAL_v2 + 0.3 aMAL_v2
+Phloem export rate =0.7243213586361741
+
+##############################
+Day = 215
+Hour = 1
+
+ans =
+
+   1.4339e-05
+
+
+   Light intensity      Vc      Vo      VPGA    VT3P   Vstarch  Vt_glycerate  Vt_glycolate       A_slope  Max_Meta_slope
+0          159.173  7.9737  2.8937  0.002591  2.0809  0.046084        1.4468        2.8937  1.440800e-08        0.000014
+No more input.
+0.5 CIT_v1 + 0.5 aCIT_v1 <=> 0.5 CIT_v2 + 0.5 aCIT_v2
+bHIS_v1 --> bHIS_v2
+0.7 MAL_v1 + 0.3 aMAL_v1 <=> 0.7 MAL_v2 + 0.3 aMAL_v2
+Phloem export rate =0.45073669646916387
+
+##############################
+Day = 215
+Hour = 2
+
+ans =
+
+   4.4154e-07
+
+
+   Light intensity       Vc     Vo      VPGA    VT3P  Vstarch  Vt_glycerate  Vt_glycolate       A_slope  Max_Meta_slope
+0          280.576  13.6262  4.945  0.006222  3.4635   0.1241        2.4725         4.945  5.914200e-10    4.415400e-07
+No more input.
+0.5 CIT_v1 + 0.5 aCIT_v1 <=> 0.5 CIT_v2 + 0.5 aCIT_v2
+bHIS_v1 --> bHIS_v2
+0.7 MAL_v1 + 0.3 aMAL_v1 <=> 0.7 MAL_v2 + 0.3 aMAL_v2
+Phloem export rate =0.8377387809892348
+
+##############################
+Day = 215
+Hour = 3
+
+ans =
+
+   1.3921e-05
+
+
+   Light intensity       Vc      Vo      VPGA    VT3P  Vstarch  Vt_glycerate  Vt_glycolate       A_slope  Max_Meta_slope
+0          361.511  17.1384  6.2196  0.008896  4.2627  0.20229        3.1098        6.2196  2.242500e-08        0.000014
+No more input.
+0.5 CIT_v1 + 0.5 aCIT_v1 <=> 0.5 CIT_v2 + 0.5 aCIT_v2
+bHIS_v1 --> bHIS_v2
+0.7 MAL_v1 + 0.3 aMAL_v1 <=> 0.7 MAL_v2 + 0.3 aMAL_v2
+Phloem export rate =1.0845025340760872
+
+##############################
+Day = 215
+Hour = 4
+
+ans =
+
+   2.2357e-09
+
+
+   Light intensity       Vc      Vo      VPGA    VT3P  Vstarch  Vt_glycerate  Vt_glycolate       A_slope  Max_Meta_slope
+0          442.446  20.3676  7.3915  0.011283  4.9054  0.32032        3.6957        7.3915  1.488600e-10    2.235700e-09
+No more input.
+0.5 CIT_v1 + 0.5 aCIT_v1 <=> 0.5 CIT_v2 + 0.5 aCIT_v2
+bHIS_v1 --> bHIS_v2
+0.7 MAL_v1 + 0.3 aMAL_v1 <=> 0.7 MAL_v2 + 0.3 aMAL_v2
+Phloem export rate =1.2957801037282146
+
+##############################
+Day = 215
+Hour = 5
+
+ans =
+
+   1.6211e-05
+
+
+   Light intensity       Vc      Vo      VPGA    VT3P  Vstarch  Vt_glycerate  Vt_glycolate       A_slope  Max_Meta_slope
+0          760.507  26.1515  9.4905  0.009838  4.8396    1.143        4.7452        9.4905  2.168200e-09        0.000016
+No more input.
+0.5 CIT_v1 + 0.5 aCIT_v1 <=> 0.5 CIT_v2 + 0.5 aCIT_v2
+bHIS_v1 --> bHIS_v2
+0.7 MAL_v1 + 0.3 aMAL_v1 <=> 0.7 MAL_v2 + 0.3 aMAL_v2
+Phloem export rate =1.6376869193067591
+
+##############################
+Day = 215
+Hour = 6
+
+ans =
+
+   1.6073e-06
+
+
+   Light intensity       Vc      Vo      VPGA    VT3P  Vstarch  Vt_glycerate  Vt_glycolate       A_slope  Max_Meta_slope
+0          1050.36  26.3601  9.5662  0.009674  4.8105   1.1861        4.7831        9.5662  1.650600e-10        0.000002
+No more input.
+0.5 CIT_v1 + 0.5 aCIT_v1 <=> 0.5 CIT_v2 + 0.5 aCIT_v2
+bHIS_v1 --> bHIS_v2
+0.7 MAL_v1 + 0.3 aMAL_v1 <=> 0.7 MAL_v2 + 0.3 aMAL_v2
+Phloem export rate =1.61917343086208
+
+##############################
+Day = 215
+Hour = 7
+
+ans =
+
+   8.5656e-06
+
+
+   Light intensity       Vc      Vo      VPGA    VT3P  Vstarch  Vt_glycerate  Vt_glycolate       A_slope  Max_Meta_slope
+0         1086.331  26.3722  9.5706  0.009682  4.8128   1.1866        4.7853        9.5706  6.555300e-10        0.000009
+No more input.
+0.5 CIT_v1 + 0.5 aCIT_v1 <=> 0.5 CIT_v2 + 0.5 aCIT_v2
+bHIS_v1 --> bHIS_v2
+0.7 MAL_v1 + 0.3 aMAL_v1 <=> 0.7 MAL_v2 + 0.3 aMAL_v2
+Phloem export rate =1.570351435008899
+
+##############################
+Day = 215
+Hour = 8
+
+ans =
+
+   9.6175e-06
+
+
+   Light intensity       Vc      Vo      VPGA    VT3P  Vstarch  Vt_glycerate  Vt_glycolate       A_slope  Max_Meta_slope
+0         1122.302  26.3866  9.5758  0.009692  4.8155   1.1872        4.7879        9.5758  3.804500e-10         0.00001
+No more input.
+0.5 CIT_v1 + 0.5 aCIT_v1 <=> 0.5 CIT_v2 + 0.5 aCIT_v2
+bHIS_v1 --> bHIS_v2
+0.7 MAL_v1 + 0.3 aMAL_v1 <=> 0.7 MAL_v2 + 0.3 aMAL_v2
+Phloem export rate =1.566782590872708
+
+##############################
+Day = 215
+Hour = 9
+
+ans =
+
+   1.4255e-06
+
+
+   Light intensity       Vc      Vo      VPGA    VT3P  Vstarch  Vt_glycerate  Vt_glycolate       A_slope  Max_Meta_slope
+0         1066.187  26.3656  9.5682  0.009678  4.8116   1.1863        4.7841        9.5682  1.218200e-10        0.000001
+No more input.
+0.5 CIT_v1 + 0.5 aCIT_v1 <=> 0.5 CIT_v2 + 0.5 aCIT_v2
+bHIS_v1 --> bHIS_v2
+0.7 MAL_v1 + 0.3 aMAL_v1 <=> 0.7 MAL_v2 + 0.3 aMAL_v2
+Phloem export rate =1.6073452791550686
+
+##############################
+Day = 215
+Hour = 10
+
+ans =
+
+   1.3974e-06
+
+
+   Light intensity       Vc      Vo      VPGA    VT3P  Vstarch  Vt_glycerate  Vt_glycolate       A_slope  Max_Meta_slope
+0          795.204  26.2058  9.5102  0.009722  4.8159   1.1623        4.7551        9.5102  5.280600e-10        0.000001
+No more input.
+0.5 CIT_v1 + 0.5 aCIT_v1 <=> 0.5 CIT_v2 + 0.5 aCIT_v2
+bHIS_v1 --> bHIS_v2
+0.7 MAL_v1 + 0.3 aMAL_v1 <=> 0.7 MAL_v2 + 0.3 aMAL_v2
+Phloem export rate =1.628354571645873
+
+##############################
+Day = 215
+Hour = 11
+
+ans =
+
+   3.3927e-04
+
+[Warning: ODE model does not reach a steady state: The 1st time ] 
+[> In Sim_Ephotosynthesis (line 22)
+  In wrapped_Sim_Ephotosynthesis_75e62287_2b50_44b5_bb08_3d962f78 (line 97)] 
+
+   Light intensity       Vc      Vo      VPGA    VT3P  Vstarch  Vt_glycerate  Vt_glycolate       A_slope  Max_Meta_slope
+0          524.221  22.5947  8.1997  0.012472  5.2321   0.4602        4.0998        8.1997  5.469800e-08        0.000002
+No more input.
+0.5 CIT_v1 + 0.5 aCIT_v1 <=> 0.5 CIT_v2 + 0.5 aCIT_v2
+bHIS_v1 --> bHIS_v2
+0.7 MAL_v1 + 0.3 aMAL_v1 <=> 0.7 MAL_v2 + 0.3 aMAL_v2
+Phloem export rate =1.4697097280398879
+
+##############################
+Day = 215
+Hour = 12
+
+ans =
+
+   2.2721e-07
+
+
+   Light intensity       Vc      Vo      VPGA    VT3P  Vstarch  Vt_glycerate  Vt_glycolate       A_slope  Max_Meta_slope
+0          302.506  14.5998  5.2983  0.006944  3.6916  0.14252        2.6492        5.2983  3.935000e-11    2.272100e-07
+No more input.
+0.5 CIT_v1 + 0.5 aCIT_v1 <=> 0.5 CIT_v2 + 0.5 aCIT_v2
+bHIS_v1 --> bHIS_v2
+0.7 MAL_v1 + 0.3 aMAL_v1 <=> 0.7 MAL_v2 + 0.3 aMAL_v2
+Phloem export rate =0.9064656954219903
+
+##############################
+Day = 215
+Hour = 13
+
+ans =
+
+   1.9768e-06
+
+
+   Light intensity     Vc     Vo      VPGA    VT3P   Vstarch  Vt_glycerate  Vt_glycolate       A_slope  Max_Meta_slope
+0          195.753  9.741  3.535  0.003603  2.5214  0.066399        1.7675         3.535  1.270700e-08        0.000002
+No more input.
+0.5 CIT_v1 + 0.5 aCIT_v1 <=> 0.5 CIT_v2 + 0.5 aCIT_v2
+bHIS_v1 --> bHIS_v2
+0.7 MAL_v1 + 0.3 aMAL_v1 <=> 0.7 MAL_v2 + 0.3 aMAL_v2
+Phloem export rate =0.5744157014165708
+
+##############################
+Day = 215
+Hour = 1
+
+ans =
+
+   6.9663e-07
+
+
+   Light intensity      Vc      Vo      VPGA    VT3P   Vstarch  Vt_glycerate  Vt_glycolate       A_slope  Max_Meta_slope
+0          159.173  9.0087  2.2032  0.003891  2.5307  0.050557        1.1016        2.2032  3.054200e-10    6.966300e-07
+No more input.
+0.5 CIT_v1 + 0.5 aCIT_v1 <=> 0.5 CIT_v2 + 0.5 aCIT_v2
+bHIS_v1 --> bHIS_v2
+0.7 MAL_v1 + 0.3 aMAL_v1 <=> 0.7 MAL_v2 + 0.3 aMAL_v2
+Phloem export rate =0.5818453941641013
+
+##############################
+Day = 215
+Hour = 2
+
+ans =
+
+   1.1001e-04
+
+[Warning: ODE model does not reach a steady state: The 1st time ] 
+[> In Sim_Ephotosynthesis (line 22)
+  In wrapped_Sim_Ephotosynthesis_1428bfa1_95b2_43ea_950e_9f7cc9ea (line 97)] 
+
+   Light intensity       Vc      Vo      VPGA    VT3P  Vstarch  Vt_glycerate  Vt_glycolate       A_slope  Max_Meta_slope
+0          275.779  15.2218  3.7227  0.009294  4.1863  0.12893        1.8614        3.7227  6.005900e-09    1.495300e-07
+No more input.
+0.5 CIT_v1 + 0.5 aCIT_v1 <=> 0.5 CIT_v2 + 0.5 aCIT_v2
+bHIS_v1 --> bHIS_v2
+0.7 MAL_v1 + 0.3 aMAL_v1 <=> 0.7 MAL_v2 + 0.3 aMAL_v2
+Phloem export rate =1.0418145835424897
+
+##############################
+Day = 215
+Hour = 3
+
+ans =
+
+   6.3698e-07
+
+
+   Light intensity       Vc    Vo      VPGA    VT3P  Vstarch  Vt_glycerate  Vt_glycolate       A_slope  Max_Meta_slope
+0          344.724  18.6455  4.56  0.012909  5.0522  0.19502          2.28          4.56  1.352200e-09    6.369800e-07
+No more input.
+0.5 CIT_v1 + 0.5 aCIT_v1 <=> 0.5 CIT_v2 + 0.5 aCIT_v2
+bHIS_v1 --> bHIS_v2
+0.7 MAL_v1 + 0.3 aMAL_v1 <=> 0.7 MAL_v2 + 0.3 aMAL_v2
+Phloem export rate =1.3165443715769296
+
+##############################
+Day = 215
+Hour = 4
+
+ans =
+
+   1.1732e-05
+
+
+   Light intensity       Vc      Vo      VPGA   VT3P  Vstarch  Vt_glycerate  Vt_glycolate       A_slope  Max_Meta_slope
+0          413.669  21.8299  5.3388  0.016452  5.801  0.28469        2.6694        5.3388  7.065300e-09        0.000012
+No more input.
+0.5 CIT_v1 + 0.5 aCIT_v1 <=> 0.5 CIT_v2 + 0.5 aCIT_v2
+bHIS_v1 --> bHIS_v2
+0.7 MAL_v1 + 0.3 aMAL_v1 <=> 0.7 MAL_v2 + 0.3 aMAL_v2
+Phloem export rate =1.5420660930294448
+
+##############################
+Day = 215
+Hour = 5
+
+ans =
+
+   1.1074e-05
+
+
+   Light intensity       Vc      Vo      VPGA    VT3P  Vstarch  Vt_glycerate  Vt_glycolate       A_slope  Max_Meta_slope
+0          803.673  32.7445  8.0082  0.015951  6.1769   1.6937        4.0041        8.0082  2.158100e-08        0.000011
+No more input.
+0.5 CIT_v1 + 0.5 aCIT_v1 <=> 0.5 CIT_v2 + 0.5 aCIT_v2
+bHIS_v1 --> bHIS_v2
+0.7 MAL_v1 + 0.3 aMAL_v1 <=> 0.7 MAL_v2 + 0.3 aMAL_v2
+Phloem export rate =2.3383778558314257
+
+##############################
+Day = 215
+Hour = 6
+
+ans =
+
+   2.4022e-05
+
+
+   Light intensity       Vc      Vo      VPGA    VT3P  Vstarch  Vt_glycerate  Vt_glycolate       A_slope  Max_Meta_slope
+0          1155.19  33.2977  8.1435  0.013915  5.8362   1.9459        4.0717        8.1435  8.200800e-10        0.000024
+No more input.
+0.5 CIT_v1 + 0.5 aCIT_v1 <=> 0.5 CIT_v2 + 0.5 aCIT_v2
+bHIS_v1 --> bHIS_v2
+0.7 MAL_v1 + 0.3 aMAL_v1 <=> 0.7 MAL_v2 + 0.3 aMAL_v2
+Phloem export rate =2.215954047098133
+
+##############################
+Day = 215
+Hour = 7
+
+ans =
+
+   4.6853e-05
+
+
+   Light intensity       Vc     Vo      VPGA    VT3P  Vstarch  Vt_glycerate  Vt_glycolate       A_slope  Max_Meta_slope
+0         1160.329  33.2999  8.144  0.013917  5.8365   1.9461         4.072         8.144  7.820000e-09        0.000047
+No more input.
+0.5 CIT_v1 + 0.5 aCIT_v1 <=> 0.5 CIT_v2 + 0.5 aCIT_v2
+bHIS_v1 --> bHIS_v2
+0.7 MAL_v1 + 0.3 aMAL_v1 <=> 0.7 MAL_v2 + 0.3 aMAL_v2
+Phloem export rate =2.2709892023303277
+
+##############################
+Day = 215
+Hour = 8
+
+ans =
+
+   1.7695e-06
+
+
+   Light intensity       Vc      Vo      VPGA    VT3P  Vstarch  Vt_glycerate  Vt_glycolate       A_slope  Max_Meta_slope
+0         1165.468  33.3005  8.1442  0.013917  5.8365   1.9462        4.0721        8.1442  1.804600e-11        0.000002
+No more input.
+0.5 CIT_v1 + 0.5 aCIT_v1 <=> 0.5 CIT_v2 + 0.5 aCIT_v2
+bHIS_v1 --> bHIS_v2
+0.7 MAL_v1 + 0.3 aMAL_v1 <=> 0.7 MAL_v2 + 0.3 aMAL_v2
+Phloem export rate =2.2150102754879586
+
+##############################
+Day = 215
+Hour = 9
+
+ans =
+
+   1.4050e-08
+
+
+   Light intensity       Vc      Vo      VPGA   VT3P  Vstarch  Vt_glycerate  Vt_glycolate       A_slope  Max_Meta_slope
+0          1087.77  33.2744  8.1378  0.013913  5.835   1.9431        4.0689        8.1378  1.659400e-14    1.405000e-08
+No more input.
+0.5 CIT_v1 + 0.5 aCIT_v1 <=> 0.5 CIT_v2 + 0.5 aCIT_v2
+bHIS_v1 --> bHIS_v2
+0.7 MAL_v1 + 0.3 aMAL_v1 <=> 0.7 MAL_v2 + 0.3 aMAL_v2
+Phloem export rate =2.2518974223400194
+
+##############################
+Day = 215
+Hour = 10
+
+ans =
+
+   1.1352e-06
+
+
+   Light intensity       Vc      Vo      VPGA    VT3P  Vstarch  Vt_glycerate  Vt_glycolate       A_slope  Max_Meta_slope
+0          816.787  32.8285  8.0287  0.015608  6.1214   1.7338        4.0144        8.0287  2.861800e-10        0.000001
+No more input.
+0.5 CIT_v1 + 0.5 aCIT_v1 <=> 0.5 CIT_v2 + 0.5 aCIT_v2
+bHIS_v1 --> bHIS_v2
+0.7 MAL_v1 + 0.3 aMAL_v1 <=> 0.7 MAL_v2 + 0.3 aMAL_v2
+Phloem export rate =2.307190153208206
+
+##############################
+Day = 215
+Hour = 11
+
+ans =
+
+   8.9858e-07
+
+
+   Light intensity       Vc      Vo     VPGA    VT3P  Vstarch  Vt_glycerate  Vt_glycolate       A_slope  Max_Meta_slope
+0          545.803  27.5114  6.7283  0.02157  6.8159  0.60579        3.3642        6.7283  1.067600e-08    8.985800e-07
+No more input.
+0.5 CIT_v1 + 0.5 aCIT_v1 <=> 0.5 CIT_v2 + 0.5 aCIT_v2
+bHIS_v1 --> bHIS_v2
+0.7 MAL_v1 + 0.3 aMAL_v1 <=> 0.7 MAL_v2 + 0.3 aMAL_v2
+Phloem export rate =2.0003020048209024
+
+##############################
+Day = 215
+Hour = 12
+
+ans =
+
+   5.4093e-06
+
+
+   Light intensity       Vc      Vo     VPGA    VT3P  Vstarch  Vt_glycerate  Vt_glycolate       A_slope  Max_Meta_slope
+0              322  17.4874  4.2768  0.01165  4.7647  0.16998        2.1384        4.2768  1.172000e-08        0.000005
+No more input.
+0.5 CIT_v1 + 0.5 aCIT_v1 <=> 0.5 CIT_v2 + 0.5 aCIT_v2
+bHIS_v1 --> bHIS_v2
+0.7 MAL_v1 + 0.3 aMAL_v1 <=> 0.7 MAL_v2 + 0.3 aMAL_v2
+Phloem export rate =1.2304675606067585
+
+##############################
+Day = 215
+Hour = 13
+
+ans =
+
+   7.8357e-05
+
+[Warning: ODE model does not reach a steady state: The 1st time ] 
+[> In Sim_Ephotosynthesis (line 22)
+  In wrapped_Sim_Ephotosynthesis_7879fd28_e488_4807_83b6_bf2d0afd (line 97)] 
+
+   Light intensity      Vc      Vo      VPGA    VT3P   Vstarch  Vt_glycerate  Vt_glycolate       A_slope  Max_Meta_slope
+0          208.285  11.666  2.8531  0.005985  3.2482  0.079464        1.4265        2.8531  5.201400e-16    3.851300e-15
+No more input.
+0.5 CIT_v1 + 0.5 aCIT_v1 <=> 0.5 CIT_v2 + 0.5 aCIT_v2
+bHIS_v1 --> bHIS_v2
+0.7 MAL_v1 + 0.3 aMAL_v1 <=> 0.7 MAL_v2 + 0.3 aMAL_v2
+Phloem export rate =0.7837708424059278
+
+##############################
+Day = 233
+Hour = 1
+
+ans =
+
+   5.6178e-04
+
+[Warning: ODE model does not reach a steady state: The 1st time ] 
+[> In Sim_Ephotosynthesis (line 22)
+  In wrapped_Sim_Ephotosynthesis_ca13aabc_cea6_4e29_bd2f_5fc3886c (line 97)] 
+
+   Light intensity       Vc    Vo      VPGA    VT3P   Vstarch  Vt_glycerate  Vt_glycolate       A_slope  Max_Meta_slope
+0          232.614  11.4631  4.16  0.004703  2.9443  0.089349          2.08          4.16  8.361100e-08        0.000004
+No more input.
+0.5 CIT_v1 + 0.5 aCIT_v1 <=> 0.5 CIT_v2 + 0.5 aCIT_v2
+bHIS_v1 --> bHIS_v2
+0.7 MAL_v1 + 0.3 aMAL_v1 <=> 0.7 MAL_v2 + 0.3 aMAL_v2
+Phloem export rate =0.6989663569621231
+
+##############################
+Day = 233
+Hour = 2
+
+ans =
+
+   4.5915e-05
+
+
+   Light intensity       Vc      Vo      VPGA    VT3P  Vstarch  Vt_glycerate  Vt_glycolate       A_slope  Max_Meta_slope
+0          454.436  20.8074  7.5511  0.011567  4.9804  0.34264        3.7755        7.5511  5.471100e-09        0.000046
+No more input.
+0.5 CIT_v1 + 0.5 aCIT_v1 <=> 0.5 CIT_v2 + 0.5 aCIT_v2
+bHIS_v1 --> bHIS_v2
+0.7 MAL_v1 + 0.3 aMAL_v1 <=> 0.7 MAL_v2 + 0.3 aMAL_v2
+Phloem export rate =1.3262953081162916
+
+##############################
+Day = 233
+Hour = 3
+
+ans =
+
+   2.2228e-04
+
+[Warning: ODE model does not reach a steady state: The 1st time ] 
+[> In Sim_Ephotosynthesis (line 22)
+  In wrapped_Sim_Ephotosynthesis_f3cdd2ec_e9ba_49da_9321_41b7b83d (line 97)] 
+
+   Light intensity       Vc      Vo      VPGA    VT3P  Vstarch  Vt_glycerate  Vt_glycolate       A_slope  Max_Meta_slope
+0          602.518  24.9151  9.0418  0.012101  5.2588  0.76358        4.5209        9.0418  2.540200e-09        0.000004
+No more input.
+0.5 CIT_v1 + 0.5 aCIT_v1 <=> 0.5 CIT_v2 + 0.5 aCIT_v2
+bHIS_v1 --> bHIS_v2
+0.7 MAL_v1 + 0.3 aMAL_v1 <=> 0.7 MAL_v2 + 0.3 aMAL_v2
+Phloem export rate =1.5736500339524297
+
+##############################
+Day = 233
+Hour = 4
+
+ans =
+
+   4.5691e-07
+
+
+   Light intensity       Vc      Vo      VPGA    VT3P  Vstarch  Vt_glycerate  Vt_glycolate       A_slope  Max_Meta_slope
+0          701.439  25.9632  9.4221  0.010321  4.9376    1.068        4.7111        9.4221  1.076900e-10    4.569100e-07
+No more input.
+0.5 CIT_v1 + 0.5 aCIT_v1 <=> 0.5 CIT_v2 + 0.5 aCIT_v2
+bHIS_v1 --> bHIS_v2
+0.7 MAL_v1 + 0.3 aMAL_v1 <=> 0.7 MAL_v2 + 0.3 aMAL_v2
+Phloem export rate =1.6245643851063607
+
+##############################
+Day = 233
+Hour = 5
+
+ans =
+
+   4.8409e-05
+
+
+   Light intensity      Vc      Vo     VPGA   VT3P  Vstarch  Vt_glycerate  Vt_glycolate       A_slope  Max_Meta_slope
+0          762.434  26.155  9.4917  0.00983  4.838   1.1443        4.7459        9.4917  1.441000e-09        0.000048
+No more input.
+0.5 CIT_v1 + 0.5 aCIT_v1 <=> 0.5 CIT_v2 + 0.5 aCIT_v2
+bHIS_v1 --> bHIS_v2
+0.7 MAL_v1 + 0.3 aMAL_v1 <=> 0.7 MAL_v2 + 0.3 aMAL_v2
+Phloem export rate =1.6543510577209106
+
+##############################
+Day = 233
+Hour = 6
+
+ans =
+
+   3.2076e-05
+
+
+   Light intensity       Vc      Vo      VPGA    VT3P  Vstarch  Vt_glycerate  Vt_glycolate       A_slope  Max_Meta_slope
+0          671.723  25.7897  9.3592  0.010743  5.0203   1.0028        4.6796        9.3592  2.961800e-09        0.000032
+No more input.
+0.5 CIT_v1 + 0.5 aCIT_v1 <=> 0.5 CIT_v2 + 0.5 aCIT_v2
+bHIS_v1 --> bHIS_v2
+0.7 MAL_v1 + 0.3 aMAL_v1 <=> 0.7 MAL_v2 + 0.3 aMAL_v2
+Phloem export rate =1.5599069863725443
+
+##############################
+Day = 233
+Hour = 7
+
+ans =
+
+   1.3201e-07
+
+
+   Light intensity       Vc      Vo      VPGA    VT3P  Vstarch  Vt_glycerate  Vt_glycolate       A_slope  Max_Meta_slope
+0          581.013  24.5888  8.9233  0.012362  5.2957   0.7005        4.4617        8.9233  5.681000e-11    1.320100e-07
+No more input.
+0.5 CIT_v1 + 0.5 aCIT_v1 <=> 0.5 CIT_v2 + 0.5 aCIT_v2
+bHIS_v1 --> bHIS_v2
+0.7 MAL_v1 + 0.3 aMAL_v1 <=> 0.7 MAL_v2 + 0.3 aMAL_v2
+Phloem export rate =1.5480098475604414
+
+##############################
+Day = 233
+Hour = 8
+
+ans =
+
+   9.4774e-06
+
+
+   Light intensity       Vc      Vo      VPGA    VT3P  Vstarch  Vt_glycerate  Vt_glycolate       A_slope  Max_Meta_slope
+0          678.587  25.8538  9.3824  0.010599  4.9925   1.0255        4.6912        9.3824  7.022700e-09        0.000009
+No more input.
+0.5 CIT_v1 + 0.5 aCIT_v1 <=> 0.5 CIT_v2 + 0.5 aCIT_v2
+bHIS_v1 --> bHIS_v2
+0.7 MAL_v1 + 0.3 aMAL_v1 <=> 0.7 MAL_v2 + 0.3 aMAL_v2
+Phloem export rate =1.674546012879075
+
+##############################
+Day = 233
+Hour = 9
+
+ans =
+
+   9.2050e-06
+
+
+   Light intensity       Vc      Vo      VPGA    VT3P  Vstarch  Vt_glycerate  Vt_glycolate       A_slope  Max_Meta_slope
+0          729.702  26.0762  9.4631  0.010028  4.8785   1.1132        4.7316        9.4631  1.994600e-09        0.000009
+No more input.
+0.5 CIT_v1 + 0.5 aCIT_v1 <=> 0.5 CIT_v2 + 0.5 aCIT_v2
+bHIS_v1 --> bHIS_v2
+0.7 MAL_v1 + 0.3 aMAL_v1 <=> 0.7 MAL_v2 + 0.3 aMAL_v2
+Phloem export rate =1.6099644130832276
+
+##############################
+Day = 233
+Hour = 10
+
+ans =
+
+   2.8808e-07
+
+
+   Light intensity       Vc      Vo      VPGA    VT3P  Vstarch  Vt_glycerate  Vt_glycolate       A_slope  Max_Meta_slope
+0          511.305  22.7448  8.2542  0.012518  5.2474  0.47301        4.1271        8.2542  1.158600e-09    2.880800e-07
+No more input.
+0.5 CIT_v1 + 0.5 aCIT_v1 <=> 0.5 CIT_v2 + 0.5 aCIT_v2
+bHIS_v1 --> bHIS_v2
+0.7 MAL_v1 + 0.3 aMAL_v1 <=> 0.7 MAL_v2 + 0.3 aMAL_v2
+Phloem export rate =1.4527058143185838
+
+##############################
+Day = 233
+Hour = 11
+
+ans =
+
+   3.9949e-06
+
+
+   Light intensity       Vc     Vo      VPGA    VT3P  Vstarch  Vt_glycerate  Vt_glycolate       A_slope  Max_Meta_slope
+0          292.909  14.1745  5.144  0.006626  3.5924  0.13422         2.572         5.144  2.123200e-08        0.000004
+No more input.
+0.5 CIT_v1 + 0.5 aCIT_v1 <=> 0.5 CIT_v2 + 0.5 aCIT_v2
+bHIS_v1 --> bHIS_v2
+0.7 MAL_v1 + 0.3 aMAL_v1 <=> 0.7 MAL_v2 + 0.3 aMAL_v2
+Phloem export rate =0.8808445057570045
+
+##############################
+Day = 233
+Hour = 12
+
+ans =
+
+   2.6762e-07
+
+
+   Light intensity     Vc      Vo      VPGA    VT3P   Vstarch  Vt_glycerate  Vt_glycolate       A_slope  Max_Meta_slope
+0          133.094  6.733  2.4434  0.001961  1.7683  0.033435        1.2217        2.4434  2.180500e-11    2.676200e-07
+No more input.
+0.5 CIT_v1 + 0.5 aCIT_v1 <=> 0.5 CIT_v2 + 0.5 aCIT_v2
+bHIS_v1 --> bHIS_v2
+0.7 MAL_v1 + 0.3 aMAL_v1 <=> 0.7 MAL_v2 + 0.3 aMAL_v2
+Phloem export rate =0.35802280954401083
+
+##############################
+Day = 233
+Hour = 1
+
+ans =
+
+   1.8664e-05
+
+
+   Light intensity       Vc      Vo      VPGA    VT3P  Vstarch  Vt_glycerate  Vt_glycolate       A_slope  Max_Meta_slope
+0          289.568  15.8939  3.8871  0.009976  4.3598  0.14016        1.9435        3.8871  4.599500e-08        0.000019
+No more input.
+0.5 CIT_v1 + 0.5 aCIT_v1 <=> 0.5 CIT_v2 + 0.5 aCIT_v2
+bHIS_v1 --> bHIS_v2
+0.7 MAL_v1 + 0.3 aMAL_v1 <=> 0.7 MAL_v2 + 0.3 aMAL_v2
+Phloem export rate =1.1113873639113752
+
+##############################
+Day = 233
+Hour = 2
+
+ans =
+
+   7.4838e-06
+
+
+   Light intensity       Vc      Vo      VPGA    VT3P  Vstarch  Vt_glycerate  Vt_glycolate       A_slope  Max_Meta_slope
+0          568.345  28.1977  6.8962  0.021811  6.8794  0.67434        3.4481        6.8962  4.223300e-08        0.000007
+No more input.
+0.5 CIT_v1 + 0.5 aCIT_v1 <=> 0.5 CIT_v2 + 0.5 aCIT_v2
+bHIS_v1 --> bHIS_v2
+0.7 MAL_v1 + 0.3 aMAL_v1 <=> 0.7 MAL_v2 + 0.3 aMAL_v2
+Phloem export rate =2.0467373162774734
+
+##############################
+Day = 233
+Hour = 3
+
+ans =
+
+   4.8797e-08
+
+
+   Light intensity       Vc      Vo      VPGA    VT3P  Vstarch  Vt_glycerate  Vt_glycolate       A_slope  Max_Meta_slope
+0          715.827  31.8532  7.7902  0.018821  6.6029   1.3488        3.8951        7.7902  8.431700e-10    4.879700e-08
+No more input.
+0.5 CIT_v1 + 0.5 aCIT_v1 <=> 0.5 CIT_v2 + 0.5 aCIT_v2
+bHIS_v1 --> bHIS_v2
+0.7 MAL_v1 + 0.3 aMAL_v1 <=> 0.7 MAL_v2 + 0.3 aMAL_v2
+Phloem export rate =2.256170195654602
+
+##############################
+Day = 233
+Hour = 4
+
+ans =
+
+   7.4144e-08
+
+
+   Light intensity       Vc    Vo      VPGA    VT3P  Vstarch  Vt_glycerate  Vt_glycolate       A_slope  Max_Meta_slope
+0          775.779  32.5476  7.96  0.016704  6.2952   1.6053          3.98          7.96  3.113300e-10    7.414400e-08
+No more input.
+0.5 CIT_v1 + 0.5 aCIT_v1 <=> 0.5 CIT_v2 + 0.5 aCIT_v2
+bHIS_v1 --> bHIS_v2
+0.7 MAL_v1 + 0.3 aMAL_v1 <=> 0.7 MAL_v2 + 0.3 aMAL_v2
+Phloem export rate =2.2987677307482532
+
+##############################
+Day = 233
+Hour = 5
+
+ans =
+
+   3.1648e-05
+
+
+   Light intensity       Vc      Vo      VPGA    VT3P  Vstarch  Vt_glycerate  Vt_glycolate       A_slope  Max_Meta_slope
+0          799.343  32.7177  8.0016  0.016055  6.1935   1.6814        4.0008        8.0016  1.377800e-09        0.000032
+No more input.
+0.5 CIT_v1 + 0.5 aCIT_v1 <=> 0.5 CIT_v2 + 0.5 aCIT_v2
+bHIS_v1 --> bHIS_v2
+0.7 MAL_v1 + 0.3 aMAL_v1 <=> 0.7 MAL_v2 + 0.3 aMAL_v2
+Phloem export rate =2.205796479136953
+
+##############################
+Day = 233
+Hour = 6
+
+ans =
+
+   1.6837e-05
+
+
+   Light intensity       Vc      Vo      VPGA    VT3P  Vstarch  Vt_glycerate  Vt_glycolate       A_slope  Max_Meta_slope
+0          677.354  31.1686  7.6228  0.020172  6.7758   1.1615        3.8114        7.6228  4.872700e-08        0.000017
+No more input.
+0.5 CIT_v1 + 0.5 aCIT_v1 <=> 0.5 CIT_v2 + 0.5 aCIT_v2
+bHIS_v1 --> bHIS_v2
+0.7 MAL_v1 + 0.3 aMAL_v1 <=> 0.7 MAL_v2 + 0.3 aMAL_v2
+Phloem export rate =2.2716938809577494
+
+##############################
+Day = 233
+Hour = 7
+
+ans =
+
+   2.3287e-05
+
+
+   Light intensity       Vc      Vo      VPGA    VT3P  Vstarch  Vt_glycerate  Vt_glycolate       A_slope  Max_Meta_slope
+0          555.364  27.8501  6.8112  0.021707  6.8498  0.63832        3.4056        6.8112  8.466300e-10        0.000023
+No more input.
+0.5 CIT_v1 + 0.5 aCIT_v1 <=> 0.5 CIT_v2 + 0.5 aCIT_v2
+bHIS_v1 --> bHIS_v2
+0.7 MAL_v1 + 0.3 aMAL_v1 <=> 0.7 MAL_v2 + 0.3 aMAL_v2
+Phloem export rate =1.978310010821041
+
+##############################
+Day = 233
+Hour = 8
+
+ans =
+
+   5.6493e-05
+
+[Warning: ODE model does not reach a steady state: The 1st time ] 
+[> In Sim_Ephotosynthesis (line 22)
+  In wrapped_Sim_Ephotosynthesis_5a9d5871_abc7_4b9b_be5a_867b3601 (line 97)] 
+
+   Light intensity       Vc      Vo      VPGA    VT3P  Vstarch  Vt_glycerate  Vt_glycolate       A_slope  Max_Meta_slope
+0          680.279  31.1343  7.6144  0.020223  6.7818   1.1535        3.8072        7.6144  2.656800e-09    8.586600e-07
+No more input.
+0.5 CIT_v1 + 0.5 aCIT_v1 <=> 0.5 CIT_v2 + 0.5 aCIT_v2
+bHIS_v1 --> bHIS_v2
+0.7 MAL_v1 + 0.3 aMAL_v1 <=> 0.7 MAL_v2 + 0.3 aMAL_v2
+Phloem export rate =2.246578341895992
+
+##############################
+Day = 233
+Hour = 9
+
+ans =
+
+   4.7640e-07
+
+
+   Light intensity       Vc      Vo      VPGA   VT3P  Vstarch  Vt_glycerate  Vt_glycolate       A_slope  Max_Meta_slope
+0          756.423  32.3762  7.9181  0.017303  6.386   1.5345         3.959        7.9181  7.566800e-12    4.764000e-07
+No more input.
+0.5 CIT_v1 + 0.5 aCIT_v1 <=> 0.5 CIT_v2 + 0.5 aCIT_v2
+bHIS_v1 --> bHIS_v2
+0.7 MAL_v1 + 0.3 aMAL_v1 <=> 0.7 MAL_v2 + 0.3 aMAL_v2
+Phloem export rate =2.2933184791552086
+
+##############################
+Day = 233
+Hour = 10
+
+ans =
+
+   1.2329e-05
+
+
+   Light intensity       Vc      Vo      VPGA    VT3P  Vstarch  Vt_glycerate  Vt_glycolate       A_slope  Max_Meta_slope
+0          527.749  26.7391  6.5394  0.021138  6.7216  0.54017        3.2697        6.5394  2.837600e-08        0.000012
+No more input.
+0.5 CIT_v1 + 0.5 aCIT_v1 <=> 0.5 CIT_v2 + 0.5 aCIT_v2
+bHIS_v1 --> bHIS_v2
+0.7 MAL_v1 + 0.3 aMAL_v1 <=> 0.7 MAL_v2 + 0.3 aMAL_v2
+Phloem export rate =1.937388686526769
+
+##############################
+Day = 233
+Hour = 11
+
+ans =
+
+   4.3376e-05
+
+
+   Light intensity       Vc      Vo      VPGA    VT3P  Vstarch  Vt_glycerate  Vt_glycolate       A_slope  Max_Meta_slope
+0          299.075  16.3736  4.0044  0.010472  4.4827  0.14864        2.0022        4.0044  3.202500e-08        0.000043
+No more input.
+0.5 CIT_v1 + 0.5 aCIT_v1 <=> 0.5 CIT_v2 + 0.5 aCIT_v2
+bHIS_v1 --> bHIS_v2
+0.7 MAL_v1 + 0.3 aMAL_v1 <=> 0.7 MAL_v2 + 0.3 aMAL_v2
+Phloem export rate =1.1486563735670177
+
+##############################
+Day = 233
+Hour = 12
+
+ans =
+
+   2.3444e-04
+
+[Warning: ODE model does not reach a steady state: The 1st time ] 
+[> In Sim_Ephotosynthesis (line 22)
+  In wrapped_Sim_Ephotosynthesis_7b1b8c7b_62b2_4eaa_9ff4_39255b55 (line 97)] 
+
+   Light intensity     Vc      Vo      VPGA    VT3P   Vstarch  Vt_glycerate  Vt_glycolate       A_slope  Max_Meta_slope
+0          133.094  7.648  1.8704  0.002961  2.1593  0.037679       0.93521        1.8704  1.971500e-07        0.000016
+No more input.
+0.5 CIT_v1 + 0.5 aCIT_v1 <=> 0.5 CIT_v2 + 0.5 aCIT_v2
+bHIS_v1 --> bHIS_v2
+0.7 MAL_v1 + 0.3 aMAL_v1 <=> 0.7 MAL_v2 + 0.3 aMAL_v2
+Phloem export rate =0.48094742746172253
+
+##############################
+Day = 254
+Hour = 1
+
+ans =
+
+   7.5815e-09
+
+
+   Light intensity       Vc      Vo      VPGA   VT3P  Vstarch  Vt_glycerate  Vt_glycolate       A_slope  Max_Meta_slope
+0          337.986  16.1497  5.8608  0.008129  4.045  0.17664        2.9304        5.8608  4.965500e-10    7.581500e-09
+No more input.
+0.5 CIT_v1 + 0.5 aCIT_v1 <=> 0.5 CIT_v2 + 0.5 aCIT_v2
+bHIS_v1 --> bHIS_v2
+0.7 MAL_v1 + 0.3 aMAL_v1 <=> 0.7 MAL_v2 + 0.3 aMAL_v2
+Phloem export rate =1.0123898682036878
+
+##############################
+Day = 254
+Hour = 2
+
+ans =
+
+   1.6717e-06
+
+
+   Light intensity       Vc     Vo      VPGA    VT3P  Vstarch  Vt_glycerate  Vt_glycolate       A_slope  Max_Meta_slope
+0          666.693  25.7782  9.355  0.010773  5.0261  0.99833        4.6775         9.355  1.482100e-10        0.000002
+No more input.
+0.5 CIT_v1 + 0.5 aCIT_v1 <=> 0.5 CIT_v2 + 0.5 aCIT_v2
+bHIS_v1 --> bHIS_v2
+0.7 MAL_v1 + 0.3 aMAL_v1 <=> 0.7 MAL_v2 + 0.3 aMAL_v2
+Phloem export rate =1.6251006261567031
+
+##############################
+Day = 254
+Hour = 3
+
+ans =
+
+   1.8862e-05
+
+
+   Light intensity       Vc      Vo      VPGA    VT3P  Vstarch  Vt_glycerate  Vt_glycolate       A_slope  Max_Meta_slope
+0          994.752  26.3351  9.5571  0.009659  4.8062   1.1848        4.7786        9.5571  8.390500e-10        0.000019
+No more input.
+0.5 CIT_v1 + 0.5 aCIT_v1 <=> 0.5 CIT_v2 + 0.5 aCIT_v2
+bHIS_v1 --> bHIS_v2
+0.7 MAL_v1 + 0.3 aMAL_v1 <=> 0.7 MAL_v2 + 0.3 aMAL_v2
+Phloem export rate =1.582669591726578
+
+##############################
+Day = 254
+Hour = 4
+
+ans =
+
+   4.3186e-06
+
+
+   Light intensity       Vc      Vo      VPGA    VT3P  Vstarch  Vt_glycerate  Vt_glycolate       A_slope  Max_Meta_slope
+0         1322.649  26.4548  9.6005  0.009742  4.8287   1.1899        4.8003        9.6005  1.477100e-10        0.000004
+No more input.
+0.5 CIT_v1 + 0.5 aCIT_v1 <=> 0.5 CIT_v2 + 0.5 aCIT_v2
+bHIS_v1 --> bHIS_v2
+0.7 MAL_v1 + 0.3 aMAL_v1 <=> 0.7 MAL_v2 + 0.3 aMAL_v2
+Phloem export rate =1.5697297957289853
+
+##############################
+Day = 254
+Hour = 5
+
+ans =
+
+   1.1935e-05
+
+
+   Light intensity      Vc      Vo      VPGA    VT3P  Vstarch  Vt_glycerate  Vt_glycolate       A_slope  Max_Meta_slope
+0         1528.184  26.518  9.6235  0.009788  4.8411   1.1923        4.8117        9.6235  5.034500e-10        0.000012
+No more input.
+0.5 CIT_v1 + 0.5 aCIT_v1 <=> 0.5 CIT_v2 + 0.5 aCIT_v2
+bHIS_v1 --> bHIS_v2
+0.7 MAL_v1 + 0.3 aMAL_v1 <=> 0.7 MAL_v2 + 0.3 aMAL_v2
+Phloem export rate =1.5345328283809214
+
+##############################
+Day = 254
+Hour = 6
+
+ans =
+
+   2.5358e-05
+
+
+   Light intensity       Vc      Vo      VPGA    VT3P  Vstarch  Vt_glycerate  Vt_glycolate       A_slope  Max_Meta_slope
+0         1611.356  26.5411  9.6319  0.009647  4.8456   1.1932        4.8159        9.6319  1.997800e-09        0.000025
+No more input.
+0.5 CIT_v1 + 0.5 aCIT_v1 <=> 0.5 CIT_v2 + 0.5 aCIT_v2
+bHIS_v1 --> bHIS_v2
+0.7 MAL_v1 + 0.3 aMAL_v1 <=> 0.7 MAL_v2 + 0.3 aMAL_v2
+Phloem export rate =1.4361741872103377
+
+##############################
+Day = 254
+Hour = 7
+
+ans =
+
+   3.4281e-07
+
+
+   Light intensity      Vc      Vo      VPGA    VT3P  Vstarch  Vt_glycerate  Vt_glycolate       A_slope  Max_Meta_slope
+0         1694.528  26.566  9.6409  0.009823  4.8505   1.1941        4.8204        9.6409  7.485000e-11    3.428100e-07
+No more input.
+0.5 CIT_v1 + 0.5 aCIT_v1 <=> 0.5 CIT_v2 + 0.5 aCIT_v2
+bHIS_v1 --> bHIS_v2
+0.7 MAL_v1 + 0.3 aMAL_v1 <=> 0.7 MAL_v2 + 0.3 aMAL_v2
+Phloem export rate =1.3764176410616065
+
+##############################
+Day = 254
+Hour = 8
+
+ans =
+
+   1.7958e-06
+
+
+   Light intensity       Vc      Vo     VPGA    VT3P  Vstarch  Vt_glycerate  Vt_glycolate       A_slope  Max_Meta_slope
+0         1538.114  26.5216  9.6248  0.00979  4.8418   1.1924        4.8124        9.6248  9.058600e-10        0.000002
+No more input.
+0.5 CIT_v1 + 0.5 aCIT_v1 <=> 0.5 CIT_v2 + 0.5 aCIT_v2
+bHIS_v1 --> bHIS_v2
+0.7 MAL_v1 + 0.3 aMAL_v1 <=> 0.7 MAL_v2 + 0.3 aMAL_v2
+Phloem export rate =1.4803788720721005
+
+##############################
+Day = 254
+Hour = 9
+
+ans =
+
+   9.1757e-05
+
+[Warning: ODE model does not reach a steady state: The 1st time ] 
+[> In Sim_Ephotosynthesis (line 22)
+  In wrapped_Sim_Ephotosynthesis_bcaa85f4_4d90_4bd0_8677_99802875 (line 97)] 
+
+   Light intensity       Vc       Vo      VPGA    VT3P  Vstarch  Vt_glycerate  Vt_glycolate       A_slope  Max_Meta_slope
+0           1381.7  29.5054  10.7076  0.011426  5.9043   5.0404        5.3538       10.7076  6.771000e-10         0.00001
+No more input.
+0.5 CIT_v1 + 0.5 aCIT_v1 <=> 0.5 CIT_v2 + 0.5 aCIT_v2
+bHIS_v1 --> bHIS_v2
+0.7 MAL_v1 + 0.3 aMAL_v1 <=> 0.7 MAL_v2 + 0.3 aMAL_v2
+Phloem export rate =1.884284834428394
+
+##############################
+Day = 254
+Hour = 10
+
+ans =
+
+   9.2782e-07
+
+
+   Light intensity       Vc      Vo      VPGA    VT3P  Vstarch  Vt_glycerate  Vt_glycolate       A_slope  Max_Meta_slope
+0         1287.142  26.4452  9.5971  0.009735  4.8268   1.1895        4.7985        9.5971  1.628800e-10    9.278200e-07
+No more input.
+0.5 CIT_v1 + 0.5 aCIT_v1 <=> 0.5 CIT_v2 + 0.5 aCIT_v2
+bHIS_v1 --> bHIS_v2
+0.7 MAL_v1 + 0.3 aMAL_v1 <=> 0.7 MAL_v2 + 0.3 aMAL_v2
+Phloem export rate =1.5376950350670064
+
+##############################
+Day = 254
+Hour = 11
+
+ans =
+
+   8.2676e-06
+
+
+   Light intensity       Vc      Vo      VPGA    VT3P  Vstarch  Vt_glycerate  Vt_glycolate       A_slope  Max_Meta_slope
+0         1199.456  26.4144  9.5859  0.009712  4.8209   1.1883        4.7929        9.5859  8.749800e-10        0.000008
+No more input.
+0.5 CIT_v1 + 0.5 aCIT_v1 <=> 0.5 CIT_v2 + 0.5 aCIT_v2
+bHIS_v1 --> bHIS_v2
+0.7 MAL_v1 + 0.3 aMAL_v1 <=> 0.7 MAL_v2 + 0.3 aMAL_v2
+Phloem export rate =1.5297097038666965
+
+##############################
+Day = 254
+Hour = 12
+
+ans =
+
+   1.7965e-05
+
+
+   Light intensity       Vc      Vo      VPGA    VT3P  Vstarch  Vt_glycerate  Vt_glycolate       A_slope  Max_Meta_slope
+0          758.849  26.1481  9.4892  0.009847  4.8414   1.1417        4.7446        9.4892  1.285100e-08        0.000018
+No more input.
+0.5 CIT_v1 + 0.5 aCIT_v1 <=> 0.5 CIT_v2 + 0.5 aCIT_v2
+bHIS_v1 --> bHIS_v2
+0.7 MAL_v1 + 0.3 aMAL_v1 <=> 0.7 MAL_v2 + 0.3 aMAL_v2
+Phloem export rate =1.633011550773792
+
+##############################
+Day = 254
+Hour = 13
+
+ans =
+
+   3.9635e-05
+
+
+   Light intensity       Vc      Vo      VPGA    VT3P   Vstarch  Vt_glycerate  Vt_glycolate       A_slope  Max_Meta_slope
+0          230.012  11.3151  4.1063  0.004605  2.9082  0.087249        2.0531        4.1063  1.998600e-08         0.00004
+No more input.
+0.5 CIT_v1 + 0.5 aCIT_v1 <=> 0.5 CIT_v2 + 0.5 aCIT_v2
+bHIS_v1 --> bHIS_v2
+0.7 MAL_v1 + 0.3 aMAL_v1 <=> 0.7 MAL_v2 + 0.3 aMAL_v2
+Phloem export rate =0.6821700248061926
+
+##############################
+Day = 254
+Hour = 1
+
+ans =
+
+   2.7931e-06
+
+
+   Light intensity       Vc      Vo      VPGA    VT3P  Vstarch  Vt_glycerate  Vt_glycolate       A_slope  Max_Meta_slope
+0          291.125  15.9699  3.9057  0.010054  4.3793  0.14148        1.9528        3.9057  1.115800e-09        0.000003
+No more input.
+0.5 CIT_v1 + 0.5 aCIT_v1 <=> 0.5 CIT_v2 + 0.5 aCIT_v2
+bHIS_v1 --> bHIS_v2
+0.7 MAL_v1 + 0.3 aMAL_v1 <=> 0.7 MAL_v2 + 0.3 aMAL_v2
+Phloem export rate =1.1141427091952907
+
+##############################
+Day = 254
+Hour = 2
+
+ans =
+
+   2.4494e-04
+
+[Warning: ODE model does not reach a steady state: The 1st time ] 
+[> In Sim_Ephotosynthesis (line 22)
+  In wrapped_Sim_Ephotosynthesis_91d39b18_917c_4102_b90b_7cb49799 (line 97)] 
+
+   Light intensity      Vc      Vo      VPGA    VT3P  Vstarch  Vt_glycerate  Vt_glycolate       A_slope  Max_Meta_slope
+0          572.972  28.428  6.9525  0.021856  6.8956  0.69987        3.4762        6.9525  2.374800e-14    5.511800e-12
+No more input.
+0.5 CIT_v1 + 0.5 aCIT_v1 <=> 0.5 CIT_v2 + 0.5 aCIT_v2
+bHIS_v1 --> bHIS_v2
+0.7 MAL_v1 + 0.3 aMAL_v1 <=> 0.7 MAL_v2 + 0.3 aMAL_v2
+Phloem export rate =1.9858673619455816
+
+##############################
+Day = 254
+Hour = 3
+
+ans =
+
+   2.7713e-06
+
+
+   Light intensity       Vc      Vo      VPGA    VT3P  Vstarch  Vt_glycerate  Vt_glycolate       A_slope  Max_Meta_slope
+0          941.861  33.1803  8.1147  0.014122  5.8703   1.9116        4.0574        8.1147  1.315100e-10        0.000003
+No more input.
+0.5 CIT_v1 + 0.5 aCIT_v1 <=> 0.5 CIT_v2 + 0.5 aCIT_v2
+bHIS_v1 --> bHIS_v2
+0.7 MAL_v1 + 0.3 aMAL_v1 <=> 0.7 MAL_v2 + 0.3 aMAL_v2
+Phloem export rate =2.285358395519875
+
+##############################
+Day = 254
+Hour = 4
+
+ans =
+
+   6.9834e-07
+
+
+   Light intensity       Vc      Vo      VPGA    VT3P  Vstarch  Vt_glycerate  Vt_glycolate       A_slope  Max_Meta_slope
+0          1332.51  33.3464  8.1554  0.013953  5.8447   1.9488        4.0777        8.1554  9.557200e-10    6.983400e-07
+No more input.
+0.5 CIT_v1 + 0.5 aCIT_v1 <=> 0.5 CIT_v2 + 0.5 aCIT_v2
+bHIS_v1 --> bHIS_v2
+0.7 MAL_v1 + 0.3 aMAL_v1 <=> 0.7 MAL_v2 + 0.3 aMAL_v2
+Phloem export rate =2.218190907379085
+
+##############################
+Day = 254
+Hour = 5
+
+ans =
+
+   1.1570e-09
+
+
+   Light intensity       Vc      Vo      VPGA   VT3P  Vstarch  Vt_glycerate  Vt_glycolate       A_slope  Max_Meta_slope
+0         1561.174  33.3996  8.1684  0.014006  5.856   1.9509        4.0842        8.1684  2.636500e-14    1.157000e-09
+No more input.
+0.5 CIT_v1 + 0.5 aCIT_v1 <=> 0.5 CIT_v2 + 0.5 aCIT_v2
+bHIS_v1 --> bHIS_v2
+0.7 MAL_v1 + 0.3 aMAL_v1 <=> 0.7 MAL_v2 + 0.3 aMAL_v2
+Phloem export rate =2.16005716696477
+
+##############################
+Day = 254
+Hour = 6
+
+ans =
+
+   3.2267e-07
+
+
+   Light intensity      Vc      Vo     VPGA    VT3P  Vstarch  Vt_glycerate  Vt_glycolate       A_slope  Max_Meta_slope
+0         1627.851  33.414  8.1719  0.01402  5.8591   1.9514         4.086        8.1719  1.608500e-11    3.226700e-07
+No more input.
+0.5 CIT_v1 + 0.5 aCIT_v1 <=> 0.5 CIT_v2 + 0.5 aCIT_v2
+bHIS_v1 --> bHIS_v2
+0.7 MAL_v1 + 0.3 aMAL_v1 <=> 0.7 MAL_v2 + 0.3 aMAL_v2
+Phloem export rate =2.218699014306674
+
+##############################
+Day = 254
+Hour = 7
+
+ans =
+
+   1.2651e-04
+
+[Warning: ODE model does not reach a steady state: The 1st time ] 
+[> In Sim_Ephotosynthesis (line 22)
+  In wrapped_Sim_Ephotosynthesis_30694e5f_a30b_4d0a_bc2a_9a5f554a (line 97)] 
+
+   Light intensity       Vc     Vo      VPGA    VT3P  Vstarch  Vt_glycerate  Vt_glycolate       A_slope  Max_Meta_slope
+0         1694.528  33.4269  8.175  0.014033  5.8619   1.9519        4.0875         8.175  5.199100e-18    5.802100e-14
+No more input.
+0.5 CIT_v1 + 0.5 aCIT_v1 <=> 0.5 CIT_v2 + 0.5 aCIT_v2
+bHIS_v1 --> bHIS_v2
+0.7 MAL_v1 + 0.3 aMAL_v1 <=> 0.7 MAL_v2 + 0.3 aMAL_v2
+Phloem export rate =2.199264284699387
+
+##############################
+Day = 254
+Hour = 8
+
+ans =
+
+   7.9160e-07
+
+
+   Light intensity       Vc      Vo      VPGA    VT3P  Vstarch  Vt_glycerate  Vt_glycolate       A_slope  Max_Meta_slope
+0         1616.661  33.4119  8.1714  0.014018  5.8587   1.9514        4.0857        8.1714  9.041200e-12    7.916000e-07
+No more input.
+0.5 CIT_v1 + 0.5 aCIT_v1 <=> 0.5 CIT_v2 + 0.5 aCIT_v2
+bHIS_v1 --> bHIS_v2
+0.7 MAL_v1 + 0.3 aMAL_v1 <=> 0.7 MAL_v2 + 0.3 aMAL_v2
+Phloem export rate =2.0261320290494047
+
+##############################
+Day = 254
+Hour = 9
+
+ans =
+
+   2.7031e-07
+
+
+   Light intensity       Vc      Vo      VPGA   VT3P  Vstarch  Vt_glycerate  Vt_glycolate       A_slope  Max_Meta_slope
+0         1538.794  33.3949  8.1672  0.014001  5.855   1.9507        4.0836        8.1672  2.341200e-11    2.703100e-07
+No more input.
+0.5 CIT_v1 + 0.5 aCIT_v1 <=> 0.5 CIT_v2 + 0.5 aCIT_v2
+bHIS_v1 --> bHIS_v2
+0.7 MAL_v1 + 0.3 aMAL_v1 <=> 0.7 MAL_v2 + 0.3 aMAL_v2
+Phloem export rate =2.1607265690208033
+
+##############################
+Day = 254
+Hour = 10
+
+ans =
+
+   5.5757e-07
+
+
+   Light intensity       Vc      Vo      VPGA    VT3P  Vstarch  Vt_glycerate  Vt_glycolate       A_slope  Max_Meta_slope
+0         1381.398  33.3587  8.1584  0.013965  5.8473   1.9493        4.0792        8.1584  1.047600e-13    5.575700e-07
+No more input.
+0.5 CIT_v1 + 0.5 aCIT_v1 <=> 0.5 CIT_v2 + 0.5 aCIT_v2
+bHIS_v1 --> bHIS_v2
+0.7 MAL_v1 + 0.3 aMAL_v1 <=> 0.7 MAL_v2 + 0.3 aMAL_v2
+Phloem export rate =2.1963423698243374
+
+##############################
+Day = 254
+Hour = 11
+
+ans =
+
+   7.1807e-05
+
+[Warning: ODE model does not reach a steady state: The 1st time ] 
+[> In Sim_Ephotosynthesis (line 22)
+  In wrapped_Sim_Ephotosynthesis_c0b8740c_70c5_49f6_b0e2_6216e904 (line 97)] 
+
+   Light intensity       Vc      Vo      VPGA    VT3P  Vstarch  Vt_glycerate  Vt_glycolate       A_slope  Max_Meta_slope
+0         1215.166  33.3178  8.1484  0.013928  5.8392   1.9474        4.0742        8.1484  4.600300e-11        0.000002
+No more input.
+0.5 CIT_v1 + 0.5 aCIT_v1 <=> 0.5 CIT_v2 + 0.5 aCIT_v2
+bHIS_v1 --> bHIS_v2
+0.7 MAL_v1 + 0.3 aMAL_v1 <=> 0.7 MAL_v2 + 0.3 aMAL_v2
+Phloem export rate =2.249188731172423
+
+##############################
+Day = 254
+Hour = 12
+
+ans =
+
+   6.0557e-05
+
+[Warning: ODE model does not reach a steady state: The 1st time ] 
+[> In Sim_Ephotosynthesis (line 22)
+  In wrapped_Sim_Ephotosynthesis_8230ea7a_614e_4304_893d_776d8c0d (line 97)] 
+
+   Light intensity       Vc      Vo     VPGA    VT3P  Vstarch  Vt_glycerate  Vt_glycolate       A_slope  Max_Meta_slope
+0          758.849  31.6231  7.7339  0.01937  6.6763   1.2782         3.867        7.7339  2.074600e-09    5.411800e-08
+No more input.
+0.5 CIT_v1 + 0.5 aCIT_v1 <=> 0.5 CIT_v2 + 0.5 aCIT_v2
+bHIS_v1 --> bHIS_v2
+0.7 MAL_v1 + 0.3 aMAL_v1 <=> 0.7 MAL_v2 + 0.3 aMAL_v2
+Phloem export rate =2.2933034860729204
+
+##############################
+Day = 254
+Hour = 13
+
+ans =
+
+   1.5512e-05
+
+
+   Light intensity     Vc      Vo   VPGA    VT3P   Vstarch  Vt_glycerate  Vt_glycolate       A_slope  Max_Meta_slope
+0          230.012  12.82  3.1353  0.007  3.5559  0.093933        1.5677        3.1353  3.468200e-08        0.000016
+No more input.
+0.5 CIT_v1 + 0.5 aCIT_v1 <=> 0.5 CIT_v2 + 0.5 aCIT_v2
+bHIS_v1 --> bHIS_v2
+0.7 MAL_v1 + 0.3 aMAL_v1 <=> 0.7 MAL_v2 + 0.3 aMAL_v2
+Phloem export rate =0.8710256192693818
+
