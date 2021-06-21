@@ -293,11 +293,11 @@ StarchDegradationRate = df["Vstarch"][0]*daylength/(24-daylength)
 temp.reactions.get_by_id("STARCH_p_accumulation").lower_bound = StarchDegradationRate
 temp.reactions.get_by_id("STARCH_p_accumulation").upper_bound = StarchDegradationRate
 
-temp.reactions.get_by_id("MAL_v_accumulation").lower_bound = -1*0.0698903487288*StarchDegradationRate
-temp.reactions.get_by_id("MAL_v_accumulation").upper_bound = -1*0.0698903487288*StarchDegradationRate
+temp.reactions.get_by_id("MAL_v_accumulation").lower_bound = -1*0.71*StarchDegradationRate
+temp.reactions.get_by_id("MAL_v_accumulation").upper_bound = -1*0.71*StarchDegradationRate
 
-temp.reactions.get_by_id("CIT_v_accumulation").lower_bound = -1*-0.056884259879*StarchDegradationRate
-temp.reactions.get_by_id("CIT_v_accumulation").upper_bound = -1*-0.056884259879*StarchDegradationRate
+temp.reactions.get_by_id("CIT_v_accumulation").lower_bound = -1*-0.56*StarchDegradationRate
+temp.reactions.get_by_id("CIT_v_accumulation").upper_bound = -1*-0.56*StarchDegradationRate
 
 temp.reactions.get_by_id("2PGADEHYDRAT_RXN_p").lower_bound = 0
 temp.reactions.get_by_id("2PGADEHYDRAT_RXN_p").upper_bound = 0

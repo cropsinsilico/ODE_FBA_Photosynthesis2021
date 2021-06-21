@@ -476,13 +476,13 @@ temp.reactions.get_by_id("GLYCERATE_tx").upper_bound = df["Vt_glycerate"][0]
 #temp.reactions.get_by_id("NrefixationEnergy").upper_bound = df270["Vt_glycerate"][i]
 f0 = open("./MALmultiplier.txt")
 MALmult = float(f0.readline().replace("\n",""))
-temp.reactions.get_by_id("MAL_v_accumulation").lower_bound = 0.0698903487288*df["Vstarch"][0]*MALmult
-temp.reactions.get_by_id("MAL_v_accumulation").upper_bound = 0.0698903487288*df["Vstarch"][0]*MALmult
+temp.reactions.get_by_id("MAL_v_accumulation").lower_bound = 0.71*df["Vstarch"][0]*MALmult
+temp.reactions.get_by_id("MAL_v_accumulation").upper_bound = 0.71*df["Vstarch"][0]*MALmult
 
 f0 = open("./CITmultiplier.txt")
 CITmult = float(f0.readline().replace("\n",""))
-temp.reactions.get_by_id("CIT_v_accumulation").lower_bound = -0.056884259879*df["Vstarch"][0]*CITmult
-temp.reactions.get_by_id("CIT_v_accumulation").upper_bound = -0.056884259879*df["Vstarch"][0]*CITmult
+temp.reactions.get_by_id("CIT_v_accumulation").lower_bound = -0.56*df["Vstarch"][0]*CITmult
+temp.reactions.get_by_id("CIT_v_accumulation").upper_bound = -0.56*df["Vstarch"][0]*CITmult
 
 
 

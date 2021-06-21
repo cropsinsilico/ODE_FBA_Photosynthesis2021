@@ -298,13 +298,13 @@ temp.reactions.get_by_id("STARCH_p_accumulation").upper_bound = StarchDegradatio
 
 f0 = open("./MALmultiplier.txt")
 MALmult = float(f0.readline().replace("\n",""))
-temp.reactions.get_by_id("MAL_v_accumulation").lower_bound = -1*0.0698903487288*StarchDegradationRate*MALmult
-temp.reactions.get_by_id("MAL_v_accumulation").upper_bound = -1*0.0698903487288*StarchDegradationRate*MALmult
+temp.reactions.get_by_id("MAL_v_accumulation").lower_bound = -1*0.71*StarchDegradationRate*MALmult
+temp.reactions.get_by_id("MAL_v_accumulation").upper_bound = -1*0.71*StarchDegradationRate*MALmult
 
 f0 = open("./CITmultiplier.txt")
 CITmult = float(f0.readline().replace("\n",""))
-temp.reactions.get_by_id("CIT_v_accumulation").lower_bound = -1*-0.056884259879*StarchDegradationRate*CITmult
-temp.reactions.get_by_id("CIT_v_accumulation").upper_bound = -1*-0.056884259879*StarchDegradationRate*CITmult
+temp.reactions.get_by_id("CIT_v_accumulation").lower_bound = -1*-0.56*StarchDegradationRate*CITmult
+temp.reactions.get_by_id("CIT_v_accumulation").upper_bound = -1*-0.56*StarchDegradationRate*CITmult
 
 #check if model works
 temp.solver="glpk"

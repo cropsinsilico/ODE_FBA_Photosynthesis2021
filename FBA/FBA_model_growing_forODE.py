@@ -629,11 +629,11 @@ temp.reactions.get_by_id("2PGADEHYDRAT_RXN_p").upper_bound = 0
 temp.reactions.get_by_id("G6P_Pi_pc").lower_bound=0
 temp.reactions.get_by_id("G6P_Pi_pc").upper_bound=0
 
-temp.reactions.get_by_id("MAL_v_accumulation").lower_bound = 0.0698903487288*df2["Vstarch"][0]
-temp.reactions.get_by_id("MAL_v_accumulation").upper_bound = 0.0698903487288*df2["Vstarch"][0]
+temp.reactions.get_by_id("MAL_v_accumulation").lower_bound = 0.71*df["Vstarch"][0]
+temp.reactions.get_by_id("MAL_v_accumulation").upper_bound = 0.71*df["Vstarch"][0]
 
-temp.reactions.get_by_id("CIT_v_accumulation").lower_bound = -0.056884259879*df2["Vstarch"][0]
-temp.reactions.get_by_id("CIT_v_accumulation").upper_bound = -0.056884259879*df2["Vstarch"][0]
+temp.reactions.get_by_id("CIT_v_accumulation").lower_bound = -0.56*df["Vstarch"][0]
+temp.reactions.get_by_id("CIT_v_accumulation").upper_bound = -0.56*df["Vstarch"][0]
 
 
 
