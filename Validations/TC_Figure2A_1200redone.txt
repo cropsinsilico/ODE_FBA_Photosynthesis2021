@@ -1,0 +1,486 @@
+Loop 0
+INFO:runner.startDrivers[338]:YggRunner(runner): Starting I/O drivers and models on system dps017 in namespace yggdrasil with rank 0
+
+ans =
+
+   1.2409e-05
+
+INFO:runner.waitModels[387]:YggRunner(runner): Ephotosynthesismodel finished running.
+INFO:runner.waitModels[393]:YggRunner(runner): Ephotosynthesismodel finished exiting.
+INFO:runner.waitModels[406]:YggRunner(runner): All models completed
+INFO:runner.run[187]:YggRunner(runner):                 init    0.000000
+INFO:runner.run[187]:YggRunner(runner):         load drivers    0.096157
+INFO:runner.run[187]:YggRunner(runner):        start drivers    0.013977
+INFO:runner.run[187]:YggRunner(runner):           run models    20.045187
+INFO:runner.run[187]:YggRunner(runner):       close channels    0.000080
+INFO:runner.run[187]:YggRunner(runner):             clean up    0.000156
+INFO:runner.run[189]:YggRunner(runner): ========================================
+INFO:runner.run[190]:YggRunner(runner):                Total    20.155557
+
+INFO:runner.startDrivers[338]:YggRunner(runner): Starting I/O drivers and models on system dps017 in namespace yggdrasil with rank 0
+   Light intensity       Vc      Vo      VPGA   VT3P  Vstarch  Vt_glycerate  Vt_glycolate       A_slope  Max_Meta_slope
+0             1200  40.1343  4.5151  0.020547  7.054   2.7755        2.2576        4.5151  4.042500e-11        0.000012
+No more input.
+Sucrose export rate =-1.3015075852954925
+HOMOSERKIN_RXN_p        -0.016080402590289804=0.0
+ATPPHOSPHORIBOSYLTRANS_RXN_p    -0.0007437185518542775=0.0
+SHIKIMATE_KINASE_RXN_p  -0.011618090746249211=0.0
+PHOSGLYPHOS_RXN_p       1.134338706525986=0.0
+PEPDEPHOS_RXN_p 0.02711557874295618=0.0
+PRPPSYN_RXN_p   -0.001487437103708555=0.0
+ADENYL_KIN_RXN_p        -0.004462311311126352=0.0
+CARBAMATE_KINASE_RXN_p  -0.0007437185518542776=0.0
+GLY3KIN_RXN_p   -0.012882161562613093=0.0
+ACETYLGLUTKIN_RXN_p     -0.0007437185518542778=0.0
+ASPARTATEKIN_RXN_p      -0.020020101258533537=0.0
+ATP_ADP_Pi_pc   1.3865130602073799=0.0
+1.3865130602073799
+GLUTAMINESYN_RXN_p      -2.4762108110408207=1.3865130602073799
+GDPKIN_RXN_p    -0.0007437185518542775=1.3865130602073799
+ARGSUCCINSYN_RXN_p      -0.0007437185518542774=1.3865130602073799
+SULFATE_ADENYLYLTRANS_RXN_p     -0.0014874371037088873=1.3865130602073799
+Extra APTase flux =1.3865130602073799
+6PGLUCONDEHYDROG_RXN_p  0.5062998330473123=0.0
+PREPHENATE_DEHYDROGENASE_NADP_RXN_p     0.0007437185518542773=0.0
+NADPHoxp_tx     -0.9633333333333334=0.0
+1_PERIOD_18_PERIOD_1_PERIOD_2_RXN_p     -0.004462311311126662=0.0
+N_ACETYLGLUTPREDUCT_RXN_p       -0.0007437185518542776=0.0
+ACETOOHBUTREDUCTOISOM_RXN_p     -0.003095477575903339=0.0
+GLU6PDEHYDROG_RXN_p     0.5062998330473125=0.0
+GLUTATHIONE_REDUCT_NADPH_RXN_p  -0.0014874371037088873=0.0
+SHIKIMATE_5_DEHYDROGENASE_RXN_p -0.011618090746249213=0.0
+ASPARTATE_SEMIALDEHYDE_DEHYDROGENASE_RXN_p      -0.020020101258533537=0.0
+ACETOLACTREDUCTOISOM_RXN_p      -0.00858291476576989=0.0
+HOMOSERDEHYDROG_RXN_NAD_p       -0.016080402590289804=0.0
+MALATE_DEH_RXN_p        1.30808315909989=0.0
+1.30808315909989
+GLUTAMATE_SYNTHASE_NADH_RXN_p   -2.431949503061153=1.30808315909989
+GAPOXNPHOSPHN_RXN_p     1.134338706525986=1.30808315909989
+RXN_8001_p      0.0014874371037085546=1.30808315909989
+DIHYDROPICRED_RXN_NAD_p -0.003939698668243731=1.30808315909989
+3_ISOPROPYLMALDEHYDROG_RXN_p    0.0036582915191237663=1.30808315909989
+PYRUVDEH_RXN_p  0.004402010070978376=1.30808315909989
+Extra NADPH flux =1.30808315909989
+INFO:runner.waitModels[387]:YggRunner(runner): FBA_model finished running.
+INFO:runner.waitModels[393]:YggRunner(runner): FBA_model finished exiting.
+INFO:runner.waitModels[406]:YggRunner(runner): All models completed
+INFO:runner.run[187]:YggRunner(runner):                 init    0.000000
+INFO:runner.run[187]:YggRunner(runner):         load drivers    0.146607
+INFO:runner.run[187]:YggRunner(runner):        start drivers    0.027698
+INFO:runner.run[187]:YggRunner(runner):           run models    4.749937
+INFO:runner.run[187]:YggRunner(runner):       close channels    0.000084
+INFO:runner.run[187]:YggRunner(runner):             clean up    0.010418
+INFO:runner.run[189]:YggRunner(runner): ========================================
+INFO:runner.run[190]:YggRunner(runner):                Total    4.934744
+
+ODE ATPase 0.0
+FBA ATPase 1.39
+ODE NADPHox 0.0
+FBA NADPHox 1.31
+Loop 1
+INFO:runner.startDrivers[338]:YggRunner(runner): Starting I/O drivers and models on system dps017 in namespace yggdrasil with rank 0
+
+ans =
+
+   1.5909e-04
+
+Warning: ODE model does not reach a steady state: The 1st time
+> In Sim_Ephotosynthesis (line 22)
+  In wrapped_Sim_Ephotosynthesis_ee5953ae_2de5_468d_b91e_20c4f64c (line 97)
+INFO:runner.waitModels[387]:YggRunner(runner): Ephotosynthesismodel finished running.
+INFO:runner.waitModels[393]:YggRunner(runner): Ephotosynthesismodel finished exiting.
+INFO:runner.waitModels[406]:YggRunner(runner): All models completed
+INFO:runner.run[187]:YggRunner(runner):                 init    0.000000
+INFO:runner.run[187]:YggRunner(runner):         load drivers    0.025902
+INFO:runner.run[187]:YggRunner(runner):        start drivers    0.014759
+INFO:runner.run[187]:YggRunner(runner):           run models    41.014943
+INFO:runner.run[187]:YggRunner(runner):       close channels    0.000086
+INFO:runner.run[187]:YggRunner(runner):             clean up    0.000194
+INFO:runner.run[189]:YggRunner(runner): ========================================
+INFO:runner.run[190]:YggRunner(runner):                Total    41.055885
+
+INFO:runner.startDrivers[338]:YggRunner(runner): Starting I/O drivers and models on system dps017 in namespace yggdrasil with rank 0
+   Light intensity       Vc      Vo      VPGA    VT3P  Vstarch  Vt_glycerate  Vt_glycolate       A_slope  Max_Meta_slope
+0             1200  40.0967  4.5109  0.020929  7.1084   2.7422        2.2554        4.5109  4.084700e-12    8.264900e-07
+No more input.
+Sucrose export rate =-1.3740982887058932
+PRPPSYN_RXN_p   -0.0015703978999857574=1.39
+HOMOSERKIN_RXN_p        -0.016977276145495542=1.39
+ATPPHOSPHORIBOSYLTRANS_RXN_p    -0.0007851989499928786=1.39
+ATP_ADP_Pi_pc   0.07938008023299761=1.39
+0.07938008023299761
+ARGSUCCINSYN_RXN_p      -0.0007851989499928787=1.4693800802329975
+ACETYLGLUTKIN_RXN_p     -0.000785198949992879=1.4693800802329975
+SHIKIMATE_KINASE_RXN_p  -0.012266081882900652=1.4693800802329975
+GDPKIN_RXN_p    -0.0007851989499928787=1.4693800802329975
+ADENYL_KIN_RXN_p        -0.004711193699957124=1.4693800802329975
+PHOSGLYPHOS_RXN_p       1.0367530645735232=1.4693800802329975
+SULFATE_ADENYLYLTRANS_RXN_p     -0.0015703978999858194=1.4693800802329975
+PEPDEPHOS_RXN_p 0.04233137587713513=1.4693800802329975
+ATP_source_from_ODE     1.39=1.4693800802329975
+ASPARTATEKIN_RXN_p      -0.0348401529453195=1.4693800802329975
+CARBAMATE_KINASE_RXN_p  -0.0007851989499928787=1.4693800802329975
+GLUTAMINESYN_RXN_p      -2.4726030254600473=1.4693800802329975
+Extra APTase flux =1.4693800802329975
+SHIKIMATE_5_DEHYDROGENASE_RXN_p -0.012266081882900652=1.31
+DIHYDROPICRED_RXN_NADP_p        -0.01786287679982396=1.31
+ASPARTATE_SEMIALDEHYDE_DEHYDROGENASE_RXN_p      -0.0348401529453195=1.31
+1_PERIOD_18_PERIOD_1_PERIOD_2_RXN_p     -0.25003493528421117=1.31
+ACETOOHBUTREDUCTOISOM_RXN_p     -0.003268125739590322=1.31
+NADPH_source_from_ODE   1.31=1.31
+GLUTATHIONE_REDUCT_NADPH_RXN_p  -0.0015703978999858197=1.31
+NADPHoxp_tx     -0.9633333333333334=1.31
+HOMOSERDEHYDROG_RXN_NADP_p      -0.016977276145495542=1.31
+ACETOLACTREDUCTOISOM_RXN_p      -0.009061621019346811=1.31
+N_ACETYLGLUTPREDUCT_RXN_p       -0.0007851989499928789=1.31
+PREPHENATEDEHYDROG_RXN_p        0.0007851989499928785=1.31
+GLUTAMATE_SYNTHASE_NADH_RXN_p   -2.1805493314437934=1.31
+GAPOXNPHOSPHN_RXN_p     1.0367530645735232=1.31
+RXN_8001_p      0.0015703978999857572=1.31
+3_ISOPROPYLMALDEHYDROG_RXN_p    0.0038623302490196085=1.31
+MALATE_DEH_RXN_p        1.1329308105719536=1.31
+1.1329308105719536
+PYRUVDEH_RXN_p  0.004647529199012565=2.4429308105719536
+Extra NADPH flux =2.4429308105719536
+INFO:runner.waitModels[387]:YggRunner(runner): FBA_model finished running.
+INFO:runner.waitModels[393]:YggRunner(runner): FBA_model finished exiting.
+INFO:runner.waitModels[406]:YggRunner(runner): All models completed
+INFO:runner.run[187]:YggRunner(runner):                 init    0.000000
+INFO:runner.run[187]:YggRunner(runner):         load drivers    0.160310
+INFO:runner.run[187]:YggRunner(runner):        start drivers    0.026825
+INFO:runner.run[187]:YggRunner(runner):           run models    4.579801
+INFO:runner.run[187]:YggRunner(runner):       close channels    0.000088
+INFO:runner.run[187]:YggRunner(runner):             clean up    0.010537
+INFO:runner.run[189]:YggRunner(runner): ========================================
+INFO:runner.run[190]:YggRunner(runner):                Total    4.777561
+
+ODE ATPase 1.39
+FBA ATPase 1.47
+ODE NADPHox 1.31
+FBA NADPHox 2.44
+Loop 2
+INFO:runner.startDrivers[338]:YggRunner(runner): Starting I/O drivers and models on system dps017 in namespace yggdrasil with rank 0
+
+ans =
+
+   1.5554e-05
+
+INFO:runner.waitModels[387]:YggRunner(runner): Ephotosynthesismodel finished running.
+INFO:runner.waitModels[393]:YggRunner(runner): Ephotosynthesismodel finished exiting.
+INFO:runner.waitModels[406]:YggRunner(runner): All models completed
+INFO:runner.run[187]:YggRunner(runner):                 init    0.000000
+INFO:runner.run[187]:YggRunner(runner):         load drivers    0.024429
+INFO:runner.run[187]:YggRunner(runner):        start drivers    0.015522
+INFO:runner.run[187]:YggRunner(runner):           run models    17.767756
+INFO:runner.run[187]:YggRunner(runner):       close channels    0.000090
+INFO:runner.run[187]:YggRunner(runner):             clean up    0.000190
+INFO:runner.run[189]:YggRunner(runner): ========================================
+INFO:runner.run[190]:YggRunner(runner):                Total    17.807986
+
+INFO:runner.startDrivers[338]:YggRunner(runner): Starting I/O drivers and models on system dps017 in namespace yggdrasil with rank 0
+   Light intensity       Vc      Vo     VPGA    VT3P  Vstarch  Vt_glycerate  Vt_glycolate       A_slope  Max_Meta_slope
+0             1200  40.0951  4.5107  0.02095  7.1114   2.7405        2.2554        4.5107  5.196000e-11        0.000016
+No more input.
+Sucrose export rate =-1.4123171121005316
+SULFATE_ADENYLYLTRANS_RXN_p     -0.0016140765512857706=1.47
+PEPDEPHOS_RXN_p 0.02942418184567894=1.47
+GLUTAMINESYN_RXN_p      -2.4926274532148014=1.47
+PRPPSYN_RXN_p   -0.001614076551281795=1.47
+GLY3KIN_RXN_p   -0.013983197560732751=1.47
+HOMOSERKIN_RXN_p        -0.01744947782427293=1.47
+ACETYLGLUTKIN_RXN_p     -0.0008070382756408977=1.47
+GDPKIN_RXN_p    -0.0008070382756408976=1.47
+ATPPHOSPHORIBOSYLTRANS_RXN_p    -0.0008070382756408974=1.47
+PHOSGLYPHOS_RXN_p       0.8566334163028766=1.47
+SHIKIMATE_KINASE_RXN_p  -0.012607247592136968=1.47
+ATP_source_from_ODE     1.47=1.47
+ARGSUCCINSYN_RXN_p      -0.0008070382756408975=1.47
+ADENYL_KIN_RXN_p        -0.004842229653849566=1.47
+ASPARTATEKIN_RXN_p      -0.02172459992776426=1.47
+ATP_ADP_Pi_pc   0.21443995210577527=1.47
+0.21443995210577527
+CARBAMATE_KINASE_RXN_p  -0.0008070382756408975=1.6844399521057754
+Extra APTase flux =1.6844399521057754
+DIHYDROPICRED_RXN_NADP_p        -0.0042751221034913285=2.44
+SHIKIMATE_5_DEHYDROGENASE_RXN_p -0.012607247592136965=2.44
+ACETOOHBUTREDUCTOISOM_RXN_p     -0.003359024565023331=2.44
+HOMOSERDEHYDROG_RXN_NADP_p      -0.017449477824272745=2.44
+1_PERIOD_18_PERIOD_1_PERIOD_2_RXN_p     -1.4055164211650886=2.44
+ASPARTATE_SEMIALDEHYDE_DEHYDROGENASE_RXN_p      -0.02172459992776426=2.44
+ACETOLACTREDUCTOISOM_RXN_p      -0.00931365866196241=2.44
+N_ACETYLGLUTPREDUCT_RXN_p       -0.0008070382756408977=2.44
+NADPHoxp_tx     -0.9633333333333334=2.44
+GLUTATHIONE_REDUCT_NADPH_RXN_p  -0.0016140765512857708=2.44
+NADPH_source_from_ODE   2.44=2.44
+3_ISOPROPYLMALDEHYDROG_RXN_p    0.003969756128880118=2.44
+PREPHENATEDEHYDROG_RXN_p        0.0008070382756408974=2.44
+PYRUVDEH_RXN_p  0.004776794404524992=2.44
+GLUTAMATE_SYNTHASE_NADH_RXN_p   -1.043923574155154=2.44
+MALATE_DEH_RXN_p        0.17612249249194972=2.44
+0.17612249249194972
+GAPOXNPHOSPHN_RXN_p     0.8566334163028766=2.6161224924919497
+RXN_8001_p      0.0016140765512817946=2.6161224924919497
+Extra NADPH flux =2.6161224924919497
+INFO:runner.waitModels[387]:YggRunner(runner): FBA_model finished running.
+INFO:runner.waitModels[393]:YggRunner(runner): FBA_model finished exiting.
+INFO:runner.waitModels[406]:YggRunner(runner): All models completed
+INFO:runner.run[187]:YggRunner(runner):                 init    0.000000
+INFO:runner.run[187]:YggRunner(runner):         load drivers    0.145523
+INFO:runner.run[187]:YggRunner(runner):        start drivers    0.027903
+INFO:runner.run[187]:YggRunner(runner):           run models    4.601074
+INFO:runner.run[187]:YggRunner(runner):       close channels    0.000064
+INFO:runner.run[187]:YggRunner(runner):             clean up    0.010432
+INFO:runner.run[189]:YggRunner(runner): ========================================
+INFO:runner.run[190]:YggRunner(runner):                Total    4.784998
+
+ODE ATPase 1.47
+FBA ATPase 1.68
+ODE NADPHox 2.44
+FBA NADPHox 2.62
+Loop 3
+INFO:runner.startDrivers[338]:YggRunner(runner): Starting I/O drivers and models on system dps017 in namespace yggdrasil with rank 0
+
+ans =
+
+   5.8879e-05
+
+Warning: ODE model does not reach a steady state: The 1st time
+> In Sim_Ephotosynthesis (line 22)
+  In wrapped_Sim_Ephotosynthesis_14da1f9b_2bca_43ae_b816_b5007202 (line 97)
+INFO:runner.waitModels[387]:YggRunner(runner): Ephotosynthesismodel finished running.
+INFO:runner.waitModels[393]:YggRunner(runner): Ephotosynthesismodel finished exiting.
+INFO:runner.waitModels[406]:YggRunner(runner): All models completed
+INFO:runner.run[187]:YggRunner(runner):                 init    0.000000
+INFO:runner.run[187]:YggRunner(runner):         load drivers    0.024971
+INFO:runner.run[187]:YggRunner(runner):        start drivers    0.013599
+INFO:runner.run[187]:YggRunner(runner):           run models    36.412885
+INFO:runner.run[187]:YggRunner(runner):       close channels    0.000093
+INFO:runner.run[187]:YggRunner(runner):             clean up    0.000221
+INFO:runner.run[189]:YggRunner(runner): ========================================
+INFO:runner.run[190]:YggRunner(runner):                Total    36.451770
+
+INFO:runner.startDrivers[338]:YggRunner(runner): Starting I/O drivers and models on system dps017 in namespace yggdrasil with rank 0
+   Light intensity       Vc    Vo      VPGA   VT3P  Vstarch  Vt_glycerate  Vt_glycolate       A_slope  Max_Meta_slope
+0             1200  40.0891  4.51  0.021026  7.122   2.7341         2.255          4.51  9.857100e-13    1.463700e-08
+No more input.
+Sucrose export rate =-1.4225392499334333
+ADENYL_KIN_RXN_p        -0.004877276980338423=1.68
+HOMOSERKIN_RXN_p        -0.017575774507858216=1.68
+ATP_ADP_Pi_pc   0.048421006014070234=1.68
+0.048421006014070234
+PHOSGLYPHOS_RXN_p       0.8144207468474665=1.7284210060140701
+ASPARTATEKIN_RXN_p      -0.021881839300373056=1.7284210060140701
+ATPPHOSPHORIBOSYLTRANS_RXN_p    -0.0008128794967231508=1.7284210060140701
+SULFATE_ADENYLYLTRANS_RXN_p     -0.0016257589934482993=1.7284210060140701
+ARGSUCCINSYN_RXN_p      -0.0008128794967231505=1.7284210060140701
+ACETYLGLUTKIN_RXN_p     -0.0008128794967231509=1.7284210060140701
+GLUTAMINESYN_RXN_p      -2.493994831563339=1.7284210060140701
+SHIKIMATE_KINASE_RXN_p  -0.012698496945045162=1.7284210060140701
+GDPKIN_RXN_p    -0.0008128794967231509=1.7284210060140701
+GLY3KIN_RXN_p   -0.014134767722750586=1.7284210060140701
+PRPPSYN_RXN_p   -0.0016257589934463015=1.7284210060140701
+CARBAMATE_KINASE_RXN_p  -0.0008128794967231508=1.7284210060140701
+PEPDEPHOS_RXN_p 0.02963714962867724=1.7284210060140701
+ATP_source_from_ODE     1.68=1.7284210060140701
+Extra APTase flux =1.7284210060140701
+DIHYDROPICRED_RXN_NADP_p        -0.004306064792514841=2.62
+SHIKIMATE_5_DEHYDROGENASE_RXN_p -0.012698496945045162=2.62
+ASPARTATE_SEMIALDEHYDE_DEHYDROGENASE_RXN_p      -0.021881839300373056=2.62
+ACETOLACTREDUCTOISOM_RXN_p      -0.009381069515909777=2.62
+NADPH_source_from_ODE   2.62=2.62
+HOMOSERDEHYDROG_RXN_NADP_p      -0.017575774507858362=2.62
+1_PERIOD_18_PERIOD_1_PERIOD_2_RXN_p     -1.585001446437573=2.62
+NADPHoxp_tx     -0.9633333333333334=2.62
+N_ACETYLGLUTPREDUCT_RXN_p       -0.0008128794967231509=2.62
+GLUTATHIONE_REDUCT_NADPH_RXN_p  -0.0016257589934482995=2.62
+ACETOOHBUTREDUCTOISOM_RXN_p     -0.003383336677220784=2.62
+PYRUVDEH_RXN_p  0.0048113681205702715=2.62
+PREPHENATEDEHYDROG_RXN_p        0.0008128794967231506=2.62
+GAPOXNPHOSPHN_RXN_p     0.8144207468474666=2.62
+GLUTAMATE_SYNTHASE_NADH_RXN_p   -0.8654933429372996=2.62
+MALATE_DEH_RXN_p        0.039824100855247443=2.62
+0.039824100855247443
+3_ISOPROPYLMALDEHYDROG_RXN_p    0.003998488623845123=2.6598241008552477
+RXN_8001_p      0.0016257589934463013=2.6598241008552477
+Extra NADPH flux =2.6598241008552477
+INFO:runner.waitModels[387]:YggRunner(runner): FBA_model finished running.
+INFO:runner.waitModels[393]:YggRunner(runner): FBA_model finished exiting.
+INFO:runner.waitModels[406]:YggRunner(runner): All models completed
+INFO:runner.run[187]:YggRunner(runner):                 init    0.000000
+INFO:runner.run[187]:YggRunner(runner):         load drivers    0.147399
+INFO:runner.run[187]:YggRunner(runner):        start drivers    0.028680
+INFO:runner.run[187]:YggRunner(runner):           run models    4.585113
+INFO:runner.run[187]:YggRunner(runner):       close channels    0.000074
+INFO:runner.run[187]:YggRunner(runner):             clean up    0.010444
+INFO:runner.run[189]:YggRunner(runner): ========================================
+INFO:runner.run[190]:YggRunner(runner):                Total    4.771711
+
+ODE ATPase 1.68
+FBA ATPase 1.73
+ODE NADPHox 2.62
+FBA NADPHox 2.66
+Loop 4
+INFO:runner.startDrivers[338]:YggRunner(runner): Starting I/O drivers and models on system dps017 in namespace yggdrasil with rank 0
+
+ans =
+
+   2.8798e-06
+
+INFO:runner.waitModels[387]:YggRunner(runner): Ephotosynthesismodel finished running.
+INFO:runner.waitModels[393]:YggRunner(runner): Ephotosynthesismodel finished exiting.
+INFO:runner.waitModels[406]:YggRunner(runner): All models completed
+INFO:runner.run[187]:YggRunner(runner):                 init    0.000000
+INFO:runner.run[187]:YggRunner(runner):         load drivers    0.024281
+INFO:runner.run[187]:YggRunner(runner):        start drivers    0.013664
+INFO:runner.run[187]:YggRunner(runner):           run models    18.746016
+INFO:runner.run[187]:YggRunner(runner):       close channels    0.000086
+INFO:runner.run[187]:YggRunner(runner):             clean up    0.000198
+INFO:runner.run[189]:YggRunner(runner): ========================================
+INFO:runner.run[190]:YggRunner(runner):                Total    18.784244
+
+INFO:runner.startDrivers[338]:YggRunner(runner): Starting I/O drivers and models on system dps017 in namespace yggdrasil with rank 0
+   Light intensity       Vc      Vo      VPGA    VT3P  Vstarch  Vt_glycerate  Vt_glycolate       A_slope  Max_Meta_slope
+0             1200  40.0879  4.5099  0.021025  7.1219    2.734        2.2549        4.5099  6.566300e-11        0.000003
+No more input.
+Sucrose export rate =-1.424349446937726
+PHOSGLYPHOS_RXN_p       0.8046630149514115=1.73
+GLY3KIN_RXN_p   -0.01420275437251958=1.73
+GLUTAMINESYN_RXN_p      -2.4942489551432114=1.73
+ATP_ADP_Pi_pc   0.008545019740999521=1.73
+0.008545019740999521
+ATP_source_from_ODE     1.73=1.7385450197409995
+ASPARTATEKIN_RXN_p      -0.021909684183295784=1.7385450197409995
+SULFATE_ADENYLYLTRANS_RXN_p     -0.0016278277898321676=1.7385450197409995
+ADENYL_KIN_RXN_p        -0.004883483369498047=1.7385450197409995
+PRPPSYN_RXN_p   -0.0016278277898326057=1.7385450197409995
+GDPKIN_RXN_p    -0.0008139138949163029=1.7385450197409995
+PEPDEPHOS_RXN_p 0.02967486323012349=1.7385450197409995
+SHIKIMATE_KINASE_RXN_p  -0.012714655923526786=1.7385450197409995
+ACETYLGLUTKIN_RXN_p     -0.0008139138949163032=1.7385450197409995
+CARBAMATE_KINASE_RXN_p  -0.0008139138949163029=1.7385450197409995
+ARGSUCCINSYN_RXN_p      -0.0008139138949163028=1.7385450197409995
+ATPPHOSPHORIBOSYLTRANS_RXN_p    -0.0008139138949163028=1.7385450197409995
+HOMOSERKIN_RXN_p        -0.017598139876237522=1.7385450197409995
+Extra APTase flux =1.7385450197409995
+ACETOOHBUTREDUCTOISOM_RXN_p     -0.0033876420107417436=2.66
+1_PERIOD_18_PERIOD_1_PERIOD_2_RXN_p     -1.624910251649937=2.66
+NADPHoxp_tx     -0.9633333333333334=2.66
+NADPH_source_from_ODE   2.66=2.66
+ASPARTATE_SEMIALDEHYDE_DEHYDROGENASE_RXN_p      -0.021909684183295784=2.66
+DIHYDROPICRED_RXN_NADP_p        -0.004311544307058262=2.66
+N_ACETYLGLUTPREDUCT_RXN_p       -0.000813913894916303=2.66
+HOMOSERDEHYDROG_RXN_NADP_p      -0.017598139876237612=2.66
+SHIKIMATE_5_DEHYDROGENASE_RXN_p -0.012714655923526785=2.66
+ACETOLACTREDUCTOISOM_RXN_p      -0.009393007031121085=2.66
+GLUTATHIONE_REDUCT_NADPH_RXN_p  -0.0016278277898321676=2.66
+GLUTAMATE_SYNTHASE_NADH_RXN_p   -0.8257833070176979=2.66
+MALATE_DEH_RXN_p        0.009857482996512748=2.66
+0.009857482996512748
+RXN_8001_p      0.0016278277898326057=2.669857482996513
+3_ISOPROPYLMALDEHYDROG_RXN_p    0.004003576745054377=2.669857482996513
+PYRUVDEH_RXN_p  0.0048174906399702415=2.669857482996513
+GAPOXNPHOSPHN_RXN_p     0.8046630149514115=2.669857482996513
+PREPHENATEDEHYDROG_RXN_p        0.0008139138949163051=2.669857482996513
+Extra NADPH flux =2.669857482996513
+INFO:runner.waitModels[387]:YggRunner(runner): FBA_model finished running.
+INFO:runner.waitModels[393]:YggRunner(runner): FBA_model finished exiting.
+INFO:runner.waitModels[406]:YggRunner(runner): All models completed
+INFO:runner.run[187]:YggRunner(runner):                 init    0.000000
+INFO:runner.run[187]:YggRunner(runner):         load drivers    0.148625
+INFO:runner.run[187]:YggRunner(runner):        start drivers    0.029300
+INFO:runner.run[187]:YggRunner(runner):           run models    4.794071
+INFO:runner.run[187]:YggRunner(runner):       close channels    0.000089
+INFO:runner.run[187]:YggRunner(runner):             clean up    0.010571
+INFO:runner.run[189]:YggRunner(runner): ========================================
+INFO:runner.run[190]:YggRunner(runner):                Total    4.982657
+
+ODE ATPase 1.73
+FBA ATPase 1.74
+ODE NADPHox 2.66
+FBA NADPHox 2.67
+Loop 5
+INFO:runner.startDrivers[338]:YggRunner(runner): Starting I/O drivers and models on system dps017 in namespace yggdrasil with rank 0
+
+ans =
+
+   4.9463e-04
+
+Warning: ODE model does not reach a steady state: The 1st time
+> In Sim_Ephotosynthesis (line 22)
+  In wrapped_Sim_Ephotosynthesis_47d2084d_7e1d_4792_95b6_74a50b14 (line 97)
+INFO:runner.waitModels[387]:YggRunner(runner): Ephotosynthesismodel finished running.
+INFO:runner.waitModels[393]:YggRunner(runner): Ephotosynthesismodel finished exiting.
+INFO:runner.waitModels[406]:YggRunner(runner): All models completed
+INFO:runner.run[187]:YggRunner(runner):                 init    0.000000
+INFO:runner.run[187]:YggRunner(runner):         load drivers    0.024390
+INFO:runner.run[187]:YggRunner(runner):        start drivers    0.016818
+INFO:runner.run[187]:YggRunner(runner):           run models    32.006800
+INFO:runner.run[187]:YggRunner(runner):       close channels    0.000079
+INFO:runner.run[187]:YggRunner(runner):             clean up    0.000216
+INFO:runner.run[189]:YggRunner(runner): ========================================
+INFO:runner.run[190]:YggRunner(runner):                Total    32.048303
+
+INFO:runner.startDrivers[338]:YggRunner(runner): Starting I/O drivers and models on system dps017 in namespace yggdrasil with rank 0
+   Light intensity       Vc      Vo     VPGA    VT3P  Vstarch  Vt_glycerate  Vt_glycolate       A_slope  Max_Meta_slope
+0             1200  40.0884  4.5099  0.02103  7.1226   2.7338         2.255        4.5099  2.662800e-11    9.402800e-07
+No more input.
+Sucrose export rate =-1.4249098417958888
+ADENYL_KIN_RXN_p        -0.00488540472311961=1.74
+PRPPSYN_RXN_p   -0.0016284682410402488=1.74
+GDPKIN_RXN_p    -0.0008142341205201245=1.74
+GLY3KIN_RXN_p   -0.014108322620365541=1.74
+ATPPHOSPHORIBOSYLTRANS_RXN_p    -0.0008142341205201245=1.74
+ATP_ADP_Pi_pc   0.0007379248585417876=1.74
+0.0007379248585417876
+CARBAMATE_KINASE_RXN_p  -0.0008142341205201244=1.7407379248585417
+ASPARTATEKIN_RXN_p      -0.021918304311191582=1.7407379248585417
+SULFATE_ADENYLYLTRANS_RXN_p     -0.001628468241038155=1.7407379248585417
+GLUTAMINESYN_RXN_p      -2.494343104724463=1.7407379248585417
+PEPDEPHOS_RXN_p 0.029686538483587103=1.7407379248585417
+SHIKIMATE_KINASE_RXN_p  -0.012719658367146343=1.7407379248585417
+ACETYLGLUTKIN_RXN_p     -0.0008142341205201246=1.7407379248585417
+HOMOSERKIN_RXN_p        -0.01760506367370781=1.7407379248585417
+ATP_source_from_ODE     1.74=1.7407379248585417
+PHOSGLYPHOS_RXN_p       0.8024835021625427=1.7407379248585417
+ARGSUCCINSYN_RXN_p      -0.0008142341205201244=1.7407379248585417
+Extra APTase flux =1.7407379248585417
+GLUTATHIONE_REDUCT_NADPH_RXN_p  -0.0016284682410381548=2.67
+ACETOOHBUTREDUCTOISOM_RXN_p     -0.0033889748417883646=2.67
+SHIKIMATE_5_DEHYDROGENASE_RXN_p -0.012719658367146345=2.67
+DIHYDROPICRED_RXN_NADP_p        -0.0043132406374837735=2.67
+ASPARTATE_SEMIALDEHYDE_DEHYDROGENASE_RXN_p      -0.02191830431119158=2.67
+NADPHoxp_tx     -0.9633333333333334=2.67
+N_ACETYLGLUTPREDUCT_RXN_p       -0.0008142341205201246=2.67
+1_PERIOD_18_PERIOD_1_PERIOD_2_RXN_p     -1.6348820198658194=2.67
+HOMOSERDEHYDROG_RXN_NADP_p      -0.017605063673707916=2.67
+NADPH_source_from_ODE   2.67=2.67
+ACETOLACTREDUCTOISOM_RXN_p      -0.009396702607971447=2.67
+GAPOXNPHOSPHN_RXN_p     0.8024835021625427=2.67
+GLUTAMATE_SYNTHASE_NADH_RXN_p   -0.8158885519842083=2.67
+MALATE_DEH_RXN_p        0.0021378095216890696=2.67
+0.0021378095216890696
+3_ISOPROPYLMALDEHYDROG_RXN_p    0.004005151908949033=2.672137809521689
+PYRUVDEH_RXN_p  0.0048193860294670635=2.672137809521689
+RXN_8001_p      0.0016284682410402488=2.672137809521689
+PREPHENATEDEHYDROG_RXN_p        0.0008142341205201273=2.672137809521689
+Extra NADPH flux =2.672137809521689
+INFO:runner.waitModels[387]:YggRunner(runner): FBA_model finished running.
+INFO:runner.waitModels[393]:YggRunner(runner): FBA_model finished exiting.
+INFO:runner.waitModels[406]:YggRunner(runner): All models completed
+INFO:runner.run[187]:YggRunner(runner):                 init    0.000000
+INFO:runner.run[187]:YggRunner(runner):         load drivers    0.159865
+INFO:runner.run[187]:YggRunner(runner):        start drivers    0.025814
+INFO:runner.run[187]:YggRunner(runner):           run models    4.730249
+INFO:runner.run[187]:YggRunner(runner):       close channels    0.000082
+INFO:runner.run[187]:YggRunner(runner):             clean up    0.010428
+INFO:runner.run[189]:YggRunner(runner): ========================================
+INFO:runner.run[190]:YggRunner(runner):                Total    4.926438
+
+ODE ATPase 1.74
+FBA ATPase 1.74
+ODE NADPHox 2.67
+FBA NADPHox 2.67
+Models converged at 1.74
+Models converged at 2.67
+Completed 1200
+
