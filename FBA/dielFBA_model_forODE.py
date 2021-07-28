@@ -456,7 +456,7 @@ leaf_model.reactions.ATPase_tx1.lower_bound = ATPase
 
 fin = open("./../ePhotosynthesis/OutputFluxT.txt")
 for line in fin:
-	if "vz_1" in line:
+    if "vz_1" in line:
         PSII_1 = float(line.replace(" ","").replace("vz_1",""))
     if "vz_2" in line:
         PSII_2 = float(line.replace(" ","").replace("vz_2",""))

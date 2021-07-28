@@ -1,21 +1,8 @@
-INFO:runner.startDrivers[338]:YggRunner(runner): Starting I/O drivers and models on system dps017 in namespace yggdrasil with rank 0
 
 ans =
 
    1.5508e-07
 
-INFO:runner.waitModels[387]:YggRunner(runner): Ephotosynthesismodel finished running.
-INFO:runner.waitModels[393]:YggRunner(runner): Ephotosynthesismodel finished exiting.
-INFO:runner.waitModels[406]:YggRunner(runner): All models completed
-INFO:runner.run[187]:YggRunner(runner):                 init	0.000000
-INFO:runner.run[187]:YggRunner(runner):         load drivers	0.094882
-INFO:runner.run[187]:YggRunner(runner):        start drivers	0.011939
-INFO:runner.run[187]:YggRunner(runner):           run models	17.853835
-INFO:runner.run[187]:YggRunner(runner):       close channels	0.000099
-INFO:runner.run[187]:YggRunner(runner):             clean up	0.000187
-INFO:runner.run[189]:YggRunner(runner): ========================================
-INFO:runner.run[190]:YggRunner(runner):                Total	17.960942
-INFO:runner.startDrivers[338]:YggRunner(runner): Starting I/O drivers and models on system dps017 in namespace yggdrasil with rank 0
 
    Light intensity      Vc     Vo      VPGA    VT3P   Vstarch  Vt_glycerate  Vt_glycolate       A_slope  Max_Meta_slope
 0             1200  8.9556  6.045  0.001739  1.8373  0.069344        3.0225         6.045  7.403700e-10    1.550800e-07
@@ -23,37 +10,13 @@ No more input.
 0.5 CIT_v1 + 0.5 aCIT_v1 <=> 0.5 CIT_v2 + 0.5 aCIT_v2
 bHIS_v1 --> bHIS_v2
 0.7 MAL_v1 + 0.3 aMAL_v1 <=> 0.7 MAL_v2 + 0.3 aMAL_v2
-Phloem export rate =0.18965928834615214
-INFO:runner.waitModels[387]:YggRunner(runner): FBA_model finished running.
-INFO:runner.waitModels[393]:YggRunner(runner): FBA_model finished exiting.
-INFO:runner.waitModels[406]:YggRunner(runner): All models completed
-INFO:runner.run[187]:YggRunner(runner):                 init	0.000000
-INFO:runner.run[187]:YggRunner(runner):         load drivers	0.147603
-INFO:runner.run[187]:YggRunner(runner):        start drivers	0.024279
-INFO:runner.run[187]:YggRunner(runner):           run models	6.681340
-INFO:runner.run[187]:YggRunner(runner):       close channels	0.000083
-INFO:runner.run[187]:YggRunner(runner):             clean up	0.010407
-INFO:runner.run[189]:YggRunner(runner): ========================================
-INFO:runner.run[190]:YggRunner(runner):                Total	6.863713
-INFO:runner.startDrivers[338]:YggRunner(runner): Starting I/O drivers and models on system dps017 in namespace yggdrasil with rank 0
+Phloem export rate =0.20057867205291036
 
 
 ans =
 
    8.1887e-09
 
-INFO:runner.waitModels[387]:YggRunner(runner): Ephotosynthesismodel finished running.
-INFO:runner.waitModels[393]:YggRunner(runner): Ephotosynthesismodel finished exiting.
-INFO:runner.waitModels[406]:YggRunner(runner): All models completed
-INFO:runner.run[187]:YggRunner(runner):                 init	0.000000
-INFO:runner.run[187]:YggRunner(runner):         load drivers	0.024693
-INFO:runner.run[187]:YggRunner(runner):        start drivers	0.011016
-INFO:runner.run[187]:YggRunner(runner):           run models	17.617299
-INFO:runner.run[187]:YggRunner(runner):       close channels	0.000093
-INFO:runner.run[187]:YggRunner(runner):             clean up	0.000177
-INFO:runner.run[189]:YggRunner(runner): ========================================
-INFO:runner.run[190]:YggRunner(runner):                Total	17.653278
-INFO:runner.startDrivers[338]:YggRunner(runner): Starting I/O drivers and models on system dps017 in namespace yggdrasil with rank 0
 
    Light intensity       Vc       Vo      VPGA    VT3P  Vstarch  Vt_glycerate  Vt_glycolate       A_slope  Max_Meta_slope
 0             1200  22.2415  10.0087  0.007636  4.2232  0.75744        5.0043       10.0087  9.571300e-17    8.188700e-09
@@ -61,37 +24,13 @@ No more input.
 0.5 CIT_v1 + 0.5 aCIT_v1 <=> 0.5 CIT_v2 + 0.5 aCIT_v2
 bHIS_v1 --> bHIS_v2
 0.7 MAL_v1 + 0.3 aMAL_v1 <=> 0.7 MAL_v2 + 0.3 aMAL_v2
-Phloem export rate =1.118170246407677
-INFO:runner.waitModels[387]:YggRunner(runner): FBA_model finished running.
-INFO:runner.waitModels[393]:YggRunner(runner): FBA_model finished exiting.
-INFO:runner.waitModels[406]:YggRunner(runner): All models completed
-INFO:runner.run[187]:YggRunner(runner):                 init	0.000000
-INFO:runner.run[187]:YggRunner(runner):         load drivers	0.160179
-INFO:runner.run[187]:YggRunner(runner):        start drivers	0.030269
-INFO:runner.run[187]:YggRunner(runner):           run models	6.781159
-INFO:runner.run[187]:YggRunner(runner):       close channels	0.000075
-INFO:runner.run[187]:YggRunner(runner):             clean up	0.010508
-INFO:runner.run[189]:YggRunner(runner): ========================================
-INFO:runner.run[190]:YggRunner(runner):                Total	6.982191
-INFO:runner.startDrivers[338]:YggRunner(runner): Starting I/O drivers and models on system dps017 in namespace yggdrasil with rank 0
+Phloem export rate =1.228459328989154
 
 
 ans =
 
    2.3708e-06
 
-INFO:runner.waitModels[387]:YggRunner(runner): Ephotosynthesismodel finished running.
-INFO:runner.waitModels[393]:YggRunner(runner): Ephotosynthesismodel finished exiting.
-INFO:runner.waitModels[406]:YggRunner(runner): All models completed
-INFO:runner.run[187]:YggRunner(runner):                 init	0.000000
-INFO:runner.run[187]:YggRunner(runner):         load drivers	0.024841
-INFO:runner.run[187]:YggRunner(runner):        start drivers	0.010990
-INFO:runner.run[187]:YggRunner(runner):           run models	20.416516
-INFO:runner.run[187]:YggRunner(runner):       close channels	0.000090
-INFO:runner.run[187]:YggRunner(runner):             clean up	0.000253
-INFO:runner.run[189]:YggRunner(runner): ========================================
-INFO:runner.run[190]:YggRunner(runner):                Total	20.452690
-INFO:runner.startDrivers[338]:YggRunner(runner): Starting I/O drivers and models on system dps017 in namespace yggdrasil with rank 0
 
    Light intensity       Vc      Vo      VPGA    VT3P  Vstarch  Vt_glycerate  Vt_glycolate       A_slope  Max_Meta_slope
 0             1200  27.7965  9.3813  0.010459  5.0186   1.3365        4.6907        9.3813  7.244200e-11        0.000002
@@ -99,37 +38,13 @@ No more input.
 0.5 CIT_v1 + 0.5 aCIT_v1 <=> 0.5 CIT_v2 + 0.5 aCIT_v2
 bHIS_v1 --> bHIS_v2
 0.7 MAL_v1 + 0.3 aMAL_v1 <=> 0.7 MAL_v2 + 0.3 aMAL_v2
-Phloem export rate =1.6147828867050096
-INFO:runner.waitModels[387]:YggRunner(runner): FBA_model finished running.
-INFO:runner.waitModels[393]:YggRunner(runner): FBA_model finished exiting.
-INFO:runner.waitModels[406]:YggRunner(runner): All models completed
-INFO:runner.run[187]:YggRunner(runner):                 init	0.000000
-INFO:runner.run[187]:YggRunner(runner):         load drivers	0.147371
-INFO:runner.run[187]:YggRunner(runner):        start drivers	0.026629
-INFO:runner.run[187]:YggRunner(runner):           run models	6.915336
-INFO:runner.run[187]:YggRunner(runner):       close channels	0.000068
-INFO:runner.run[187]:YggRunner(runner):             clean up	0.010331
-INFO:runner.run[189]:YggRunner(runner): ========================================
-INFO:runner.run[190]:YggRunner(runner):                Total	7.099735
-INFO:runner.startDrivers[338]:YggRunner(runner): Starting I/O drivers and models on system dps017 in namespace yggdrasil with rank 0
+Phloem export rate =1.7857119267961514
 
 
 ans =
 
    1.1653e-07
 
-INFO:runner.waitModels[387]:YggRunner(runner): Ephotosynthesismodel finished running.
-INFO:runner.waitModels[393]:YggRunner(runner): Ephotosynthesismodel finished exiting.
-INFO:runner.waitModels[406]:YggRunner(runner): All models completed
-INFO:runner.run[187]:YggRunner(runner):                 init	0.000000
-INFO:runner.run[187]:YggRunner(runner):         load drivers	0.024383
-INFO:runner.run[187]:YggRunner(runner):        start drivers	0.011995
-INFO:runner.run[187]:YggRunner(runner):           run models	17.475064
-INFO:runner.run[187]:YggRunner(runner):       close channels	0.000072
-INFO:runner.run[187]:YggRunner(runner):             clean up	0.000164
-INFO:runner.run[189]:YggRunner(runner): ========================================
-INFO:runner.run[190]:YggRunner(runner):                Total	17.511678
-INFO:runner.startDrivers[338]:YggRunner(runner): Starting I/O drivers and models on system dps017 in namespace yggdrasil with rank 0
 
    Light intensity       Vc      Vo      VPGA    VT3P  Vstarch  Vt_glycerate  Vt_glycolate       A_slope  Max_Meta_slope
 0             1200  31.7785  8.5802  0.012859  5.6023   1.7738        4.2901        8.5802  5.012900e-09    1.165300e-07
@@ -137,37 +52,13 @@ No more input.
 0.5 CIT_v1 + 0.5 aCIT_v1 <=> 0.5 CIT_v2 + 0.5 aCIT_v2
 bHIS_v1 --> bHIS_v2
 0.7 MAL_v1 + 0.3 aMAL_v1 <=> 0.7 MAL_v2 + 0.3 aMAL_v2
-Phloem export rate =2.0384449197313463
-INFO:runner.waitModels[387]:YggRunner(runner): FBA_model finished running.
-INFO:runner.waitModels[393]:YggRunner(runner): FBA_model finished exiting.
-INFO:runner.waitModels[406]:YggRunner(runner): All models completed
-INFO:runner.run[187]:YggRunner(runner):                 init	0.000000
-INFO:runner.run[187]:YggRunner(runner):         load drivers	0.147352
-INFO:runner.run[187]:YggRunner(runner):        start drivers	0.027418
-INFO:runner.run[187]:YggRunner(runner):           run models	6.973551
-INFO:runner.run[187]:YggRunner(runner):       close channels	0.000077
-INFO:runner.run[187]:YggRunner(runner):             clean up	0.010422
-INFO:runner.run[189]:YggRunner(runner): ========================================
-INFO:runner.run[190]:YggRunner(runner):                Total	7.158820
-INFO:runner.startDrivers[338]:YggRunner(runner): Starting I/O drivers and models on system dps017 in namespace yggdrasil with rank 0
+Phloem export rate =2.211011648706516
 
 
 ans =
 
    1.1595e-06
 
-INFO:runner.waitModels[387]:YggRunner(runner): Ephotosynthesismodel finished running.
-INFO:runner.waitModels[393]:YggRunner(runner): Ephotosynthesismodel finished exiting.
-INFO:runner.waitModels[406]:YggRunner(runner): All models completed
-INFO:runner.run[187]:YggRunner(runner):                 init	0.000000
-INFO:runner.run[187]:YggRunner(runner):         load drivers	0.025192
-INFO:runner.run[187]:YggRunner(runner):        start drivers	0.012562
-INFO:runner.run[187]:YggRunner(runner):           run models	21.249465
-INFO:runner.run[187]:YggRunner(runner):       close channels	0.000084
-INFO:runner.run[187]:YggRunner(runner):             clean up	0.000172
-INFO:runner.run[189]:YggRunner(runner): ========================================
-INFO:runner.run[190]:YggRunner(runner):                Total	21.287474
-INFO:runner.startDrivers[338]:YggRunner(runner): Starting I/O drivers and models on system dps017 in namespace yggdrasil with rank 0
 
    Light intensity       Vc      Vo      VPGA    VT3P  Vstarch  Vt_glycerate  Vt_glycolate       A_slope  Max_Meta_slope
 0             1200  34.4573  7.7529  0.014792  6.0208    2.079        3.8764        7.7529  9.794000e-12        0.000001
@@ -175,37 +66,13 @@ No more input.
 0.5 CIT_v1 + 0.5 aCIT_v1 <=> 0.5 CIT_v2 + 0.5 aCIT_v2
 bHIS_v1 --> bHIS_v2
 0.7 MAL_v1 + 0.3 aMAL_v1 <=> 0.7 MAL_v2 + 0.3 aMAL_v2
-Phloem export rate =2.2945966853235182
-INFO:runner.waitModels[387]:YggRunner(runner): FBA_model finished running.
-INFO:runner.waitModels[393]:YggRunner(runner): FBA_model finished exiting.
-INFO:runner.waitModels[406]:YggRunner(runner): All models completed
-INFO:runner.run[187]:YggRunner(runner):                 init	0.000000
-INFO:runner.run[187]:YggRunner(runner):         load drivers	0.157598
-INFO:runner.run[187]:YggRunner(runner):        start drivers	0.024698
-INFO:runner.run[187]:YggRunner(runner):           run models	6.700325
-INFO:runner.run[187]:YggRunner(runner):       close channels	0.000074
-INFO:runner.run[187]:YggRunner(runner):             clean up	0.010633
-INFO:runner.run[189]:YggRunner(runner): ========================================
-INFO:runner.run[190]:YggRunner(runner):                Total	6.893328
-INFO:runner.startDrivers[338]:YggRunner(runner): Starting I/O drivers and models on system dps017 in namespace yggdrasil with rank 0
+Phloem export rate =2.5166803674986173
 
 
 ans =
 
    7.8446e-07
 
-INFO:runner.waitModels[387]:YggRunner(runner): Ephotosynthesismodel finished running.
-INFO:runner.waitModels[393]:YggRunner(runner): Ephotosynthesismodel finished exiting.
-INFO:runner.waitModels[406]:YggRunner(runner): All models completed
-INFO:runner.run[187]:YggRunner(runner):                 init	0.000000
-INFO:runner.run[187]:YggRunner(runner):         load drivers	0.024282
-INFO:runner.run[187]:YggRunner(runner):        start drivers	0.011395
-INFO:runner.run[187]:YggRunner(runner):           run models	18.943434
-INFO:runner.run[187]:YggRunner(runner):       close channels	0.000098
-INFO:runner.run[187]:YggRunner(runner):             clean up	0.000262
-INFO:runner.run[189]:YggRunner(runner): ========================================
-INFO:runner.run[190]:YggRunner(runner):                Total	18.979471
-INFO:runner.startDrivers[338]:YggRunner(runner): Starting I/O drivers and models on system dps017 in namespace yggdrasil with rank 0
 
    Light intensity       Vc      Vo      VPGA    VT3P  Vstarch  Vt_glycerate  Vt_glycolate       A_slope  Max_Meta_slope
 0             1200  37.4701  6.3231  0.017486  6.5386   2.4401        3.1615        6.3231  1.032000e-11    7.844600e-07
@@ -213,37 +80,13 @@ No more input.
 0.5 CIT_v1 + 0.5 aCIT_v1 <=> 0.5 CIT_v2 + 0.5 aCIT_v2
 bHIS_v1 --> bHIS_v2
 0.7 MAL_v1 + 0.3 aMAL_v1 <=> 0.7 MAL_v2 + 0.3 aMAL_v2
-Phloem export rate =2.6696657701130215
-INFO:runner.waitModels[387]:YggRunner(runner): FBA_model finished running.
-INFO:runner.waitModels[393]:YggRunner(runner): FBA_model finished exiting.
-INFO:runner.waitModels[406]:YggRunner(runner): All models completed
-INFO:runner.run[187]:YggRunner(runner):                 init	0.000000
-INFO:runner.run[187]:YggRunner(runner):         load drivers	0.147141
-INFO:runner.run[187]:YggRunner(runner):        start drivers	0.025318
-INFO:runner.run[187]:YggRunner(runner):           run models	6.660048
-INFO:runner.run[187]:YggRunner(runner):       close channels	0.000078
-INFO:runner.run[187]:YggRunner(runner):             clean up	0.010629
-INFO:runner.run[189]:YggRunner(runner): ========================================
-INFO:runner.run[190]:YggRunner(runner):                Total	6.843214
-INFO:runner.startDrivers[338]:YggRunner(runner): Starting I/O drivers and models on system dps017 in namespace yggdrasil with rank 0
+Phloem export rate =2.8936752527649947
 
 
 ans =
 
    3.0854e-05
 
-INFO:runner.waitModels[387]:YggRunner(runner): Ephotosynthesismodel finished running.
-INFO:runner.waitModels[393]:YggRunner(runner): Ephotosynthesismodel finished exiting.
-INFO:runner.waitModels[406]:YggRunner(runner): All models completed
-INFO:runner.run[187]:YggRunner(runner):                 init	0.000000
-INFO:runner.run[187]:YggRunner(runner):         load drivers	0.024347
-INFO:runner.run[187]:YggRunner(runner):        start drivers	0.012261
-INFO:runner.run[187]:YggRunner(runner):           run models	19.696157
-INFO:runner.run[187]:YggRunner(runner):       close channels	0.000075
-INFO:runner.run[187]:YggRunner(runner):             clean up	0.000149
-INFO:runner.run[189]:YggRunner(runner): ========================================
-INFO:runner.run[190]:YggRunner(runner):                Total	19.732988
-INFO:runner.startDrivers[338]:YggRunner(runner): Starting I/O drivers and models on system dps017 in namespace yggdrasil with rank 0
 
    Light intensity       Vc      Vo      VPGA    VT3P  Vstarch  Vt_glycerate  Vt_glycolate       A_slope  Max_Meta_slope
 0             1200  39.0956  5.2779  0.019266  6.8462   2.6434         2.639        5.2779  2.172800e-10        0.000031
@@ -251,37 +94,13 @@ No more input.
 0.5 CIT_v1 + 0.5 aCIT_v1 <=> 0.5 CIT_v2 + 0.5 aCIT_v2
 bHIS_v1 --> bHIS_v2
 0.7 MAL_v1 + 0.3 aMAL_v1 <=> 0.7 MAL_v2 + 0.3 aMAL_v2
-Phloem export rate =2.8562486048261597
-INFO:runner.waitModels[387]:YggRunner(runner): FBA_model finished running.
-INFO:runner.waitModels[393]:YggRunner(runner): FBA_model finished exiting.
-INFO:runner.waitModels[406]:YggRunner(runner): All models completed
-INFO:runner.run[187]:YggRunner(runner):                 init	0.000000
-INFO:runner.run[187]:YggRunner(runner):         load drivers	0.146327
-INFO:runner.run[187]:YggRunner(runner):        start drivers	0.024645
-INFO:runner.run[187]:YggRunner(runner):           run models	6.737108
-INFO:runner.run[187]:YggRunner(runner):       close channels	0.000079
-INFO:runner.run[187]:YggRunner(runner):             clean up	0.010664
-INFO:runner.run[189]:YggRunner(runner): ========================================
-INFO:runner.run[190]:YggRunner(runner):                Total	6.918822
-INFO:runner.startDrivers[338]:YggRunner(runner): Starting I/O drivers and models on system dps017 in namespace yggdrasil with rank 0
+Phloem export rate =3.1160494664321647
 
 
 ans =
 
    1.2409e-05
 
-INFO:runner.waitModels[387]:YggRunner(runner): Ephotosynthesismodel finished running.
-INFO:runner.waitModels[393]:YggRunner(runner): Ephotosynthesismodel finished exiting.
-INFO:runner.waitModels[406]:YggRunner(runner): All models completed
-INFO:runner.run[187]:YggRunner(runner):                 init	0.000000
-INFO:runner.run[187]:YggRunner(runner):         load drivers	0.024308
-INFO:runner.run[187]:YggRunner(runner):        start drivers	0.013475
-INFO:runner.run[187]:YggRunner(runner):           run models	17.669061
-INFO:runner.run[187]:YggRunner(runner):       close channels	0.000095
-INFO:runner.run[187]:YggRunner(runner):             clean up	0.000259
-INFO:runner.run[189]:YggRunner(runner): ========================================
-INFO:runner.run[190]:YggRunner(runner):                Total	17.707198
-INFO:runner.startDrivers[338]:YggRunner(runner): Starting I/O drivers and models on system dps017 in namespace yggdrasil with rank 0
 
    Light intensity       Vc      Vo      VPGA   VT3P  Vstarch  Vt_glycerate  Vt_glycolate       A_slope  Max_Meta_slope
 0             1200  40.1343  4.5151  0.020547  7.054   2.7755        2.2576        4.5151  4.042500e-11        0.000012
@@ -289,37 +108,13 @@ No more input.
 0.5 CIT_v1 + 0.5 aCIT_v1 <=> 0.5 CIT_v2 + 0.5 aCIT_v2
 bHIS_v1 --> bHIS_v2
 0.7 MAL_v1 + 0.3 aMAL_v1 <=> 0.7 MAL_v2 + 0.3 aMAL_v2
-Phloem export rate =3.008048840367486
-INFO:runner.waitModels[387]:YggRunner(runner): FBA_model finished running.
-INFO:runner.waitModels[393]:YggRunner(runner): FBA_model finished exiting.
-INFO:runner.waitModels[406]:YggRunner(runner): All models completed
-INFO:runner.run[187]:YggRunner(runner):                 init	0.000000
-INFO:runner.run[187]:YggRunner(runner):         load drivers	0.148224
-INFO:runner.run[187]:YggRunner(runner):        start drivers	0.026766
-INFO:runner.run[187]:YggRunner(runner):           run models	6.918008
-INFO:runner.run[187]:YggRunner(runner):       close channels	0.000087
-INFO:runner.run[187]:YggRunner(runner):             clean up	0.010830
-INFO:runner.run[189]:YggRunner(runner): ========================================
-INFO:runner.run[190]:YggRunner(runner):                Total	7.103915
-INFO:runner.startDrivers[338]:YggRunner(runner): Starting I/O drivers and models on system dps017 in namespace yggdrasil with rank 0
+Phloem export rate =3.265239509591755
 
 
 ans =
 
    1.3665e-05
 
-INFO:runner.waitModels[387]:YggRunner(runner): Ephotosynthesismodel finished running.
-INFO:runner.waitModels[393]:YggRunner(runner): Ephotosynthesismodel finished exiting.
-INFO:runner.waitModels[406]:YggRunner(runner): All models completed
-INFO:runner.run[187]:YggRunner(runner):                 init	0.000000
-INFO:runner.run[187]:YggRunner(runner):         load drivers	0.024409
-INFO:runner.run[187]:YggRunner(runner):        start drivers	0.012454
-INFO:runner.run[187]:YggRunner(runner):           run models	20.834826
-INFO:runner.run[187]:YggRunner(runner):       close channels	0.000083
-INFO:runner.run[187]:YggRunner(runner):             clean up	0.000166
-INFO:runner.run[189]:YggRunner(runner): ========================================
-INFO:runner.run[190]:YggRunner(runner):                Total	20.871938
-INFO:runner.startDrivers[338]:YggRunner(runner): Starting I/O drivers and models on system dps017 in namespace yggdrasil with rank 0
 
    Light intensity      Vc     Vo      VPGA    VT3P  Vstarch  Vt_glycerate  Vt_glycolate       A_slope  Max_Meta_slope
 0             1200  41.155  3.704  0.021922  7.2663   2.9064         1.852         3.704  7.382800e-11        0.000014
@@ -327,37 +122,13 @@ No more input.
 0.5 CIT_v1 + 0.5 aCIT_v1 <=> 0.5 CIT_v2 + 0.5 aCIT_v2
 bHIS_v1 --> bHIS_v2
 0.7 MAL_v1 + 0.3 aMAL_v1 <=> 0.7 MAL_v2 + 0.3 aMAL_v2
-Phloem export rate =3.1445274154844736
-INFO:runner.waitModels[387]:YggRunner(runner): FBA_model finished running.
-INFO:runner.waitModels[393]:YggRunner(runner): FBA_model finished exiting.
-INFO:runner.waitModels[406]:YggRunner(runner): All models completed
-INFO:runner.run[187]:YggRunner(runner):                 init	0.000000
-INFO:runner.run[187]:YggRunner(runner):         load drivers	0.150284
-INFO:runner.run[187]:YggRunner(runner):        start drivers	0.034155
-INFO:runner.run[187]:YggRunner(runner):           run models	6.841115
-INFO:runner.run[187]:YggRunner(runner):       close channels	0.000080
-INFO:runner.run[187]:YggRunner(runner):             clean up	0.010486
-INFO:runner.run[189]:YggRunner(runner): ========================================
-INFO:runner.run[190]:YggRunner(runner):                Total	7.036120
-INFO:runner.startDrivers[338]:YggRunner(runner): Starting I/O drivers and models on system dps017 in namespace yggdrasil with rank 0
+Phloem export rate =3.416804193204714
 
 
 ans =
 
    1.7619e-06
 
-INFO:runner.waitModels[387]:YggRunner(runner): Ephotosynthesismodel finished running.
-INFO:runner.waitModels[393]:YggRunner(runner): Ephotosynthesismodel finished exiting.
-INFO:runner.waitModels[406]:YggRunner(runner): All models completed
-INFO:runner.run[187]:YggRunner(runner):                 init	0.000000
-INFO:runner.run[187]:YggRunner(runner):         load drivers	0.024488
-INFO:runner.run[187]:YggRunner(runner):        start drivers	0.012688
-INFO:runner.run[187]:YggRunner(runner):           run models	21.710928
-INFO:runner.run[187]:YggRunner(runner):       close channels	0.000086
-INFO:runner.run[187]:YggRunner(runner):             clean up	0.000182
-INFO:runner.run[189]:YggRunner(runner): ========================================
-INFO:runner.run[190]:YggRunner(runner):                Total	21.748372
-INFO:runner.startDrivers[338]:YggRunner(runner): Starting I/O drivers and models on system dps017 in namespace yggdrasil with rank 0
 
    Light intensity       Vc      Vo    VPGA   VT3P  Vstarch  Vt_glycerate  Vt_glycolate       A_slope  Max_Meta_slope
 0             1200  41.8322  3.1374  0.0229  7.411   2.9936        1.5687        3.1374  3.703000e-11        0.000002
@@ -365,16 +136,5 @@ No more input.
 0.5 CIT_v1 + 0.5 aCIT_v1 <=> 0.5 CIT_v2 + 0.5 aCIT_v2
 bHIS_v1 --> bHIS_v2
 0.7 MAL_v1 + 0.3 aMAL_v1 <=> 0.7 MAL_v2 + 0.3 aMAL_v2
-Phloem export rate =3.2665009172371833
-INFO:runner.waitModels[387]:YggRunner(runner): FBA_model finished running.
-INFO:runner.waitModels[393]:YggRunner(runner): FBA_model finished exiting.
-INFO:runner.waitModels[406]:YggRunner(runner): All models completed
-INFO:runner.run[187]:YggRunner(runner):                 init	0.000000
-INFO:runner.run[187]:YggRunner(runner):         load drivers	0.156164
-INFO:runner.run[187]:YggRunner(runner):        start drivers	0.027313
-INFO:runner.run[187]:YggRunner(runner):           run models	6.723657
-INFO:runner.run[187]:YggRunner(runner):       close channels	0.000094
-INFO:runner.run[187]:YggRunner(runner):             clean up	0.010419
-INFO:runner.run[189]:YggRunner(runner): ========================================
-INFO:runner.run[190]:YggRunner(runner):                Total	6.917649
+Phloem export rate =3.5198415540871575
 
