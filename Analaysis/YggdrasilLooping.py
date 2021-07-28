@@ -5,9 +5,9 @@ parser = argparse.ArgumentParser(description='Run an integration.')
 parser.add_argument('yamlfile', nargs='+',help='One or more yaml specification files.')
 args1 = parser.parse_args(["../ePhotosynthesis/EphotosynthesisOnly.yml"])
 args2 = parser.parse_args(["../FBA/yggrasil_ODE_FBA_testing.yaml"])
-args3 = parser.parse_args(["../FBA/yggrasil_ODE_FBA_night.yaml"])
+#args3 = parser.parse_args(["../FBA/yggrasil_ODE_FBA_night.yaml"])
 
-for PPFD in [300,500,600,1000]:
+for PPFD in [300,]:#500,600,1000]:
 	for CO2 in [400,800]:
 		#ensure additional chloroplastic ATP consumption rate (J_ATPase) starts at 0
 		f1 = open("../ePhotosynthesis/InputATPCost.txt","w")
@@ -68,9 +68,9 @@ for PPFD in [300,500,600,1000]:
 		        break
 
 		import os
-		os.rename("./../FBA/Daytime_flux.csv","./../Validations/Daytime_flux_MATURELEAF_PPFD"+str(PPFD)+"_CO2"+str(CO2)+".csv")
-		os.rename("./../ePhotosynthesis/OutputFluxT.txt","./../Validations/OutputFluxT_MATURELEAF_PPFD"+str(PPFD)+"_CO2"+str(CO2)+".csv")
+		os.rename("./../FBA/Daytime_flux.csv","./../Analaysis/Daytime_flux_MATURELEAF_PPFD"+str(PPFD)+"_CO2"+str(CO2)+".csv")
+		os.rename("./../ePhotosynthesis/OutputFluxT.txt","./../Analaysis/OutputFluxT_MATURELEAF_PPFD"+str(PPFD)+"_CO2"+str(CO2)+".csv")
 
-		runner.run(args3.yamlfile)
-		import os
-		os.rename("./../FBA/Nighttime_flux.csv","./../Validations/Nighttime_flux_MATURELEAF_PPFD"+str(PPFD)+"_CO2"+str(CO2)+".csv")
+		#runner.run(args3.yamlfile)
+		#import os
+		#os.rename("./../FBA/Nighttime_flux.csv","./../Validations/Nighttime_flux_MATURELEAF_PPFD"+str(PPFD)+"_CO2"+str(CO2)+".csv")
