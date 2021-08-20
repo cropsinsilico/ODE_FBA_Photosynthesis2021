@@ -39,7 +39,7 @@
 **Validations/ODE_Figure2A.py** : code used to run ODE model for Figure 3A  
 **Validations/LC_Figure2A.py** : code used to run LC model for Figure 3A  
 **Validations/TC_Figure2A.py** : code used to run TC model for Figure 3A  
-**Validations/FBA_Figure2B.py** : code used to run TC model for Figure 3B
+**Validations/FBA_Figure2B.py** : code used to run TC model for Figure 3B  
 **Validations/ODE_Figure2B.py** : code used to run ODE model for Figure 3B  
 **Validations/LC_Figure2B.py** : code used to run LC model for Figure 3B  
 **Validations/TC_Figure2B.py** : code used to run TC model for Figure 3B  
