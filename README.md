@@ -1,5 +1,7 @@
 # All code in this repository was used in the ODE-FBA leaf model study (paper details will be available here once the study is published)
-**Data** : This folder contains biomass compositions and metabolic models used in the study
+
+## Index ##  
+**Data** : This folder contains biomass compositions and metabolic models used in the study  
 **Data/biomass_soy.csv** : Soy tissue specific biomass composition  
 **Data/PlantCoreMetabolism_v2_0_0.xml** : The PlantCoreMetabolism v2.0.0 model  
 **Data/Soy_core_model_GA.sbml** : PlantCoreMetabolism v2.0.0 with soy GRP associations  
@@ -46,5 +48,5 @@
 **Validations/YggdrasilLooping_LooselyCoupledFACE.py** : Python code to model FACE conditions with LC model using yggdrasil  
 **Validations/YggdrasilLooping.py** : Python code to model mature leaf metabolism using TC model via yggdrasil  
 **Validations/YggdrasilLooping_growing.py** : Python code to model growing leaf metabolism using TC model via yggdrasil  
-**Validations/YggdrasilLooping_FACE*_372.py** : Python code to model leaf metabolism on day * of FACE experiment under ambient CO2 conditions using TC model  
-**Validations/YggdrasilLooping_FACE*_552.py** : Python code to model leaf metabolism on day * of FACE experiment under elevated CO2 conditions using TC model  
+**Validations/YggdrasilLooping_FACE%_372.py** : Python code to model leaf metabolism on day % of FACE experiment under ambient CO2 conditions using TC model  
+**Validations/YggdrasilLooping_FACE%_552.py** : Python code to model leaf metabolism on day % of FACE experiment under elevated CO2 conditions using TC model  
