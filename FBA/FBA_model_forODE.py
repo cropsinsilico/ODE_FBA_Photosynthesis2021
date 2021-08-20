@@ -1,32 +1,269 @@
+def addAllantoinMetabolism(backup):
+    model = backup.copy()
+    ############
+    # Nino-Gonzalez et al 2019
+    # Chen et al 2006
+    # Ritzel et al 2001
+    # Takagi et al 2018
+    met1 = Metabolite("S_ALLANTOIN_c",name="S-ALLANTOIN:(S)-(+)-allantoin",
+                      formula="C4H6N4O3",compartment="c",
+                      charge=0)
+    amet1 = Metabolite("aS_ALLANTOIN_c",name="S-ALLANTOIN:(S)-(+)-allantoin",
+                      formula="C4H5N4O3",compartment="c",
+                      charge=-1)
 
-def custom_pFBA(model):
-    sol = model.optimize()
-    for rxn in model.reactions:
-        if rxn.objective_coefficient != 0:
-            rxn.lower_buond = round(sol.fluxes[rxn.id],3)
-            rxn.upper_bound = round(sol.fluxes[rxn.id],3)
-    from sweetlovegroup import FBA
-    Irrev_model = FBA.rev2irrev(model)
-    for rxn in Irrev_model.reactions:
-        if rxn.upper_bound > 0:
-            rxn.objective_coefficient = -1
-        else:
-            rxn.objective_coefficient = 1
-    sol2 = Irrev_model.optimize()
-    rxnSet=set()
-    fluxDict = dict()
-    for rxn in Irrev_model.reactions.query("_reverse"):
-        rxnSet.add(rxn.id)
-        rxnSet.add(rxn.id.replace("_reverse",""))
-        fluxDict[rxn.id.replace("_reverse","")]=sol2.fluxes[rxn.id]+sol2.fluxes[rxn.id.replace("_reverse","")]
-    for rxn in Irrev_model.reactions:
-        if rxn.id in rxnSet:
-            continue
-        else:
-            fluxDict[rxn.id]=sol2.fluxes[rxn.id]
-    sol3 = sol2
-    sol3.fluxes = fluxDict
-    return sol3
+    rxn1 = Reaction("Allantoin_tx",name="Allantoin uptake")
+    rxn1.add_metabolites({model.metabolites.PROTON_e:-1,
+                          model.metabolites.PROTON_c:1,met1:0.78,amet1:0.22})
+    rxn1.gene_reaction_rule='Glyma.15G066400'
+    rxn1.lower_bound = 0
+    rxn1.upper_bound = 1000
+    ##########
+    met2 = Metabolite("S_ALLANTOIN_r",name="(S)-(+)-allantoin",
+                      formula="C4H6N4O3",compartment="r",
+                      charge=0)
+    amet2 = Metabolite("aS_ALLANTOIN_r",name="(S)-(+)-allantoin",
+                      formula="C4H5N4O3",compartment="r",
+                      charge=-1)
+
+
+    proton_R = model.metabolites.PROTON_c.copy()
+    proton_R.id = "PROTON_r"
+    proton_R.compartment = "r"
+    rxnProton = Reaction("PROTON_rc",name="ER proton exchange")
+    rxnProton.add_metabolites({proton_R:-1,model.metabolites.PROTON_c:1})
+    rxnProton.lower_bound = -1000
+    rxnProton.upper_bound = 1000
+
+    rxn2 = Reaction("Allantoin_rc",name="Allantoin peroxisome uptake/efflux")
+    rxn2.add_metabolites({met1:-0.78,amet1:-0.22,proton_R:-0.12,met2:0.9,amet2:0.1})
+    rxn2.lower_bound = -1000
+    rxn2.upper_bound = 1000
+    ###########
+    met3 = Metabolite("ALLANTOATE_r",name="allantoate",
+                      formula="C4H7N4O4",compartment="r",
+                      charge=-1)
+
+    water_R = model.metabolites.WATER_c.copy()
+    water_R.id = "WATER_r"
+    water_R.compartment = "r"
+    rxnWater = Reaction("H2O_rc",name="ER water exchange")
+    rxnWater.add_metabolites({water_R:-1,model.metabolites.WATER_c:1})
+    rxnWater.lower_bound = -1000
+    rxnWater.upper_bound = 1000
+
+
+    rxn3 = Reaction("ALLANTOINASE_RXN_r",name="ALLANTOINASE-RXN")
+    rxn3.add_metabolites({met2:-0.9,amet2:-0.1,water_R:-1,
+                          met3:1,proton_R:0.9})
+    rxn3.gene_reaction_rule='Glyma.15G073000 or Glyma.15G072900 or Glyma.13G240500 or Glyma.13G240600'
+    #Glyma.15G073000 - cytoplasmic in Uniprot
+    #Glyma.15G072900 - cytoplasmic in Uniprot
+    #Glyma.13G240500 - cytoplasmic in Uniprot
+    #Glyma.13G240600 - cytoplasmic in Uniprot
+    #But according to Takagi et al 2018 ER
+
+    rxn3.lower_bound = 0
+    rxn3.upper_bound = 1000
+    ############
+    met4 = Metabolite("CPD0_2298_r",name="CPD0-2298:(S)-ureidoglycine",
+                      formula="C3H7N3O3",compartment="r",
+                      charge=0)
+    amet4 = Metabolite("aCPD0_2298_r",name="CPD0-2298:(S)-ureidoglycine",
+                      formula="C3H6N3O3",compartment="r",
+                      charge=-1)
+
+    met5 = model.metabolites.AMMONIUM_c.copy()
+    met5.id = "AMMONIUM_r"
+    met5.compartment = "r"
+    rxnNH4 = Reaction("NH4_rc",name="Ammonium ER exchange")
+    rxnNH4.add_metabolites({met5:-1,model.metabolites.AMMONIUM_c:1})
+    rxnNH4.lower_bound = -1000
+    rxnNH4.upper_bound = 1000
+
+    co2_R = model.metabolites.CARBON_DIOXIDE_c.copy()
+    co2_R.id = "CARBON_DIOXIDE_r"
+    co2_R.compartment = "r"
+    rxnCO2 = Reaction("CO2_rc",name="CO2 ER exchange")
+    rxnCO2.add_metabolites({co2_R:-1,model.metabolites.CARBON_DIOXIDE_c:1})
+    rxnCO2.lower_bound = -1000
+    rxnCO2.upper_bound = 1000
+
+    rxn4 = Reaction("ALLANTOATE_DEIMINASE_RXN_r",name="ALLANTOATE-DEIMINASE-RXN:allantoate deiminase")
+    rxn4.gene_reaction_rule='Glyma.15G156900 or Glyma.09G050800'
+    rxn4.add_metabolites({met3:-1,proton_R:-1.72,water_R:-1,
+                          met4:0.72,amet4:0.28,met5:1,co2_R:1})
+    #Glyma.15G156900 -ER in Uniprot
+    #Glyma.09G050800 -ER in Uniprot
+    rxn4.lower_bound = 0
+    rxn4.upper_bound = 1000
+    #############
+    met6 = Metabolite("CPD_1091_r",name="CPD-1091:(S)-ureidoglycolate",
+                      formula="C3H5N2O4",compartment="r",
+                      charge=-1)
+
+    water_R = model.metabolites.WATER_c.copy()
+    water_R.id = "WATER_r"
+    water_R.compartment = "r"
+    rxnWATER = Reaction("H2O_rc",name="H2O ER exchange")
+    rxnWATER.add_metabolites({water_R:-1,model.metabolites.WATER_c:1})
+    rxnWATER.lower_bound = -1000
+    rxnWATER.upper_bound = 1000
+
+    rxn5 = Reaction("URUR_RXN_r",name="URUR-RXN:(S)-ureidoglycine aminohydrolase")
+    rxn5.gene_reaction_rule='Glyma.17G148400 or Glyma.05G066500'
+    #Glyma.17G148400
+    #Glyma.05G066500
+    rxn5.add_metabolites({met4:-0.72,amet4:-0.28,proton_R:-0.28,water_R:-1,
+                          met6:1,met5:1})
+    rxn5.lower_bound = 0
+    rxn5.upper_bound = 1000
+    #############
+    # met7 = model.metabolites.UREA_c.copy()
+    # met7.id = "UREA_r"
+    # met7.compartment="r"
+
+    # rxn6 = Reaction("ALLANTOICASE_RXN_r",name="ALLANTOICASE-RXN:allantoicase")
+    # rxn6.add_metabolites({met3:-1,model.metabolites.WATER_r:-1,
+    #                       met6:1,met7:1})
+    # rxn6.lower_bound = 0
+    # rxn6.lower_bound = 1000
+    #############
+
+    glyox_R = model.metabolites.GLYOX_x.copy()
+    glyox_R.id = "GLYOX_r"
+    glyox_R.compartment = "r"
+    rxnGlyox = Reaction("glyox_rx",name="glyoxylate ER-peroxisome exchange")
+    rxnGlyox.add_metabolites({glyox_R:-1,model.metabolites.GLYOX_x:1})
+
+    rxn7 = Reaction("UREIDOGLYCOLATE_HYDROLASE_RXN_r",name="UREIDOGLYCOLATE-HYDROLASE-RXN:ureidoglycolate amidohydrolase")
+    rxn7.gene_reaction_rule='Glyma.20G205500 or Glyma.10G184900'
+    #Glyma.20G205500 - ER in Uniprot
+    #Glyma.10G184900 - ER in Uniprot
+    rxn7.add_metabolites({met6:-1,proton_R:-2,water_R:-1,
+                          met5:2,co2_R:1,glyox_R:1})
+    rxn7.lower_bound = 0
+    rxn7.upper_bound = 1000
+    #############
+    # rxn8 = Reaction("UREIDOGLYCOLATE_LYASE_RXN_r",name="UREIDOGLYCOLATE-LYASE-RXN:ureidoglycolate lyase")
+    # rxn8.add_metabolites({met6:-1,
+    #                       met7:1,model.metabolites.GLYOX_r:1})
+    # rxn8.lower_bound = 0
+    # rxn8.lower_bound = 1000
+    ############
+    model.add_reactions([rxn1,rxn2,rxn3,rxn4,rxn5,rxn7,
+                         rxnCO2,rxnGlyox,rxnNH4,rxnProton,rxnWater])
+    return model
+
+#################################################################################
+# This function is a modified version of cobrapy pfba function			#
+#										#
+#################################################################################
+
+import logging
+from warnings import warn
+from itertools import chain
+
+from optlang.symbolics import Zero
+
+from cobra.util import solver as sutil
+from cobra.core.solution import get_solution
+
+def pfba_Weighted(model, weightings, fraction_of_optimum=1.0, objective=None, reactions=None):
+    """Perform basic pFBA (parsimonious Enzyme Usage Flux Balance Analysis)
+    to minimize total flux.
+    pFBA [1] adds the minimization of all fluxes the the objective of the
+    model. This approach is motivated by the idea that high fluxes have a
+    higher enzyme turn-over and that since producing enzymes is costly,
+    the cell will try to minimize overall flux while still maximizing the
+    original objective function, e.g. the growth rate.
+    Parameters
+    ----------
+    model : cobra.Model
+        The model
+    fraction_of_optimum : float, optional
+        Fraction of optimum which must be maintained. The original objective
+        reaction is constrained to be greater than maximal_value *
+        fraction_of_optimum.
+    objective : dict or model.problem.Objective
+        A desired objective to use during optimization in addition to the
+        pFBA objective. Dictionaries (reaction as key, coefficient as value)
+        can be used for linear objectives.
+    reactions : iterable
+        List of reactions or reaction identifiers. Implies `return_frame` to
+        be true. Only return fluxes for the given reactions. Faster than
+        fetching all fluxes if only a few are needed.
+    Returns
+    -------
+    cobra.Solution
+        The solution object to the optimized model with pFBA constraints added.
+    References
+    ----------
+    .. [1] Lewis, N. E., Hixson, K. K., Conrad, T. M., Lerman, J. A.,
+       Charusanti, P., Polpitiya, A. D., Palsson, B. O. (2010). Omic data
+       from evolved E. coli are consistent with computed optimal growth from
+       genome-scale models. Molecular Systems Biology, 6,
+       390. doi:10.1038/msb.2010.47
+    """
+    reactions = model.reactions if reactions is None \
+        else model.reactions.get_by_any(reactions)
+    with model as m:
+        add_pfba_Weighted(m, weightings, objective=objective,
+                 fraction_of_optimum=fraction_of_optimum)
+        m.slim_optimize(error_value=None)
+        solution = get_solution(m, reactions=reactions)
+    return solution
+
+
+#################################################################################
+# This function is a modified version of cobrapy add_pfba function			#
+#										#
+#################################################################################
+
+def add_pfba_Weighted(model, weightings, objective=None, fraction_of_optimum=1.0):
+    """Add pFBA objective
+    Add objective to minimize the summed flux of all reactions to the
+    current objective.
+    See Also
+    -------
+    pfba
+    Parameters
+    ----------
+    model : cobra.Model
+        The model to add the objective to
+    objective :
+        An objective to set in combination with the pFBA objective.
+    fraction_of_optimum : float
+        Fraction of optimum which must be maintained. The original objective
+        reaction is constrained to be greater than maximal_value *
+        fraction_of_optimum.
+    """
+    if objective is not None:
+        model.objective = objective
+    if model.solver.objective.name == '_pfba_objective':
+        raise ValueError('The model already has a pFBA objective.')
+    sutil.fix_objective_as_constraint(model, fraction=fraction_of_optimum)
+    reaction_variables = ((rxn.forward_variable, rxn.reverse_variable)
+                          for rxn in model.reactions)
+    variables = chain(*reaction_variables)
+    model.objective = model.problem.Objective(
+        Zero, direction='min', sloppy=True, name="_pfba_objective")
+    #print([v for v in variables])
+    tempDict = dict()
+    for v in variables:
+        w = str(v).split("=")[1].replace(" ","").replace("<","")
+        found=False
+        for rxn in weightings.keys():
+            if w.__contains__(rxn):
+                #print(v)
+                #print(rxn)
+                tempDict[v]=weightings[rxn]
+                found=True
+                break
+        if not found:
+            #print("Weightings for reaction "+w+" not found, so assuming weighting = 1")
+            tempDict[v] = 1
+    model.objective.set_linear_coefficients(tempDict)
 
 
 def remove_metabolite_from_reaction(rxn,mets):
@@ -71,7 +308,7 @@ from cobra import io,flux_analysis
 from cobra.core import Reaction, Metabolite
 
 #import model. Update file name and location in the next line
-cobra_model = io.sbml.read_sbml_model("./../Data/PlantCoreMetabolism_v2_0_0.xml")
+cobra_model = io.sbml.read_sbml_model("./../Data/Soy_core_model_GA.sbml")
 
 
 #Remove all metabolites except sucrose from Phloem
@@ -109,6 +346,11 @@ cobra_model.reactions.get_by_id("Sucrose_tx").lower_bound = 0
 cobra_model.reactions.get_by_id("Sucrose_tx").upper_bound = 0
 cobra_model.reactions.get_by_id("GLC_tx").lower_bound = 0
 cobra_model.reactions.get_by_id("GLC_tx").upper_bound = 0
+cobra_model.reactions.get_by_id("NH4_tx").lower_bound=0
+cobra_model.reactions.get_by_id("NH4_tx").upper_bound=0
+cobra_model.reactions.get_by_id("Nitrate_tx").lower_bound = 0
+cobra_model.reactions.get_by_id("Nitrate_tx").upper_bound = 0
+cobra_model = addAllantoinMetabolism(cobra_model)
 
 #no external light energy
 cobra_model.reactions.get_by_id("Photon_tx").lower_bound = 0
@@ -228,11 +470,11 @@ temp.reactions.get_by_id("GLYCERATE_tx").upper_bound = df["Vt_glycerate"][0]
 #temp.reactions.get_by_id("NrefixationEnergy").lower_bound = df270["Vt_glycerate"][i]
 #temp.reactions.get_by_id("NrefixationEnergy").upper_bound = df270["Vt_glycerate"][i]
 
-temp.reactions.get_by_id("MAL_v_accumulation").lower_bound = 0.0698903487288*df["Vstarch"][0]
-temp.reactions.get_by_id("MAL_v_accumulation").upper_bound = 0.0698903487288*df["Vstarch"][0]
+temp.reactions.get_by_id("MAL_v_accumulation").lower_bound = 0.71*df["Vstarch"][0]
+temp.reactions.get_by_id("MAL_v_accumulation").upper_bound = 0.71*df["Vstarch"][0]
 
-temp.reactions.get_by_id("CIT_v_accumulation").lower_bound = -0.056884259879*df["Vstarch"][0]
-temp.reactions.get_by_id("CIT_v_accumulation").upper_bound = -0.056884259879*df["Vstarch"][0]
+temp.reactions.get_by_id("CIT_v_accumulation").lower_bound = -0.56*df["Vstarch"][0]
+temp.reactions.get_by_id("CIT_v_accumulation").upper_bound = -0.56*df["Vstarch"][0]
 
 
 
@@ -270,10 +512,14 @@ temp.add_reaction(rxn)
 #check if model works
 temp.solver="glpk"
 #sol = custom_pFBA(temp)
-try:
-    sol = flux_analysis.parsimonious.optimize_minimal_flux(temp)
-except:
-    sol = custom_pFBA(temp)
+weightings = dict()
+for rxn in temp.reactions:
+	if rxn.id == "ATP_ADP_Pi_pc":
+		weightings[rxn.id]=0.5
+	else:
+		weightings[rxn.id]=1
+sol = pfba_Weighted(temp,weightings=weightings)
+
 rxn =  temp.reactions.get_by_id("Phloem_output_tx")
 met = temp.metabolites.sSUCROSE_b
 print("Sucrose export rate ="+str(rxn.metabolites[met]*sol.fluxes[rxn.id]))
@@ -291,7 +537,7 @@ for rxn in temp.metabolites.ATP_p.reactions:
 print("Extra APTase flux ="+str(total))
 
 fout= open("./../ePhotosynthesis/InputATPCost.txt","w")
-fout.write("ATPCost	"+str(round(total,4)))
+fout.write("ATPCost	"+str(round(total,3)))
 fout.close()
 
 total = JNADPHox
@@ -314,7 +560,7 @@ for rxn in temp.metabolites.NADH_p.reactions:
 print("Extra NADPH flux ="+str(total))
 
 fout= open("./../ePhotosynthesis/InputNADPHCost.txt","w")
-fout.write("NADPHCost	"+str(round(total,4)))
+fout.write("NADPHCost	"+str(round(total,3)))
 fout.close()
 
 fout= open("./Daytime_flux.csv","w")

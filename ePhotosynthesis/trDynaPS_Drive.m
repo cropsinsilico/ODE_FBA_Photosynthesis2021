@@ -1,26 +1,35 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
- 
+
 %   Copyright   Xin-Guang Zhu, Yu Wang, Donald R. ORT and Stephen P. LONG
-%CAS-MPG Partner Institute for Computational Biology, Shanghai Institutes for Biological Sciences, CAS, Shanghai,200031 
-%China Institute of Genomic Biology and Department of Plant Biology, Shanghai Institutes for Biological Sciences, CAS, Shanghai,200031 
+%CAS-MPG Partner Institute for Computational Biology, Shanghai Institutes for Biological Sciences, CAS, Shanghai,200031
+%China Institute of Genomic Biology and Department of Plant Biology, Shanghai Institutes for Biological Sciences, CAS, Shanghai,200031
 %University of Illinois at Urbana Champaign
 %Global Change and Photosynthesis Research Unit, USDA/ARS, 1406 Institute of Genomic Biology, Urbana, IL 61801, USA.
- 
+
 %   This file is part of e-photosynthesis
 %    e-photosynthesis is free software; you can redistribute it and/or modify
 %    it under the terms of the GNU General Public License as published by
-%    the Free Software Foundation; 
- 
+%    the Free Software Foundation;
+
 %    e-photosynthesis is distributed in the hope that it will be useful,
 %    but WITHOUT ANY WARRANTY; without even the implied warranty of
 %    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 %    GNU General Public License for more details.
- 
+
 %    You should have received a copy of the GNU General Public License (GPL)
 %    along with this program.  If not, see <http://www.gnu.org/licenses/>.
- 
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 function Resulta=trDynaPS_Drive(Cai,Lii,ATPCost,NADPHCost,SucPath,ParaNum, Ratio,time)
+
+%EDIT STARTED: suggested by Yu to get around high ATPase and NADPHox resulting in ODE optimization error
+global setNADPHCost;
+global setATPCost
+setATPCost=ATPCost;
+setNADPHCost=NADPHCost;
+%EDIT COMPLETED
+
+
 global TestCa;
 global TestLi;
 global TestSucPath;
@@ -34,9 +43,9 @@ TestNADPHCost=NADPHCost;
 % trDynaPS_Drive.m
 % This part include the function to begin the simulation.
 
-% The time information is set in a global variable called tglobal in SYSInitial. 
+% The time information is set in a global variable called tglobal in SYSInitial.
 global PSRatio;
-PSRatio=ones(103,1); 
+PSRatio=ones(103,1);
 if ParaNum <= 103
 PSRatio(ParaNum)=Ratio;
 end
@@ -67,16 +76,16 @@ global BFRatio;
 BFRatio=ones(49,1);
 if ParaNum > 256&&ParaNum<=305
 BFRatio(ParaNum-256)=Ratio;
-end    
+end
 
 
 global XanRatio;
 XanRatio=ones(4,1);
 if ParaNum > 305&&ParaNum<=309
 XanRatio(ParaNum-305)=Ratio;
-end 
+end
 
-%clear; 
+%clear;
 time1 = clock;
 suc = PreProcess;
 
@@ -93,22 +102,22 @@ ATPActive = 0;
 global EPS_ATP_Rate;        % Indicate in the beginning there is no ATP synthesis activity.
 EPS_ATP_Rate = 0;
 
-ModelComb = IniModelCom;        % Initialize the structure of the model, i.e. Is this model separate or combined with others. 
+ModelComb = IniModelCom;        % Initialize the structure of the model, i.e. Is this model separate or combined with others.
 
-global BF_FI_com;            % The combination of BF and FI model 
+global BF_FI_com;            % The combination of BF and FI model
 BF_FI_com = 1;
 
-global PR_PS_com;    % This is a variable indicating whether the PR model is actually need to be combined with PS or not. If 1 then means combined; 0 means not. 
+global PR_PS_com;    % This is a variable indicating whether the PR model is actually need to be combined with PS or not. If 1 then means combined; 0 means not.
 PR_PS_Com = 1;
 
-global FIBF_PSPR_com; % 1 means that the overall EPS model is used. 0 means partial model of FIBF is used. 
-FIBF_PSPR_com = 1;    
+global FIBF_PSPR_com; % 1 means that the overall EPS model is used. 0 means partial model of FIBF is used.
+FIBF_PSPR_com = 1;
 
-global RuACT_EPS_com;     % A global variable to indicate whether the RuACT is run by itself or combined with others. 
-RuACT_EPS_com = 1;        % Since this is run within this program, it is combinbed, therefore, it is assigned value 1, otherwise, assign value 0. 
+global RuACT_EPS_com;     % A global variable to indicate whether the RuACT is run by itself or combined with others.
+RuACT_EPS_com = 1;        % Since this is run within this program, it is combinbed, therefore, it is assigned value 1, otherwise, assign value 0.
 
 global RedoxReg_RA_com;     % This is the connection between Redox and RA.
-RedoxReg_RA_com = 0;        % This means that the connection is there. 
+RedoxReg_RA_com = 0;        % This means that the connection is there.
 
 global XanCycle_BF_com;
 XanCycle_BF_com = 1;
@@ -119,13 +128,13 @@ RROEA_EPS_com = 1;
 global EPS_SUCS_com;
 EPS_SUCS_com = 1;
 
-global PSPR_SUCS_com;    % This is a variable indicating whether the PSPR model is actually need to be combined with SUCS or not. If 1 then means combined; 0 means not. 
+global PSPR_SUCS_com;    % This is a variable indicating whether the PSPR model is actually need to be combined with SUCS or not. If 1 then means combined; 0 means not.
 PSPR_SUCS_com = 1;
 
 global CO2A;
 CO2A = zeros(5,1);
 
-% Next is to initialize the vector. 
+% Next is to initialize the vector.
 global d;
 trDynaPS_Con = trDynaPS_Ini;
 
@@ -137,18 +146,18 @@ suc = ParamSet;
 ATPActive = 0;
 global BF_VEL;
 global FI_VEL;
-global BF_CON; 
+global BF_CON;
 global PS_VEL;
-global PR_VEL; 
-global FI_CON; 
-global PS_CON; 
+global PR_VEL;
+global FI_CON;
+global PS_CON;
 global PR_CON;
 global SUCS_VEL;
-global RuACT_VEL; 
+global RuACT_VEL;
 global XanCycle_VEL;
 global RedoxReg_VEL;
 global RROEA_VEL;
-global AVR; 
+global AVR;
 [row,col]=size(RuACT_VEL);
 Resulta=zeros(9,1);
 [MetaRow MetaCol]=size(d);
@@ -158,9 +167,9 @@ if RuACT_VEL(row,1)==time
     PSIabs=BF_VEL(:, 11	);
     %PSIabs2=BF_VEL(:, 14)+BF_VEL(:, 16);
     temp = RuACT_VEL(:,6) ;
-    CarbonRate = temp * AVR; 
+    CarbonRate = temp * AVR;
     VPR=RuACT_VEL(:,7)* AVR;
-%     CO2Release = PR_VEL(:,9) * AVR; 
+%     CO2Release = PR_VEL(:,9) * AVR;
 %     Assim = CarbonRate - CO2Release;
     Vpgasink=SUCS_VEL(:,15)'*AVR;
     VStarch=(PS_VEL(14,:)-PS_VEL(20,:))*AVR;
@@ -179,7 +188,7 @@ if RuACT_VEL(row,1)==time
     Resulta(5)=VStarch(row);%Vstarch
     Resulta(6)=PR_VEL(row,10)*AVR;%Vt_glycerate
     Resulta(7)=PR_VEL(row,11)*AVR;%Vt_glycolate
-    
+
  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
     %Steady State check A
     LastM=find(RuACT_VEL(:,1)>=time-1000);
@@ -199,7 +208,7 @@ if RuACT_VEL(row,1)==time
     for metaNo=1:MetaCol
     CheckMeta=d(MetaRow-LastR2+1:MetaRow,metaNo);
     FinalMeta=d(MetaRow,metaNo);
-    p = polyfit(CheckT2,CheckMeta/FinalMeta,1);% linear regression 
+    p = polyfit(CheckT2,CheckMeta/FinalMeta,1);% linear regression
     Meta_slope(metaNo,1)=p(1);%slope
     %NAN->0
     Meta_slope(isnan(Meta_slope)) = 0;
@@ -209,9 +218,9 @@ if RuACT_VEL(row,1)==time
     Meta_slope(95,1)=0;%[ADP]%Xancycle Z
     Resulta(9)=max(abs(Meta_slope));
 
-     
-end   
-    
+
+end
+
     global FluxTR;
     FluxTR=zeros(81,1);
     FluxTR(1)=RuACT_VEL(row,6);%PS
@@ -239,13 +248,13 @@ end
     FluxTR(23)=PR_VEL(row,11);%v2out
     FluxTR(24)=SUCS_VEL(row,2);%v51	;%	DHAP+GAP --FBP
     FluxTR(25)=SUCS_VEL(row,3);%v52	;%	FBP --F6P + Pi
-    FluxTR(26)=SUCS_VEL(row,4);%v55	;%	G1P+UTP --OPOP+UDPG 
+    FluxTR(26)=SUCS_VEL(row,4);%v55	;%	G1P+UTP --OPOP+UDPG
     FluxTR(27)=SUCS_VEL(row,5);%v56	;%	UDPG+F6P--SUCP + UDP
     FluxTR(28)=SUCS_VEL(row,6);%v57	;%	SUCP--Pi + SUC
     FluxTR(29)=SUCS_VEL(row,7);%v58	;%	F26BP--F6P + Pi
     FluxTR(30)=SUCS_VEL(row,8);%v59	;%	F6P + ATP --ADP + F26BP
     FluxTR(31)=SUCS_VEL(row,9);%v60	;%	ATP+UDP --UTP + ADP
-    FluxTR(32)=SUCS_VEL(row,11);%v62	;%	SUC SINK 
+    FluxTR(32)=SUCS_VEL(row,11);%v62	;%	SUC SINK
     FluxTR(33)=SUCS_VEL(row,12);%vdhap_in	;%	DHAP export from chloroplast
     FluxTR(34)=SUCS_VEL(row,13);%vgap_in	;%	GAP Export from chloroplast
     FluxTR(35)=SUCS_VEL(row,14);%vpga_in	;%	PGA export from chloroplast
@@ -257,17 +266,17 @@ end
     FluxTR(1:36)=FluxTR(1:36)*AVR;
     FluxTR(47)=FluxTR(47)*AVR;
     FluxTR(65)=FluxTR(65)*AVR/2;
-    
-    
-%FluxTR(132:133)=RedoxReg_VEL(row,2:3);    
+
+
+%FluxTR(132:133)=RedoxReg_VEL(row,2:3);
 %RedoxReg_VEL(2,RedoxReg_TIME_N) = Vred;
 %RedoxReg_VEL(3,RedoxReg_TIME_N) = Vox;
-% RROEA_VEL	(	RROEA_TIME_N	,   2	)	=	ve2GAPDH	;	
+% RROEA_VEL	(	RROEA_TIME_N	,   2	)	=	ve2GAPDH	;
 % RROEA_VEL	(	RROEA_TIME_N	,   3	)	=	ve2FBPase	;
 % RROEA_VEL	(	RROEA_TIME_N	,   4	)	=	ve2SBPase	;
-% RROEA_VEL	(	RROEA_TIME_N	,   5	)	=	ve2PRK	;	
-% RROEA_VEL	(	RROEA_TIME_N	,   6	)	=	ve2ATPase	;	
-% RROEA_VEL	(	RROEA_TIME_N	,   7	)	=	ve2ATPGPP	;	
+% RROEA_VEL	(	RROEA_TIME_N	,   5	)	=	ve2PRK	;
+% RROEA_VEL	(	RROEA_TIME_N	,   6	)	=	ve2ATPase	;
+% RROEA_VEL	(	RROEA_TIME_N	,   7	)	=	ve2ATPGPP	;
 % RROEA_VEL	(	RROEA_TIME_N	,   8	)	=	ve2MDH	;
 % RROEA_VEL	(	RROEA_TIME_N	,   9	)	=	ve2Fd	;
 % RROEA_VEL	(	RROEA_TIME_N	,   10	)	=	veFd2Thio	;
@@ -327,11 +336,11 @@ end
 % FI_VEL	(	FI_TIME_N	,	52	)	=	vr2_01_2;
 % FI_VEL	(	FI_TIME_N	,	53	)	=	vr2_02_2;
 % FI_VEL	(	FI_TIME_N	,	54	)	=	vr2_2;
-% FI_VEL	(	FI_TIME_N	,	55	)		=	vP680qU	;	%	vr2_2	
-% FI_VEL	(	FI_TIME_N	,	56	)	=	vP680qA	;	%	vr2_2	
+% FI_VEL	(	FI_TIME_N	,	55	)		=	vP680qU	;	%	vr2_2
+% FI_VEL	(	FI_TIME_N	,	56	)	=	vP680qA	;	%	vr2_2
 % FI_VEL	(	FI_TIME_N	,	57	)	 =   vU_P680;
 % FI_VEL	(	FI_TIME_N	,	58	)	  =   vP680_d;
-% FI_VEL	(	FI_TIME_N	,	59	)	   =   vP680_f;		
+% FI_VEL	(	FI_TIME_N	,	59	)	   =   vP680_f;
 % BF_VEL	(	BF_TIME_N	,	2	)	=	Vbf1	;
 % BF_VEL	(	BF_TIME_N	,	3	)	=	Vbf2	;
 % BF_VEL	(	BF_TIME_N	,	4	)	=	Vbf3	;
@@ -372,7 +381,7 @@ end
 %     TSave = PR_VEL(:,1);
 % time2 = clock;
 % TotalRunTime = time2-time1
-    
+
 IniModelCom;
 %save LRC
 end

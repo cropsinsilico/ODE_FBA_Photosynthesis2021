@@ -8,7 +8,7 @@ args2 = parser.parse_args(["../FBA/yggrasil_ODE_FBA_testing.yaml"])
 args3 = parser.parse_args(["../FBA/yggrasil_ODE_FBA_night.yaml"])
 
 
-CO2 = [120,200,300,400,500,600,800,1000,1200,1500,1800]
+CO2 = [200,300,400,500,600,800,1000,1200,1500,1800]
 Vc = list()
 Vo = list()
 Vpga = list()
@@ -71,7 +71,7 @@ for ci in CO2:
         print("ODE NADPHox "+str(J_NADPHox1))
         print("FBA NADPHox "+str(J_NADPHox2))
 
-        if round(J_ATPase1,3)==round(J_ATPase2,3) and round(J_NADPHox1,3)==round(J_NADPHox2,3):
+        if round(J_ATPase1,2)==round(J_ATPase2,2) and round(J_NADPHox1,2)==round(J_NADPHox2,2):
             ModelConverged=True
             print("Models converged at "+str(J_ATPase1))
             print("Models converged at "+str(J_NADPHox1))

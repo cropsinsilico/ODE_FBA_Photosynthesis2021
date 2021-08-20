@@ -47,6 +47,7 @@ Vglycolate = list()
 
 j=0
 for p in PPFD:
+    p = round(p,4)
     j=j+1
     #ensure additional chloroplastic ATP consumption rate (J_ATPase) starts at 0
     f1 = open("../ePhotosynthesis/InputATPCost.txt","w")

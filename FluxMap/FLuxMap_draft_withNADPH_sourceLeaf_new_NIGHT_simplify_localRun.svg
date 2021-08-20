@@ -1,0 +1,2435 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   inkscape:export-ydpi="120"
+   inkscape:export-xdpi="120"
+   inkscape:export-filename="C:\Users\sanus\Documents\paper work\ODE_FBA\source_night.png"
+   sodipodi:docname="FLuxMap_draft_withNADPH_sourceLeaf_new_NIGHT_simplify_localRun.svg"
+   inkscape:version="1.0 (4035a4fb49, 2020-05-01)"
+   id="svg8"
+   version="1.1"
+   viewBox="0 0 320 350"
+   height="350mm"
+   width="320mm">
+  <defs
+     id="defs2">
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible;"
+       id="marker1420"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lend">
+      <path
+         transform="scale(0.8) rotate(180) translate(12.5,0)"
+         style="fill-rule:evenodd;stroke:#ff0c0c;stroke-width:1pt;stroke-opacity:1;fill:#ff0c0c;fill-opacity:1"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         id="path1418" />
+    </marker>
+    <marker
+       inkscape:collect="always"
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="marker6995"
+       style="overflow:visible;"
+       inkscape:isstock="true">
+      <path
+         id="path6993"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         transform="scale(0.8) rotate(180) translate(12.5,0)" />
+    </marker>
+    <marker
+       inkscape:collect="always"
+       inkscape:isstock="true"
+       style="overflow:visible;"
+       id="Arrow1Lend"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lend">
+      <path
+         transform="scale(0.8) rotate(180) translate(12.5,0)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         id="path1669" />
+    </marker>
+    <clipPath
+       id="clipPath4839"
+       clipPathUnits="userSpaceOnUse">
+      <rect
+         y="602.41193"
+         x="96.44635"
+         height="47.392693"
+         width="50.761524"
+         id="rect4841"
+         style="stroke:#000000;stroke-width:0.97875279;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1" />
+    </clipPath>
+    <clipPath
+       id="clipPath4845"
+       clipPathUnits="userSpaceOnUse">
+      <rect
+         y="605.01984"
+         x="146.79214"
+         height="45.456863"
+         width="60.752224"
+         id="rect4847"
+         style="stroke:#000000;stroke-width:0.98291945;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1" />
+    </clipPath>
+    <clipPath
+       id="clipPath4845-7"
+       clipPathUnits="userSpaceOnUse">
+      <rect
+         y="605.01984"
+         x="146.79214"
+         height="45.456863"
+         width="60.752224"
+         id="rect4847-5"
+         style="stroke:#000000;stroke-width:0.98291945;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1" />
+    </clipPath>
+    <clipPath
+       id="clipPath5090"
+       clipPathUnits="userSpaceOnUse">
+      <rect
+         ry="5.6431098"
+         rx="6.5135598"
+         y="582.74597"
+         x="408.81726"
+         height="99.862755"
+         width="121.14165"
+         id="rect5092"
+         style="fill:#ff0000;fill-opacity:1;stroke:#ff0000;stroke-width:0.67000002;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1" />
+    </clipPath>
+    <clipPath
+       id="clipPath5113"
+       clipPathUnits="userSpaceOnUse">
+      <rect
+         ry="4.2881298"
+         rx="6.5135598"
+         y="706.75488"
+         x="471.573"
+         height="21.655146"
+         width="49.674252"
+         id="rect5115"
+         style="fill:#ff0000;fill-opacity:1;stroke:#ff0000;stroke-width:0.69999999;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1" />
+    </clipPath>
+    <clipPath
+       id="clipPath5134"
+       clipPathUnits="userSpaceOnUse">
+      <rect
+         ry="4.2881298"
+         rx="6.5135598"
+         y="688.84094"
+         x="337.62427"
+         height="77.25"
+         width="122.75"
+         id="rect5136"
+         style="fill:#ff0000;fill-opacity:1;stroke:#ff0000;stroke-width:0.85000002;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1" />
+    </clipPath>
+    <clipPath
+       id="clipPath5113-1"
+       clipPathUnits="userSpaceOnUse">
+      <rect
+         ry="4.2881298"
+         rx="6.5135598"
+         y="706.75488"
+         x="471.573"
+         height="21.655146"
+         width="49.674252"
+         id="rect5115-5"
+         style="fill:#ff0000;fill-opacity:1;stroke:#ff0000;stroke-width:0.69999999;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath5113-1-2">
+      <rect
+         style="fill:#ff0000;fill-opacity:1;stroke:#ff0000;stroke-width:0.7;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+         id="rect5115-5-6"
+         width="49.674252"
+         height="21.655146"
+         x="471.573"
+         y="706.75488"
+         rx="6.5135598"
+         ry="4.2881298" />
+    </clipPath>
+    <clipPath
+       id="clipPath6855"
+       clipPathUnits="userSpaceOnUse">
+      <rect
+         y="380.98059"
+         x="906.84857"
+         height="57.301422"
+         width="73.801422"
+         id="rect6857"
+         style="fill:none;stroke:#000000;stroke-width:1.78191;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath6855-5">
+      <rect
+         style="fill:none;stroke:#000000;stroke-width:1.78191;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0"
+         id="rect6857-3"
+         width="73.801422"
+         height="57.301422"
+         x="906.84857"
+         y="380.98059" />
+    </clipPath>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible"
+       id="marker6995-4"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lend">
+      <path
+         transform="matrix(-0.8,0,0,-0.8,-10,0)"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path6993-6" />
+    </marker>
+  </defs>
+  <sodipodi:namedview
+     inkscape:document-rotation="0"
+     showguides="false"
+     inkscape:window-maximized="1"
+     inkscape:window-y="-8"
+     inkscape:window-x="1912"
+     inkscape:window-height="1017"
+     inkscape:window-width="1920"
+     showgrid="false"
+     inkscape:current-layer="g4730"
+     inkscape:document-units="mm"
+     inkscape:cy="698.27631"
+     inkscape:cx="237.7418"
+     inkscape:zoom="0.70710678"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     borderopacity="1.0"
+     bordercolor="#666666"
+     pagecolor="#ffffff"
+     id="base" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     transform="translate(0,53)"
+     id="layer1"
+     inkscape:groupmode="layer"
+     inkscape:label="Layer 1">
+    <g
+       transform="matrix(0.26458333,0,0,0.26458333,2.2160816,42.909777)"
+       id="g4862"
+       style="fill:none;stroke:none;stroke-linecap:square;stroke-miterlimit:10">
+      <g
+         clip-path="url(#p.0)"
+         id="g4730">
+        <path
+           inkscape:export-ydpi="120"
+           inkscape:export-xdpi="120"
+           inkscape:export-filename="C:\Users\sanus\Documents\paper work\ODE_FBA\source_night.png"
+           style="fill:#ffffff;fill-rule:evenodd;stroke:none;stroke-width:0.57243246;stroke-linecap:square;stroke-miterlimit:10"
+           inkscape:connector-curvature="0"
+           d="m 177.6637,59.49569 h 36.24075 v 27.7146 H 177.6637 Z"
+           id="path4596-4" />
+        <path
+           style="fill:#000000;fill-opacity:0;fill-rule:evenodd"
+           inkscape:connector-curvature="0"
+           d="M 0,0 H 1194.6771 V 766.3963 H 0 Z"
+           id="path4488" />
+        <path
+           style="fill:#000000;fill-opacity:0;fill-rule:evenodd"
+           inkscape:connector-curvature="0"
+           d="m 574.3118,194.67892 v 0 c 0,-24.45226 19.82251,-44.27472 44.27472,-44.27472 h 486.88368 c 11.7423,0 23.0038,4.66464 31.3069,12.96776 8.3032,8.30313 12.9677,19.56457 12.9677,31.30696 v 292.11197 c 0,24.45224 -19.8223,44.27472 -44.2746,44.27472 H 618.58652 c -24.45221,0 -44.27472,-19.82248 -44.27472,-44.27472 z"
+           id="path4490" />
+        <path
+           inkscape:export-ydpi="120"
+           inkscape:export-xdpi="120"
+           inkscape:export-filename="C:\Users\sanus\Documents\paper work\ODE_FBA\source_night.png"
+           style="fill:#000000;fill-opacity:0;fill-rule:evenodd"
+           inkscape:connector-curvature="0"
+           d="m 470.27687,172.89132 h 77.66931 v 39.46457 h -77.66931 z"
+           id="path4494" />
+        <path
+           inkscape:export-ydpi="120"
+           inkscape:export-xdpi="120"
+           inkscape:export-filename="C:\Users\sanus\Documents\paper work\ODE_FBA\source_night.png"
+           style="fill:#000000;fill-opacity:0;fill-rule:evenodd"
+           inkscape:connector-curvature="0"
+           d="m 426.04103,190.83995 43.27557,-31.1811"
+           id="path4498" />
+        <path
+           inkscape:export-ydpi="120"
+           inkscape:export-xdpi="120"
+           inkscape:export-filename="C:\Users\sanus\Documents\paper work\ODE_FBA\source_night.png"
+           style="fill:#000000;fill-opacity:0;fill-rule:evenodd"
+           inkscape:connector-curvature="0"
+           d="m 600.13515,182.89132 h 77.66931 v 39.46457 h -77.66931 z"
+           id="path4504" />
+        <path
+           inkscape:export-ydpi="120"
+           inkscape:export-xdpi="120"
+           inkscape:export-filename="C:\Users\sanus\Documents\paper work\ODE_FBA\source_night.png"
+           style="fill:#000000;fill-rule:nonzero"
+           inkscape:connector-curvature="0"
+           d="m 431.89375,273.81132 v -11.78125 h -4.40625 v -1.57813 h 10.57813 v 1.57813 h -4.40625 v 11.78125 z m 7.98975,0 v -13.35938 h 5.04687 q 1.32813,0 2.03125,0.125 0.96875,0.17188 1.64063,0.64063 0.67187,0.45312 1.07812,1.28125 0.40625,0.82812 0.40625,1.82812 0,1.70313 -1.09375,2.89063 -1.07812,1.17187 -3.92187,1.17187 h -3.42188 v 5.42188 z m 1.76562,-7 h 3.45313 q 1.71875,0 2.4375,-0.64063 0.71875,-0.64062 0.71875,-1.79687 0,-0.84375 -0.42188,-1.4375 -0.42187,-0.59375 -1.125,-0.78125 -0.4375,-0.125 -1.64062,-0.125 h -3.42188 z"
+           id="path4506" />
+        <path
+           inkscape:export-ydpi="120"
+           inkscape:export-xdpi="120"
+           inkscape:export-filename="C:\Users\sanus\Documents\paper work\ODE_FBA\source_night.png"
+           style="fill:#000000;fill-opacity:0;fill-rule:evenodd"
+           inkscape:connector-curvature="0"
+           d="m 470.27687,248.17479 h 77.66931 v 39.46455 h -77.66931 z"
+           id="path4508" />
+        <path
+           inkscape:export-ydpi="120"
+           inkscape:export-xdpi="120"
+           inkscape:export-filename="C:\Users\sanus\Documents\paper work\ODE_FBA\source_night.png"
+           style="fill:#000000;fill-rule:nonzero"
+           inkscape:connector-curvature="0"
+           d="m 499.2274,271.56353 1.64063,-0.21875 q 0.28125,1.40625 0.95312,2.01562 0.6875,0.60938 1.65625,0.60938 1.15625,0 1.95313,-0.79688 0.79687,-0.79687 0.79687,-1.98437 0,-1.125 -0.73437,-1.85938 -0.73438,-0.73437 -1.875,-0.73437 -0.46875,0 -1.15625,0.17187 l 0.1875,-1.4375 q 0.15625,0.0156 0.26562,0.0156 1.04688,0 1.875,-0.54688 0.84375,-0.54687 0.84375,-1.67187 0,-0.90625 -0.60937,-1.5 -0.60938,-0.59375 -1.57813,-0.59375 -0.95312,0 -1.59375,0.60937 -0.64062,0.59375 -0.8125,1.79688 l -1.64062,-0.29688 q 0.29687,-1.64062 1.35937,-2.54687 1.0625,-0.90625 2.65625,-0.90625 1.09375,0 2,0.46875 0.92188,0.46875 1.40625,1.28125 0.5,0.8125 0.5,1.71875 0,0.85937 -0.46875,1.57812 -0.46875,0.70313 -1.375,1.125 1.1875,0.28125 1.84375,1.14063 0.65625,0.85937 0.65625,2.15625 0,1.73437 -1.28125,2.95312 -1.26562,1.21875 -3.21875,1.21875 -1.76562,0 -2.92187,-1.04687 -1.15625,-1.04688 -1.32813,-2.71875 z m 11.03198,3.53125 V 261.7354 h 5.04688 q 1.32812,0 2.03125,0.125 0.96875,0.17188 1.64062,0.64063 0.67185,0.45312 1.0781,1.28125 0.40625,0.82812 0.40625,1.82812 0,1.70313 -1.09375,2.89063 -1.0781,1.17187 -3.92185,1.17187 h -3.42187 v 5.42188 z m 1.76563,-7 h 3.45312 q 1.71875,0 2.4375,-0.64063 0.71875,-0.64062 0.71875,-1.79687 0,-0.84375 -0.42187,-1.4375 -0.42188,-0.59375 -1.125,-0.78125 -0.4375,-0.125 -1.64063,-0.125 h -3.42187 z m 16.92795,1.76562 v -1.57812 h 5.65625 v 4.95312 q -1.29688,1.04688 -2.6875,1.57813 -1.375,0.51562 -2.84375,0.51562 -1.96875,0 -3.57813,-0.84375 -1.60937,-0.84375 -2.42187,-2.4375 -0.8125,-1.59375 -0.8125,-3.5625 0,-1.95312 0.8125,-3.64062 0.8125,-1.6875 2.34375,-2.5 1.53125,-0.82813 3.51562,-0.82813 1.45313,0 2.625,0.46875 1.17188,0.46875 1.82813,1.3125 0.67187,0.82813 1.01562,2.17188 l -1.59375,0.4375 q -0.29687,-1.01563 -0.75,-1.59375 -0.4375,-0.59375 -1.26562,-0.9375 -0.82813,-0.34375 -1.84375,-0.34375 -1.20313,0 -2.09375,0.375 -0.89063,0.35937 -1.4375,0.96875 -0.53125,0.59375 -0.82813,1.3125 -0.51562,1.23437 -0.51562,2.6875 0,1.78125 0.60937,2.98437 0.625,1.20313 1.79688,1.79688 1.17187,0.57812 2.5,0.57812 1.14062,0 2.23437,-0.4375 1.09375,-0.45312 1.65625,-0.95312 v -2.48438 z"
+           id="path4510" />
+        <path
+           inkscape:export-ydpi="120"
+           inkscape:export-xdpi="120"
+           inkscape:export-filename="C:\Users\sanus\Documents\paper work\ODE_FBA\source_night.png"
+           style="fill:#000000;fill-opacity:0;fill-rule:evenodd"
+           inkscape:connector-curvature="0"
+           d="m 600.13515,248.17479 h 77.66931 v 39.46455 h -77.66931 z"
+           id="path4512" />
+        <path
+           inkscape:export-ydpi="120"
+           inkscape:export-xdpi="120"
+           inkscape:export-filename="C:\Users\sanus\Documents\paper work\ODE_FBA\source_night.png"
+           style="fill:#000000;fill-rule:nonzero"
+           inkscape:connector-curvature="0"
+           d="m 498.94279,183.13496 1.64062,-0.21875 q 0.28125,1.40625 0.95313,2.01562 0.6875,0.60938 1.65625,0.60938 1.15625,0 1.95312,-0.79688 0.79688,-0.79687 0.79688,-1.98437 0,-1.125 -0.73438,-1.85938 -0.73437,-0.73437 -1.875,-0.73437 -0.46875,0 -1.15625,0.17187 l 0.1875,-1.4375 q 0.15625,0.0156 0.26563,0.0156 1.04687,0 1.875,-0.54688 0.84375,-0.54687 0.84375,-1.67187 0,-0.90625 -0.60938,-1.5 -0.60937,-0.59375 -1.57812,-0.59375 -0.95313,0 -1.59375,0.60937 -0.64063,0.59375 -0.8125,1.79688 l -1.64063,-0.29688 q 0.29688,-1.64062 1.35938,-2.54687 1.0625,-0.90625 2.65625,-0.90625 1.09375,0 2,0.46875 0.92187,0.46875 1.40625,1.28125 0.5,0.8125 0.5,1.71875 0,0.85937 -0.46875,1.57812 -0.46875,0.70313 -1.375,1.125 1.1875,0.28125 1.84375,1.14063 0.65625,0.85937 0.65625,2.15625 0,1.73437 -1.28125,2.95312 -1.26563,1.21875 -3.21875,1.21875 -1.76563,0 -2.92188,-1.04687 -1.15625,-1.04688 -1.32812,-2.71875 z m 11.03198,3.53125 v -13.35938 h 5.04688 q 1.32812,0 2.03125,0.125 0.96875,0.17188 1.64062,0.64063 0.67188,0.45312 1.07813,1.28125 0.40625,0.82812 0.40625,1.82812 0,1.70313 -1.09375,2.89063 -1.07813,1.17187 -3.92188,1.17187 h -3.42187 v 5.42188 z m 1.76563,-7 h 3.45312 q 1.71875,0 2.4375,-0.64063 0.71875,-0.64062 0.71875,-1.79687 0,-0.84375 -0.42187,-1.4375 -0.42188,-0.59375 -1.125,-0.78125 -0.4375,-0.125 -1.64063,-0.125 h -3.42187 z m 16.92798,1.76562 v -1.57812 h 5.65625 v 4.95312 q -1.29688,1.04688 -2.6875,1.57813 -1.375,0.51562 -2.84375,0.51562 -1.96875,0 -3.57813,-0.84375 -1.60937,-0.84375 -2.42187,-2.4375 -0.8125,-1.59375 -0.8125,-3.5625 0,-1.95312 0.8125,-3.64062 0.8125,-1.6875 2.34375,-2.5 1.53125,-0.82813 3.51562,-0.82813 1.45313,0 2.625,0.46875 1.17188,0.46875 1.82813,1.3125 0.67187,0.82813 1.01562,2.17188 l -1.59375,0.4375 q -0.29687,-1.01563 -0.75,-1.59375 -0.4375,-0.59375 -1.26562,-0.9375 -0.82813,-0.34375 -1.84375,-0.34375 -1.20313,0 -2.09375,0.375 -0.89063,0.35937 -1.4375,0.96875 -0.53125,0.59375 -0.82813,1.3125 -0.51562,1.23437 -0.51562,2.6875 0,1.78125 0.60937,2.98437 0.625,1.20313 1.79688,1.79688 1.17187,0.57812 2.5,0.57812 1.14062,0 2.23437,-0.4375 1.09375,-0.45312 1.65625,-0.95312 v -2.48438 z"
+           id="path4514" />
+        <path
+           inkscape:export-ydpi="120"
+           inkscape:export-xdpi="120"
+           inkscape:export-filename="C:\Users\sanus\Documents\paper work\ODE_FBA\source_night.png"
+           style="fill:#000000;fill-opacity:0;fill-rule:evenodd"
+           inkscape:connector-curvature="0"
+           d="m 509.2668,195.76766 -0.66406,52.18474"
+           id="path4516" />
+        <path
+           inkscape:export-ydpi="120"
+           inkscape:export-xdpi="120"
+           inkscape:export-filename="C:\Users\sanus\Documents\paper work\ODE_FBA\source_night.png"
+           style="fill:#000000;fill-opacity:0;fill-rule:evenodd"
+           inkscape:connector-curvature="0"
+           d="M 596.46608,240.436 581.23562,190.51885"
+           id="path4522" />
+        <path
+           inkscape:export-ydpi="120"
+           inkscape:export-xdpi="120"
+           inkscape:export-filename="C:\Users\sanus\Documents\paper work\ODE_FBA\source_night.png"
+           style="fill:#000000;fill-opacity:0;fill-rule:evenodd"
+           inkscape:connector-curvature="0"
+           d="m 577.41859,214.43267 h 32.50397 v 31.18111 h -32.50397 z"
+           id="path4528" />
+        <path
+           inkscape:export-ydpi="120"
+           inkscape:export-xdpi="120"
+           inkscape:export-filename="C:\Users\sanus\Documents\paper work\ODE_FBA\source_night.png"
+           style="fill:#000000;fill-opacity:0;fill-rule:evenodd"
+           inkscape:connector-curvature="0"
+           d="m 527.87449,243.86632 c -3.09426,-4.0585 -19.52811,-17.37324 -18.56566,-24.35105 0.96244,-6.97783 20.28361,-14.59655 24.34032,-17.51587"
+           id="path4532" />
+        <path
+           inkscape:export-ydpi="120"
+           inkscape:export-xdpi="120"
+           inkscape:export-filename="C:\Users\sanus\Documents\paper work\ODE_FBA\source_night.png"
+           style="fill:#000000;fill-opacity:0;fill-rule:evenodd"
+           inkscape:connector-curvature="0"
+           d="m 563.91484,201.99412 c 4.18156,2.92585 23.88512,10.61497 25.08935,17.55514 1.20421,6.9402 -14.88673,20.07163 -17.86406,24.08596"
+           id="path4538" />
+        <path
+           inkscape:export-ydpi="120"
+           inkscape:export-xdpi="120"
+           inkscape:export-filename="C:\Users\sanus\Documents\paper work\ODE_FBA\source_night.png"
+           style="fill:#000000;fill-opacity:0;fill-rule:evenodd;stroke-width:0.80000001;stroke-miterlimit:10;stroke-dasharray:none"
+           inkscape:connector-curvature="0"
+           d="m 463.44307,180.33808 25.82519,-0.28651"
+           id="path4544" />
+        <path
+           inkscape:export-ydpi="120"
+           inkscape:export-xdpi="120"
+           inkscape:export-filename="C:\Users\sanus\Documents\paper work\ODE_FBA\source_night.png"
+           sodipodi:nodetypes="cc"
+           style="fill-rule:evenodd;stroke:#ff0000;stroke-width:0.50800001;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+           inkscape:connector-curvature="0"
+           d="m 454.16802,180.33808 33.10061,-0.21996"
+           id="path4546" />
+        <path
+           inkscape:export-ydpi="120"
+           inkscape:export-xdpi="120"
+           inkscape:export-filename="C:\Users\sanus\Documents\paper work\ODE_FBA\source_night.png"
+           style="fill:#ff0000;fill-rule:evenodd;stroke:#ff0000;stroke-width:1.33333335;stroke-linecap:butt;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+           inkscape:connector-curvature="0"
+           d="m 487.2503,178.46648 4.55615,1.60128 -4.5195,1.70199 z"
+           id="path4548" />
+        <path
+           inkscape:export-ydpi="120"
+           inkscape:export-xdpi="120"
+           inkscape:export-filename="C:\Users\sanus\Documents\paper work\ODE_FBA\source_night.png"
+           inkscape:transform-center-y="-14.025463"
+           inkscape:transform-center-x="23.244268"
+           style="fill:#000000;fill-opacity:0;fill-rule:evenodd"
+           inkscape:connector-curvature="0"
+           d="m 539.66933,269.36392 25.81817,0.66615"
+           id="path4550" />
+        <path
+           inkscape:export-ydpi="120"
+           inkscape:export-xdpi="120"
+           inkscape:export-filename="C:\Users\sanus\Documents\paper work\ODE_FBA\source_night.png"
+           style="fill:#000000;fill-opacity:0;fill-rule:evenodd"
+           inkscape:connector-curvature="0"
+           d="m 470.27687,407.45825 h 77.66931 v 39.46457 h -77.66931 z"
+           id="path4556" />
+        <path
+           inkscape:export-ydpi="120"
+           inkscape:export-xdpi="120"
+           inkscape:export-filename="C:\Users\sanus\Documents\paper work\ODE_FBA\source_night.png"
+           style="fill:#000000;fill-rule:nonzero"
+           inkscape:connector-curvature="0"
+           d="m 491.88365,434.37827 v -13.35938 h 5.04688 q 1.32812,0 2.03125,0.125 0.96875,0.17188 1.64062,0.64063 0.67188,0.45312 1.07813,1.28125 0.40625,0.82812 0.40625,1.82812 0,1.70313 -1.09375,2.89063 -1.07813,1.17187 -3.92188,1.17187 h -3.42187 v 5.42188 z m 1.76563,-7 h 3.45312 q 1.71875,0 2.4375,-0.64063 0.71875,-0.64062 0.71875,-1.79687 0,-0.84375 -0.42187,-1.4375 -0.42188,-0.59375 -1.125,-0.78125 -0.4375,-0.125 -1.64063,-0.125 h -3.42187 z m 10.70919,7 v -13.35938 h 9.65625 v 1.57813 h -7.875 v 4.09375 h 7.375 v 1.5625 h -7.375 v 4.54687 h 8.1875 v 1.57813 z m 12.41236,0 v -13.35938 h 5.04687 q 1.32813,0 2.03125,0.125 0.96875,0.17188 1.64063,0.64063 0.67187,0.45312 1.07812,1.28125 0.40625,0.82812 0.40625,1.82812 0,1.70313 -1.09375,2.89063 -1.07812,1.17187 -3.92187,1.17187 h -3.42188 v 5.42188 z m 1.76562,-7 h 3.45313 q 1.71875,0 2.4375,-0.64063 0.71875,-0.64062 0.71875,-1.79687 0,-0.84375 -0.42188,-1.4375 -0.42187,-0.59375 -1.125,-0.78125 -0.4375,-0.125 -1.64062,-0.125 h -3.42188 z"
+           id="path4558" />
+        <path
+           inkscape:export-ydpi="120"
+           inkscape:export-xdpi="120"
+           inkscape:export-filename="C:\Users\sanus\Documents\paper work\ODE_FBA\source_night.png"
+           style="fill:#000000;fill-opacity:0;fill-rule:evenodd"
+           inkscape:connector-curvature="0"
+           d="m 470.27687,472.74173 h 77.66931 v 39.46457 h -77.66931 z"
+           id="path4560" />
+        <path
+           inkscape:export-ydpi="120"
+           inkscape:export-xdpi="120"
+           inkscape:export-filename="C:\Users\sanus\Documents\paper work\ODE_FBA\source_night.png"
+           style="fill:#000000;fill-rule:nonzero"
+           inkscape:connector-curvature="0"
+           d="m 491.36897,499.66171 v -13.35938 h 5.04688 q 1.32812,0 2.03125,0.125 0.96875,0.17188 1.64062,0.64063 0.67188,0.45312 1.07813,1.28125 0.40625,0.82812 0.40625,1.82812 0,1.70313 -1.09375,2.89063 -1.07813,1.17187 -3.92188,1.17187 h -3.42187 v 5.42188 z m 1.76563,-7 h 3.45312 q 1.71875,0 2.4375,-0.64063 0.71875,-0.64062 0.71875,-1.79687 0,-0.84375 -0.42187,-1.4375 -0.42188,-0.59375 -1.125,-0.78125 -0.4375,-0.125 -1.64063,-0.125 h -3.42187 z m 14.44357,7 v -5.65625 l -5.15625,-7.70313 h 2.15625 l 2.64062,4.03125 q 0.71875,1.125 1.34375,2.26563 0.60938,-1.04688 1.46875,-2.35938 l 2.57816,-3.9375 h 2.0625 l -5.32816,7.70313 v 5.65625 z m 8.7092,0 v -13.35938 h 5.92187 q 1.78125,0 2.70313,0.35938 0.9375,0.35937 1.48437,1.28125 0.5625,0.90625 0.5625,2.01562 0,1.40625 -0.92187,2.39063 -0.92188,0.96875 -2.84375,1.23437 0.70312,0.34375 1.07812,0.67188 0.76563,0.70312 1.45313,1.76562 l 2.32812,3.64063 h -2.21875 l -1.76562,-2.78125 q -0.78125,-1.20313 -1.28125,-1.82813 -0.5,-0.64062 -0.90625,-0.89062 -0.39063,-0.26563 -0.79688,-0.35938 -0.29687,-0.0781 -0.98437,-0.0781 h -2.04688 v 5.9375 z m 1.76562,-7.45313 h 3.79688 q 1.21875,0 1.89062,-0.25 0.6875,-0.26562 1.04688,-0.8125 0.35937,-0.54687 0.35937,-1.1875 0,-0.95312 -0.6875,-1.5625 -0.6875,-0.60937 -2.1875,-0.60937 h -4.21875 z"
+           id="path4562" />
+        <path
+           inkscape:export-ydpi="120"
+           inkscape:export-xdpi="120"
+           inkscape:export-filename="C:\Users\sanus\Documents\paper work\ODE_FBA\source_night.png"
+           style="fill:#000000;fill-opacity:0;fill-rule:evenodd"
+           inkscape:connector-curvature="0"
+           d="m 509.11152,287.63934 v 25.82678"
+           id="path4564" />
+        <path
+           inkscape:export-ydpi="120"
+           inkscape:export-xdpi="120"
+           inkscape:export-filename="C:\Users\sanus\Documents\paper work\ODE_FBA\source_night.png"
+           style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#ff0c0c;stroke-width:0.99866668;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+           inkscape:connector-curvature="0"
+           d="M 515.11152,287.63934 V 403.88292"
+           id="path4566" />
+        <path
+           inkscape:export-ydpi="120"
+           inkscape:export-xdpi="120"
+           inkscape:export-filename="C:\Users\sanus\Documents\paper work\ODE_FBA\source_night.png"
+           style="fill:#ff0000;fill-rule:evenodd;stroke:#f80000;stroke-width:1.33333335;stroke-linecap:butt;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+           inkscape:connector-curvature="0"
+           d="m 513.45979,401.46612 1.65173,4.53812 1.65174,-4.53812 z"
+           id="path4568" />
+        <path
+           inkscape:export-ydpi="120"
+           inkscape:export-xdpi="120"
+           inkscape:export-filename="C:\Users\sanus\Documents\paper work\ODE_FBA\source_night.png"
+           style="fill:#000000;fill-opacity:0;fill-rule:evenodd;stroke-width:0.60000001;stroke-miterlimit:10;stroke-dasharray:none"
+           inkscape:connector-curvature="0"
+           d="M 509.11152,446.92282 V 472.7496"
+           id="path4570" />
+        <path
+           inkscape:export-ydpi="120"
+           inkscape:export-xdpi="120"
+           inkscape:export-filename="C:\Users\sanus\Documents\paper work\ODE_FBA\source_night.png"
+           style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#ff0c0c;stroke-width:0.98133334;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+           inkscape:connector-curvature="0"
+           d="M 509.11152,446.92282 V 466.7496"
+           id="path4572" />
+        <path
+           inkscape:export-ydpi="120"
+           inkscape:export-xdpi="120"
+           inkscape:export-filename="C:\Users\sanus\Documents\paper work\ODE_FBA\source_night.png"
+           style="fill:#ff0000;fill-rule:evenodd;stroke:#f80000;stroke-width:1.33333335;stroke-linecap:butt;stroke-opacity:1;stroke-miterlimit:10;stroke-dasharray:none"
+           inkscape:connector-curvature="0"
+           d="m 507.45979,466.7496 1.65173,4.53809 1.65174,-4.53809 z"
+           id="path4574" />
+        <path
+           style="fill:#000000;fill-opacity:0;fill-rule:evenodd"
+           inkscape:connector-curvature="0"
+           d="m 50.343834,591.72766 v 0 c 0,-18.14313 14.707916,-32.85101 32.85105,-32.85101 H 1116.8944 c 8.7126,0 17.0683,3.46106 23.2291,9.62182 6.1608,6.16077 9.6218,14.51661 9.6218,23.22919 v 131.40027 c 0,18.14313 -14.7078,32.85107 -32.8509,32.85107 H 83.194884 c -18.143135,0 -32.85105,-14.70794 -32.85105,-32.85107 z"
+           id="path4576" />
+        <path
+           inkscape:export-ydpi="120"
+           inkscape:export-xdpi="120"
+           inkscape:export-filename="C:\Users\sanus\Documents\paper work\ODE_FBA\source_night.png"
+           sodipodi:nodetypes="ccccccccc"
+           clip-path="url(#clipPath5090)"
+           style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#ff0c0c;stroke-width:1.20666669;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+           inkscape:connector-curvature="0"
+           d="m 360.18409,682.58163 v 0 c 0,-39.95587 33.32834,-72.3465 74.44095,-72.3465 v 0 c 19.74298,0 38.67732,7.62219 52.6377,21.18982 13.96039,13.56757 21.80326,31.96918 21.80326,51.15668 -9.04768,42.08882 -42.8796,71.41413 -74.44096,72.34643 v 0 c -41.11261,0 -74.44095,-32.39062 -74.44095,-72.34643 z"
+           id="path4582-1-3" />
+        <path
+           inkscape:export-ydpi="120"
+           inkscape:export-xdpi="120"
+           inkscape:export-filename="C:\Users\sanus\Documents\paper work\ODE_FBA\source_night.png"
+           style="fill:#000000;fill-opacity:0;fill-rule:evenodd"
+           inkscape:connector-curvature="0"
+           d="m 360.18409,682.58163 v 0 c 0,-39.95587 33.32834,-72.3465 74.44095,-72.3465 v 0 c 19.74298,0 38.67731,7.62219 52.63769,21.18982 13.96039,13.56757 21.80326,31.96918 21.80326,51.15668 v 0 c 0,39.95581 -33.32834,72.34643 -74.44095,72.34643 v 0 c -41.11261,0 -74.44095,-32.39062 -74.44095,-72.34643 z"
+           id="path4580" />
+        <path
+           inkscape:export-ydpi="120"
+           inkscape:export-xdpi="120"
+           inkscape:export-filename="C:\Users\sanus\Documents\paper work\ODE_FBA\source_night.png"
+           style="fill:#000000;fill-opacity:0;fill-rule:evenodd"
+           inkscape:connector-curvature="0"
+           d="m 497.91398,720.91507 c -2.09668,2.44666 -7.16318,9.96198 -12.58005,14.67981 -5.4169,4.71783 -16.60107,11.35608 -19.92126,13.62732"
+           id="path4584" />
+        <path
+           inkscape:export-ydpi="120"
+           inkscape:export-xdpi="120"
+           inkscape:export-filename="C:\Users\sanus\Documents\paper work\ODE_FBA\source_night.png"
+           style="fill:#000000;fill-opacity:0;fill-rule:evenodd"
+           inkscape:connector-curvature="0"
+           d="m 412.56915,752.82937 c -2.92447,-1.35242 -11.53403,-4.18451 -17.54687,-8.11438 -6.01282,-3.92987 -15.44178,-12.88745 -18.53013,-15.46497"
+           id="path4590" />
+        <path
+           inkscape:export-ydpi="120"
+           inkscape:export-xdpi="120"
+           inkscape:export-filename="C:\Users\sanus\Documents\paper work\ODE_FBA\source_night.png"
+           style="fill:#ffffff;fill-rule:evenodd;stroke-width:0.88796425"
+           inkscape:connector-curvature="0"
+           d="m 355.6959,602.14853 h 61.24074 v 39.4646 H 355.6959 Z"
+           id="path4596" />
+        <path
+           inkscape:export-ydpi="120"
+           inkscape:export-xdpi="120"
+           inkscape:export-filename="C:\Users\sanus\Documents\paper work\ODE_FBA\source_night.png"
+           style="fill:#000000;fill-rule:nonzero"
+           inkscape:connector-curvature="0"
+           d="m 375.73753,622.56851 q 0,-3.32813 1.78125,-5.20313 1.78125,-1.89062 4.60938,-1.89062 1.84375,0 3.32812,0.89062 1.48438,0.875 2.26563,2.46875 0.78125,1.57813 0.78125,3.57813 0,2.03125 -0.82813,3.64062 -0.8125,1.59375 -2.3125,2.42188 -1.5,0.82812 -3.25,0.82812 -1.875,0 -3.35937,-0.90625 -1.48438,-0.92187 -2.25,-2.5 -0.76563,-1.57812 -0.76563,-3.32812 z m 1.8125,0.0156 q 0,2.42188 1.29688,3.8125 1.29687,1.39063 3.26562,1.39063 2,0 3.28125,-1.40625 1.28125,-1.40625 1.28125,-3.98438 0,-1.625 -0.54687,-2.84375 -0.54688,-1.21875 -1.60938,-1.875 -1.0625,-0.67187 -2.375,-0.67187 -1.89062,0 -3.25,1.29687 -1.34375,1.28125 -1.34375,4.28125 z m 11.76141,6.48438 5.125,-13.35938 h 1.90625 l 5.46875,13.35938 h -2.01562 l -1.54688,-4.04688 h -5.59375 l -1.46875,4.04688 z m 3.85938,-5.48438 h 4.53125 l -1.40625,-3.70312 q -0.625,-1.6875 -0.9375,-2.76563 -0.26563,1.28125 -0.71875,2.54688 z m 8.5842,5.48438 5.125,-13.35938 h 1.90625 l 5.46875,13.35938 h -2.01563 l -1.54687,-4.04688 h -5.59375 l -1.46875,4.04688 z m 3.85937,-5.48438 h 4.53125 l -1.40625,-3.70312 q -0.625,-1.6875 -0.9375,-2.76563 -0.26562,1.28125 -0.71875,2.54688 z"
+           id="path4598" />
+        <path
+           inkscape:export-ydpi="120"
+           inkscape:export-xdpi="120"
+           inkscape:export-filename="C:\Users\sanus\Documents\paper work\ODE_FBA\source_night.png"
+           style="fill:#ffffff;fill-rule:evenodd;stroke-width:0.9122104"
+           inkscape:connector-curvature="0"
+           d="m 325.36785,657.60263 h 77.66928 v 32.83954 h -77.66928 z"
+           id="path4600" />
+        <path
+           inkscape:export-ydpi="120"
+           inkscape:export-xdpi="120"
+           inkscape:export-filename="C:\Users\sanus\Documents\paper work\ODE_FBA\source_night.png"
+           style="fill:#000000;fill-rule:nonzero"
+           inkscape:connector-curvature="0"
+           d="m 346.41305,684.52261 v -13.35938 h 2.65625 l 3.15625,9.45313 q 0.4375,1.32812 0.64062,1.98437 0.23438,-0.73437 0.70313,-2.14062 l 3.20312,-9.29688 h 2.37504 v 13.35938 h -1.70313 v -11.17188 l -3.87503,11.17188 h -1.59375 l -3.85938,-11.375 v 11.375 z m 14.11896,0 5.125,-13.35938 h 1.90625 l 5.46875,13.35938 h -2.01563 l -1.54687,-4.04688 h -5.59375 l -1.46875,4.04688 z m 3.85937,-5.48438 h 4.53125 l -1.40625,-3.70312 q -0.625,-1.6875 -0.9375,-2.76563 -0.26562,1.28125 -0.71875,2.54688 z m 9.97483,5.48438 v -13.35938 h 1.78125 v 11.78125 h 6.5625 v 1.57813 z"
+           id="path4602" />
+        <path
+           inkscape:export-ydpi="120"
+           inkscape:export-xdpi="120"
+           inkscape:export-filename="C:\Users\sanus\Documents\paper work\ODE_FBA\source_night.png"
+           style="fill:#000000;fill-opacity:0;fill-rule:evenodd"
+           inkscape:connector-curvature="0"
+           d="m 382.66685,634.73907 c -1.30298,1.64868 -5.38165,5.70294 -7.81778,9.89203 -2.4361,4.18909 -5.66577,12.70196 -6.79892,15.24237"
+           id="path4604" />
+        <path
+           inkscape:export-ydpi="120"
+           inkscape:export-xdpi="120"
+           inkscape:export-filename="C:\Users\sanus\Documents\paper work\ODE_FBA\source_night.png"
+           style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#ff0c0c;stroke-width:2.1426667;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+           inkscape:connector-curvature="0"
+           d="m 375.89636,639.59935 c -1.04911,1.82081 -4.49431,6.42553 -6.29478,10.92457 -0.90026,2.24952 -1.83945,5.59734 -2.6475,8.71759 -0.10102,0.39002 -0.19996,0.77651 -0.29657,1.15687 l -0.0952,0.37773"
+           id="path4606" />
+        <path
+           inkscape:export-ydpi="120"
+           inkscape:export-xdpi="120"
+           inkscape:export-filename="C:\Users\sanus\Documents\paper work\ODE_FBA\source_night.png"
+           style="fill:#000000;fill-rule:evenodd;stroke:#ff0000;stroke-width:2.66666675;stroke-linecap:butt;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+           inkscape:connector-curvature="0"
+           d="m 376.48306,641.65409 1.52931,-4.58086 -4.11601,2.52612 z"
+           id="path4608" />
+        <path
+           inkscape:export-ydpi="120"
+           inkscape:export-xdpi="120"
+           inkscape:export-filename="C:\Users\sanus\Documents\paper work\ODE_FBA\source_night.png"
+           style="fill:#000000;fill-opacity:0;fill-rule:evenodd"
+           inkscape:connector-curvature="0"
+           d="m 509.11152,418.20629 -0.0315,264.37796"
+           id="path4610" />
+        <path
+           inkscape:export-ydpi="120"
+           inkscape:export-xdpi="120"
+           inkscape:export-filename="C:\Users\sanus\Documents\paper work\ODE_FBA\source_night.png"
+           style="fill:#ff0000;fill-rule:evenodd;stroke:#ff0000;stroke-width:1.33333335;stroke-linecap:butt;stroke-opacity:1;stroke-miterlimit:10;stroke-dasharray:none"
+           inkscape:connector-curvature="0"
+           d="m 507.429,678.58401 1.65118,4.53833 1.65229,-4.5379 z"
+           id="path4614" />
+        <path
+           inkscape:export-ydpi="120"
+           inkscape:export-xdpi="120"
+           inkscape:export-filename="C:\Users\sanus\Documents\paper work\ODE_FBA\source_night.png"
+           style="fill:#000000;fill-rule:nonzero"
+           inkscape:connector-curvature="0"
+           d="m 375.73753,422.56854 q 0,-3.32813 1.78125,-5.20313 1.78125,-1.89062 4.60938,-1.89062 1.84375,0 3.32812,0.89062 1.48438,0.875 2.26563,2.46875 0.78125,1.57813 0.78125,3.57813 0,2.03125 -0.82813,3.64062 -0.8125,1.59375 -2.3125,2.42188 -1.5,0.82812 -3.25,0.82812 -1.875,0 -3.35937,-0.90625 -1.48438,-0.92187 -2.25,-2.5 -0.76563,-1.57812 -0.76563,-3.32812 z m 1.8125,0.0156 q 0,2.42188 1.29688,3.8125 1.29687,1.39063 3.26562,1.39063 2,0 3.28125,-1.40625 1.28125,-1.40625 1.28125,-3.98438 0,-1.625 -0.54687,-2.84375 -0.54688,-1.21875 -1.60938,-1.875 -1.0625,-0.67187 -2.375,-0.67187 -1.89062,0 -3.25,1.29687 -1.34375,1.28125 -1.34375,4.28125 z m 11.76141,6.48438 5.125,-13.35938 h 1.90625 l 5.46875,13.35938 h -2.01562 l -1.54688,-4.04688 h -5.59375 l -1.46875,4.04688 z m 3.85938,-5.48438 h 4.53125 l -1.40625,-3.70312 q -0.625,-1.6875 -0.9375,-2.76563 -0.26563,1.28125 -0.71875,2.54688 z m 8.5842,5.48438 5.125,-13.35938 h 1.90625 l 5.46875,13.35938 h -2.01563 l -1.54687,-4.04688 h -5.59375 l -1.46875,4.04688 z m 3.85937,-5.48438 h 4.53125 l -1.40625,-3.70312 q -0.625,-1.6875 -0.9375,-2.76563 -0.26562,1.28125 -0.71875,2.54688 z"
+           id="path4618" />
+        <path
+           inkscape:export-ydpi="120"
+           inkscape:export-xdpi="120"
+           inkscape:export-filename="C:\Users\sanus\Documents\paper work\ODE_FBA\source_night.png"
+           style="fill:#000000;fill-rule:nonzero"
+           inkscape:connector-curvature="0"
+           d="m 346.41305,484.52261 v -13.35938 h 2.65625 l 3.15625,9.45313 q 0.4375,1.32812 0.64062,1.98437 0.23438,-0.73437 0.70313,-2.14062 l 3.20312,-9.29688 h 2.37504 v 13.35938 h -1.70313 v -11.17188 l -3.87503,11.17188 h -1.59375 l -3.85938,-11.375 v 11.375 z m 14.11896,0 5.125,-13.35938 h 1.90625 l 5.46875,13.35938 h -2.01563 l -1.54687,-4.04688 h -5.59375 l -1.46875,4.04688 z m 3.85937,-5.48438 h 4.53125 l -1.40625,-3.70312 q -0.625,-1.6875 -0.9375,-2.76563 -0.26562,1.28125 -0.71875,2.54688 z m 9.97483,5.48438 v -13.35938 h 1.78125 v 11.78125 h 6.5625 v 1.57813 z"
+           id="path4622" />
+        <path
+           inkscape:export-ydpi="120"
+           inkscape:export-xdpi="120"
+           inkscape:export-filename="C:\Users\sanus\Documents\paper work\ODE_FBA\source_night.png"
+           style="fill:#000000;fill-opacity:0;fill-rule:evenodd"
+           inkscape:connector-curvature="0"
+           d="m 363.54631,461.62622 15.62204,-22.11023"
+           id="path4624" />
+        <path
+           inkscape:export-ydpi="120"
+           inkscape:export-xdpi="120"
+           inkscape:export-filename="C:\Users\sanus\Documents\paper work\ODE_FBA\source_night.png"
+           style="fill:#000000;fill-opacity:0;fill-rule:evenodd"
+           inkscape:connector-curvature="0"
+           d="m 49.575764,200.84214 v 0 c 0,-19.20424 15.568111,-34.77234 34.77235,-34.77234 H 223.43336 v 0 c 9.2222,0 18.06668,3.6635 24.58775,10.18459 6.52109,6.52107 10.1846,15.36555 10.1846,24.58775 v 311.1167 c 0,19.20425 -15.56813,34.77237 -34.77235,34.77237 H 84.348114 c -19.204239,0 -34.77235,-15.56812 -34.77235,-34.77237 z"
+           id="path4630" />
+        <path
+           inkscape:export-ydpi="120"
+           inkscape:export-xdpi="120"
+           inkscape:export-filename="C:\Users\sanus\Documents\paper work\ODE_FBA\source_night.png"
+           style="fill:#000000;fill-opacity:0;fill-rule:evenodd"
+           inkscape:connector-curvature="0"
+           d="M 325.36785,509.3349 H 203.32059"
+           id="path4642" />
+        <path
+           inkscape:export-ydpi="120"
+           inkscape:export-xdpi="120"
+           inkscape:export-filename="C:\Users\sanus\Documents\paper work\ODE_FBA\source_night.png"
+           style="fill:#000000;fill-opacity:0;fill-rule:evenodd"
+           inkscape:connector-curvature="0"
+           d="M 233.63554,453.88082 H 355.68278"
+           id="path4648" />
+        <path
+           inkscape:export-ydpi="120"
+           inkscape:export-xdpi="120"
+           inkscape:export-filename="C:\Users\sanus\Documents\paper work\ODE_FBA\source_night.png"
+           style="fill:#000000;fill-opacity:0;fill-rule:evenodd"
+           inkscape:connector-curvature="0"
+           d="m 262.43606,439.51599 -15.62204,22.11023"
+           id="path4654" />
+        <path
+           inkscape:export-ydpi="120"
+           inkscape:export-xdpi="120"
+           inkscape:export-filename="C:\Users\sanus\Documents\paper work\ODE_FBA\source_night.png"
+           style="fill:#000000;fill-opacity:0;fill-rule:evenodd"
+           inkscape:connector-curvature="0"
+           d="m 364.20245,529.06717 v 31.90552"
+           id="path4668" />
+        <path
+           inkscape:export-ydpi="120"
+           inkscape:export-xdpi="120"
+           inkscape:export-filename="C:\Users\sanus\Documents\paper work\ODE_FBA\source_night.png"
+           style="fill:#000000;fill-opacity:0;fill-rule:evenodd;stroke-width:6;stroke-miterlimit:10;stroke-dasharray:none"
+           inkscape:connector-curvature="0"
+           d="m 394.53055,602.14853 v 0"
+           id="path4674" />
+        <path
+           inkscape:export-ydpi="120"
+           inkscape:export-xdpi="120"
+           inkscape:export-filename="C:\Users\sanus\Documents\paper work\ODE_FBA\source_night.png"
+           style="fill-rule:evenodd;stroke:#000000;stroke-width:6;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none"
+           inkscape:connector-curvature="0"
+           d="m 394.53055,602.14853 v 0"
+           id="path4676" />
+        <path
+           inkscape:export-ydpi="120"
+           inkscape:export-xdpi="120"
+           inkscape:export-filename="C:\Users\sanus\Documents\paper work\ODE_FBA\source_night.png"
+           style="fill:#000000;fill-opacity:0;fill-rule:evenodd;stroke-width:6;stroke-miterlimit:10;stroke-dasharray:none"
+           inkscape:connector-curvature="0"
+           d="M 394.51255,603.94617 V 593.45795"
+           id="path4678" />
+        <path
+           inkscape:export-ydpi="120"
+           inkscape:export-xdpi="120"
+           inkscape:export-filename="C:\Users\sanus\Documents\paper work\ODE_FBA\source_night.png"
+           style="fill:#000000;fill-opacity:0;fill-rule:evenodd"
+           inkscape:connector-curvature="0"
+           d="m 365.15351,559.91232 c 2.09668,2.9707 12.58005,12.2323 12.58005,17.82416 0,5.59186 -10.48337,13.10583 -12.58005,15.72705"
+           id="path4684" />
+        <path
+           inkscape:export-ydpi="120"
+           inkscape:export-xdpi="120"
+           inkscape:export-filename="C:\Users\sanus\Documents\paper work\ODE_FBA\source_night.png"
+           style="fill:#000000;fill-opacity:0;fill-rule:evenodd"
+           inkscape:connector-curvature="0"
+           d="m 394.67991,559.91232 c -2.60367,2.9707 -15.62192,12.2323 -15.62192,17.82416 0,5.59186 13.01825,13.10583 15.62192,15.72705"
+           id="path4688" />
+        <path
+           inkscape:export-ydpi="120"
+           inkscape:export-xdpi="120"
+           inkscape:export-filename="C:\Users\sanus\Documents\paper work\ODE_FBA\source_night.png"
+           style="fill:#000000;fill-opacity:0;fill-rule:evenodd"
+           inkscape:connector-curvature="0"
+           d="m 614.54241,268.9741 85.2585,-0.47931"
+           id="path4692" />
+        <path
+           inkscape:export-ydpi="120"
+           inkscape:export-xdpi="120"
+           inkscape:export-filename="C:\Users\sanus\Documents\paper work\ODE_FBA\source_night.png"
+           style="fill:#000000;fill-opacity:0;fill-rule:evenodd"
+           inkscape:connector-curvature="0"
+           d="m 673.80446,287.63934 h 88.44098 v 39.46457 h -88.44098 z"
+           id="path4698" />
+        <path
+           inkscape:export-ydpi="120"
+           inkscape:export-xdpi="120"
+           inkscape:export-filename="C:\Users\sanus\Documents\paper work\ODE_FBA\source_night.png"
+           style="fill:#000000;fill-opacity:0;fill-rule:evenodd"
+           inkscape:connector-curvature="0"
+           d="M 470.27687,333.19055 H 394.52885 V 434.13541"
+           id="path4702" />
+        <path
+           inkscape:export-ydpi="120"
+           inkscape:export-xdpi="120"
+           inkscape:export-filename="C:\Users\sanus\Documents\paper work\ODE_FBA\source_night.png"
+           style="fill:#000000;fill-opacity:0;fill-rule:evenodd"
+           inkscape:connector-curvature="0"
+           d="m 507.34669,698.37281 c -2.62894,3.16342 -11.03033,15.53731 -15.77353,18.98032 -4.74323,3.44307 -10.5716,1.39825 -12.68588,1.67789"
+           id="path4708" />
+        <path
+           inkscape:export-ydpi="120"
+           inkscape:export-xdpi="120"
+           inkscape:export-filename="C:\Users\sanus\Documents\paper work\ODE_FBA\source_night.png"
+           sodipodi:nodetypes="cccccc"
+           style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#ff0c0c;stroke-width:1.13866668;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+           inkscape:connector-curvature="0"
+           d="m 507.34669,698.37281 c -1.36623,4.11039 -4.76944,13.31527 -9.5127,16.75824 -1.1858,0.86079 -5.29102,2.9693 -6.53744,3.26613 -0.6233,0.14844 -4.65395,0.87294 -5.26424,0.92619 -0.30512,0.0266 -0.60747,0.0432 -0.90587,0.0517 l -0.24925,0.004"
+           id="path4710" />
+        <path
+           inkscape:export-ydpi="120"
+           inkscape:export-xdpi="120"
+           inkscape:export-filename="C:\Users\sanus\Documents\paper work\ODE_FBA\source_night.png"
+           style="fill:#ff0000;fill-rule:evenodd;stroke:#ff0000;stroke-width:1;stroke-linecap:butt;stroke-opacity:1"
+           inkscape:connector-curvature="0"
+           d="m 484.78133,721.028 -4.43462,-1.91221 4.62625,-1.38569 z"
+           id="path4712" />
+        <path
+           inkscape:export-ydpi="120"
+           inkscape:export-xdpi="120"
+           inkscape:export-filename="C:\Users\sanus\Documents\paper work\ODE_FBA\source_night.png"
+           style="fill:#000000;fill-opacity:0;fill-rule:evenodd"
+           inkscape:connector-curvature="0"
+           d="m 410.6279,691.55279 h 77.66931 v 39.4646 H 410.6279 Z"
+           id="path4714" />
+        <path
+           inkscape:export-ydpi="120"
+           inkscape:export-xdpi="120"
+           inkscape:export-filename="C:\Users\sanus\Documents\paper work\ODE_FBA\source_night.png"
+           style="fill:#000000;fill-rule:nonzero"
+           inkscape:connector-curvature="0"
+           d="m 473.88646,726.00203 v 1.04687 h -5.89062 q -0.0156,-0.39062 0.125,-0.76562 0.23437,-0.59375 0.71875,-1.17188 0.5,-0.59375 1.4375,-1.35937 1.45312,-1.1875 1.95312,-1.875 0.51563,-0.70313 0.51563,-1.3125 0,-0.65625 -0.46875,-1.09375 -0.45313,-0.45313 -1.20313,-0.45313 -0.79687,0 -1.26562,0.46875 -0.46875,0.46875 -0.48438,1.3125 l -1.125,-0.10937 q 0.125,-1.26563 0.875,-1.92188 0.75,-0.65625 2.01563,-0.65625 1.28125,0 2.03125,0.71875 0.75,0.70313 0.75,1.75 0,0.53125 -0.21875,1.04688 -0.21875,0.51562 -0.73438,1.09375 -0.5,0.5625 -1.67187,1.5625 -0.98438,0.82812 -1.26563,1.125 -0.28125,0.29687 -0.46875,0.59375 z"
+           id="path4718" />
+        <path
+           inkscape:export-ydpi="120"
+           inkscape:export-xdpi="120"
+           inkscape:export-filename="C:\Users\sanus\Documents\paper work\ODE_FBA\source_night.png"
+           style="fill:#000000;fill-opacity:0;fill-rule:evenodd"
+           inkscape:connector-curvature="0"
+           d="m 394.71025,414.13934 c -0.29196,-4.10291 0.0951,-19.05466 -1.75174,-24.61731 -1.84686,-5.56265 -7.7746,-7.29886 -9.32953,-8.75861"
+           id="path4720" />
+        <path
+           inkscape:export-ydpi="120"
+           inkscape:export-xdpi="120"
+           inkscape:export-filename="C:\Users\sanus\Documents\paper work\ODE_FBA\source_night.png"
+           style="fill:#000000;fill-opacity:0;fill-rule:evenodd"
+           inkscape:connector-curvature="0"
+           d="m 323.62333,358.77437 h 77.66928 v 39.46457 h -77.66928 z"
+           id="path4724" />
+        <rect
+           inkscape:export-ydpi="120"
+           inkscape:export-xdpi="120"
+           inkscape:export-filename="C:\Users\sanus\Documents\paper work\ODE_FBA\source_night.png"
+           y="344.53375"
+           x="66.570793"
+           height="199.28572"
+           width="201.42857"
+           id="rect4868"
+           style="stroke-width:2;stroke-miterlimit:10;stroke-dasharray:none" />
+        <path
+           inkscape:export-ydpi="120"
+           inkscape:export-xdpi="120"
+           inkscape:export-filename="C:\Users\sanus\Documents\paper work\ODE_FBA\source_night.png"
+           style="fill:#000000;fill-opacity:0;fill-rule:evenodd;stroke:none;stroke-linecap:square;stroke-miterlimit:10"
+           inkscape:connector-curvature="0"
+           d="M 281.30746,457.6026 296.9295,435.49237"
+           id="path4624-2" />
+        <path
+           inkscape:export-ydpi="120"
+           inkscape:export-xdpi="120"
+           inkscape:export-filename="C:\Users\sanus\Documents\paper work\ODE_FBA\source_night.png"
+           style="fill:#000000;fill-opacity:0;fill-rule:evenodd;stroke:none;stroke-linecap:square;stroke-miterlimit:10"
+           inkscape:connector-curvature="0"
+           d="m 462.35969,749.75791 c -4.10512,-0.25798 -19.05288,0.25284 -24.63049,-1.54788 -5.57767,-1.8007 -7.36286,-7.71376 -8.8354,-9.25649"
+           id="path4708-9" />
+        <path
+           inkscape:export-ydpi="120"
+           inkscape:export-xdpi="120"
+           inkscape:export-filename="C:\Users\sanus\Documents\paper work\ODE_FBA\source_night.png"
+           style="fill:#000000;fill-rule:nonzero;stroke:none;stroke-linecap:square;stroke-miterlimit:10"
+           inkscape:connector-curvature="0"
+           d="M 430.97734,186.83345 V 175.0522 h -4.40625 v -1.57813 h 10.57813 v 1.57813 h -4.40625 v 11.78125 z m 7.98975,0 v -13.35938 h 5.04687 q 1.32813,0 2.03125,0.125 0.96875,0.17188 1.64063,0.64063 0.67187,0.45312 1.07812,1.28125 0.40625,0.82812 0.40625,1.82812 0,1.70313 -1.09375,2.89063 -1.07812,1.17187 -3.92187,1.17187 h -3.42188 v 5.42188 z m 1.76562,-7 h 3.45313 q 1.71875,0 2.4375,-0.64063 0.71875,-0.64062 0.71875,-1.79687 0,-0.84375 -0.42188,-1.4375 -0.42187,-0.59375 -1.125,-0.78125 -0.4375,-0.125 -1.64062,-0.125 h -3.42188 z"
+           id="path4506-0" />
+        <rect
+           inkscape:export-ydpi="120"
+           inkscape:export-xdpi="120"
+           inkscape:export-filename="C:\Users\sanus\Documents\paper work\ODE_FBA\source_night.png"
+           ry="42.878597"
+           y="-13.262346"
+           x="49.186749"
+           height="230.89447"
+           width="801.62531"
+           id="rect4944"
+           style="stroke:#000000;stroke-width:4;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1" />
+        <g
+           inkscape:export-ydpi="120"
+           inkscape:export-xdpi="120"
+           inkscape:export-filename="C:\Users\sanus\Documents\paper work\ODE_FBA\source_night.png"
+           id="g5636-4"
+           style="fill:none;stroke:none;stroke-linecap:square;stroke-miterlimit:10"
+           transform="translate(232.49382,13.04748)">
+          <ellipse
+             style="fill:#e8a8a2;fill-opacity:1;stroke:#000000;stroke-width:0.76147747;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+             id="path5569-5"
+             cx="346.69235"
+             cy="739.12744"
+             rx="20.625359"
+             ry="11.786523" />
+          <flowRoot
+             xml:space="preserve"
+             id="flowRoot4608-8-2-3-2"
+             style="font-style:normal;font-weight:normal;font-size:17.33333397px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-linecap:square;stroke-miterlimit:10"
+             transform="translate(575.75229,284.36565)"><flowRegion
+               id="flowRegion4610-7-4-0-7"
+               style="font-size:17.33333397px"><rect
+                 id="rect4612-9-6-5-5"
+                 width="167.14285"
+                 height="51.42857"
+                 x="-244.28572"
+                 y="445.37683"
+                 style="font-size:17.33333397px" /></flowRegion><flowPara
+               id="flowPara4614-7-5-3-0">ATP</flowPara></flowRoot>
+        </g>
+        <path
+           inkscape:export-ydpi="120"
+           inkscape:export-xdpi="120"
+           inkscape:export-filename="C:\Users\sanus\Documents\paper work\ODE_FBA\source_night.png"
+           style="fill:#000000;fill-rule:evenodd;stroke:#ff0000;stroke-width:10.6666668;stroke-linecap:butt;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+           inkscape:connector-curvature="0"
+           d="m 587.05413,715.82751 -2.49621,4.13417 -0.74523,-4.77149 z"
+           id="path4646-3-8-5-8-6" />
+        <flowRoot
+           inkscape:export-ydpi="120"
+           inkscape:export-xdpi="120"
+           inkscape:export-filename="C:\Users\sanus\Documents\paper work\ODE_FBA\source_night.png"
+           transform="translate(862.52755,270.63885)"
+           style="font-style:normal;font-weight:normal;font-size:17.33333397px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-linecap:square;stroke-miterlimit:10"
+           id="flowRoot4608-8-2-4-1"
+           xml:space="preserve"><flowRegion
+             style="font-size:17.33333397px"
+             id="flowRegion4610-7-4-6-9"><rect
+               style="font-size:17.33333397px"
+               y="445.37683"
+               x="-244.28572"
+               height="51.42857"
+               width="167.14285"
+               id="rect4612-9-6-4-4" /></flowRegion><flowPara
+             style="font-size:13.33333397px"
+             id="flowPara4614-7-5-0-6">ADP</flowPara></flowRoot>
+        <flowRoot
+           inkscape:export-ydpi="120"
+           inkscape:export-xdpi="120"
+           inkscape:export-filename="C:\Users\sanus\Documents\paper work\ODE_FBA\source_night.png"
+           transform="translate(930.5238,93.591871)"
+           style="font-style:normal;font-weight:normal;font-size:17.3333px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-linecap:square;stroke-miterlimit:10"
+           id="flowRoot4608-8-2-4-1-1"
+           xml:space="preserve"><flowRegion
+             style="font-size:17.3333px"
+             id="flowRegion4610-7-4-6-9-2"><rect
+               style="font-size:17.33333397px"
+               y="445.37683"
+               x="-244.28572"
+               height="51.42857"
+               width="167.14285"
+               id="rect4612-9-6-4-4-9" /></flowRegion><flowPara
+             style="font-size:13.3333px"
+             id="flowPara4614-7-5-0-6-5">ADP</flowPara></flowRoot>
+        <path
+           inkscape:export-ydpi="120"
+           inkscape:export-xdpi="120"
+           inkscape:export-filename="C:\Users\sanus\Documents\paper work\ODE_FBA\source_night.png"
+           style="fill:#000000;fill-rule:evenodd;stroke:#ff0000;stroke-width:12;stroke-linecap:butt;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+           inkscape:connector-curvature="0"
+           d="m 745.93872,543.07587 1.62078,-4.54925 1.6826,4.52673 z"
+           id="path4712-46-0" />
+        <path
+           inkscape:export-ydpi="120"
+           inkscape:export-xdpi="120"
+           inkscape:export-filename="C:\Users\sanus\Documents\paper work\ODE_FBA\source_night.png"
+           style="fill:#000000;fill-rule:evenodd;stroke:#ff0000;stroke-width:12;stroke-linecap:butt;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+           inkscape:connector-curvature="0"
+           d="m 724.42821,591.42806 -3.27654,3.54776 4.79043,-0.61161 z"
+           id="path4712-46-3-1" />
+        <g
+           inkscape:export-ydpi="120"
+           inkscape:export-xdpi="120"
+           inkscape:export-filename="C:\Users\sanus\Documents\paper work\ODE_FBA\source_night.png"
+           id="g5636-4-5-5"
+           style="fill:none;stroke:none;stroke-linecap:square;stroke-miterlimit:10"
+           transform="translate(401.09758,-232.6201)">
+          <ellipse
+             style="fill:#e8a8a2;fill-opacity:1;stroke:#000000;stroke-width:0.76147747;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+             id="path5569-5-9-0"
+             cx="346.69235"
+             cy="739.12744"
+             rx="20.625359"
+             ry="11.786523" />
+          <flowRoot
+             xml:space="preserve"
+             id="flowRoot4608-8-2-3-2-5-5"
+             style="font-style:normal;font-weight:normal;font-size:17.33333397px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-linecap:square;stroke-miterlimit:10"
+             transform="translate(575.75229,284.36565)"><flowRegion
+               id="flowRegion4610-7-4-0-7-3-1"
+               style="font-size:17.33333397px"><rect
+                 id="rect4612-9-6-5-5-0-4"
+                 width="167.14285"
+                 height="51.42857"
+                 x="-244.28572"
+                 y="445.37683"
+                 style="font-size:17.33333397px" /></flowRegion><flowPara
+               id="flowPara4614-7-5-3-0-8-6">ATP</flowPara></flowRoot>
+        </g>
+        <path
+           inkscape:export-ydpi="120"
+           inkscape:export-xdpi="120"
+           inkscape:export-filename="C:\Users\sanus\Documents\paper work\ODE_FBA\source_night.png"
+           sodipodi:nodetypes="cssccccc"
+           style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#ff0c0c;stroke-width:0.98133334;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+           inkscape:connector-curvature="0"
+           d="m 519.49524,447.05122 c -3.011,1.77495 -3.91201,1.97573 -6.76845,4.25472 -2.85045,2.27422 -4.34948,5.42341 -3.75351,7.61547 0.66767,2.45578 1.59212,4.73443 2.87487,6.36452 0.90609,1.15156 4.28068,4.2997 5.3989,4.92519 0.55919,0.3128 4.23948,2.10906 4.81212,2.32672 0.28631,0.1088 0.57266,0.20723 0.85744,0.29679 l 0.2387,0.0718"
+           id="path4710-3-0-2-5" />
+        <path
+           inkscape:export-ydpi="120"
+           inkscape:export-xdpi="120"
+           inkscape:export-filename="C:\Users\sanus\Documents\paper work\ODE_FBA\source_night.png"
+           style="fill:#ff0000;fill-rule:evenodd;stroke:#ff0000;stroke-width:1.33333335;stroke-linecap:butt;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+           inkscape:connector-curvature="0"
+           d="m 522.62498,471.09447 3.41285,3.41685 -4.8107,-0.4237 z"
+           id="path4712-46-3-9-6" />
+        <g
+           inkscape:export-ydpi="120"
+           inkscape:export-xdpi="120"
+           inkscape:export-filename="C:\Users\sanus\Documents\paper work\ODE_FBA\source_night.png"
+           id="g5636-4-5-2-7"
+           style="fill:none;stroke:none;stroke-linecap:square;stroke-miterlimit:10"
+           transform="translate(205.92571,-264.21808)">
+          <ellipse
+             style="fill:#e8a8a2;fill-opacity:1;stroke:#000000;stroke-width:0.76147747;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+             id="path5569-5-9-5-7"
+             cx="346.69235"
+             cy="739.12744"
+             rx="20.625359"
+             ry="11.786523" />
+          <flowRoot
+             xml:space="preserve"
+             id="flowRoot4608-8-2-3-2-5-9-4"
+             style="font-style:normal;font-weight:normal;font-size:17.33333397px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-linecap:square;stroke-miterlimit:10"
+             transform="translate(575.75229,284.36565)"><flowRegion
+               id="flowRegion4610-7-4-0-7-3-17-0"
+               style="font-size:17.33333397px"><rect
+                 id="rect4612-9-6-5-5-0-3-1"
+                 width="167.14285"
+                 height="51.42857"
+                 x="-244.28572"
+                 y="445.37683"
+                 style="font-size:17.33333397px" /></flowRegion><flowPara
+               id="flowPara4614-7-5-3-0-8-8-9">ATP</flowPara></flowRoot>
+        </g>
+        <flowRoot
+           inkscape:export-ydpi="120"
+           inkscape:export-xdpi="120"
+           inkscape:export-filename="C:\Users\sanus\Documents\paper work\ODE_FBA\source_night.png"
+           transform="translate(766.267,-12.78964)"
+           style="font-style:normal;font-weight:normal;font-size:17.33333397px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-linecap:square;stroke-miterlimit:10"
+           id="flowRoot4608-8-2-4-1-1-1-4-2"
+           xml:space="preserve"><flowRegion
+             style="font-size:17.33333397px"
+             id="flowRegion4610-7-4-6-9-2-2-3-3"><rect
+               style="font-size:17.33333397px"
+               y="445.37683"
+               x="-244.28572"
+               height="51.42857"
+               width="167.14285"
+               id="rect4612-9-6-4-4-9-7-8-3" /></flowRegion><flowPara
+             style="font-size:13.33333397px"
+             id="flowPara4614-7-5-0-6-5-6-9-7">ADP</flowPara></flowRoot>
+        <g
+           inkscape:export-ydpi="120"
+           inkscape:export-xdpi="120"
+           inkscape:export-filename="C:\Users\sanus\Documents\paper work\ODE_FBA\source_night.png"
+           id="g5636-4-5-2-1-5"
+           style="fill:none;stroke:none;stroke-linecap:square;stroke-miterlimit:10"
+           transform="translate(147.29117,-594.64955)">
+          <ellipse
+             style="fill:#e8a8a2;fill-opacity:1;stroke:#000000;stroke-width:0.76147747;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+             id="path5569-5-9-5-0-2"
+             cx="346.69235"
+             cy="739.12744"
+             rx="20.625359"
+             ry="11.786523" />
+          <flowRoot
+             xml:space="preserve"
+             id="flowRoot4608-8-2-3-2-5-9-5-3"
+             style="font-style:normal;font-weight:normal;font-size:17.33333397px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-linecap:square;stroke-miterlimit:10"
+             transform="translate(575.75229,284.36565)"><flowRegion
+               id="flowRegion4610-7-4-0-7-3-17-6-5"
+               style="font-size:17.33333397px"><rect
+                 id="rect4612-9-6-5-5-0-3-4-7"
+                 width="167.14285"
+                 height="51.42857"
+                 x="-244.28572"
+                 y="445.37683"
+                 style="font-size:17.33333397px" /></flowRegion><flowPara
+               id="flowPara4614-7-5-3-0-8-8-7-5">ATP</flowPara></flowRoot>
+        </g>
+        <path
+           inkscape:export-ydpi="120"
+           inkscape:export-xdpi="120"
+           inkscape:export-filename="C:\Users\sanus\Documents\paper work\ODE_FBA\source_night.png"
+           sodipodi:nodetypes="cssccccc"
+           style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#ff0c0c;stroke-width:0.50800001;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+           inkscape:connector-curvature="0"
+           d="m 457.12379,168.408 c 1.52837,3.14335 1.65642,4.05754 3.69957,7.08715 2.03888,3.02326 5.05805,4.76944 7.29076,4.35075 2.50133,-0.46905 4.84663,-1.20824 6.57413,-2.35646 1.22036,-0.81106 4.62839,-3.92296 5.34134,-4.98756 0.35653,-0.53237 2.44147,-4.05715 2.70425,-4.61054 0.13136,-0.27669 0.25238,-0.55425 0.36444,-0.83095 l 0.0907,-0.23219"
+           id="path4710-3-0-2-3-2" />
+        <path
+           inkscape:export-ydpi="120"
+           inkscape:export-xdpi="120"
+           inkscape:export-filename="C:\Users\sanus\Documents\paper work\ODE_FBA\source_night.png"
+           style="fill:#ff0000;fill-rule:evenodd;stroke:#ff0000;stroke-width:1.33333335;stroke-linecap:butt;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+           inkscape:connector-curvature="0"
+           d="m 481.43339,167.11461 3.67894,-3.12855 -0.80722,4.76138 z"
+           id="path4712-46-3-9-5-2" />
+        <flowRoot
+           inkscape:export-ydpi="120"
+           inkscape:export-xdpi="120"
+           inkscape:export-filename="C:\Users\sanus\Documents\paper work\ODE_FBA\source_night.png"
+           transform="translate(678.00293,-299.4194)"
+           style="font-style:normal;font-weight:normal;font-size:17.33333397px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-linecap:square;stroke-miterlimit:10"
+           id="flowRoot4608-8-2-4-1-1-1-4-2-5-8"
+           xml:space="preserve"><flowRegion
+             style="font-size:17.33333397px"
+             id="flowRegion4610-7-4-6-9-2-2-3-3-4-9"><rect
+               style="font-size:17.33333397px"
+               y="445.37683"
+               x="-244.28572"
+               height="51.42857"
+               width="167.14285"
+               id="rect4612-9-6-4-4-9-7-8-3-9-9" /></flowRegion><flowPara
+             style="font-size:13.33333397px"
+             id="flowPara4614-7-5-0-6-5-6-9-7-8-4">ADP</flowPara></flowRoot>
+        <path
+           inkscape:export-ydpi="120"
+           inkscape:export-xdpi="120"
+           inkscape:export-filename="C:\Users\sanus\Documents\paper work\ODE_FBA\source_night.png"
+           style="fill:#000000;fill-opacity:0;fill-rule:evenodd;stroke:none;stroke-linecap:square;stroke-miterlimit:10"
+           inkscape:connector-curvature="0"
+           d="m 627.29511,25.34168 c 1.33164,-3.8917 4.78165,-18.44484 7.98979,-23.34995 3.20814,-4.90518 9.38267,-5.06748 11.25918,-6.08094"
+           id="path4708-9-3" />
+        <flowRoot
+           inkscape:export-ydpi="120"
+           inkscape:export-xdpi="120"
+           inkscape:export-filename="C:\Users\sanus\Documents\paper work\ODE_FBA\source_night.png"
+           transform="translate(340.50885,-323.64801)"
+           style="font-style:normal;font-weight:normal;font-size:17.3333px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-linecap:square;stroke-miterlimit:10"
+           id="flowRoot4608-6"
+           xml:space="preserve"><flowRegion
+             style="font-size:17.3333px"
+             id="flowRegion4610-3"><rect
+               style="font-size:17.33333397px"
+               y="445.37683"
+               x="-244.28572"
+               height="51.42857"
+               width="167.14285"
+               id="rect4612-90" /></flowRegion><flowPara
+             id="flowPara4614-30">starch</flowPara></flowRoot>
+        <path
+           inkscape:export-ydpi="120"
+           inkscape:export-xdpi="120"
+           inkscape:export-filename="C:\Users\sanus\Documents\paper work\ODE_FBA\source_night.png"
+           sodipodi:nodetypes="ssccsccss"
+           inkscape:connector-curvature="0"
+           id="path4874-0"
+           d="m 599.05745,655.98228 c -4.01966,0 -7.2557,1.49312 -7.2557,5.21267 v 17.31185 c -2.652,2.68904 -4.18802,6.678 -4.19218,10.88693 0,7.82807 5.19758,14.17398 11.60912,14.17398 6.41154,0 11.60912,-6.34591 11.60912,-14.17398 -0.005,-4.38393 -1.67251,-8.51793 -4.51466,-11.19699 v -17.15099 c 0,-3.71955 -3.23604,-5.06347 -7.2557,-5.06347 z"
+           style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1.45175552;stroke-linecap:square;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1" />
+        <path
+           inkscape:export-ydpi="120"
+           inkscape:export-xdpi="120"
+           inkscape:export-filename="C:\Users\sanus\Documents\paper work\ODE_FBA\source_night.png"
+           sodipodi:nodetypes="cssccccc"
+           style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#ff0c0c;stroke-width:11.00800014;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+           inkscape:connector-curvature="0"
+           d="m 620.50048,716.20785 c -3.00433,-5.86608 -3.45044,-7.50725 -7.11638,-13.27803 -3.65828,-5.75868 -8.25966,-9.46253 -11.15158,-9.18093 -3.23986,0.31548 -6.18818,1.14013 -8.17949,2.81406 -1.40673,1.18238 -5.08226,5.98037 -5.7276,7.71467 -0.32273,0.86729 -2.08704,6.66597 -2.27682,7.58961 -0.0948,0.46182 -0.17545,0.92729 -0.24421,1.39309 l -0.0532,0.39155"
+           id="path4710-3-2" />
+        <flowRoot
+           inkscape:export-ydpi="120"
+           inkscape:export-xdpi="120"
+           inkscape:export-filename="C:\Users\sanus\Documents\paper work\ODE_FBA\source_night.png"
+           transform="translate(904.08765,297.29502)"
+           style="font-style:normal;font-weight:normal;font-size:17.33333397px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-linecap:square;stroke-miterlimit:10"
+           id="flowRoot4608-6-2-3-1"
+           xml:space="preserve"><flowRegion
+             style="font-size:17.33333397px"
+             id="flowRegion4610-3-0-1-0"><rect
+               style="font-size:17.33333397px"
+               y="445.37683"
+               x="-244.28572"
+               height="51.42857"
+               width="167.14285"
+               id="rect4612-90-2-4-1" /></flowRegion><flowPara
+             style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold Italic'"
+             id="flowPara4614-30-4-6-5">MITOCHONDRIA</flowPara></flowRoot>
+        <flowRoot
+           inkscape:export-ydpi="120"
+           inkscape:export-xdpi="120"
+           inkscape:export-filename="C:\Users\sanus\Documents\paper work\ODE_FBA\source_night.png"
+           transform="translate(988.65929,9.0792909)"
+           style="font-style:normal;font-weight:normal;font-size:17.3333px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-linecap:square;stroke-miterlimit:10"
+           id="flowRoot4608-6-2-3-1-3"
+           xml:space="preserve"><flowRegion
+             style="font-size:17.3333px"
+             id="flowRegion4610-3-0-1-0-7"><rect
+               style="font-size:17.33333397px"
+               y="445.37683"
+               x="-244.28572"
+               height="51.42857"
+               width="167.14285"
+               id="rect4612-90-2-4-1-3" /></flowRegion><flowPara
+             style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold Italic'"
+             id="flowPara4614-30-4-6-5-0">CYTOSOL</flowPara></flowRoot>
+        <flowRoot
+           inkscape:export-ydpi="120"
+           inkscape:export-xdpi="120"
+           inkscape:export-filename="C:\Users\sanus\Documents\paper work\ODE_FBA\source_night.png"
+           transform="translate(323.73051,-408.20499)"
+           style="font-style:normal;font-weight:normal;font-size:17.3333px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-linecap:square;stroke-miterlimit:10"
+           id="flowRoot4608-6-2-3-1-4"
+           xml:space="preserve"><flowRegion
+             style="font-size:17.3333px"
+             id="flowRegion4610-3-0-1-0-19"><rect
+               style="font-size:17.33333397px"
+               y="445.37683"
+               x="-244.28572"
+               height="51.42857"
+               width="167.14285"
+               id="rect4612-90-2-4-1-9" /></flowRegion><flowPara
+             style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold Italic'"
+             id="flowPara4614-30-4-6-5-9">PLASTID</flowPara></flowRoot>
+        <rect
+           inkscape:export-ydpi="120"
+           inkscape:export-xdpi="120"
+           inkscape:export-filename="C:\Users\sanus\Documents\paper work\ODE_FBA\source_night.png"
+           ry="34.893936"
+           rx="35.714172"
+           y="-37.220783"
+           x="30.726898"
+           height="839.76282"
+           width="837.71985"
+           id="rect5216"
+           style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:4;stroke-linecap:square;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1" />
+        <path
+           inkscape:export-ydpi="120"
+           inkscape:export-xdpi="120"
+           inkscape:export-filename="C:\Users\sanus\Documents\paper work\ODE_FBA\source_night.png"
+           clip-path="url(#clipPath5113)"
+           style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#ff0c0c;stroke-width:1.13866668;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#marker1420)"
+           inkscape:connector-curvature="0"
+           d="m 360.19812,682.58425 v 0 c 0,-39.95587 33.32834,-72.3465 74.44095,-72.3465 v 0 c 19.74298,0 38.67731,7.62219 52.63769,21.18982 13.96039,13.56757 21.80326,31.96918 21.80326,51.15668 v 0 c 0,39.95581 -33.32834,72.34643 -74.44095,72.34643 v 0 c -41.11261,0 -74.44095,-32.39062 -74.44095,-72.34643 z"
+           id="path4582-1-9" />
+        <path
+           inkscape:export-ydpi="120"
+           inkscape:export-xdpi="120"
+           inkscape:export-filename="C:\Users\sanus\Documents\paper work\ODE_FBA\source_night.png"
+           style="fill:#ffffff;fill-rule:evenodd;stroke:none;stroke-width:0.56118029;stroke-linecap:square;stroke-miterlimit:10"
+           inkscape:connector-curvature="0"
+           d="m 482.78962,686.60874 h 47.16929 v 20.46454 h -47.16929 z"
+           id="path4600-7" />
+        <flowRoot
+           inkscape:export-ydpi="120"
+           inkscape:export-xdpi="120"
+           inkscape:export-filename="C:\Users\sanus\Documents\paper work\ODE_FBA\source_night.png"
+           transform="translate(734.87361,240.95144)"
+           style="font-style:normal;font-weight:normal;font-size:17.33333397px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-linecap:square;stroke-miterlimit:10"
+           id="flowRoot4608-8-2-1"
+           xml:space="preserve"><flowRegion
+             style="font-size:17.33333397px"
+             id="flowRegion4610-7-4-7"><rect
+               style="font-size:17.33333397px"
+               y="445.37683"
+               x="-244.28572"
+               height="51.42857"
+               width="167.14285"
+               id="rect4612-9-6-8" /></flowRegion><flowPara
+             id="flowPara5000">CIT</flowPara></flowRoot>
+        <path
+           inkscape:export-ydpi="120"
+           inkscape:export-xdpi="120"
+           inkscape:export-filename="C:\Users\sanus\Documents\paper work\ODE_FBA\source_night.png"
+           style="fill:#ffffff;fill-rule:evenodd;stroke:none;stroke-width:0.61357826;stroke-linecap:square;stroke-miterlimit:10"
+           inkscape:connector-curvature="0"
+           d="m 455.88646,727.0489 h 47.16929 v 24.46454 h -47.16929 z"
+           id="path4600-7-8" />
+        <flowRoot
+           inkscape:export-ydpi="120"
+           inkscape:export-xdpi="120"
+           inkscape:export-filename="C:\Users\sanus\Documents\paper work\ODE_FBA\source_night.png"
+           transform="translate(704.86613,285.95144)"
+           style="font-style:normal;font-weight:normal;font-size:17.33333397px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-linecap:square;stroke-miterlimit:10"
+           id="flowRoot4608-8-2-1-5"
+           xml:space="preserve"><flowRegion
+             style="font-size:17.33333397px"
+             id="flowRegion4610-7-4-7-2"><rect
+               style="font-size:17.33333397px"
+               y="445.37683"
+               x="-244.28572"
+               height="51.42857"
+               width="167.14285"
+               id="rect4612-9-6-8-7" /></flowRegion><flowPara
+             id="flowPara5000-8">αKG</flowPara></flowRoot>
+        <path
+           inkscape:export-ydpi="120"
+           inkscape:export-xdpi="120"
+           inkscape:export-filename="C:\Users\sanus\Documents\paper work\ODE_FBA\source_night.png"
+           style="fill:#ff0000;fill-rule:evenodd;stroke:#ff0000;stroke-width:1;stroke-linecap:butt;stroke-opacity:1"
+           inkscape:connector-curvature="0"
+           d="m 494.7994,722.25074 -1.5044,4.58904 4.10221,-2.5484 z"
+           id="path4588" />
+        <path
+           inkscape:export-ydpi="120"
+           inkscape:export-xdpi="120"
+           inkscape:export-filename="C:\Users\sanus\Documents\paper work\ODE_FBA\source_night.png"
+           style="fill:#000000;fill-opacity:0;fill-rule:evenodd;stroke:none;stroke-linecap:square;stroke-miterlimit:10"
+           inkscape:connector-curvature="0"
+           d="m 462.95326,489.45321 c -2.09668,2.44666 -7.16318,9.96198 -12.58005,14.67981 -5.4169,4.71783 -16.60107,11.35608 -19.92126,13.62732"
+           id="path4584-5" />
+        <path
+           inkscape:export-ydpi="120"
+           inkscape:export-xdpi="120"
+           inkscape:export-filename="C:\Users\sanus\Documents\paper work\ODE_FBA\source_night.png"
+           style="fill:#000000;fill-opacity:0;fill-rule:evenodd;stroke:none;stroke-linecap:square;stroke-miterlimit:10"
+           inkscape:connector-curvature="0"
+           d="m 470.38597,470.91095 c -2.62894,3.16342 -11.03033,15.53731 -15.77353,18.98032 -4.74323,3.44307 -10.5716,1.39825 -12.68588,1.67789"
+           id="path4708-7" />
+        <path
+           inkscape:export-ydpi="120"
+           inkscape:export-xdpi="120"
+           inkscape:export-filename="C:\Users\sanus\Documents\paper work\ODE_FBA\source_night.png"
+           style="fill:#ffffff;fill-rule:evenodd;stroke:none;stroke-width:0.613578;stroke-linecap:square;stroke-miterlimit:10"
+           inkscape:connector-curvature="0"
+           d="m 447.47535,450.263 h 47.16929 v 24.46454 h -47.16929 z"
+           id="path4600-7-2" />
+        <path
+           inkscape:export-ydpi="120"
+           inkscape:export-xdpi="120"
+           inkscape:export-filename="C:\Users\sanus\Documents\paper work\ODE_FBA\source_night.png"
+           style="fill:#000000;fill-rule:nonzero;stroke:none;stroke-linecap:square;stroke-miterlimit:10"
+           inkscape:connector-curvature="0"
+           d="m 532.0071,662.95039 1.76562,0.45312 q -0.5625,2.17188 -2,3.32813 -1.4375,1.14062 -3.53125,1.14062 -2.15625,0 -3.51562,-0.875 -1.34375,-0.89062 -2.0625,-2.54687 -0.70313,-1.67188 -0.70313,-3.59375 0,-2.07813 0.79688,-3.625 0.79687,-1.5625 2.26562,-2.35938 1.48438,-0.8125 3.25,-0.8125 2,0 3.35938,1.01563 1.375,1.01562 1.90625,2.875 l -1.73438,0.40625 q -0.46875,-1.45313 -1.35937,-2.10938 -0.875,-0.67187 -2.20313,-0.67187 -1.54687,0 -2.57812,0.73437 -1.03125,0.73438 -1.45313,1.98438 -0.42187,1.23437 -0.42187,2.5625 0,1.70312 0.5,2.96875 0.5,1.26562 1.54687,1.90625 1.04688,0.625 2.26563,0.625 1.48437,0 2.51562,-0.85938 1.03125,-0.85937 1.39063,-2.54687 z m 3.4104,-1.8125 q 0,-3.32813 1.78125,-5.20313 1.78125,-1.89062 4.60938,-1.89062 1.84375,0 3.32812,0.89062 1.48438,0.875 2.26563,2.46875 0.78125,1.57813 0.78125,3.57813 0,2.03125 -0.82813,3.64062 -0.8125,1.59375 -2.3125,2.42188 -1.5,0.82812 -3.25,0.82812 -1.875,0 -3.35937,-0.90625 -1.48438,-0.92187 -2.25,-2.5 -0.76563,-1.57812 -0.76563,-3.32812 z m 1.8125,0.0156 q 0,2.42188 1.29688,3.8125 1.29687,1.39063 3.26562,1.39063 2,0 3.28125,-1.40625 1.28125,-1.40625 1.28125,-3.98438 0,-1.625 -0.54687,-2.84375 -0.54688,-1.21875 -1.60938,-1.875 -1.0625,-0.67187 -2.375,-0.67187 -1.89062,0 -3.25,1.29687 -1.34375,1.28125 -1.34375,4.28125 z"
+           id="path4716-4" />
+        <path
+           inkscape:export-ydpi="120"
+           inkscape:export-xdpi="120"
+           inkscape:export-filename="C:\Users\sanus\Documents\paper work\ODE_FBA\source_night.png"
+           style="fill:#000000;fill-rule:nonzero;stroke:none;stroke-linecap:square;stroke-miterlimit:10"
+           inkscape:connector-curvature="0"
+           d="m 555.2883,673.59101 v 1.04687 h -5.89062 q -0.0156,-0.39062 0.125,-0.76562 0.23437,-0.59375 0.71875,-1.17188 0.5,-0.59375 1.4375,-1.35937 1.45312,-1.1875 1.95312,-1.875 0.51563,-0.70313 0.51563,-1.3125 0,-0.65625 -0.46875,-1.09375 -0.45313,-0.45313 -1.20313,-0.45313 -0.79687,0 -1.26562,0.46875 -0.46875,0.46875 -0.48438,1.3125 l -1.125,-0.10937 q 0.125,-1.26563 0.875,-1.92188 0.75,-0.65625 2.01563,-0.65625 1.28125,0 2.03125,0.71875 0.75,0.70313 0.75,1.75 0,0.53125 -0.21875,1.04688 -0.21875,0.51562 -0.73438,1.09375 -0.5,0.5625 -1.67187,1.5625 -0.98438,0.82812 -1.26563,1.125 -0.28125,0.29687 -0.46875,0.59375 z"
+           id="path4718-9" />
+        <path
+           inkscape:export-ydpi="120"
+           inkscape:export-xdpi="120"
+           inkscape:export-filename="C:\Users\sanus\Documents\paper work\ODE_FBA\source_night.png"
+           sodipodi:nodetypes="cccccc"
+           style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#ff0c0c;stroke-width:1.20666669;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+           inkscape:connector-curvature="0"
+           d="m 509.1195,617.52966 c -0.30123,4.32101 -0.65802,14.12837 2.41762,19.11766 0.76887,1.24737 3.76246,4.75979 4.80206,5.50872 0.51987,0.37452 3.97132,2.57873 4.5154,2.86028 0.27202,0.14074 0.5453,0.27118 0.818,0.39262 l 0.22896,0.0986"
+           id="path4710-4" />
+        <path
+           inkscape:export-ydpi="120"
+           inkscape:export-xdpi="120"
+           inkscape:export-filename="C:\Users\sanus\Documents\paper work\ODE_FBA\source_night.png"
+           style="fill:#ff0000;fill-rule:evenodd;stroke:#ff0000;stroke-width:1.33333335;stroke-linecap:butt;stroke-miterlimit:10;stroke-opacity:1;stroke-dasharray:none"
+           inkscape:connector-curvature="0"
+           d="m 521.36252,647.06881 4.82866,-0.0802 -3.75053,-3.04234 z"
+           id="path4712-80" />
+        <g
+           inkscape:export-ydpi="120"
+           inkscape:export-xdpi="120"
+           inkscape:export-filename="C:\Users\sanus\Documents\paper work\ODE_FBA\source_night.png"
+           id="g5636-4-5-5-7"
+           style="fill:none;stroke:none;stroke-linecap:square;stroke-miterlimit:10"
+           transform="translate(401.86803,-112.56617)">
+          <ellipse
+             style="fill:#e8a8a2;fill-opacity:1;stroke:#000000;stroke-width:0.76147747;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+             id="path5569-5-9-0-5"
+             cx="346.69235"
+             cy="739.12744"
+             rx="20.625359"
+             ry="11.786523" />
+          <flowRoot
+             xml:space="preserve"
+             id="flowRoot4608-8-2-3-2-5-5-0"
+             style="font-style:normal;font-weight:normal;font-size:17.33333397px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-linecap:square;stroke-miterlimit:10"
+             transform="translate(575.75229,284.36565)"><flowRegion
+               id="flowRegion4610-7-4-0-7-3-1-0"
+               style="font-size:17.33333397px"><rect
+                 id="rect4612-9-6-5-5-0-4-0"
+                 width="167.14285"
+                 height="51.42857"
+                 x="-244.28572"
+                 y="445.37683"
+                 style="font-size:17.33333397px" /></flowRegion><flowPara
+               id="flowPara4614-7-5-3-0-8-6-1">ATP</flowPara></flowRoot>
+        </g>
+        <path
+           inkscape:export-ydpi="120"
+           inkscape:export-xdpi="120"
+           inkscape:export-filename="C:\Users\sanus\Documents\paper work\ODE_FBA\source_night.png"
+           style="fill:#000000;fill-opacity:0;fill-rule:evenodd;stroke:none;stroke-width:0.60000002;stroke-linecap:square;stroke-miterlimit:10;stroke-dasharray:none"
+           inkscape:connector-curvature="0"
+           d="m 796.8943,634.12508 v 25.82678"
+           id="path4570-2" />
+        <path
+           inkscape:export-ydpi="120"
+           inkscape:export-xdpi="120"
+           inkscape:export-filename="C:\Users\sanus\Documents\paper work\ODE_FBA\source_night.png"
+           sodipodi:nodetypes="cc"
+           inkscape:connector-curvature="0"
+           id="path6147"
+           d="m 124.56034,146.10753 0,105.00537"
+           style="fill:none;stroke:#ff0000;stroke-width:1.76133335;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1" />
+        <path
+           inkscape:export-ydpi="120"
+           inkscape:export-xdpi="120"
+           inkscape:export-filename="C:\Users\sanus\Documents\paper work\ODE_FBA\source_night.png"
+           style="fill:#ff0000;fill-rule:evenodd;stroke:#f80000;stroke-width:1.33333337;stroke-linecap:butt;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+           inkscape:connector-curvature="0"
+           d="m 122.90861,246.57478 1.65173,4.53812 1.65174,-4.53812 z"
+           id="path4568-2" />
+        <flowRoot
+           inkscape:export-ydpi="120"
+           inkscape:export-xdpi="120"
+           inkscape:export-filename="C:\Users\sanus\Documents\paper work\ODE_FBA\source_night.png"
+           transform="translate(333.82966,-188.89623)"
+           style="font-style:normal;font-weight:normal;font-size:17.33333397px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-linecap:square;stroke-miterlimit:10"
+           id="flowRoot4608-6-1"
+           xml:space="preserve"><flowRegion
+             style="font-size:17.33333397px"
+             id="flowRegion4610-3-7"><rect
+               style="font-size:17.33333397px"
+               y="445.37683"
+               x="-244.28572"
+               height="51.42857"
+               width="167.14285"
+               id="rect4612-90-5" /></flowRegion><flowPara
+             id="flowPara4614-30-9">maltose</flowPara></flowRoot>
+        <flowRoot
+           inkscape:export-ydpi="120"
+           inkscape:export-xdpi="120"
+           inkscape:export-filename="C:\Users\sanus\Documents\paper work\ODE_FBA\source_night.png"
+           transform="translate(495.21287,-149.71245)"
+           style="font-style:normal;font-weight:normal;font-size:17.33333397px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-linecap:square;stroke-miterlimit:10"
+           id="flowRoot4608-6-1-2"
+           xml:space="preserve"><flowRegion
+             style="font-size:17.33333397px"
+             id="flowRegion4610-3-7-7"><rect
+               style="font-size:17.33333397px"
+               y="445.37683"
+               x="-244.28572"
+               height="51.42857"
+               width="167.14285"
+               id="rect4612-90-5-0" /></flowRegion><flowPara
+             id="flowPara4614-30-9-2">G1P</flowPara></flowRoot>
+        <flowRoot
+           inkscape:export-ydpi="120"
+           inkscape:export-xdpi="120"
+           inkscape:export-filename="C:\Users\sanus\Documents\paper work\ODE_FBA\source_night.png"
+           transform="translate(494.27536,-187.65501)"
+           style="font-style:normal;font-weight:normal;font-size:17.33333397px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-linecap:square;stroke-miterlimit:10"
+           id="flowRoot4608-6-1-2-8"
+           xml:space="preserve"><flowRegion
+             style="font-size:17.33333397px"
+             id="flowRegion4610-3-7-7-7"><rect
+               style="font-size:17.33333397px"
+               y="445.37683"
+               x="-244.28572"
+               height="51.42857"
+               width="167.14285"
+               id="rect4612-90-5-0-6" /></flowRegion><flowPara
+             id="flowPara4614-30-9-2-5">GLC</flowPara></flowRoot>
+        <path
+           inkscape:export-ydpi="120"
+           inkscape:export-xdpi="120"
+           inkscape:export-filename="C:\Users\sanus\Documents\paper work\ODE_FBA\source_night.png"
+           sodipodi:nodetypes="cc"
+           inkscape:connector-curvature="0"
+           id="path6147-9"
+           d="m 161.62426,267.22726 74.5,0.22749"
+           style="fill:none;stroke:#ff0000;stroke-width:0.88000001;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1" />
+        <path
+           inkscape:export-ydpi="120"
+           inkscape:export-xdpi="120"
+           inkscape:export-filename="C:\Users\sanus\Documents\paper work\ODE_FBA\source_night.png"
+           style="fill:#ff0000;fill-rule:evenodd;stroke:#f80000;stroke-width:1.33333337;stroke-linecap:butt;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+           inkscape:connector-curvature="0"
+           d="m 233.90329,268.99045 4.53812,-1.65173 -4.53812,-1.65174 z"
+           id="path4568-2-2" />
+        <path
+           inkscape:export-ydpi="120"
+           inkscape:export-xdpi="120"
+           inkscape:export-filename="C:\Users\sanus\Documents\paper work\ODE_FBA\source_night.png"
+           inkscape:connector-curvature="0"
+           id="path4992"
+           d="m 198.62426,266.841 0.5,39 h 40.5"
+           style="fill:none;stroke:#ff0000;stroke-width:0.88000001;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1" />
+        <path
+           inkscape:export-ydpi="120"
+           inkscape:export-xdpi="120"
+           inkscape:export-filename="C:\Users\sanus\Documents\paper work\ODE_FBA\source_night.png"
+           style="fill:#ff0000;fill-rule:evenodd;stroke:#f80000;stroke-width:1.33333337;stroke-linecap:butt;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+           inkscape:connector-curvature="0"
+           d="m 235.08614,307.49273 4.53812,-1.65173 -4.53812,-1.65174 z"
+           id="path4568-2-2-1" />
+        <flowRoot
+           inkscape:export-ydpi="120"
+           inkscape:export-xdpi="120"
+           inkscape:export-filename="C:\Users\sanus\Documents\paper work\ODE_FBA\source_night.png"
+           transform="translate(580.20912,-187.22627)"
+           style="font-style:normal;font-weight:normal;font-size:17.33333397px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-linecap:square;stroke-miterlimit:10"
+           id="flowRoot4608-6-1-2-8-3"
+           xml:space="preserve"><flowRegion
+             style="font-size:17.33333397px"
+             id="flowRegion4610-3-7-7-7-7"><rect
+               style="font-size:17.33333397px"
+               y="445.37683"
+               x="-244.28572"
+               height="51.42857"
+               width="167.14285"
+               id="rect4612-90-5-0-6-5" /></flowRegion><flowPara
+             id="flowPara4614-30-9-2-5-8">G6P</flowPara></flowRoot>
+        <path
+           inkscape:export-ydpi="120"
+           inkscape:export-xdpi="120"
+           inkscape:export-filename="C:\Users\sanus\Documents\paper work\ODE_FBA\source_night.png"
+           sodipodi:nodetypes="cc"
+           inkscape:connector-curvature="0"
+           id="path5057"
+           d="m 292.76077,267.63728 h 31.99657"
+           style="fill:none;stroke:#ff0000;stroke-width:0.83733334;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:10;stroke-dasharray:none" />
+        <path
+           inkscape:export-ydpi="120"
+           inkscape:export-xdpi="120"
+           inkscape:export-filename="C:\Users\sanus\Documents\paper work\ODE_FBA\source_night.png"
+           style="fill:#ff0000;fill-rule:evenodd;stroke:#f80000;stroke-width:1.33333337;stroke-linecap:butt;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+           inkscape:connector-curvature="0"
+           d="m 320.21922,269.28901 4.53812,-1.65173 -4.53812,-1.65174 z"
+           id="path4568-2-2-1-1" />
+        <path
+           inkscape:export-ydpi="120"
+           inkscape:export-xdpi="120"
+           inkscape:export-filename="C:\Users\sanus\Documents\paper work\ODE_FBA\source_night.png"
+           style="fill:#000000;fill-opacity:0;fill-rule:evenodd;stroke:none;stroke-width:0.80000001;stroke-linecap:square;stroke-miterlimit:10;stroke-dasharray:none"
+           inkscape:connector-curvature="0"
+           d="m 461.0359,269.41194 25.82519,-0.28651"
+           id="path4544-4" />
+        <path
+           inkscape:export-ydpi="120"
+           inkscape:export-xdpi="120"
+           inkscape:export-filename="C:\Users\sanus\Documents\paper work\ODE_FBA\source_night.png"
+           sodipodi:nodetypes="cc"
+           style="fill:none;fill-rule:evenodd;stroke:#ff0000;stroke-width:0.48533334;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+           inkscape:connector-curvature="0"
+           d="m 451.76085,269.41194 33.10061,-0.21996"
+           id="path4546-5" />
+        <path
+           inkscape:export-ydpi="120"
+           inkscape:export-xdpi="120"
+           inkscape:export-filename="C:\Users\sanus\Documents\paper work\ODE_FBA\source_night.png"
+           style="fill:#ff0000;fill-rule:evenodd;stroke:#ff0000;stroke-width:1.33333335;stroke-linecap:butt;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+           inkscape:connector-curvature="0"
+           d="m 484.84313,267.54034 4.55615,1.60128 -4.5195,1.70199 z"
+           id="path4548-0" />
+        <g
+           inkscape:export-ydpi="120"
+           inkscape:export-xdpi="120"
+           inkscape:export-filename="C:\Users\sanus\Documents\paper work\ODE_FBA\source_night.png"
+           id="g5636-4-5-2-1-5-3"
+           style="fill:none;stroke:none;stroke-linecap:square;stroke-miterlimit:10"
+           transform="translate(140.88399,-435.57566)">
+          <ellipse
+             style="fill:#e8a8a2;fill-opacity:1;stroke:#000000;stroke-width:0.76147747;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+             id="path5569-5-9-5-0-2-5"
+             cx="346.69235"
+             cy="739.12744"
+             rx="20.625359"
+             ry="11.786523" />
+          <flowRoot
+             xml:space="preserve"
+             id="flowRoot4608-8-2-3-2-5-9-5-3-2"
+             style="font-style:normal;font-weight:normal;font-size:17.33333397px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-linecap:square;stroke-miterlimit:10"
+             transform="translate(575.75229,284.36565)"><flowRegion
+               id="flowRegion4610-7-4-0-7-3-17-6-5-2"
+               style="font-size:17.33333397px"><rect
+                 id="rect4612-9-6-5-5-0-3-4-7-5"
+                 width="167.14285"
+                 height="51.42857"
+                 x="-244.28572"
+                 y="445.37683"
+                 style="font-size:17.33333397px" /></flowRegion><flowPara
+               id="flowPara4614-7-5-3-0-8-8-7-5-7">ATP</flowPara></flowRoot>
+        </g>
+        <path
+           inkscape:export-ydpi="120"
+           inkscape:export-xdpi="120"
+           inkscape:export-filename="C:\Users\sanus\Documents\paper work\ODE_FBA\source_night.png"
+           sodipodi:nodetypes="cssccccc"
+           style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#ff0c0c;stroke-width:0.48533334;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+           inkscape:connector-curvature="0"
+           d="m 454.71662,280.97949 c 1.52837,-3.14335 1.65642,-4.05754 3.69957,-7.08715 2.03888,-3.02326 5.05805,-4.76944 7.29076,-4.35075 2.50133,0.46905 4.84663,1.20824 6.57413,2.35646 1.22036,0.81106 4.62839,3.92296 5.34134,4.98756 0.35653,0.53237 2.44147,4.05715 2.70425,4.61054 0.13136,0.27669 0.25238,0.55425 0.36444,0.83095 l 0.0907,0.23219"
+           id="path4710-3-0-2-3-2-8" />
+        <path
+           inkscape:export-ydpi="120"
+           inkscape:export-xdpi="120"
+           inkscape:export-filename="C:\Users\sanus\Documents\paper work\ODE_FBA\source_night.png"
+           style="fill:#ff0000;fill-rule:evenodd;stroke:#ff0000;stroke-width:1.33333335;stroke-linecap:butt;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+           inkscape:connector-curvature="0"
+           d="m 479.02622,282.27288 3.67894,3.12855 -0.80722,-4.76138 z"
+           id="path4712-46-3-9-5-2-1" />
+        <path
+           inkscape:export-ydpi="120"
+           inkscape:export-xdpi="120"
+           inkscape:export-filename="C:\Users\sanus\Documents\paper work\ODE_FBA\source_night.png"
+           inkscape:connector-curvature="0"
+           id="path5184"
+           d="m 519.2668,195.76765 v 56.4059"
+           style="fill:none;stroke:#ff0000;stroke-width:0.51333334;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1" />
+        <path
+           inkscape:export-ydpi="120"
+           inkscape:export-xdpi="120"
+           inkscape:export-filename="C:\Users\sanus\Documents\paper work\ODE_FBA\source_night.png"
+           style="fill:#ff0000;fill-rule:evenodd;stroke:#ff0000;stroke-width:1.33333337;stroke-linecap:butt;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+           inkscape:connector-curvature="0"
+           d="m 520.86808,247.6174 -1.60128,4.55615 -1.70199,-4.5195 z"
+           id="path4548-07" />
+        <path
+           inkscape:export-ydpi="120"
+           inkscape:export-xdpi="120"
+           inkscape:export-filename="C:\Users\sanus\Documents\paper work\ODE_FBA\source_night.png"
+           sodipodi:nodetypes="ccc"
+           inkscape:connector-curvature="0"
+           id="path5201"
+           d="m 530.82071,203.32522 c -7.82297,3.22445 -10.98886,6.60515 -11.34124,14.28849 1.36151,6.9206 4.99887,10.76905 12.1976,12.02081"
+           style="fill:none;stroke:#ff0000;stroke-width:0.51333334;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:10;stroke-dasharray:none" />
+        <path
+           inkscape:export-ydpi="120"
+           inkscape:export-xdpi="120"
+           inkscape:export-filename="C:\Users\sanus\Documents\paper work\ODE_FBA\source_night.png"
+           style="fill:#ff0000;fill-rule:evenodd;stroke:#ff0000;stroke-width:1.33333337;stroke-linecap:butt;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+           inkscape:connector-curvature="0"
+           d="m 529.5418,201.94869 4.81634,-0.35434 -3.46176,3.36733 z"
+           id="path4548-07-3" />
+        <path
+           inkscape:export-ydpi="120"
+           inkscape:export-xdpi="120"
+           inkscape:export-filename="C:\Users\sanus\Documents\paper work\ODE_FBA\source_night.png"
+           style="fill:#000000;fill-opacity:0;fill-rule:evenodd;stroke:none;stroke-linecap:square;stroke-miterlimit:10"
+           inkscape:connector-curvature="0"
+           d="m 362.77873,463.07257 c 0.75433,-1.96136 2.1635,-7.53691 4.52589,-11.76802 2.36241,-4.23109 8.0403,-11.34877 9.64838,-13.61852"
+           id="path4604-5" />
+        <path
+           inkscape:export-ydpi="120"
+           inkscape:export-xdpi="120"
+           inkscape:export-filename="C:\Users\sanus\Documents\paper work\ODE_FBA\source_night.png"
+           style="fill:#000000;fill-opacity:0;fill-rule:evenodd;stroke:none;stroke-width:0.60000002;stroke-linecap:square;stroke-miterlimit:10;stroke-dasharray:none"
+           inkscape:connector-curvature="0"
+           d="m 609.79909,180.51025 25.82561,-0.2465"
+           id="path4570-1" />
+        <flowRoot
+           inkscape:export-ydpi="120"
+           inkscape:export-xdpi="120"
+           inkscape:export-filename="C:\Users\sanus\Documents\paper work\ODE_FBA\source_night.png"
+           transform="translate(791.17765,-255.37767)"
+           style="font-style:normal;font-weight:normal;font-size:17.33333397px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-linecap:square;stroke-miterlimit:10"
+           id="flowRoot4608-8-2-4-1-1-1-4-2-54-7"
+           xml:space="preserve"><flowRegion
+             style="font-size:17.33333397px"
+             id="flowRegion4610-7-4-6-9-2-2-3-3-4-5"><rect
+               style="font-size:17.33333397px"
+               y="445.37683"
+               x="-244.28572"
+               height="51.42857"
+               width="167.14285"
+               id="rect4612-9-6-4-4-9-7-8-3-3-7" /></flowRegion><flowPara
+             style="font-size:13.33333397px"
+             id="flowPara4614-7-5-0-6-5-6-9-7-4-0">Pi</flowPara></flowRoot>
+        <path
+           inkscape:export-ydpi="120"
+           inkscape:export-xdpi="120"
+           inkscape:export-filename="C:\Users\sanus\Documents\paper work\ODE_FBA\source_night.png"
+           style="fill:#000000;fill-opacity:0;fill-rule:evenodd;stroke:none;stroke-width:0.60000002;stroke-linecap:square;stroke-miterlimit:10;stroke-dasharray:none"
+           inkscape:connector-curvature="0"
+           d="m 796.8943,634.12508 v 25.82678"
+           id="path4570-2-1" />
+        <path
+           inkscape:export-ydpi="120"
+           inkscape:export-xdpi="120"
+           inkscape:export-filename="C:\Users\sanus\Documents\paper work\ODE_FBA\source_night.png"
+           style="fill:#ff0000;fill-rule:evenodd;stroke:#ff0000;stroke-width:1.33333337;stroke-linecap:butt;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+           inkscape:connector-curvature="0"
+           d="m 412.20794,178.44509 4.55615,1.60128 -4.5195,1.70199 z"
+           id="path4548-5" />
+        <path
+           inkscape:export-ydpi="120"
+           inkscape:export-xdpi="120"
+           inkscape:export-filename="C:\Users\sanus\Documents\paper work\ODE_FBA\source_night.png"
+           sodipodi:nodetypes="cccccc"
+           style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#ff0c0c;stroke-width:0.91466668;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+           inkscape:connector-curvature="0"
+           d="m 352.61353,255.84748 c -0.22366,-4.32572 -0.40461,-14.1379 2.75997,-19.07125 0.79112,-1.23338 3.84719,-4.69157 4.90005,-5.42174 0.52652,-0.36514 4.01691,-2.50712 4.56596,-2.77888 0.2745,-0.13583 0.55007,-0.26135 0.8249,-0.37789 l 0.2307,-0.0944"
+           id="path4710-0-9" />
+        <path
+           inkscape:export-ydpi="120"
+           inkscape:export-xdpi="120"
+           inkscape:export-filename="C:\Users\sanus\Documents\paper work\ODE_FBA\source_night.png"
+           style="fill:#ff0000;fill-rule:evenodd;stroke:#ff0000;stroke-width:1;stroke-linecap:butt;stroke-miterlimit:10;stroke-opacity:1"
+           inkscape:connector-curvature="0"
+           d="m 365.38417,226.53256 4.82643,0.1668 -3.80445,2.97462 z"
+           id="path4712-4-8" />
+        <flowRoot
+           inkscape:export-ydpi="120"
+           inkscape:export-xdpi="120"
+           inkscape:export-filename="C:\Users\sanus\Documents\paper work\ODE_FBA\source_night.png"
+           transform="translate(617.2761,-225.99509)"
+           style="font-style:normal;font-weight:normal;font-size:17.33333397px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-linecap:square;stroke-miterlimit:10"
+           id="flowRoot4608-8-2-1-7-2-3"
+           xml:space="preserve"><flowRegion
+             style="font-size:17.33333397px"
+             id="flowRegion4610-7-4-7-7-0-5"><rect
+               style="font-size:17.33333397px"
+               y="445.37683"
+               x="-244.28572"
+               height="51.42857"
+               width="167.14285"
+               id="rect4612-9-6-8-3-8-4" /></flowRegion><flowPara
+             id="flowPara5000-1-9-8">CO<flowSpan
+   id="flowSpan6275-6"
+   style="font-size:64.99999762%;baseline-shift:sub">2</flowSpan></flowPara></flowRoot>
+        <g
+           inkscape:export-ydpi="120"
+           inkscape:export-xdpi="120"
+           inkscape:export-filename="C:\Users\sanus\Documents\paper work\ODE_FBA\source_night.png"
+           id="g5636-4-5-2-1-5-3-5"
+           style="fill:none;stroke:none;stroke-linecap:square;stroke-miterlimit:10"
+           transform="translate(-63.751258,-506.40391)">
+          <ellipse
+             style="fill:#e8a8a2;fill-opacity:1;stroke:#000000;stroke-width:0.76147747;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+             id="path5569-5-9-5-0-2-5-1"
+             cx="346.69235"
+             cy="739.12744"
+             rx="20.625359"
+             ry="11.786523" />
+          <flowRoot
+             xml:space="preserve"
+             id="flowRoot4608-8-2-3-2-5-9-5-3-2-9"
+             style="font-style:normal;font-weight:normal;font-size:17.33333397px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-linecap:square;stroke-miterlimit:10"
+             transform="translate(575.75229,284.36565)"><flowRegion
+               id="flowRegion4610-7-4-0-7-3-17-6-5-2-0"
+               style="font-size:17.33333397px"><rect
+                 id="rect4612-9-6-5-5-0-3-4-7-5-4"
+                 width="167.14285"
+                 height="51.42857"
+                 x="-244.28572"
+                 y="445.37683"
+                 style="font-size:17.33333397px" /></flowRegion><flowPara
+               id="flowPara4614-7-5-3-0-8-8-7-5-7-7">ATP</flowPara></flowRoot>
+        </g>
+        <flowRoot
+           inkscape:export-ydpi="120"
+           inkscape:export-xdpi="120"
+           inkscape:export-filename="C:\Users\sanus\Documents\paper work\ODE_FBA\source_night.png"
+           transform="translate(558.81332,-212.62485)"
+           style="font-style:normal;font-weight:normal;font-size:17.33333397px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-linecap:square;stroke-miterlimit:10"
+           id="flowRoot4608-8-2-4-1-1-1-4-2-5-8-5-8"
+           xml:space="preserve"><flowRegion
+             style="font-size:17.33333397px"
+             id="flowRegion4610-7-4-6-9-2-2-3-3-4-9-3-0"><rect
+               style="font-size:17.33333397px"
+               y="445.37683"
+               x="-244.28572"
+               height="51.42857"
+               width="167.14285"
+               id="rect4612-9-6-4-4-9-7-8-3-9-9-0-4" /></flowRegion><flowPara
+             style="font-size:13.33333397px"
+             id="flowPara4614-7-5-0-6-5-6-9-7-8-4-0-4">ADP</flowPara></flowRoot>
+        <path
+           inkscape:export-ydpi="120"
+           inkscape:export-xdpi="120"
+           inkscape:export-filename="C:\Users\sanus\Documents\paper work\ODE_FBA\source_night.png"
+           sodipodi:nodetypes="ccc"
+           inkscape:connector-curvature="0"
+           id="path4969"
+           d="m 289.87426,247.59099 c 1.52626,8.25115 2.13931,19.2737 16.25,20 7.88052,-0.88973 8.87445,-6.80268 10.75,-11.75"
+           style="fill:none;stroke:#ff0000;stroke-width:0.83733334;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:10;stroke-dasharray:none" />
+        <path
+           inkscape:export-ydpi="120"
+           inkscape:export-xdpi="120"
+           inkscape:export-filename="C:\Users\sanus\Documents\paper work\ODE_FBA\source_night.png"
+           style="fill:#ff0000;fill-rule:evenodd;stroke:#f80000;stroke-width:1.33333337;stroke-linecap:butt;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+           inkscape:connector-curvature="0"
+           d="m 317.87617,257.86783 -0.31867,-4.81883 -2.85337,3.89629 z"
+           id="path4568-2-2-1-1-5" />
+        <path
+           inkscape:export-ydpi="120"
+           inkscape:export-xdpi="120"
+           inkscape:export-filename="C:\Users\sanus\Documents\paper work\ODE_FBA\source_night.png"
+           sodipodi:nodetypes="cccc"
+           inkscape:connector-curvature="0"
+           id="path5057-8-2"
+           d="m 352.61353,255.84748 -0.0377,-63.08561 c -0.39738,-13.72159 11.87052,-12.54341 11.87052,-12.54341 l 49.77059,-0.12732"
+           style="fill:none;stroke:#ff0000;stroke-width:0.91466668;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1" />
+        <path
+           inkscape:export-ydpi="120"
+           inkscape:export-xdpi="120"
+           inkscape:export-filename="C:\Users\sanus\Documents\paper work\ODE_FBA\source_night.png"
+           style="fill:#000000;fill-opacity:0;fill-rule:evenodd;stroke:none;stroke-linecap:square;stroke-miterlimit:10"
+           inkscape:connector-curvature="0"
+           d="m 429.72228,195.77249 -0.66406,52.18474"
+           id="path4516-8" />
+        <path
+           inkscape:export-ydpi="120"
+           inkscape:export-xdpi="120"
+           inkscape:export-filename="C:\Users\sanus\Documents\paper work\ODE_FBA\source_night.png"
+           style="fill:#000000;fill-opacity:0;fill-rule:evenodd;stroke:none;stroke-linecap:square;stroke-miterlimit:10"
+           inkscape:connector-curvature="0"
+           d="m 448.32997,243.87115 c -3.09426,-4.0585 -19.52811,-17.37324 -18.56566,-24.35105 0.96244,-6.97783 20.28361,-14.59655 24.34032,-17.51587"
+           id="path4532-2" />
+        <path
+           inkscape:export-ydpi="120"
+           inkscape:export-xdpi="120"
+           inkscape:export-filename="C:\Users\sanus\Documents\paper work\ODE_FBA\source_night.png"
+           inkscape:connector-curvature="0"
+           id="path5184-3"
+           d="m 439.72228,195.77248 v 56.4059"
+           style="fill:none;stroke:#ff0000;stroke-width:0.40133334;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1" />
+        <path
+           inkscape:export-ydpi="120"
+           inkscape:export-xdpi="120"
+           inkscape:export-filename="C:\Users\sanus\Documents\paper work\ODE_FBA\source_night.png"
+           style="fill:#ff0000;fill-rule:evenodd;stroke:#ff0000;stroke-width:1.33333337;stroke-linecap:butt;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+           inkscape:connector-curvature="0"
+           d="m 441.32356,247.62223 -1.60128,4.55615 -1.70199,-4.5195 z"
+           id="path4548-07-33" />
+        <path
+           inkscape:export-ydpi="120"
+           inkscape:export-xdpi="120"
+           inkscape:export-filename="C:\Users\sanus\Documents\paper work\ODE_FBA\source_night.png"
+           sodipodi:nodetypes="ccc"
+           inkscape:connector-curvature="0"
+           id="path5201-2"
+           d="m 451.27619,203.33005 c -7.82297,3.22445 -10.98886,6.60515 -11.34124,14.28849 1.36151,6.9206 4.99887,10.76905 12.1976,12.02081"
+           style="fill:none;stroke:#ff0000;stroke-width:0.40133334;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1" />
+        <path
+           inkscape:export-ydpi="120"
+           inkscape:export-xdpi="120"
+           inkscape:export-filename="C:\Users\sanus\Documents\paper work\ODE_FBA\source_night.png"
+           style="fill:#ff0000;fill-rule:evenodd;stroke:#ff0000;stroke-width:1.33333337;stroke-linecap:butt;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+           inkscape:connector-curvature="0"
+           d="m 449.99728,201.95352 4.81634,-0.35434 -3.46176,3.36733 z"
+           id="path4548-07-3-0" />
+        <flowRoot
+           inkscape:export-ydpi="120"
+           inkscape:export-xdpi="120"
+           inkscape:export-filename="C:\Users\sanus\Documents\paper work\ODE_FBA\source_night.png"
+           transform="translate(701.63312,-255.37285)"
+           style="font-style:normal;font-weight:normal;font-size:17.33333397px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-linecap:square;stroke-miterlimit:10"
+           id="flowRoot4608-8-2-4-1-1-1-4-2-54-7-6"
+           xml:space="preserve"><flowRegion
+             style="font-size:17.33333397px"
+             id="flowRegion4610-7-4-6-9-2-2-3-3-4-5-1"><rect
+               style="font-size:17.33333397px"
+               y="445.37683"
+               x="-244.28572"
+               height="51.42857"
+               width="167.14285"
+               id="rect4612-9-6-4-4-9-7-8-3-3-7-0" /></flowRegion><flowPara
+             style="font-size:13.33333397px"
+             id="flowPara4614-7-5-0-6-5-6-9-7-4-0-5">Pi</flowPara></flowRoot>
+        <g
+           inkscape:export-ydpi="120"
+           inkscape:export-xdpi="120"
+           inkscape:export-filename="C:\Users\sanus\Documents\paper work\ODE_FBA\source_night.png"
+           transform="translate(-6.9999999,-6.9999999)"
+           id="g716">
+          <rect
+             style="fill:#b3b3b3;fill-rule:evenodd"
+             id="rect684"
+             width="90"
+             height="28.5"
+             x="612.62427"
+             y="494.50635"
+             ry="13" />
+          <text
+             xml:space="preserve"
+             style="font-style:normal;font-weight:normal;font-size:17.3333px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none"
+             x="629.62427"
+             y="515.50635"
+             id="text696"><tspan
+               sodipodi:role="line"
+               id="tspan694"
+               x="629.62427"
+               y="515.50635"
+               style="font-size:17.3333px">NGAM</tspan></text>
+        </g>
+        <path
+           inkscape:export-ydpi="120"
+           inkscape:export-xdpi="120"
+           inkscape:export-filename="C:\Users\sanus\Documents\paper work\ODE_FBA\source_night.png"
+           id="path4710-3-0-4-8"
+           d="m 689.73706,520.56709 c -4.13927,-6.20383 -5.27154,-12.09685 -2.97956,-14.39224 2.5677,-2.57157 5.52315,-4.62161 8.8049,-5.40341 2.31821,-0.55239 10.34196,-1.07349 12.7774,-0.68364 1.21788,0.19494 9.09302,1.83134 10.2853,2.16922 0.59612,0.16899 1.18676,0.35197 1.76971,0.54517 l 0.48688,0.16629"
+           inkscape:connector-curvature="0"
+           style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#ff0c0c;stroke-width:10.25329984;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+           sodipodi:nodetypes="csccccc" />
+        <path
+           inkscape:export-ydpi="120"
+           inkscape:export-xdpi="120"
+           inkscape:export-filename="C:\Users\sanus\Documents\paper work\ODE_FBA\source_night.png"
+           id="path4712-46-3-1-8"
+           d="m 691.53698,523.73951 4.04608,2.63658 -1.4047,-4.62051 z"
+           inkscape:connector-curvature="0"
+           style="fill:#000000;fill-rule:evenodd;stroke:#ff0000;stroke-width:10.6666668;stroke-linecap:butt;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1" />
+        <g
+           inkscape:export-ydpi="120"
+           inkscape:export-xdpi="120"
+           inkscape:export-filename="C:\Users\sanus\Documents\paper work\ODE_FBA\source_night.png"
+           transform="translate(12.8995,55.828426)"
+           id="g1612">
+          <flowRoot
+             transform="translate(1134.4915,-190.38563)"
+             style="font-style:normal;font-weight:normal;font-size:17.3333px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-linecap:square;stroke-miterlimit:10"
+             id="flowRoot4608-6-1-2-8-6"
+             xml:space="preserve"><flowRegion
+               style="font-size:17.3333px"
+               id="flowRegion4610-3-7-7-7-1"><rect
+                 style="font-size:17.33333397px"
+                 y="445.37683"
+                 x="-244.28572"
+                 height="51.42857"
+                 width="167.14285"
+                 id="rect4612-90-5-0-6-4" /></flowRegion><flowPara
+               id="flowPara4614-30-9-2-5-1">Sugars</flowPara></flowRoot>
+          <flowRoot
+             xml:space="preserve"
+             id="flowRoot4608-6-1-2-8-6-5"
+             style="font-style:normal;font-weight:normal;font-size:17.3333px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-linecap:square;stroke-miterlimit:10"
+             transform="translate(1134.4915,-167.55721)"><flowRegion
+               id="flowRegion4610-3-7-7-7-1-7"
+               style="font-size:17.3333px"><rect
+                 id="rect4612-90-5-0-6-4-0"
+                 width="167.14285"
+                 height="51.42857"
+                 x="-244.28572"
+                 y="445.37683"
+                 style="font-size:17.33333397px" /></flowRegion><flowPara
+               id="flowPara4614-30-9-2-5-1-4">Amino acids</flowPara></flowRoot>
+        </g>
+        <g
+           inkscape:export-ydpi="120"
+           inkscape:export-xdpi="120"
+           inkscape:export-filename="C:\Users\sanus\Documents\paper work\ODE_FBA\source_night.png"
+           id="g1664">
+          <path
+             style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:2, 4;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#Arrow1Lend)"
+             d="m 297.80149,280.50904 110.34419,39.14087 486.68228,0.0294"
+             id="path1655"
+             sodipodi:nodetypes="ccc" />
+          <path
+             style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:2, 4;stroke-dashoffset:0;stroke-opacity:1"
+             d="m 355.87425,283.25633 13.69841,22.2998"
+             id="path1657"
+             sodipodi:nodetypes="cc" />
+          <path
+             style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:2, 4;stroke-dashoffset:0;stroke-opacity:1"
+             d="m 290.62425,305.50633 78.94841,0.0498"
+             id="path1659"
+             sodipodi:nodetypes="cc" />
+        </g>
+        <path
+           inkscape:export-ydpi="120"
+           inkscape:export-xdpi="120"
+           inkscape:export-filename="C:\Users\sanus\Documents\paper work\ODE_FBA\source_night.png"
+           id="path4604-0"
+           d="m 383.82283,437.18183 c -1.30298,1.64868 -5.38165,5.70294 -7.81778,9.89203 -2.4361,4.18909 -5.66577,12.70196 -6.79892,15.24237"
+           inkscape:connector-curvature="0"
+           style="fill:#000000;fill-opacity:0;fill-rule:evenodd;stroke:none;stroke-linecap:square;stroke-miterlimit:10" />
+        <path
+           inkscape:export-ydpi="120"
+           inkscape:export-xdpi="120"
+           inkscape:export-filename="C:\Users\sanus\Documents\paper work\ODE_FBA\source_night.png"
+           id="path4606-7"
+           d="m 376.17734,433.79211 c -1.04911,1.82081 -4.49431,6.42553 -6.29478,10.92457 -0.90026,2.24952 -1.83945,5.59734 -2.6475,8.71759 -0.10102,0.39002 -0.19996,0.77651 -0.29657,1.15687 l -0.0952,0.37773"
+           inkscape:connector-curvature="0"
+           style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#ff0c0c;stroke-width:0.48533334;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1" />
+        <path
+           inkscape:export-ydpi="120"
+           inkscape:export-xdpi="120"
+           inkscape:export-filename="C:\Users\sanus\Documents\paper work\ODE_FBA\source_night.png"
+           id="path4608-2"
+           d="m 366.18273,450.18485 0.66056,4.78402 2.56905,-4.08936 z"
+           inkscape:connector-curvature="0"
+           style="fill:#ff0000;fill-rule:evenodd;stroke:#ff0000;stroke-width:1.33333335;stroke-linecap:butt;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1" />
+        <path
+           inkscape:export-ydpi="120"
+           inkscape:export-xdpi="120"
+           inkscape:export-filename="C:\Users\sanus\Documents\paper work\ODE_FBA\source_night.png"
+           id="path4584-5-7"
+           d="m 464.84416,489.28399 c -2.09668,2.44666 -7.16318,9.96198 -12.58005,14.67981 -5.4169,4.71783 -16.60107,11.35608 -19.92126,13.62732"
+           inkscape:connector-curvature="0"
+           style="fill:#000000;fill-opacity:0;fill-rule:evenodd;stroke:none;stroke-linecap:square;stroke-miterlimit:10" />
+        <path
+           inkscape:export-ydpi="120"
+           inkscape:export-xdpi="120"
+           inkscape:export-filename="C:\Users\sanus\Documents\paper work\ODE_FBA\source_night.png"
+           id="path4708-7-9"
+           d="m 472.27687,470.74173 c -2.62894,3.16342 -11.03033,15.53731 -15.77353,18.98032 -4.74323,3.44307 -10.5716,1.39825 -12.68588,1.67789"
+           inkscape:connector-curvature="0"
+           style="fill:#000000;fill-opacity:0;fill-rule:evenodd;stroke:none;stroke-linecap:square;stroke-miterlimit:10" />
+        <path
+           inkscape:export-ydpi="120"
+           inkscape:export-xdpi="120"
+           inkscape:export-filename="C:\Users\sanus\Documents\paper work\ODE_FBA\source_night.png"
+           id="path4710-5"
+           d="m 469.46437,480.11673 c -1.55312,4.74069 -8.92221,7.75152 -15.00188,8.76306 -4.27553,0.34567 -7.70406,-0.63862 -10.84337,-2.9483 -3.8187,-4.05973 -4.07198,-4.85049 -5.93675,-7.746"
+           inkscape:connector-curvature="0"
+           style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#ff0c0c;stroke-width:0.91866668;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+           sodipodi:nodetypes="cccc" />
+        <path
+           inkscape:export-ydpi="120"
+           inkscape:export-xdpi="120"
+           inkscape:export-filename="C:\Users\sanus\Documents\paper work\ODE_FBA\source_night.png"
+           transform="translate(-35.069828,-227.63111)"
+           id="path4582-1-9-9"
+           d="m 360.19812,682.58425 v 0 c 0,-39.95587 33.32834,-72.3465 74.44095,-72.3465 v 0 c 19.74298,0 38.67731,7.62219 52.63769,21.18982 13.96039,13.56757 21.80326,31.96918 21.80326,51.15668 v 0 c 0,39.95581 -33.32834,72.34643 -74.44095,72.34643 v 0 c -41.11261,0 -74.44095,-32.39062 -74.44095,-72.34643 z"
+           inkscape:connector-curvature="0"
+           style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#ff0c0c;stroke-width:0.91866668;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+           clip-path="url(#clipPath5113-1-2)" />
+        <flowRoot
+           inkscape:export-ydpi="120"
+           inkscape:export-xdpi="120"
+           inkscape:export-filename="C:\Users\sanus\Documents\paper work\ODE_FBA\source_night.png"
+           xml:space="preserve"
+           id="flowRoot4608-8-2-1-8"
+           style="font-style:normal;font-weight:normal;font-size:17.3333px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-linecap:square;stroke-miterlimit:10"
+           transform="translate(701.80377,9.320332)"><flowRegion
+             id="flowRegion4610-7-4-7-9"
+             style="font-size:17.3333px"><rect
+               id="rect4612-9-6-8-0"
+               width="167.14285"
+               height="51.42857"
+               x="-244.28572"
+               y="445.37683"
+               style="font-size:17.33333397px" /></flowRegion><flowPara
+             id="flowPara5000-6">CIT</flowPara></flowRoot>
+        <path
+           inkscape:export-ydpi="120"
+           inkscape:export-xdpi="120"
+           inkscape:export-filename="C:\Users\sanus\Documents\paper work\ODE_FBA\source_night.png"
+           id="path4600-7-8-6"
+           d="m 422.81664,495.41782 h 47.16929 v 24.46454 h -47.16929 z"
+           inkscape:connector-curvature="0"
+           style="fill:#ffffff;fill-rule:evenodd;stroke:none;stroke-width:0.613578;stroke-linecap:square;stroke-miterlimit:10" />
+        <flowRoot
+           inkscape:export-ydpi="120"
+           inkscape:export-xdpi="120"
+           inkscape:export-filename="C:\Users\sanus\Documents\paper work\ODE_FBA\source_night.png"
+           xml:space="preserve"
+           id="flowRoot4608-8-2-1-5-2"
+           style="font-style:normal;font-weight:normal;font-size:17.3333px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-linecap:square;stroke-miterlimit:10"
+           transform="translate(671.79629,54.32035)"><flowRegion
+             id="flowRegion4610-7-4-7-2-7"
+             style="font-size:17.3333px"><rect
+               id="rect4612-9-6-8-7-3"
+               width="167.14285"
+               height="51.42857"
+               x="-244.28572"
+               y="445.37683"
+               style="font-size:17.33333397px" /></flowRegion><flowPara
+             id="flowPara5000-8-2">αKG</flowPara></flowRoot>
+        <path
+           inkscape:export-ydpi="120"
+           inkscape:export-xdpi="120"
+           inkscape:export-filename="C:\Users\sanus\Documents\paper work\ODE_FBA\source_night.png"
+           id="path4588-4"
+           d="m 470.65187,480.80423 0.2654,-4.82204 -3.30285,3.5233 z"
+           inkscape:connector-curvature="0"
+           style="fill:#ff0000;fill-rule:evenodd;stroke:#ff0000;stroke-width:1;stroke-linecap:butt;stroke-miterlimit:10;stroke-opacity:1" />
+        <path
+           inkscape:export-ydpi="120"
+           inkscape:export-xdpi="120"
+           inkscape:export-filename="C:\Users\sanus\Documents\paper work\ODE_FBA\source_night.png"
+           id="path4716-0"
+           d="m 428.75665,469.29005 1.76562,0.45312 q -0.5625,2.17188 -2,3.32813 -1.4375,1.14062 -3.53125,1.14062 -2.15625,0 -3.51562,-0.875 -1.34375,-0.89062 -2.0625,-2.54687 -0.70313,-1.67188 -0.70313,-3.59375 0,-2.07813 0.79688,-3.625 0.79687,-1.5625 2.26562,-2.35938 1.48438,-0.8125 3.25,-0.8125 2,0 3.35938,1.01563 1.375,1.01562 1.90625,2.875 l -1.73438,0.40625 q -0.46875,-1.45313 -1.35937,-2.10938 -0.875,-0.67187 -2.20313,-0.67187 -1.54687,0 -2.57812,0.73437 -1.03125,0.73438 -1.45313,1.98438 -0.42187,1.23437 -0.42187,2.5625 0,1.70312 0.5,2.96875 0.5,1.26562 1.54687,1.90625 1.04688,0.625 2.26563,0.625 1.48437,0 2.51562,-0.85938 1.03125,-0.85937 1.39063,-2.54687 z m 3.4104,-1.8125 q 0,-3.32813 1.78125,-5.20313 1.78125,-1.89062 4.60938,-1.89062 1.84375,0 3.32812,0.89062 1.48438,0.875 2.26563,2.46875 0.78125,1.57813 0.78125,3.57813 0,2.03125 -0.82813,3.64062 -0.8125,1.59375 -2.3125,2.42188 -1.5,0.82812 -3.25,0.82812 -1.875,0 -3.35937,-0.90625 -1.48438,-0.92187 -2.25,-2.5 -0.76563,-1.57812 -0.76563,-3.32812 z m 1.8125,0.0156 q 0,2.42188 1.29688,3.8125 1.29687,1.39063 3.26562,1.39063 2,0 3.28125,-1.40625 1.28125,-1.40625 1.28125,-3.98438 0,-1.625 -0.54687,-2.84375 -0.54688,-1.21875 -1.60938,-1.875 -1.0625,-0.67187 -2.375,-0.67187 -1.89062,0 -3.25,1.29687 -1.34375,1.28125 -1.34375,4.28125 z"
+           inkscape:connector-curvature="0"
+           style="fill:#000000;fill-rule:nonzero;stroke:none;stroke-linecap:square;stroke-miterlimit:10" />
+        <path
+           inkscape:export-ydpi="120"
+           inkscape:export-xdpi="120"
+           inkscape:export-filename="C:\Users\sanus\Documents\paper work\ODE_FBA\source_night.png"
+           id="path4718-8"
+           d="m 452.03785,479.93067 v 1.04687 h -5.89062 q -0.0156,-0.39062 0.125,-0.76562 0.23437,-0.59375 0.71875,-1.17188 0.5,-0.59375 1.4375,-1.35937 1.45312,-1.1875 1.95312,-1.875 0.51563,-0.70313 0.51563,-1.3125 0,-0.65625 -0.46875,-1.09375 -0.45313,-0.45313 -1.20313,-0.45313 -0.79687,0 -1.26562,0.46875 -0.46875,0.46875 -0.48438,1.3125 l -1.125,-0.10937 q 0.125,-1.26563 0.875,-1.92188 0.75,-0.65625 2.01563,-0.65625 1.28125,0 2.03125,0.71875 0.75,0.70313 0.75,1.75 0,0.53125 -0.21875,1.04688 -0.21875,0.51562 -0.73438,1.09375 -0.5,0.5625 -1.67187,1.5625 -0.98438,0.82812 -1.26563,1.125 -0.28125,0.29687 -0.46875,0.59375 z"
+           inkscape:connector-curvature="0"
+           style="fill:#000000;fill-rule:nonzero;stroke:none;stroke-linecap:square;stroke-miterlimit:10" />
+        <path
+           sodipodi:nodetypes="ccc"
+           inkscape:export-ydpi="120"
+           inkscape:export-xdpi="120"
+           inkscape:export-filename="C:\Users\sanus\Documents\paper work\ODE_FBA\source_night.png"
+           style="fill:none;stroke:#ff0000;stroke-width:0.942667;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:0.942667, 2.828;stroke-dashoffset:0;stroke-opacity:1"
+           d="m 448.9293,523.90064 0.35355,177.01036 12.42792,33.80133"
+           id="path6414"
+           inkscape:connector-curvature="0" />
+        <path
+           transform="translate(-8.3757416,-362.49365)"
+           id="path6921"
+           d=""
+           style="fill:#999999;stroke:#000000;stroke-width:0.00520833;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0" />
+        <path
+           transform="translate(-8.3757416,-362.49365)"
+           id="path6923"
+           d=""
+           style="fill:#999999;stroke:#000000;stroke-width:0.00260417;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0" />
+        <path
+           transform="translate(-8.3757416,-362.49365)"
+           id="path6931"
+           d=""
+           style="fill:#999999;stroke:none;stroke-width:0.0073657;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0" />
+        <path
+           inkscape:export-ydpi="120"
+           inkscape:export-xdpi="120"
+           inkscape:export-filename="C:\Users\sanus\Documents\paper work\ODE_FBA\source_night.png"
+           style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:2, 4;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#marker6995)"
+           d="m 395.26825,404.52785 v -61.69291 l 500.74556,0"
+           id="path6991-9"
+           sodipodi:nodetypes="ccc" />
+        <path
+           inkscape:export-ydpi="120"
+           inkscape:export-xdpi="120"
+           inkscape:export-filename="C:\Users\sanus\Documents\paper work\ODE_FBA\source_night.png"
+           sodipodi:nodetypes="ccc"
+           id="path6991-9-2"
+           d="m 532.44224,494.2744 h 61.69291 l 0,-151.4992"
+           style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:2, 4;stroke-dashoffset:0;stroke-opacity:1" />
+        <path
+           inkscape:export-ydpi="120"
+           inkscape:export-xdpi="120"
+           inkscape:export-filename="C:\Users\sanus\Documents\paper work\ODE_FBA\source_night.png"
+           style="fill:none;stroke:#0000ff;stroke-width:13.33300035;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+           d="M 314.5492,849.08377 H 460.21322"
+           id="path6637"
+           inkscape:connector-curvature="0" />
+        <path
+           inkscape:export-ydpi="120"
+           inkscape:export-xdpi="120"
+           inkscape:export-filename="C:\Users\sanus\Documents\paper work\ODE_FBA\source_night.png"
+           style="fill:none;stroke:#ff0000;stroke-width:13.333;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+           d="M 314.92788,895.24546 H 460.59192"
+           id="path6637-6"
+           inkscape:connector-curvature="0" />
+        <path
+           inkscape:export-ydpi="120"
+           inkscape:export-xdpi="120"
+           inkscape:export-filename="C:\Users\sanus\Documents\paper work\ODE_FBA\source_night.png"
+           id="path4628-1-6-5-8-1"
+           d="m 460.43942,850.92883 4.5355,-1.65879 -4.5407,-1.64468 z"
+           inkscape:connector-curvature="0"
+           style="fill:#000000;fill-rule:evenodd;stroke:#0000ff;stroke-width:13.333;stroke-linecap:butt;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+           inkscape:transform-center-x="0.29070838"
+           inkscape:transform-center-y="0.058580989" />
+        <path
+           inkscape:export-ydpi="120"
+           inkscape:export-xdpi="120"
+           inkscape:export-filename="C:\Users\sanus\Documents\paper work\ODE_FBA\source_night.png"
+           id="path4628-1-6-5-8-1-2"
+           d="m 459.93142,896.71675 4.5355,-1.65879 -4.5407,-1.64468 z"
+           inkscape:connector-curvature="0"
+           style="fill:#000000;fill-rule:evenodd;stroke:#ff0000;stroke-width:13.333;stroke-linecap:butt;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+           inkscape:transform-center-x="0.29070838"
+           inkscape:transform-center-y="0.058580989" />
+        <flowRoot
+           inkscape:export-ydpi="120"
+           inkscape:export-xdpi="120"
+           inkscape:export-filename="C:\Users\sanus\Documents\paper work\ODE_FBA\source_night.png"
+           xml:space="preserve"
+           id="flowRoot4608-74-04"
+           style="font-style:normal;font-weight:normal;font-size:17.3333px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.3333;stroke-linecap:square;stroke-miterlimit:10;stroke-dasharray:none"
+           transform="rotate(-0.635641,35359.256,-66775.41)"><flowRegion
+             id="flowRegion4610-9-90"
+             style="font-size:17.3333px;stroke-width:1.3333;stroke-miterlimit:10;stroke-dasharray:none"><rect
+               id="rect4612-1-34"
+               width="238.83864"
+               height="26.766575"
+               x="-244.28572"
+               y="445.37683"
+               style="font-size:17.33333397px;stroke-width:1.33330001;stroke-miterlimit:10;stroke-dasharray:none" /></flowRegion><flowPara
+             id="flowPara4614-5-27">10 μmol/m<flowSpan
+   style="font-size:65%;baseline-shift:super;stroke-width:1.3333;stroke-miterlimit:10;stroke-dasharray:none"
+   id="flowSpan6708">2</flowSpan>/s ODE model</flowPara></flowRoot>
+        <flowRoot
+           inkscape:export-ydpi="120"
+           inkscape:export-xdpi="120"
+           inkscape:export-filename="C:\Users\sanus\Documents\paper work\ODE_FBA\source_night.png"
+           xml:space="preserve"
+           id="flowRoot4608-74-04-5"
+           style="font-style:normal;font-weight:normal;font-size:17.3333px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.3333;stroke-linecap:square;stroke-miterlimit:10;stroke-dasharray:none"
+           transform="rotate(-0.635641,39632.25,-66704.36)"><flowRegion
+             id="flowRegion4610-9-90-9"
+             style="font-size:17.3333px;stroke-width:1.3333;stroke-miterlimit:10;stroke-dasharray:none"><rect
+               id="rect4612-1-34-1"
+               width="238.83864"
+               height="26.766575"
+               x="-244.28572"
+               y="445.37683"
+               style="font-size:17.33333397px;stroke-width:1.33330001;stroke-miterlimit:10;stroke-dasharray:none" /></flowRegion><flowPara
+             id="flowPara4614-5-27-1">10 μmol/m<flowSpan
+   style="font-size:65%;baseline-shift:super;stroke-width:1.3333;stroke-miterlimit:10;stroke-dasharray:none"
+   id="flowSpan6708-3">2</flowSpan>/s FBA model</flowPara></flowRoot>
+        <flowRoot
+           xml:space="preserve"
+           id="flowRoot4608-8-2-4-1-1-1-4-2-5-8-5-8-1"
+           style="font-style:normal;font-weight:normal;font-size:17.3333px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-linecap:square;stroke-miterlimit:10"
+           transform="translate(684.65755,-166.68058)"
+           inkscape:export-filename="C:\Users\sanus\Documents\paper work\ODE_FBA\source_night.png"
+           inkscape:export-xdpi="120"
+           inkscape:export-ydpi="120"><flowRegion
+             id="flowRegion4610-7-4-6-9-2-2-3-3-4-9-3-0-7"
+             style="font-size:17.3333px"><rect
+               id="rect4612-9-6-4-4-9-7-8-3-9-9-0-4-4"
+               width="167.14285"
+               height="51.42857"
+               x="-244.28572"
+               y="445.37683"
+               style="font-size:17.33333397px" /></flowRegion><flowPara
+             id="flowPara4614-7-5-0-6-5-6-9-7-8-4-0-4-9"
+             style="font-size:13.3333px">ADP</flowPara></flowRoot>
+        <path
+           sodipodi:nodetypes="ccccccssssssc"
+           inkscape:export-ydpi="120"
+           inkscape:export-xdpi="120"
+           inkscape:export-filename="C:\Users\sanus\Documents\paper work\ODE_FBA\Source_day.png"
+           id="path4578-3"
+           d="m 49.346944,644.9103 c -1.00359,-24.1917 10.49427,-33.76888 23.94832,-34.39026 l 243.828986,-1.5 c 10.937,-1.13659 16.23018,-4.95538 16.2347,-19.01078 -0.10205,-17.862 2.87768,-21.94808 18.2653,-21.48922 h 475.23499 c 6.35146,0 12.44274,3.83392 16.93395,10.65844 4.49121,6.8245 7.01427,16.08056 7.01427,25.73182 v 145.55688 c 0,20.09781 -10.72195,36.39033 -23.94822,36.39033 H 73.295264 c -13.22629,0 -23.94832,-16.29252 -23.94832,-36.39033 z"
+           inkscape:connector-curvature="0"
+           style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:4;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none" />
+        <path
+           inkscape:export-ydpi="120"
+           inkscape:export-xdpi="120"
+           inkscape:export-filename="C:\Users\sanus\Documents\paper work\ODE_FBA\Source_day.png"
+           style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.33333;stroke-linecap:square;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+           d="m 82.286984,624.48619 c -10.74947,0 -19.40314,10.53669 -19.40314,23.625 v 102.66016 c 0,13.08831 8.65367,23.62695 19.40314,23.62695 H 589.44879 676.51611 818.8519 c 10.74948,0 19.40315,-10.53864 19.40315,-23.62695 V 604.11119 c 0,-13.08831 -8.65367,-23.63779 -19.40315,-23.625 l -173.26572,0.20703 c 0.0157,0.48416 0.0274,0.96857 0.0352,1.45313 4.5e-4,34.36636 -22.73646,89.68818 -46.70932,89.6885 -23.97341,8e-4 -40.10456,-55.32134 -40.10411,-89.6885 0.0131,-0.50224 0.0305,-1.00423 0.0522,-1.50586 l -42.71768,-0.1543 H 358.87425 c -11.8662,-0.74586 -13.39822,6.14036 -13.00314,20.27014 -0.13119,15.80015 -9.68423,22.57901 -18.77566,22.07355 z"
+           id="path5582-9"
+           inkscape:connector-curvature="0"
+           sodipodi:nodetypes="csssccsssccccccccccc" />
+        <rect
+           ry="7.4344969"
+           y="549.1153"
+           x="209.6799"
+           height="46.296997"
+           width="104.77554"
+           id="rect4870-3"
+           style="fill:none;stroke:#000000;stroke-width:2.66667;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+           inkscape:export-filename="C:\Users\sanus\Documents\paper work\ODE_FBA\Source_day.png"
+           inkscape:export-xdpi="120"
+           inkscape:export-ydpi="120" />
+        <flowRoot
+           transform="translate(460.72742,118.72665)"
+           style="font-style:normal;font-weight:normal;font-size:17.3333px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.3333;stroke-linecap:square;stroke-miterlimit:10;stroke-dasharray:none"
+           id="flowRoot4608-6-2-3-1-3-0"
+           xml:space="preserve"
+           inkscape:export-filename="C:\Users\sanus\Documents\paper work\ODE_FBA\Source_day.png"
+           inkscape:export-xdpi="120"
+           inkscape:export-ydpi="120"><flowRegion
+             style="font-size:17.3333px;stroke-width:1.3333;stroke-miterlimit:10;stroke-dasharray:none"
+             id="flowRegion4610-3-0-1-0-7-4"><rect
+               style="font-size:17.33333397px;stroke-width:1.33330001;stroke-miterlimit:10;stroke-dasharray:none"
+               y="445.37683"
+               x="-244.28572"
+               height="51.42857"
+               width="167.14285"
+               id="rect4612-90-2-4-1-3-4" /></flowRegion><flowPara
+             style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold Italic';stroke-width:1.3333;stroke-miterlimit:10;stroke-dasharray:none"
+             id="flowPara4614-30-4-6-5-0-3">VACUOLE</flowPara></flowRoot>
+        <path
+           style="fill:none;stroke:#ff0000;stroke-width:0.42133334;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+           d="m 290.14968,297.67262 39.76761,-19.9818"
+           id="path5057-2"
+           inkscape:connector-curvature="0"
+           sodipodi:nodetypes="cc"
+           inkscape:export-filename="C:\Users\sanus\Documents\paper work\ODE_FBA\source_night.png"
+           inkscape:export-xdpi="120"
+           inkscape:export-ydpi="120" />
+        <path
+           id="path4568-2-2-1-1-8"
+           d="m 326.6727,281.26788 3.24459,-3.57706 -4.78479,0.6546 z"
+           inkscape:connector-curvature="0"
+           style="fill:#ff0000;fill-rule:evenodd;stroke:#f80000;stroke-width:1.33333;stroke-linecap:butt;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+           inkscape:export-filename="C:\Users\sanus\Documents\paper work\ODE_FBA\source_night.png"
+           inkscape:export-xdpi="120"
+           inkscape:export-ydpi="120" />
+        <path
+           inkscape:export-ydpi="120"
+           inkscape:export-xdpi="120"
+           inkscape:export-filename="C:\Users\sanus\Documents\paper work\ODE_FBA\source_night.png"
+           style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#ff0c0c;stroke-width:1.20666669;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+           inkscape:connector-curvature="0"
+           d="m 509.11152,503.45021 -0.0308,173.13404"
+           id="path4612" />
+        <path
+           sodipodi:nodetypes="cccc"
+           id="path4612-9"
+           d="m 476.17743,475.12377 -0.0149,66.7722 -165.2791,0.27023 -11.15994,13.10707"
+           inkscape:connector-curvature="0"
+           style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#ff0c0c;stroke-width:0.98533334;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+           inkscape:export-filename="C:\Users\sanus\Documents\paper work\ODE_FBA\source_night.png"
+           inkscape:export-xdpi="120"
+           inkscape:export-ydpi="120" />
+        <path
+           style="fill:#ff0000;fill-rule:evenodd;stroke:#ff0000;stroke-width:1.33333;stroke-linecap:butt;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+           inkscape:connector-curvature="0"
+           d="m 300.04285,552.26689 -1.62049,4.54941 4.16564,-2.44343 z"
+           id="path4608-2-2"
+           inkscape:export-filename="C:\Users\sanus\Documents\paper work\ODE_FBA\source_night.png"
+           inkscape:export-xdpi="120"
+           inkscape:export-ydpi="120" />
+        <path
+           inkscape:export-ydpi="120"
+           inkscape:export-xdpi="120"
+           inkscape:export-filename="C:\Users\sanus\Documents\paper work\ODE_FBA\Source_day.png"
+           id="path4672"
+           d="m 365.8542,637.96403 -1.65173,4.53809 -1.65174,-4.53809 z"
+           inkscape:connector-curvature="0"
+           style="fill:#000000;fill-rule:evenodd;stroke:#ff0000;stroke-width:2.66667;stroke-linecap:butt;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1" />
+        <path
+           inkscape:export-ydpi="120"
+           inkscape:export-xdpi="120"
+           inkscape:export-filename="C:\Users\sanus\Documents\paper work\ODE_FBA\Source_day.png"
+           id="path4682"
+           d="m 392.81618,440.78154 1.65173,-4.53815 1.65174,4.53815 z"
+           inkscape:connector-curvature="0"
+           style="fill:#000000;fill-rule:evenodd;stroke:#ff0000;stroke-width:2.66667;stroke-linecap:butt;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1" />
+        <path
+           inkscape:export-ydpi="120"
+           inkscape:export-xdpi="120"
+           inkscape:export-filename="C:\Users\sanus\Documents\paper work\ODE_FBA\Source_day.png"
+           style="fill:none;fill-opacity:1;stroke:#ff0c0c;stroke-width:0.934667;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+           d="m 363.94991,640.1775 0.25254,-46.70085 14.15406,-17.93473 -14.15406,-14.56923 v -31.90552 0 l 0,-33.94113"
+           id="path4864"
+           inkscape:connector-curvature="0"
+           sodipodi:nodetypes="ccccccc" />
+        <path
+           inkscape:export-ydpi="120"
+           inkscape:export-xdpi="120"
+           inkscape:export-filename="C:\Users\sanus\Documents\paper work\ODE_FBA\Source_day.png"
+           style="fill:none;fill-opacity:1;stroke:#ff0c0c;stroke-width:0.934667;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+           d="m 394.53055,434.38092 v 126.59322 l -16.17404,14.56778 16.3234,17.92161 -0.0781,15.33749"
+           id="path4866"
+           inkscape:connector-curvature="0"
+           sodipodi:nodetypes="ccccc" />
+        <path
+           style="fill:#000000;fill-rule:evenodd;stroke:#ff0000;stroke-width:2.66667;stroke-linecap:butt;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+           inkscape:connector-curvature="0"
+           d="m 356.72887,654.54047 -1.65173,4.53809 -1.65174,-4.53809 z"
+           id="path4672-5"
+           inkscape:export-filename="C:\Users\sanus\Documents\paper work\ODE_FBA\Source_day.png"
+           inkscape:export-xdpi="120"
+           inkscape:export-ydpi="120" />
+        <path
+           inkscape:export-ydpi="120"
+           inkscape:export-xdpi="120"
+           inkscape:export-filename="C:\Users\sanus\Documents\paper work\ODE_FBA\Source_day.png"
+           id="path4672-5-7"
+           d="m 450.58103,527.48898 -1.65173,-4.53809 -1.65174,4.53809 z"
+           inkscape:connector-curvature="0"
+           style="fill:#000000;fill-rule:evenodd;stroke:#ff0000;stroke-width:2.66667;stroke-linecap:butt;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1" />
+        <path
+           sodipodi:nodetypes="cc"
+           inkscape:export-ydpi="120"
+           inkscape:export-xdpi="120"
+           inkscape:export-filename="C:\Users\sanus\Documents\paper work\ODE_FBA\source_night.png"
+           id="path1986"
+           d="M 355.07714,495.10553 V 660.33625"
+           style="fill:none;stroke:#ff0000;stroke-width:0.942667;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:0.942667, 2.828;stroke-dashoffset:0;stroke-opacity:1" />
+        <path
+           id="path4618-9"
+           d="m 730.77776,259.3262 q 0,-3.32813 1.78125,-5.20313 1.78125,-1.89062 4.60938,-1.89062 1.84375,0 3.32812,0.89062 1.48438,0.875 2.26563,2.46875 0.78125,1.57813 0.78125,3.57813 0,2.03125 -0.82813,3.64062 -0.8125,1.59375 -2.3125,2.42188 -1.5,0.82812 -3.25,0.82812 -1.875,0 -3.35937,-0.90625 -1.48438,-0.92187 -2.25,-2.5 -0.76563,-1.57812 -0.76563,-3.32812 z m 1.8125,0.0156 q 0,2.42188 1.29688,3.8125 1.29687,1.39063 3.26562,1.39063 2,0 3.28125,-1.40625 1.28125,-1.40625 1.28125,-3.98438 0,-1.625 -0.54687,-2.84375 -0.54688,-1.21875 -1.60938,-1.875 -1.0625,-0.67187 -2.375,-0.67187 -1.89062,0 -3.25,1.29687 -1.34375,1.28125 -1.34375,4.28125 z m 11.76141,6.48438 5.125,-13.35938 h 1.90625 l 5.46875,13.35938 h -2.01562 l -1.54688,-4.04688 h -5.59375 l -1.46875,4.04688 z m 3.85938,-5.48438 h 4.53125 l -1.40625,-3.70312 q -0.625,-1.6875 -0.9375,-2.76563 -0.26563,1.28125 -0.71875,2.54688 z m 8.5842,5.48438 5.125,-13.35938 h 1.90625 l 5.46875,13.35938 h -2.01563 l -1.54687,-4.04688 H 760.139 l -1.46875,4.04688 z m 3.85937,-5.48438 h 4.53125 l -1.40625,-3.70312 q -0.625,-1.6875 -0.9375,-2.76563 -0.26562,1.28125 -0.71875,2.54688 z"
+           inkscape:connector-curvature="0"
+           style="fill:#000000;fill-rule:nonzero;stroke:none;stroke-linecap:square;stroke-miterlimit:10"
+           inkscape:export-filename="C:\Users\sanus\Documents\paper work\ODE_FBA\source_night.png"
+           inkscape:export-xdpi="120"
+           inkscape:export-ydpi="120" />
+        <path
+           id="path4622-1"
+           d="m 671.35134,278.09667 v -13.35938 h 2.65625 l 3.15625,9.45313 q 0.4375,1.32812 0.64062,1.98437 0.23438,-0.73437 0.70313,-2.14062 l 3.20312,-9.29688 h 2.37504 v 13.35938 h -1.70313 v -11.17188 l -3.87503,11.17188 h -1.59375 l -3.85938,-11.375 v 11.375 z m 14.11896,0 5.125,-13.35938 h 1.90625 l 5.46875,13.35938 h -2.01563 l -1.54687,-4.04688 h -5.59375 l -1.46875,4.04688 z m 3.85937,-5.48438 h 4.53125 l -1.40625,-3.70312 q -0.625,-1.6875 -0.9375,-2.76563 -0.26562,1.28125 -0.71875,2.54688 z m 9.97483,5.48438 v -13.35938 h 1.78125 v 11.78125 h 6.5625 v 1.57813 z"
+           inkscape:connector-curvature="0"
+           style="fill:#000000;fill-rule:nonzero;stroke:none;stroke-linecap:square;stroke-miterlimit:10"
+           inkscape:export-filename="C:\Users\sanus\Documents\paper work\ODE_FBA\source_night.png"
+           inkscape:export-xdpi="120"
+           inkscape:export-ydpi="120" />
+        <path
+           id="path4618-8"
+           d="m 730.9041,112.82911 q 0,-3.32812 1.78125,-5.20312 1.78125,-1.89062 4.60938,-1.89062 1.84375,0 3.32812,0.89062 1.48438,0.875 2.26563,2.46875 0.78125,1.57813 0.78125,3.57812 0,2.03125 -0.82813,3.64062 -0.8125,1.59376 -2.3125,2.42189 -1.5,0.82812 -3.25,0.82812 -1.875,0 -3.35937,-0.90625 -1.48438,-0.92187 -2.25,-2.50001 -0.76563,-1.57812 -0.76563,-3.32812 z m 1.8125,0.0156 q 0,2.42188 1.29688,3.8125 1.29687,1.39064 3.26562,1.39064 2,0 3.28125,-1.40626 1.28125,-1.40625 1.28125,-3.98438 0,-1.62499 -0.54687,-2.84374 -0.54688,-1.21875 -1.60938,-1.875 -1.0625,-0.67187 -2.375,-0.67187 -1.89062,0 -3.25,1.29687 -1.34375,1.28125 -1.34375,4.28124 z m 11.76141,6.48439 5.125,-13.35938 h 1.90625 l 5.46875,13.35938 h -2.01562 l -1.54688,-4.04689 h -5.59375 l -1.46875,4.04689 z m 3.85938,-5.48439 h 4.53125 l -1.40625,-3.70311 q -0.625,-1.6875 -0.9375,-2.76563 -0.26563,1.28125 -0.71875,2.54688 z m 8.5842,5.48439 5.125,-13.35938 h 1.90625 l 5.46875,13.35938 h -2.01563 l -1.54687,-4.04689 h -5.59375 l -1.46875,4.04689 z m 3.85937,-5.48439 h 4.53125 l -1.40625,-3.70311 q -0.625,-1.6875 -0.9375,-2.76563 -0.26562,1.28125 -0.71875,2.54688 z"
+           inkscape:connector-curvature="0"
+           style="fill:#000000;fill-rule:nonzero;stroke:none;stroke-linecap:square;stroke-miterlimit:10"
+           inkscape:export-filename="C:\Users\sanus\Documents\paper work\ODE_FBA\source_night.png"
+           inkscape:export-xdpi="120"
+           inkscape:export-ydpi="120" />
+        <path
+           id="path4622-7"
+           d="m 672.58824,164.17659 v -13.35938 h 2.65625 l 3.15625,9.45313 q 0.4375,1.32812 0.64062,1.98437 0.23438,-0.73437 0.70313,-2.14062 l 3.20312,-9.29688 h 2.37504 v 13.35938 h -1.70313 v -11.17188 l -3.87503,11.17188 h -1.59375 l -3.85938,-11.375 v 11.375 z m 14.11896,0 5.125,-13.35938 h 1.90625 l 5.46875,13.35938 h -2.01563 l -1.54687,-4.04688 h -5.59375 l -1.46875,4.04688 z m 3.85937,-5.48438 h 4.53125 l -1.40625,-3.70312 q -0.625,-1.6875 -0.9375,-2.76563 -0.26562,1.28125 -0.71875,2.54688 z m 9.97483,5.48438 v -13.35938 h 1.78125 v 11.78125 h 6.5625 v 1.57813 z"
+           inkscape:connector-curvature="0"
+           style="fill:#000000;fill-rule:nonzero;stroke:none;stroke-linecap:square;stroke-miterlimit:10"
+           inkscape:export-filename="C:\Users\sanus\Documents\paper work\ODE_FBA\source_night.png"
+           inkscape:export-xdpi="120"
+           inkscape:export-ydpi="120" />
+        <path
+           style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#ff0c0c;stroke-width:0.44266668;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+           inkscape:connector-curvature="0"
+           d="m 724.40656,121.49102 c -1.59122,1.37259 -6.36301,4.58241 -9.54733,8.23524 -1.59218,1.8264 -3.58356,4.67673 -5.37605,7.35552 -0.22407,0.33483 -0.44501,0.66702 -0.66173,0.99419 l -0.21452,0.32515"
+           id="path4606-7-9"
+           inkscape:export-filename="C:\Users\sanus\Documents\paper work\ODE_FBA\source_night.png"
+           inkscape:export-xdpi="120"
+           inkscape:export-ydpi="120" />
+        <path
+           style="fill:#ff0000;fill-rule:evenodd;stroke:#ff0000;stroke-width:1.33333;stroke-linecap:butt;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+           inkscape:connector-curvature="0"
+           d="m 709.56214,133.66712 -0.95521,4.734 3.77465,-3.01246 z"
+           id="path4608-2-5"
+           inkscape:export-filename="C:\Users\sanus\Documents\paper work\ODE_FBA\source_night.png"
+           inkscape:export-xdpi="120"
+           inkscape:export-ydpi="120" />
+        <path
+           style="fill:#ff0000;fill-rule:evenodd;stroke:#ff0000;stroke-width:1.33333335;stroke-linecap:butt;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+           inkscape:connector-curvature="0"
+           d="m 692.24705,253.72863 -1.65173,4.53809 -1.65174,-4.53809 z"
+           id="path4672-2"
+           inkscape:export-filename="C:\Users\sanus\Documents\paper work\ODE_FBA\Source_day.png"
+           inkscape:export-xdpi="120"
+           inkscape:export-ydpi="120" />
+        <path
+           style="fill:#ff0000;fill-rule:evenodd;stroke:#ff0000;stroke-width:1.33333335;stroke-linecap:butt;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+           inkscape:connector-curvature="0"
+           d="m 751.20903,128.54614 1.65173,-4.53815 1.65174,4.53815 z"
+           id="path4682-1"
+           inkscape:export-filename="C:\Users\sanus\Documents\paper work\ODE_FBA\Source_day.png"
+           inkscape:export-xdpi="120"
+           inkscape:export-ydpi="120" />
+        <path
+           sodipodi:nodetypes="ccccc"
+           inkscape:connector-curvature="0"
+           id="path4864-8"
+           d="m 690.34276,256.72191 0.25254,-21.48066 28.2962,-17.93473 -28.2962,-14.56923 v -31.84665"
+           style="fill:none;fill-opacity:1;stroke:#ff0c0c;stroke-width:0.44266668;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+           inkscape:export-filename="C:\Users\sanus\Documents\paper work\ODE_FBA\Source_day.png"
+           inkscape:export-xdpi="120"
+           inkscape:export-ydpi="120" />
+        <path
+           sodipodi:nodetypes="ccccc"
+           inkscape:connector-curvature="0"
+           id="path4866-0"
+           d="m 752.9234,122.16634 v 80.5724 l -34.0319,14.56778 34.18126,17.92161 -0.0781,15.33749"
+           style="fill:none;fill-opacity:1;stroke:#ff0c0c;stroke-width:0.44266668;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+           inkscape:export-filename="C:\Users\sanus\Documents\paper work\ODE_FBA\Source_day.png"
+           inkscape:export-xdpi="120"
+           inkscape:export-ydpi="120" />
+        <path
+           sodipodi:nodetypes="cc"
+           id="path4612-4"
+           d="m 340.59686,489.97714 -54.47802,67.77513"
+           inkscape:connector-curvature="0"
+           style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#ff0c0c;stroke-width:1.25066669;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+           inkscape:export-filename="C:\Users\sanus\Documents\paper work\ODE_FBA\source_night.png"
+           inkscape:export-xdpi="120"
+           inkscape:export-ydpi="120" />
+        <path
+           id="path4712-80-6"
+           d="m 338.98152,494.5283 1.61534,-4.55116 -4.16283,2.4481 z"
+           inkscape:connector-curvature="0"
+           style="fill:#ff0000;fill-rule:evenodd;stroke:#ff0000;stroke-width:1.33333;stroke-linecap:butt;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+           inkscape:export-filename="C:\Users\sanus\Documents\paper work\ODE_FBA\source_night.png"
+           inkscape:export-xdpi="120"
+           inkscape:export-ydpi="120" />
+        <path
+           inkscape:export-ydpi="120"
+           inkscape:export-xdpi="120"
+           inkscape:export-filename="C:\Users\sanus\Documents\paper work\ODE_FBA\source_night.png"
+           style="fill:#000000;fill-rule:nonzero"
+           inkscape:connector-curvature="0"
+           d="m 450.60526,715.36141 1.76562,0.45312 q -0.5625,2.17188 -2,3.32813 -1.4375,1.14062 -3.53125,1.14062 -2.15625,0 -3.51562,-0.875 -1.34375,-0.89062 -2.0625,-2.54687 -0.70313,-1.67188 -0.70313,-3.59375 0,-2.07813 0.79688,-3.625 0.79687,-1.5625 2.26562,-2.35938 1.48438,-0.8125 3.25,-0.8125 2,0 3.35938,1.01563 1.375,1.01562 1.90625,2.875 l -1.73438,0.40625 q -0.46875,-1.45313 -1.35937,-2.10938 -0.875,-0.67187 -2.20313,-0.67187 -1.54687,0 -2.57812,0.73437 -1.03125,0.73438 -1.45313,1.98438 -0.42187,1.23437 -0.42187,2.5625 0,1.70312 0.5,2.96875 0.5,1.26562 1.54687,1.90625 1.04688,0.625 2.26563,0.625 1.48437,0 2.51562,-0.85938 1.03125,-0.85937 1.39063,-2.54687 z m 3.4104,-1.8125 q 0,-3.32813 1.78125,-5.20313 1.78125,-1.89062 4.60938,-1.89062 1.84375,0 3.32812,0.89062 1.48438,0.875 2.26563,2.46875 0.78125,1.57813 0.78125,3.57813 0,2.03125 -0.82813,3.64062 -0.8125,1.59375 -2.3125,2.42188 -1.5,0.82812 -3.25,0.82812 -1.875,0 -3.35937,-0.90625 -1.48438,-0.92187 -2.25,-2.5 -0.76563,-1.57812 -0.76563,-3.32812 z m 1.8125,0.0156 q 0,2.42188 1.29688,3.8125 1.29687,1.39063 3.26562,1.39063 2,0 3.28125,-1.40625 1.28125,-1.40625 1.28125,-3.98438 0,-1.625 -0.54687,-2.84375 -0.54688,-1.21875 -1.60938,-1.875 -1.0625,-0.67187 -2.375,-0.67187 -1.89062,0 -3.25,1.29687 -1.34375,1.28125 -1.34375,4.28125 z"
+           id="path4716" />
+        <path
+           inkscape:export-ydpi="120"
+           inkscape:export-xdpi="120"
+           inkscape:export-filename="C:\Users\sanus\Documents\paper work\ODE_FBA\source_night.png"
+           sodipodi:nodetypes="cssccccc"
+           style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#ff0c0c;stroke-width:11.20000014;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+           inkscape:connector-curvature="0"
+           d="m 720.49242,556.58314 c 7.19121,1.74236 9.21756,1.80181 16.26589,4.2869 7.03358,2.47989 11.47499,6.51518 11.01846,9.72666 -0.51141,3.59785 -1.64593,7.01109 -3.8024,9.60546 -1.52323,1.83276 -7.62986,7.06355 -9.81218,8.21281 -1.0913,0.57472 -8.37344,3.99029 -9.53002,4.43529 -0.5783,0.22245 -1.16061,0.43041 -1.7429,0.62559 l -0.48929,0.15907"
+           id="path4710-3-0-4" />
+        <path
+           inkscape:export-ydpi="120"
+           inkscape:export-xdpi="120"
+           inkscape:export-filename="C:\Users\sanus\Documents\paper work\ODE_FBA\source_night.png"
+           sodipodi:nodetypes="cc"
+           inkscape:connector-curvature="0"
+           id="path8155"
+           d="m 747.52139,609.61604 0,-61.69506"
+           style="fill:none;stroke:#ff0000;stroke-width:11.20000014;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1" />
+      </g>
+    </g>
+  </g>
+</svg>

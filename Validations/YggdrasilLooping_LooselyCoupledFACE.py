@@ -56,6 +56,8 @@ PPFD_Dict[254]={372:[337.985726,666.693101,994.752267,1322.649381,1528.183981,
                      1627.850912,1694.528152,1616.661002,1538.793852,1381.397983,
                      1215.165591,758.849398,230.012256]}
 
+
+
 import pandas as pd
 
 
@@ -72,7 +74,7 @@ for day in  PPFD_Dict.keys():
         St_list = list()
         j=0
         for PPFD in PPFD_Dict[day][co2]:
-            PPFD = round(PPFD)
+            PPFD = round(PPFD,3)
             print("##############################")
             print("Day = "+str(day))
             j=j+1
@@ -86,6 +88,10 @@ for day in  PPFD_Dict.keys():
             f1 = open("../ePhotosynthesis/InputATPCost.txt","w")
             f1.write("ATPCost 0")
             f1.close()
+            
+            f3 = open("../ePhotosynthesis/InputNADPHCost.txt","w")
+            f3.write("NADPHCost 0")
+            f3.close()
             #print(PPFD)
 
             runner.run(args1.yamlfile)

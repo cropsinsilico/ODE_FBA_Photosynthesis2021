@@ -1,0 +1,14 @@
+models:
+  - name: FBA_model
+    language: python  # Runs the python script using default Python
+    args: ./FBA_model_forODE_night.py
+    inputs:
+      - input1
+      - input2
+
+connections:
+  - input_file: ../../ePhotosynthesis/OutputRate.txt
+    output: input1
+
+  - input_file: ../../ePhotosynthesis/InputEvn.txt
+    output: input2
