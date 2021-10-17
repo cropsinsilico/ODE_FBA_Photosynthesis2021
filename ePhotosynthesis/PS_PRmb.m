@@ -27,9 +27,14 @@
 
 function PS_PR_DYDT = PS_PRmb(t,PS_PRs,PS_PR_Param)
 global TestATPCost;
+global TestGAPCost;
+global TestE4PCost;
+global TestRi5PCost;
 global AVR;
 vATPcost=TestATPCost/AVR;
-
+vGAPcost=TestGAPCost/AVR;
+vE4Pcost=TestE4PCost/AVR;
+vRi5Pcost=TestRi5PCost/AVR;
 PSs = zeros(15,1);
 PrS = zeros(13,1);
 
@@ -144,13 +149,13 @@ tmp(2) = 2*v1 - v2 - v32 + v113 + v111;
 tmp(3) = v2 - v3;
 
 
-tmp(4) = v3 - 2* v5 - v7 - v8 - v10 - v31 - v33; 
+tmp(4) = v3 - 2* v5 - v7 - v8 - v10 - v31 - v33-vGAPcost; %GAP
 
 
 tmp(5) = v5-v6;    
 
 
-tmp(6) = v7-v8;
+tmp(6) = v7-v8-vE4Pcost;%E4P
 
 
 tmp(7) = v9-v10;
@@ -159,7 +164,7 @@ tmp(7) = v9-v10;
 tmp(8) = v8 - v9;
 
 tmp(9) = v16 - v2 - v23 - v13- v113 -vATPcost;    %WY202007 extra ATP cost delete extra ATPcost of photorespiration and v25
-%tmp(9) = v16 - v2 - v23 - v13- v113 - v25 - v124;    %AWY201804  
+%tmp(9) = v16 - v2 - v23 - v13- v113 - v25 - v124;    %WY201804  
 
 
 tmp(10) = 0;
@@ -174,7 +179,7 @@ tmp(12) = 0;
 tmp(13) = v6 - v7 - v23 + v25;
 
 
-tmp(14) = v7 + v10 * 2 - v13;
+tmp(14) = v7 + v10 * 2 - v13-vRi5Pcost;% Ri5P+Ru5P+Xu5P
 
 
 tmp(15) = v1in  - v113;
