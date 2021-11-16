@@ -358,6 +358,16 @@ cobra_model = addAllantoinMetabolism(cobra_model)
 cobra_model.reactions.get_by_id("Photon_tx").lower_bound = 0
 cobra_model.reactions.get_by_id("Photon_tx").upper_bound = 0
 
+#no rubisco carboxylase or oxygenase
+cobra_model.reactions.get_by_id("RIBULOSE_BISPHOSPHATE_CARBOXYLASE_RXN_p").lower_bound = 0
+cobra_model.reactions.get_by_id("RIBULOSE_BISPHOSPHATE_CARBOXYLASE_RXN_p").upper_bound = 0
+cobra_model.reactions.get_by_id("RXN_961_p").lower_bound = 0
+cobra_model.reactions.get_by_id("RXN_961_p").upper_bound = 0
+
+#no starch biosynthesis
+#cobra_model.reactions.get_by_id("GLYCOGENSYN_RXN_p").lower_bound = 0
+#cobra_model.reactions.get_by_id("GLYCOGENSYN_RXN_p").upper_bound = 0
+
 #set export of sugars as objective
 cobra_model.reactions.get_by_id("Phloem_output_tx").objective_coefficient=0
 
